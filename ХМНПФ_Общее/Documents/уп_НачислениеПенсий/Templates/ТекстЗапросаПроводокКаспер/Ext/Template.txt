@@ -1,0 +1,20 @@
+﻿select t.ved_id, t.oper_date_pp,t.ACC_ID,t.ACC_ID_S, t.ved_list, t.oper_begin_o, t.opergroup_sid, t.pens_sub_map, sum(oper_sum) as oper_sum, sum(BaseNdfl) as BaseNdfl
+    from (
+    select v.ved_id,v.ved_type, v.ved_sum, o.oper_begin as oper_begin_o, decode(c.doc_id, 17, 'СПС','ИПС') as ved_list, 
+    vv.ved_val_id, C.ACC_ID, decode(c.doc_id, 17, 17,C.ACC_ID) as ACC_ID_S, decode(c.doc_id, 17, '0031-00',C.acc_num) AS acc_num, vv.oper_begin,vv.sum_ved ,
+    decode(o.oper_dt_cr, 'dt', -o.oper_sum, 'cr', o.oper_sum, 0) as oper_sum, nvl(o.oper_date_p,o.oper_date) as oper_date_pp,
+    og2.oper_name2 as oper_name, og2.opergroup_sid, decode(c.doc_id, 17, 'К-СПС',dv.prop_val) as pens_sub_map,
+    case when og2.opergroup_sid in ('zvc_ul','inv_ul') and O.OPER_TYPE_SID not in('dbc') then o.oper_sum else 0 end BaseNdfl
+    from ved v
+    inner join ved_val vv on VV.VED_ID = v.ved_id 
+    inner join acc c on c.acc_id = vv.acc_id and c.doc_id not in (39)  and c.acc_type_sid <> 'ИЛС' 
+    inner join v_actor va on va.actor_id = c.actor_id
+    inner join oper o on O.VED_VAL_ID = vv.ved_val_id and o.acc_id = vv.acc_id and o.oper_dt_cr = 'cr' and o.oper_type_sid in ('adi', 'adv')
+    left join opergroup og2 on o.oper_type_sid = og2.oper_type_sid and o.group_sid = og2.group_sid and nvl(o.group_sid2, '-1') = nvl(og2.group_sid2, '-1')
+    left join (select f.set_doc_id, f.actor_id,f.acc_id  from pf_table f where f.pf_id = (select max(pf_id) from KU.PF_LIST)) f on f.acc_id = c.acc_id
+    left join doc_val dv on dv.doc_id = f.set_doc_id and dv.actor_id = f.actor_id and dv.prop_sid = 'pens_sub_map' 
+    left join V_VPL_HALF_VZRI h_VZRI on h_VZRI.ACC_ID=c.ACC_ID and h_VZRI.OPER_BEGIN = O.OPER_BEGIN and NOT O.OPER_DATE = O.OPER_BEGIN
+    where nvl(h_VZRI.HALF_VZRI,0) = 0 and V.VED_ID= %ID_VED_ID% 
+    ) t
+    group by t.oper_date_pp,t.ACC_ID,t.ACC_ID_S, t.ved_list,t.oper_begin_o, t.opergroup_sid, t.ved_id, t.pens_sub_map
+    order by t.ved_id,t.ACC_ID  

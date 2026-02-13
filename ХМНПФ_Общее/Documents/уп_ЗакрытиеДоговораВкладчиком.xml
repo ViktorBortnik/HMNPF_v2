@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="da795f7c-ce6f-404e-a589-7d547720415d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗакрытиеДоговораВкладчиком" category="Object">
+				<xr:TypeId>06f231f3-a749-47e6-a4e3-d29274d5918e</xr:TypeId>
+				<xr:ValueId>3524cb59-858f-47ae-8fd2-7a9c5a62e0bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗакрытиеДоговораВкладчиком" category="Ref">
+				<xr:TypeId>66005558-0020-4268-881a-95ba699d4ccb</xr:TypeId>
+				<xr:ValueId>d6861044-2a0a-4d9b-bd8a-208fb13d8ea4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗакрытиеДоговораВкладчиком" category="Selection">
+				<xr:TypeId>34b4762c-32b3-44dc-aff3-b455602e2ab4</xr:TypeId>
+				<xr:ValueId>0d044c72-e8f2-4a5f-a851-a3a5321a6ac2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗакрытиеДоговораВкладчиком" category="List">
+				<xr:TypeId>5f2b2cd7-7fe3-47ff-9d97-46716034627f</xr:TypeId>
+				<xr:ValueId>2264f63e-f992-42f4-9832-2b218ead2404</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗакрытиеДоговораВкладчиком" category="Manager">
+				<xr:TypeId>cab755ed-b037-4d6e-8308-66248458b27b</xr:TypeId>
+				<xr:ValueId>21cb6f4f-d9a2-45c6-ae0b-d4c599f1df3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗакрытиеДоговораВкладчиком</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f772b4f2-0817-45ed-9013-d48646f76d82</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="1c95fe4b-8fa7-4410-ad2f-d7620e3d2fc9">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_ПерерасчетПенсий" category="Object">
+				<xr:TypeId>a2cf8cc6-d67a-48be-929e-ade1083ff1ac</xr:TypeId>
+				<xr:ValueId>557c05bd-1a93-4fa6-8b6d-bd5ff6022753</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_ПерерасчетПенсий" category="Manager">
+				<xr:TypeId>d3c6af3a-d64e-4251-8e53-542d6f028ead</xr:TypeId>
+				<xr:ValueId>d1c84915-2341-483d-ae87-c0e3c18a4727</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПерерасчетПенсий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9b2c9383-81af-41d2-8cee-6e9bd7346784</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

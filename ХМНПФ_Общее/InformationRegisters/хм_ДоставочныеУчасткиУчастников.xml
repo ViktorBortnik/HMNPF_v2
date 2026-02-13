@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="022341fb-a5cf-4266-8b5b-d44ffd262f9a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.хм_ДоставочныеУчасткиУчастников" category="Record">
+				<xr:TypeId>93fa27c0-eb7c-4674-81ac-ac1599463687</xr:TypeId>
+				<xr:ValueId>c24e26ee-337f-4cd2-9cf2-bb09070fb5cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.хм_ДоставочныеУчасткиУчастников" category="Manager">
+				<xr:TypeId>3c5de920-1ec5-442b-a533-ce3e843e8176</xr:TypeId>
+				<xr:ValueId>5c44797e-0c13-4ecb-80bc-f415ec4f1393</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.хм_ДоставочныеУчасткиУчастников" category="Selection">
+				<xr:TypeId>8926c936-2b35-46da-bdda-aa7d3e031719</xr:TypeId>
+				<xr:ValueId>846ddfe2-7415-4661-9705-2bf5be8defbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.хм_ДоставочныеУчасткиУчастников" category="List">
+				<xr:TypeId>f3344ef6-d912-4999-9500-8e7eba370c2b</xr:TypeId>
+				<xr:ValueId>559a0930-8d66-4218-be8b-9b52fc1fe083</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.хм_ДоставочныеУчасткиУчастников" category="RecordSet">
+				<xr:TypeId>ed5cace6-42a1-4c95-af7b-1ab09fa64c9a</xr:TypeId>
+				<xr:ValueId>d54711df-4eff-4be1-b6fd-cca43af32c9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.хм_ДоставочныеУчасткиУчастников" category="RecordKey">
+				<xr:TypeId>79b12f4c-0679-4de5-92f0-25bd1e2dfec7</xr:TypeId>
+				<xr:ValueId>cdcd95be-ea79-436b-9752-89c776086ca2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.хм_ДоставочныеУчасткиУчастников" category="RecordManager">
+				<xr:TypeId>456310c6-1199-4f59-979a-d8b728f2e117</xr:TypeId>
+				<xr:ValueId>787b8f19-4491-4a6c-b651-c50684129db0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_ДоставочныеУчасткиУчастников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4b5d6bf4-31fe-4196-aa5d-b771a44b5dd4</ExtendedConfigurationObject>
+			<DefaultRecordForm/>
+			<DefaultListForm>InformationRegister.хм_ДоставочныеУчасткиУчастников.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="10dc883a-27f8-4c4f-8752-c8e81f29853e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участок</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6013f623-3962-4ae0-bc01-6aabc81fa523</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.хм_ДоставочныеУчастки</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="4e2014ca-28e3-4b7f-957d-e3f260dec888">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>985e549d-db8c-4985-856c-4a2c8f83fb61</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4b3d6ae4-89d1-425d-ab35-906b4628547d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1ad1cd94-e669-4dec-a585-85523ded8d11</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0eb80aa3-483e-42ba-8311-bb219bfcbcd0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_РезервПожизненныхВыплат" category="Ref">
+				<xr:TypeId>307e8aec-912f-48c9-9fbb-f21fb25588a1</xr:TypeId>
+				<xr:ValueId>b5eca864-8de1-44f4-8bee-6fcbb54a83e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_РезервПожизненныхВыплат" category="Manager">
+				<xr:TypeId>e62bc515-2201-485f-9b74-9252e5aeee29</xr:TypeId>
+				<xr:ValueId>02dc8710-99af-4951-8fca-fd0dc257b798</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_РезервПожизненныхВыплат" category="List">
+				<xr:TypeId>c8fe8ab6-a714-4f9e-bcab-326d8fbfc75d</xr:TypeId>
+				<xr:ValueId>587ef6d5-c0e6-42e6-a3d4-181e191d75bf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РезервПожизненныхВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>78c079e6-fcca-461f-80e3-6420de3814fb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="45122285-0d99-48d9-9e12-3ffc234c1a89">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоДоговорам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>589d9e05-eeeb-4544-b0bc-4dc70193fd7b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="38544ef5-87b1-4e57-a291-c79acb29eddb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоСчетам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48186c88-d2f3-45ca-aaee-7393d1e2bdb4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ca79769b-4df4-4928-a687-e725b6e9ca9e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БезАналитики</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da637e54-9354-452c-9f16-6a28f852ee48</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="408b9a96-760e-445f-83be-b104dc70c7bb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ПенсионныеОснованияНПО" category="Object">
+				<xr:TypeId>41f92190-1860-4b00-bafd-df381bed05c6</xr:TypeId>
+				<xr:ValueId>ce7ca08f-8404-466f-b6ca-7d3b307813ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ПенсионныеОснованияНПО" category="Ref">
+				<xr:TypeId>2a5b6769-609c-49c6-a654-309e1526a233</xr:TypeId>
+				<xr:ValueId>e620aff0-a240-4d18-bb24-3ed15f8f72f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ПенсионныеОснованияНПО" category="Selection">
+				<xr:TypeId>e7b2c5e7-4625-4525-80b8-70198641b827</xr:TypeId>
+				<xr:ValueId>424909e6-d639-4d68-89ed-d88aa780b214</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ПенсионныеОснованияНПО" category="List">
+				<xr:TypeId>62acd828-d1c6-436e-a15f-239937d7c712</xr:TypeId>
+				<xr:ValueId>acced766-2418-48c2-8f3e-b88c4e162d70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ПенсионныеОснованияНПО" category="Manager">
+				<xr:TypeId>148b52ec-acf2-4f6f-907f-3db0d94f731e</xr:TypeId>
+				<xr:ValueId>6920f8aa-1208-4f13-b825-961c1c08ee0c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПенсионныеОснованияНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a0ce3772-babb-4871-91b5-b39122bbdeea</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

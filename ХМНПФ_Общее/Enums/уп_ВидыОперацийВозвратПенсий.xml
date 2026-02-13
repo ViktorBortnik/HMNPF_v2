@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="30b744fe-bbfa-48d1-8e80-8fd4286c9f5c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ВидыОперацийВозвратПенсий" category="Ref">
+				<xr:TypeId>8dceb2b5-a0f8-4890-acfb-2c9341b00b50</xr:TypeId>
+				<xr:ValueId>b47f68d3-3307-4745-b1ba-b2ed9aab0570</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ВидыОперацийВозвратПенсий" category="Manager">
+				<xr:TypeId>b4c88d33-5a1d-459b-8aa9-dfd873d40d4b</xr:TypeId>
+				<xr:ValueId>16a3d9cd-95b4-40fd-8647-06ee18d795b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ВидыОперацийВозвратПенсий" category="List">
+				<xr:TypeId>35c2030f-e3b8-47b0-b084-0c40116f7e48</xr:TypeId>
+				<xr:ValueId>7117746b-abe0-4358-b4d5-601b720a57c6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВидыОперацийВозвратПенсий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>55fd7c48-dfa8-48c4-9ef7-34f9d5fb86bc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

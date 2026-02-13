@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="313e6d89-40e2-4f47-a175-d865f5d70215">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="Record">
+				<xr:TypeId>6a36ea6a-de7e-48c7-9395-a70ee6fdb881</xr:TypeId>
+				<xr:ValueId>4990b54a-a045-4d1b-8b00-d70fd8cab2c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="Manager">
+				<xr:TypeId>9d502575-67f9-4a35-be34-ba40d42d21d6</xr:TypeId>
+				<xr:ValueId>92750726-49d3-4496-8b94-f65af1a821b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="Selection">
+				<xr:TypeId>1bbeaabc-3987-42ac-b55e-5ff71524ea60</xr:TypeId>
+				<xr:ValueId>74862a24-b3cb-4403-8517-65652e138e74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="List">
+				<xr:TypeId>9719c629-e656-413f-ba23-d2f6a07ad9cd</xr:TypeId>
+				<xr:ValueId>6904f8d2-887d-49e7-ba5d-076b8c84f1c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="RecordSet">
+				<xr:TypeId>1cec0db5-cd5c-42e8-8249-56a050023ac8</xr:TypeId>
+				<xr:ValueId>6fb1f8ea-2f4e-4a2c-b007-a2de8ae276ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="RecordKey">
+				<xr:TypeId>bb7872f2-a948-4afd-87fd-0e41a63a2554</xr:TypeId>
+				<xr:ValueId>a6a980ec-6943-43b5-bfd8-409184453b5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПравилаВеденияРезерваПожизненныхВыплат" category="RecordManager">
+				<xr:TypeId>925d2ec7-3b67-4873-b8ca-88119db9b767</xr:TypeId>
+				<xr:ValueId>e90f284b-0042-41e7-aba4-85fd4f0ae2f1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПравилаВеденияРезерваПожизненныхВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ac048e0b-c60c-41a6-9ae3-6240ac408d84</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f53d8bac-d133-498c-a708-2f7a8d0cb384">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Правило</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>769c86b0-91a3-445d-8809-5dfaaf845b10</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_РезервПожизненныхВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="c2ff24e8-8cbe-47c2-aabe-ad3bd3d09d57">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Схема</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7bb9f83c-880c-4ec3-8d85-57690207a263</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСхемы</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

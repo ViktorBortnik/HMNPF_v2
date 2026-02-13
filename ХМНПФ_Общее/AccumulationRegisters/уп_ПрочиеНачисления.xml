@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="6bf897ac-1e34-43f2-86b6-4b56752887f8">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_ПрочиеНачисления" category="Record">
+				<xr:TypeId>f9857a6d-d46d-47f6-b9c5-dc131f879859</xr:TypeId>
+				<xr:ValueId>9742aef8-15d7-48ad-bbf4-96471ebf241c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_ПрочиеНачисления" category="Manager">
+				<xr:TypeId>5e05630d-2768-4bea-9a96-a42d5c52513c</xr:TypeId>
+				<xr:ValueId>4a6f1e2b-45a2-4397-af8c-a05f6de3b8c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_ПрочиеНачисления" category="Selection">
+				<xr:TypeId>a12c970d-37cb-4a71-ae00-2a82e0b7eaa0</xr:TypeId>
+				<xr:ValueId>6755ba18-8826-4de0-94e1-65be85e49194</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_ПрочиеНачисления" category="List">
+				<xr:TypeId>b985e505-c971-43aa-a262-6bc0c1820851</xr:TypeId>
+				<xr:ValueId>23f516f9-fdb6-467e-bc8b-487b0d71fbb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_ПрочиеНачисления" category="RecordSet">
+				<xr:TypeId>7e96d2f8-449c-4495-bc05-e2313d064f97</xr:TypeId>
+				<xr:ValueId>cd36504d-9b79-449f-bddf-d6652450f83f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_ПрочиеНачисления" category="RecordKey">
+				<xr:TypeId>a20a8a17-45bf-4495-a33c-b32a1342c5ce</xr:TypeId>
+				<xr:ValueId>e1796b4b-df8b-4402-a860-5413ef4a69cc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПрочиеНачисления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9cd61092-b3ac-4c9f-be9b-2bb8fcb60ace</ExtendedConfigurationObject>
+			<DefaultListForm>AccumulationRegister.уп_ПрочиеНачисления.Form.ХМФормаСписка</DefaultListForm>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fc7c916a-3215-4012-a008-aa5eef3cf0b4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ba691e5a-5b3d-4de9-b235-03f98236c969</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="99da7063-02ea-4194-bb0f-253b8fa8f620">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НалоговаяБазаПоНДФЛ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc1f90df-e602-46a3-ac27-800ebb27d543</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="00bd73ea-d50b-412a-93b7-c5437e2a00f3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c9666e59-d13b-4099-a23a-dac66112f9b9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="00cb9538-75d0-43a5-855d-ec43a0013148">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d3853cce-0188-4941-893f-73a2f19d06f6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6a54b740-a680-4b91-ad36-7fe0992b18a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ba8aea13-4c36-42ac-97d4-16534c63e6f4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="80360ef0-650f-4ab9-855f-27109f8fabe5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10816360-02a1-43e9-bb6d-82536c6084a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1c83ad20-527c-48d1-99c4-9e5fe7d7815e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументРегистрации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fac844d7-63fd-4aa9-a7e4-0ccec36bb9bf</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="fbf39590-670d-413e-b1fc-61039f709fae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипРезерва</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>817a06c1-96f5-48e2-9a40-d763351bc25d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыРезерва</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7ba3b448-5bb3-477c-b783-dff54586f40d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>338f2e85-9f4e-475b-8255-aa6af7ec9fa1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ТипыСумм</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

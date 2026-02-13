@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fcbdcb60-e721-4ec7-815a-a43f855aeae0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеОНаличииПравопреемниковНПО" category="Object">
+				<xr:TypeId>7164ebc7-246d-43b1-bdb7-47317fbda5dd</xr:TypeId>
+				<xr:ValueId>acda9b4a-90e2-49d3-9e24-28bd7064979c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеОНаличииПравопреемниковНПО" category="Ref">
+				<xr:TypeId>0113b39d-8739-4632-9d86-ddb5103b6895</xr:TypeId>
+				<xr:ValueId>e8c48624-67c4-43a2-89e3-827f6fae9522</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеОНаличииПравопреемниковНПО" category="Selection">
+				<xr:TypeId>0fc45cca-2767-432a-8a7d-672db2da336a</xr:TypeId>
+				<xr:ValueId>370d4667-6ea8-4f81-837f-b35ef0f925fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеОНаличииПравопреемниковНПО" category="List">
+				<xr:TypeId>2999b4b6-6721-4a20-863e-84bb89cd9a2e</xr:TypeId>
+				<xr:ValueId>03003434-6c09-4e02-bc1f-7afa563f7dd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеОНаличииПравопреемниковНПО" category="Manager">
+				<xr:TypeId>86310ebd-6d22-488f-8604-0cd578ff55cf</xr:TypeId>
+				<xr:ValueId>add5abcb-3488-4964-a135-374b21ffe4e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеОНаличииПравопреемниковНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fd874654-aca5-4981-bd2c-1e02c84b0755</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

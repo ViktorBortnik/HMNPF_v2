@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Решение об отказе в назначении срочной выплаты</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаПечать" id="33">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа печать</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="34"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Организация" id="7">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаНомерДата" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ДокументОснование" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заявление</v8:content>
+				</v8:item>
+			</Title>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ClearButton>true</ClearButton>
+			<ChoiceParameterLinks>
+				<xr:Link>
+					<xr:Name>Отбор.Организация</xr:Name>
+					<xr:DataPath xsi:type="xs:string">1/0:b06b3f9e-380b-4aa7-864d-c922dac0772a</xr:DataPath>
+					<xr:ValueChange>Clear</xr:ValueChange>
+				</xr:Link>
+			</ChoiceParameterLinks>
+			<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="14"/>
+		</InputField>
+		<InputField name="ДоговорОПС" id="15">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ClearButton>true</ClearButton>
+			<ChoiceParameterLinks>
+				<xr:Link>
+					<xr:Name>Отбор.Организация</xr:Name>
+					<xr:DataPath xsi:type="xs:string">1/0:b06b3f9e-380b-4aa7-864d-c922dac0772a</xr:DataPath>
+					<xr:ValueChange>Clear</xr:ValueChange>
+				</xr:Link>
+			</ChoiceParameterLinks>
+			<ContextMenu name="ДоговорОПСКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ДоговорОПСРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<InputField name="Участник" id="18">
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Застрахованное лицо</v8:content>
+				</v8:item>
+			</Title>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ClearButton>false</ClearButton>
+			<ContextMenu name="УчастникКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="УчастникРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<InputField name="Основание" id="21">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="ОснованиеКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<LabelDecoration name="ТекСумма" id="24">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма на счете:</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ТекСуммаКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="ТекСуммаРасширеннаяПодсказка" id="26"/>
+		</LabelDecoration>
+		<InputField name="Ответственный" id="27">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ClearButton>true</ClearButton>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="29"/>
+		</InputField>
+		<InputField name="Комментарий" id="30">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="32"/>
+		</InputField>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Решение об отказе в назначении срочной выплаты</v8:content>
+			</v8:item>
+		</Title>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Popup name="ГруппаПечать" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа печать</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.Print</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="34"/>
+				</Popup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="Организация" id="7">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<UsualGroup name="ГруппаНомерДата" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа номер дата</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа номер дата</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="11"/>
+				<ChildItems>
+					<InputField name="Номер" id="1">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+					</InputField>
+					<InputField name="Дата" id="4">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="ДокументОснование" id="12">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заявление</v8:content>
+					</v8:item>
+				</Title>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ClearButton>true</ClearButton>
+				<ChoiceParameterLinks>
+					<xr:Link>
+						<xr:Name>Отбор.Организация</xr:Name>
+						<xr:DataPath xsi:type="xs:string">1/0:b06b3f9e-380b-4aa7-864d-c922dac0772a</xr:DataPath>
+						<xr:ValueChange>Clear</xr:ValueChange>
+					</xr:Link>
+				</ChoiceParameterLinks>
+				<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="13"/>
+				<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="14"/>
+			</InputField>
+			<InputField name="ДоговорОПС" id="15">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ClearButton>true</ClearButton>
+				<ChoiceParameterLinks>
+					<xr:Link>
+						<xr:Name>Отбор.Организация</xr:Name>
+						<xr:DataPath xsi:type="xs:string">1/0:b06b3f9e-380b-4aa7-864d-c922dac0772a</xr:DataPath>
+						<xr:ValueChange>Clear</xr:ValueChange>
+					</xr:Link>
+				</ChoiceParameterLinks>
+				<ContextMenu name="ДоговорОПСКонтекстноеМеню" id="16"/>
+				<ExtendedTooltip name="ДоговорОПСРасширеннаяПодсказка" id="17"/>
+			</InputField>
+			<InputField name="Участник" id="18">
+				<ReadOnly>true</ReadOnly>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Застрахованное лицо</v8:content>
+					</v8:item>
+				</Title>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ClearButton>false</ClearButton>
+				<ContextMenu name="УчастникКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="УчастникРасширеннаяПодсказка" id="20"/>
+			</InputField>
+			<InputField name="Основание" id="21">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<MultiLine>true</MultiLine>
+				<ChoiceButton>true</ChoiceButton>
+				<ContextMenu name="ОснованиеКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="23"/>
+			</InputField>
+			<LabelDecoration name="ТекСумма" id="24">
+				<Title formatted="false">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сумма на счете:</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="ТекСуммаКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="ТекСуммаРасширеннаяПодсказка" id="26"/>
+			</LabelDecoration>
+			<InputField name="Ответственный" id="27">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ClearButton>true</ClearButton>
+				<ContextMenu name="ОтветственныйКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="29"/>
+			</InputField>
+			<InputField name="Комментарий" id="30">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ContextMenu name="КомментарийКонтекстноеМеню" id="31"/>
+				<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="32"/>
+			</InputField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

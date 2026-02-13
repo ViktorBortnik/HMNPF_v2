@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="НачалоПрошлойЗагрузки" id="7">
+			<DataPath>Объект.НачалоПрошлойЗагрузки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НачалоПрошлойЗагрузкиКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="НачалоПрошлойЗагрузкиРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<CheckBoxField name="Результат" id="10">
+			<DataPath>Объект.Результат</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="12"/>
+		</CheckBoxField>
+		<InputField name="Начало" id="13">
+			<DataPath>Объект.Начало</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НачалоКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="НачалоРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Окончание" id="16">
+			<DataPath>Объект.Окончание</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОкончаниеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ОкончаниеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ИмяТаблицы" id="19">
+			<DataPath>Объект.ИмяТаблицы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяТаблицыКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ИмяТаблицыРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<CheckBoxField name="ЗагружатьИзмененияСДаты" id="22">
+			<DataPath>Объект.ЗагружатьИзмененияСДаты</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагружатьИзмененияСДатыКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ЗагружатьИзмененияСДатыРасширеннаяПодсказка" id="24"/>
+		</CheckBoxField>
+		<CheckBoxField name="ИспользоватьДопУсловие" id="25">
+			<DataPath>Объект.ИспользоватьДопУсловие</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИспользоватьДопУсловиеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ИспользоватьДопУсловиеРасширеннаяПодсказка" id="27"/>
+		</CheckBoxField>
+		<CheckBoxField name="НеПерезагружатьНайденные" id="28">
+			<DataPath>Объект.НеПерезагружатьНайденные</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НеПерезагружатьНайденныеКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="НеПерезагружатьНайденныеРасширеннаяПодсказка" id="30"/>
+		</CheckBoxField>
+		<CheckBoxField name="ТолькоЗапросы" id="31">
+			<DataPath>Объект.ТолькоЗапросы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ТолькоЗапросыКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ТолькоЗапросыРасширеннаяПодсказка" id="33"/>
+		</CheckBoxField>
+		<CheckBoxField name="ОбновитьЗагрузку" id="34">
+			<DataPath>Объект.ОбновитьЗагрузку</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОбновитьЗагрузкуКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ОбновитьЗагрузкуРасширеннаяПодсказка" id="36"/>
+		</CheckBoxField>
+		<CheckBoxField name="НаСервере" id="37">
+			<DataPath>Объект.НаСервере</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НаСервереКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="НаСервереРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
+		<InputField name="ДатаИзменений" id="40">
+			<DataPath>Объект.ДатаИзменений</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаИзмененийКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ДатаИзмененийРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<CheckBoxField name="ЗагрузкаКаспер" id="43">
+			<DataPath>Объект.ЗагрузкаКаспер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагрузкаКасперКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ЗагрузкаКасперРасширеннаяПодсказка" id="45"/>
+		</CheckBoxField>
+		<CheckBoxField name="ЗагрузкаКлиент" id="46">
+			<DataPath>Объект.ЗагрузкаКлиент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагрузкаКлиентКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ЗагрузкаКлиентРасширеннаяПодсказка" id="48"/>
+		</CheckBoxField>
+		<CheckBoxField name="ЗагрузкаСервер" id="49">
+			<DataPath>Объект.ЗагрузкаСервер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагрузкаСерверКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ЗагрузкаСерверРасширеннаяПодсказка" id="51"/>
+		</CheckBoxField>
+		<InputField name="ПредставлениеТаблицы" id="52">
+			<DataPath>Объект.ПредставлениеТаблицы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПредставлениеТаблицыКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ПредставлениеТаблицыРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="ИДКаспер" id="55">
+			<DataPath>Объект.ИДКаспер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИДКасперКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ИДКасперРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<CheckBoxField name="ЗагрузкаНеСвязанных" id="58">
+			<DataPath>Объект.ЗагрузкаНеСвязанных</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗагрузкаНеСвязанныхКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="ЗагрузкаНеСвязанныхРасширеннаяПодсказка" id="60"/>
+		</CheckBoxField>
+		<InputField name="ТипЗагрузкиКаспер" id="61">
+			<DataPath>Объект.ТипЗагрузкиКаспер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипЗагрузкиКасперКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ТипЗагрузкиКасперРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<InputField name="ТипЗагрузкиКлиент" id="64">
+			<DataPath>Объект.ТипЗагрузкиКлиент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипЗагрузкиКлиентКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ТипЗагрузкиКлиентРасширеннаяПодсказка" id="66"/>
+		</InputField>
+		<InputField name="ТипЗагрузкиСервер" id="67">
+			<DataPath>Объект.ТипЗагрузкиСервер</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипЗагрузкиСерверКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="ТипЗагрузкиСерверРасширеннаяПодсказка" id="69"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ХМ_МенеджерЗагрузки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.20">
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="Номер" id="1">
+				<DataPath>Объект.Number</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="Дата" id="4">
+				<DataPath>Объект.Date</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<InputField name="НачалоПрошлойЗагрузки" id="7">
+				<DataPath>Объект.НачалоПрошлойЗагрузки</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="НачалоПрошлойЗагрузкиКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="НачалоПрошлойЗагрузкиРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<CheckBoxField name="Результат" id="10">
+				<DataPath>Объект.Результат</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="РезультатКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="12"/>
+			</CheckBoxField>
+			<InputField name="Начало" id="13">
+				<DataPath>Объект.Начало</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="НачалоКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="НачалоРасширеннаяПодсказка" id="15"/>
+			</InputField>
+			<InputField name="Окончание" id="16">
+				<DataPath>Объект.Окончание</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ОкончаниеКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ОкончаниеРасширеннаяПодсказка" id="18"/>
+			</InputField>
+			<InputField name="ИмяТаблицы" id="19">
+				<DataPath>Объект.ИмяТаблицы</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ИмяТаблицыКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ИмяТаблицыРасширеннаяПодсказка" id="21"/>
+			</InputField>
+			<CheckBoxField name="ЗагружатьИзмененияСДаты" id="22">
+				<DataPath>Объект.ЗагружатьИзмененияСДаты</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ЗагружатьИзмененияСДатыКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="ЗагружатьИзмененияСДатыРасширеннаяПодсказка" id="24"/>
+			</CheckBoxField>
+			<CheckBoxField name="ИспользоватьДопУсловие" id="25">
+				<DataPath>Объект.ИспользоватьДопУсловие</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ИспользоватьДопУсловиеКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="ИспользоватьДопУсловиеРасширеннаяПодсказка" id="27"/>
+			</CheckBoxField>
+			<CheckBoxField name="НеПерезагружатьНайденные" id="28">
+				<DataPath>Объект.НеПерезагружатьНайденные</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="НеПерезагружатьНайденныеКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="НеПерезагружатьНайденныеРасширеннаяПодсказка" id="30"/>
+			</CheckBoxField>
+			<CheckBoxField name="ТолькоЗапросы" id="31">
+				<DataPath>Объект.ТолькоЗапросы</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ТолькоЗапросыКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="ТолькоЗапросыРасширеннаяПодсказка" id="33"/>
+			</CheckBoxField>
+			<CheckBoxField name="ОбновитьЗагрузку" id="34">
+				<DataPath>Объект.ОбновитьЗагрузку</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ОбновитьЗагрузкуКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="ОбновитьЗагрузкуРасширеннаяПодсказка" id="36"/>
+			</CheckBoxField>
+			<CheckBoxField name="НаСервере" id="37">
+				<DataPath>Объект.НаСервере</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="НаСервереКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="НаСервереРасширеннаяПодсказка" id="39"/>
+			</CheckBoxField>
+			<InputField name="ДатаИзменений" id="40">
+				<DataPath>Объект.ДатаИзменений</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ДатаИзмененийКонтекстноеМеню" id="41"/>
+				<ExtendedTooltip name="ДатаИзмененийРасширеннаяПодсказка" id="42"/>
+			</InputField>
+			<CheckBoxField name="ЗагрузкаКаспер" id="43">
+				<DataPath>Объект.ЗагрузкаКаспер</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ЗагрузкаКасперКонтекстноеМеню" id="44"/>
+				<ExtendedTooltip name="ЗагрузкаКасперРасширеннаяПодсказка" id="45"/>
+			</CheckBoxField>
+			<CheckBoxField name="ЗагрузкаКлиент" id="46">
+				<DataPath>Объект.ЗагрузкаКлиент</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ЗагрузкаКлиентКонтекстноеМеню" id="47"/>
+				<ExtendedTooltip name="ЗагрузкаКлиентРасширеннаяПодсказка" id="48"/>
+			</CheckBoxField>
+			<CheckBoxField name="ЗагрузкаСервер" id="49">
+				<DataPath>Объект.ЗагрузкаСервер</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ЗагрузкаСерверКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="ЗагрузкаСерверРасширеннаяПодсказка" id="51"/>
+			</CheckBoxField>
+			<InputField name="ПредставлениеТаблицы" id="52">
+				<DataPath>Объект.ПредставлениеТаблицы</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ПредставлениеТаблицыКонтекстноеМеню" id="53"/>
+				<ExtendedTooltip name="ПредставлениеТаблицыРасширеннаяПодсказка" id="54"/>
+			</InputField>
+			<InputField name="ИДКаспер" id="55">
+				<DataPath>Объект.ИДКаспер</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ИДКасперКонтекстноеМеню" id="56"/>
+				<ExtendedTooltip name="ИДКасперРасширеннаяПодсказка" id="57"/>
+			</InputField>
+			<CheckBoxField name="ЗагрузкаНеСвязанных" id="58">
+				<DataPath>Объект.ЗагрузкаНеСвязанных</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ЗагрузкаНеСвязанныхКонтекстноеМеню" id="59"/>
+				<ExtendedTooltip name="ЗагрузкаНеСвязанныхРасширеннаяПодсказка" id="60"/>
+			</CheckBoxField>
+			<InputField name="ТипЗагрузкиКаспер" id="61">
+				<DataPath>Объект.ТипЗагрузкиКаспер</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ТипЗагрузкиКасперКонтекстноеМеню" id="62"/>
+				<ExtendedTooltip name="ТипЗагрузкиКасперРасширеннаяПодсказка" id="63"/>
+			</InputField>
+			<InputField name="ТипЗагрузкиКлиент" id="64">
+				<DataPath>Объект.ТипЗагрузкиКлиент</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ТипЗагрузкиКлиентКонтекстноеМеню" id="65"/>
+				<ExtendedTooltip name="ТипЗагрузкиКлиентРасширеннаяПодсказка" id="66"/>
+			</InputField>
+			<InputField name="ТипЗагрузкиСервер" id="67">
+				<DataPath>Объект.ТипЗагрузкиСервер</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ТипЗагрузкиСерверКонтекстноеМеню" id="68"/>
+				<ExtendedTooltip name="ТипЗагрузкиСерверРасширеннаяПодсказка" id="69"/>
+			</InputField>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:DocumentObject.ХМ_МенеджерЗагрузки</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Объект.RegisterRecords</Field>
+				</UseAlways>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

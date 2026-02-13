@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="37dbfbaa-0b3d-4b57-8d0c-86ee44998569">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ФормаРезерваНПО" category="Ref">
+				<xr:TypeId>f13de7b0-24fa-4476-a3f4-663ef64d04e0</xr:TypeId>
+				<xr:ValueId>a71a8023-bd05-4b0b-8eda-0212a0a55835</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ФормаРезерваНПО" category="Manager">
+				<xr:TypeId>325a8278-ce8b-4e2f-8a74-65311b4aab94</xr:TypeId>
+				<xr:ValueId>7765718f-3be1-42c9-8083-e8a3b08e6263</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ФормаРезерваНПО" category="List">
+				<xr:TypeId>3907c010-372b-4ef4-83cc-094c960e1839</xr:TypeId>
+				<xr:ValueId>c2eacc72-95f5-46ad-9261-cb8dea132681</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ФормаРезерваНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ff9027f0-5973-4d8e-a1e6-85a21744f8f4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

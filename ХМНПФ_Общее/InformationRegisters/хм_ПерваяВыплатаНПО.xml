@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="9e9d3263-023c-4e62-9b51-3b75042ca3bc">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.хм_ПерваяВыплатаНПО" category="Record">
+				<xr:TypeId>d5e60b96-5736-455b-8f09-5a0933d255cd</xr:TypeId>
+				<xr:ValueId>07e120d6-3bfb-4d59-bf4b-afcdf209bca0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.хм_ПерваяВыплатаНПО" category="Manager">
+				<xr:TypeId>87581600-df32-4a2e-b086-452d61b26d74</xr:TypeId>
+				<xr:ValueId>9f69daf9-6eea-4a23-aa69-b406d413cd25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.хм_ПерваяВыплатаНПО" category="Selection">
+				<xr:TypeId>c88a6111-d79b-4c34-a0b5-f50aaf0c1a39</xr:TypeId>
+				<xr:ValueId>280e8396-7b85-43b8-8d62-1654b561924b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.хм_ПерваяВыплатаНПО" category="List">
+				<xr:TypeId>cb419398-4ede-47e7-b8f8-f362eebc52a3</xr:TypeId>
+				<xr:ValueId>58c8f2af-a6cd-4d6c-9f56-db871d139b10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.хм_ПерваяВыплатаНПО" category="RecordSet">
+				<xr:TypeId>47643a70-e846-4c78-90fe-456e0cf37837</xr:TypeId>
+				<xr:ValueId>747bc71b-184a-482b-b9b0-dd55ade002ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.хм_ПерваяВыплатаНПО" category="RecordKey">
+				<xr:TypeId>666b6c55-effe-4a40-8617-c1ba6e32c372</xr:TypeId>
+				<xr:ValueId>d68dd4fd-7101-4f1e-8ff2-470999a674d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.хм_ПерваяВыплатаНПО" category="RecordManager">
+				<xr:TypeId>8b2f8908-4fea-44a1-910a-ace0102f7908</xr:TypeId>
+				<xr:ValueId>e7d13daa-d595-4409-8fac-88dc08618d96</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_ПерваяВыплатаНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f1330a6b-3078-4995-a184-12878bf6bbf0</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.хм_ПерваяВыплатаНПО.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a2d3ee0a-4036-4a89-8c62-19762ec9c9e9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Начислено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dfa5bb0e-56e5-4a4e-a2a2-3d6d37172cca</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3e293784-910f-4378-8dfe-a349f1c25713">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выплачено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2bd739d3-801d-477b-8c2c-0d622008a73e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d6a6c196-c6f4-4225-900f-a15f7bb7dd0f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодНачисленияПервойВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>22d5b3a1-4fb8-46ea-9b2b-bfa69abd6835</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="98fa4c4d-e9af-4c47-87c7-e0b8bbde494b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>43d34349-69e7-4510-8f8b-fe57223d21ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e124f4c7-70d6-4b97-aab3-cd7484874ed1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйДоговор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bfa0d1bb-1df0-416d-b170-99a1d404588c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4ee422e2-e7be-4213-9322-ca703994ba92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2041a042-d901-47b6-be33-bda242d8ac61</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

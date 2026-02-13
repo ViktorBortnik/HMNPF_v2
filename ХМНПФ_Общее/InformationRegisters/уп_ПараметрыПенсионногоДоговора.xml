@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="d80f73ba-a8f7-49a0-ab2e-23a466dc48ec">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПараметрыПенсионногоДоговора" category="Record">
+				<xr:TypeId>67a11118-e596-4c2a-92b2-49db9b51cb65</xr:TypeId>
+				<xr:ValueId>70666ef5-ca21-46a6-b9a8-7ed44722a024</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПараметрыПенсионногоДоговора" category="Manager">
+				<xr:TypeId>b14bc08e-9ba4-47fc-bc94-66a591caa437</xr:TypeId>
+				<xr:ValueId>43901bc6-4d98-4cef-a9cc-03509ae26dff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПараметрыПенсионногоДоговора" category="Selection">
+				<xr:TypeId>6f178a6d-0a69-4b6f-83b3-67129126765e</xr:TypeId>
+				<xr:ValueId>fa1559c0-eb6d-428d-8383-d7be9dbe37fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПараметрыПенсионногоДоговора" category="List">
+				<xr:TypeId>ca2cbcf9-0301-4f30-8387-59160c4a1799</xr:TypeId>
+				<xr:ValueId>f33a2eae-535f-4915-bca4-d443f5f8c30e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПараметрыПенсионногоДоговора" category="RecordSet">
+				<xr:TypeId>483d67c6-7b91-4a81-9bcf-ca507ce1ecc5</xr:TypeId>
+				<xr:ValueId>ba1cf5bc-4870-4c02-a12e-d691d7727f95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПараметрыПенсионногоДоговора" category="RecordKey">
+				<xr:TypeId>b027288e-ae7e-4ec1-8070-550b83d7c186</xr:TypeId>
+				<xr:ValueId>bc322edd-b3f6-48e6-85f3-15bfd809ac94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПараметрыПенсионногоДоговора" category="RecordManager">
+				<xr:TypeId>cae16d72-05aa-4dae-b7c9-32bfa506e56e</xr:TypeId>
+				<xr:ValueId>6769a6ca-7239-4226-81d7-a709515b78c6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПараметрыПенсионногоДоговора</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ac1fef6d-4eba-46d9-b42c-d4eaf04f60ed</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9ed934f0-56b1-4d72-8a0d-1c4a8ee1a1bf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Схема</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>22f79c94-c519-4259-a119-2eea5943aa56</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСхемы</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5843cb78-e684-436c-ad66-d32f4051fb15">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ШаблонДоговора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>558ba5f2-7a59-4641-b645-8fa90ecbe573</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ШаблоныДоговоров</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="9d9b013b-6bb1-432f-85fc-eee526629b02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйДоговор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd025b21-2c87-475f-af3e-d307bbfa87e2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

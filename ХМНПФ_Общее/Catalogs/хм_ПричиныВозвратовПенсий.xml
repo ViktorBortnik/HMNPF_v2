@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="fb51e9bb-8c9d-483a-afb9-a280dc37a27a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.хм_ПричиныВозвратовПенсий" category="Object">
+				<xr:TypeId>0dbf9c04-c88c-4268-8ff8-76b663516ed7</xr:TypeId>
+				<xr:ValueId>2c0cc2be-ad33-4a8a-9fc7-d2a099d87ea3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.хм_ПричиныВозвратовПенсий" category="Ref">
+				<xr:TypeId>193f97d7-7f9f-47e9-8d5b-fdf442372673</xr:TypeId>
+				<xr:ValueId>c9c8f0d1-f682-4946-8837-d84e561b8750</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.хм_ПричиныВозвратовПенсий" category="Selection">
+				<xr:TypeId>12d99d7d-8bd7-44c9-a1ea-8bba91403da9</xr:TypeId>
+				<xr:ValueId>e31d97d2-b167-4130-add2-305606d3e1e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.хм_ПричиныВозвратовПенсий" category="List">
+				<xr:TypeId>655872c9-b5f4-4d99-80de-12b3bfc11083</xr:TypeId>
+				<xr:ValueId>45004131-deca-4515-95e3-e440368626da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.хм_ПричиныВозвратовПенсий" category="Manager">
+				<xr:TypeId>90308385-cc6a-4fe8-931d-c869366135c7</xr:TypeId>
+				<xr:ValueId>7558e0b8-959d-4114-b4ec-ce56b3fdbe7c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_ПричиныВозвратовПенсий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>03928f50-1ff3-4645-8f1c-819f9a27dc73</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

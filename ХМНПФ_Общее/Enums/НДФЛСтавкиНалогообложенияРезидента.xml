@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="90f636a1-a2be-4692-bdb7-9ec3907bfb1c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НДФЛСтавкиНалогообложенияРезидента" category="Ref">
+				<xr:TypeId>054156eb-c824-4493-85d2-99b0d394daa2</xr:TypeId>
+				<xr:ValueId>52180071-0add-4e06-83f5-f3bc574a1aab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НДФЛСтавкиНалогообложенияРезидента" category="Manager">
+				<xr:TypeId>9e812b54-bc01-434c-b811-acb33ce9e304</xr:TypeId>
+				<xr:ValueId>401b8506-f4ac-4bd3-9290-74d520a2683c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НДФЛСтавкиНалогообложенияРезидента" category="List">
+				<xr:TypeId>2d55f14f-5b07-46bc-91f8-f55d12707094</xr:TypeId>
+				<xr:ValueId>bc57ecae-bbc2-41b4-b4af-8db0616b6647</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НДФЛСтавкиНалогообложенияРезидента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dd537714-0087-46ff-87cd-af08a048a300</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d5822b8b-bc94-4fed-b224-b454e58dd6f7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПеремещениеПенсионныхРезервов" category="Object">
+				<xr:TypeId>aa581557-36ce-4204-8e69-896fa4460624</xr:TypeId>
+				<xr:ValueId>a730ff62-50a3-4b01-86fb-83bdc9b0f7bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПеремещениеПенсионныхРезервов" category="Ref">
+				<xr:TypeId>1cd0d624-535f-428e-9a26-2ddcd6ee4994</xr:TypeId>
+				<xr:ValueId>150a5eaf-94bc-4386-90b5-433ac61b2e93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПеремещениеПенсионныхРезервов" category="Selection">
+				<xr:TypeId>014f343c-0f57-46f1-a53d-94b2ebf11a1a</xr:TypeId>
+				<xr:ValueId>c97ed00c-532f-4d3a-b079-cbed2cfa0dde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПеремещениеПенсионныхРезервов" category="List">
+				<xr:TypeId>d3e90648-761f-41b1-90cf-cf66c7a86b9b</xr:TypeId>
+				<xr:ValueId>73fa46ae-27dd-4fbf-9445-c6cbe2385e68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПеремещениеПенсионныхРезервов" category="Manager">
+				<xr:TypeId>e68d76c7-7589-434e-8dde-b06084614b00</xr:TypeId>
+				<xr:ValueId>774bea2d-b738-46c3-914c-0b5590d877de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПеремещениеПенсионныхРезервов</Name>
+			<Comment/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="78efa845-3f16-494c-a5f3-66fb20d6be3a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_ПеремещениеПенсионныхРезервов.Перемещения" category="TabularSection">
+						<xr:TypeId>6cf33ee5-17e1-4c93-8080-c2a29c57ba88</xr:TypeId>
+						<xr:ValueId>a5e4a4a5-f585-407d-aec8-c20e2cfae697</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_ПеремещениеПенсионныхРезервов.Перемещения" category="TabularSectionRow">
+						<xr:TypeId>503f23bf-fae1-44be-b864-bc8257e783dc</xr:TypeId>
+						<xr:ValueId>187ba9e1-cde4-409c-9263-2ba7d32a46e1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Перемещения</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

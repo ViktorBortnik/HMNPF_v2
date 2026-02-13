@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="b77d52eb-ebb7-4a31-a3d8-71f4d4557756">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_КасперДокументы" category="Record">
+				<xr:TypeId>a241c090-5ccf-4098-8682-6f443975508f</xr:TypeId>
+				<xr:ValueId>b294a85b-9eed-4892-bb78-05aeb88556f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_КасперДокументы" category="Manager">
+				<xr:TypeId>37f2cb51-36bf-4de3-a054-0e1d834611be</xr:TypeId>
+				<xr:ValueId>d448e9d8-d877-47d6-908f-80bf3232b045</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_КасперДокументы" category="Selection">
+				<xr:TypeId>26da3d28-f7b1-446c-a186-cbadbf176325</xr:TypeId>
+				<xr:ValueId>8498021d-ed78-49fb-abfc-4970eeb2065b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_КасперДокументы" category="List">
+				<xr:TypeId>560a2264-6e90-4c08-b3f6-531a2b4e7501</xr:TypeId>
+				<xr:ValueId>624795f7-7464-49d5-a01e-4577c45d8595</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_КасперДокументы" category="RecordSet">
+				<xr:TypeId>8380f101-df53-4b54-a5d7-51d318299901</xr:TypeId>
+				<xr:ValueId>7767484b-a715-4ad3-a6d3-41449aea0b63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_КасперДокументы" category="RecordKey">
+				<xr:TypeId>571bd986-b192-4c62-8887-784361ceec07</xr:TypeId>
+				<xr:ValueId>fcbdda10-446b-4aab-8861-dab2c5d4facc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_КасперДокументы" category="RecordManager">
+				<xr:TypeId>2e44622b-919c-4d74-bd4c-274e0d7d0e9b</xr:TypeId>
+				<xr:ValueId>02d2da26-e1a5-4120-9ed4-4236e20ad8f2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_КасперДокументы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>488380c1-6e73-4c67-b922-c5f7160dc04d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="54a6aa52-f135-4224-99bd-2100f617df3d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2d860cb6-74de-4043-92ab-6a501bc9d0b5</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="fc95d016-c9a7-4de3-9f6f-fa3a1aa0573e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>DOC_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cae76c6d-9a62-45d1-ae15-8d0b3c48ca64</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

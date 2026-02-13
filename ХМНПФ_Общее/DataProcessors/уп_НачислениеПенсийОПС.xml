@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="003116ac-11da-454b-b7a0-3006b9873c42">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_НачислениеПенсийОПС" category="Object">
+				<xr:TypeId>c756686f-b18b-48db-bd28-8a75f02fb10d</xr:TypeId>
+				<xr:ValueId>0bb38bd5-3908-4317-8c52-2b2fe020438d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_НачислениеПенсийОПС" category="Manager">
+				<xr:TypeId>3f486dd9-d9ce-4ffe-8263-ff9212112e4d</xr:TypeId>
+				<xr:ValueId>6a2015e0-3228-41e2-b300-11c30d74de04</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_НачислениеПенсийОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>20c9bb2c-1117-4a3b-a9b8-2e22afc9c8d5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3c06c7a5-43f5-413e-9e31-4bd965f29e8f">
+				<Properties>
+					<Name>ХМ_ТолькоНовые</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Только новые</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="65fd39d9-d511-4e07-be25-fca376f4c67b">
+				<Properties>
+					<Name>ХМ_НачалоПериода</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начало периода</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e381363-a528-4288-aa36-2d9adab3d60e">
+				<Properties>
+					<Name>ХМ_КонецПериода</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конец периода</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f3c14d0b-a1aa-4e8f-aa7d-aa6bfd8a1336">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>418e046c-34f9-44f2-8ff9-40e67206018d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f1d41635-e2c8-4e51-a373-972dd85880ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>уп_ВидДеятельности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4e782084-84e7-4251-8549-280d9d358a5c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ВидыДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9d05f35a-c642-4b70-950f-cae6d2631cf3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e997fac0-3ab6-4b1c-8fa8-88e9160401d8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="302bc8f2-1d65-44a5-b8d0-671e2ff849d7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачислятьЗаПрошлыеПериоды</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7b50c680-2764-4e16-8f4e-caec95d0f816</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5088c898-bbb9-4bef-95f4-b534b7ba8741">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодНачисления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ded49591-3098-4148-9465-14d02dd6adc3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b292b9b1-8284-4d8e-aa63-01485e677045">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ca11ae29-a71b-4f7b-8fa4-e2590fef2091</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bed2e027-2ee2-4c63-8f71-67ef324c0bae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Переключатель1</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bef33e96-25a4-4464-88cb-450b7c12154e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fbc0bbff-7af6-4d75-a888-359ac7c1885f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйДоговор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1af55ee3-801f-401c-be4e-4dfee8970948</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8868d5a-cba3-4c07-a9b4-31c48a6cf630">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаФормированияДокументов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>22e6a9a3-8011-4cd4-b01f-c42d9c925a6c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="387c2156-8bc1-4089-b60f-7974e1421138">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пожизненная</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>77d411e0-e9e2-4ae8-91d7-df63b345b659</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83ebb15d-d5c6-430c-8059-3edcee396a46">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Срочная</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b3d8b1cd-ec77-4f0c-93c9-7a92db705884</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="21562b34-62a0-4381-b4a4-8ca68e542b9d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Получатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>acc59c36-5159-4fe0-a97c-1a97fafbc51a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8e03e7bd-024f-4821-8513-2a9139aeed86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГруппаДоговоров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>99eda96b-a114-496e-8995-b25a282a36b1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="df2340eb-2167-4ada-8efa-1c9076cde6ba">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОчередностьВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd7b1f6f-566d-4b0d-8224-da4087b46a1e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1c238709-b794-493f-b436-fd6b90b15a6c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоПачкам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5cd8f952-e70a-45cb-aa74-b2fd9211c801</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d46922da-cd61-4fd9-9853-15bef5a35096">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоВПачке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cc6e047-1e0c-448a-b3c4-5ed26c134380</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6e2ebca8-0f23-4644-8c33-3db870603fec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборПолучатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b4781dc6-22b3-47b3-8f9e-5f33bbfcec09</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c9627a00-e8d6-4768-8f2c-4a7a7dd3b92f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборПенсионныйДоговор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>66e64f08-294a-40bc-bf3d-724b48c7b60b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8285fa68-83df-4e4a-82a7-f765c262143e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборГруппаДоговоров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d341350-5a1e-4a07-b947-df4777dc01b8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="78d98d29-196c-4705-adb4-a59edab9ca86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтборОчередностьВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>14f4efae-56b2-4892-9b6e-6b0acf9a4deb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6542488d-8e2d-486d-bab2-eca0751ec0ee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьОтборОчередностьВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a7333cb5-30d7-477f-8ef4-db10f5f3c7ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="555da522-81d2-48f6-a27f-c9e4692c55d1">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.уп_НачислениеПенсийОПС.НовыеНачисления" category="TabularSection">
+						<xr:TypeId>ac39efdb-dd5d-499c-96ca-85f82d54aa59</xr:TypeId>
+						<xr:ValueId>d8896af4-9251-4d45-8efc-cb665e3f77a7</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.уп_НачислениеПенсийОПС.НовыеНачисления" category="TabularSectionRow">
+						<xr:TypeId>314d41ba-6e3f-4cac-8b9d-4db573910c03</xr:TypeId>
+						<xr:ValueId>b079e495-1652-46b5-a784-7eea39716aa9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НовыеНачисления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>121f7f31-c8e3-4947-9472-43bbe0e04f0d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="264d3656-e93a-4378-a046-b57753eb146b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Документ</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3548e501-7a61-43d7-ab7a-6f5413684692</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.уп_НачислениеПенсийОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>уф_Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

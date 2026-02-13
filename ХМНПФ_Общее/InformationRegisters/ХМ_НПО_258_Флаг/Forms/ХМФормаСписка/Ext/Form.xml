@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">ХМОбработкаОповещенияПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ACC_ID" id="16">
+					<DataPath>Список.ACC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_IDКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ACC_IDРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="REP_DATE" id="19">
+					<DataPath>Список.REP_DATE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="REP_DATEКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="REP_DATEРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="FL_STATUS_PENS_2_1" id="22">
+					<DataPath>Список.FL_STATUS_PENS_2_1</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_STATUS_PENS_2_1КонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="FL_STATUS_PENS_2_1РасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="FL_DOG31_IPS_L" id="25">
+					<DataPath>Список.FL_DOG31_IPS_L</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_DOG31_IPS_LКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="FL_DOG31_IPS_LРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="FL_STATUS_PENS_NEW" id="28">
+					<DataPath>Список.FL_STATUS_PENS_NEW</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_STATUS_PENS_NEWКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="FL_STATUS_PENS_NEWРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="FL_DOG31_IPS_U" id="31">
+					<DataPath>Список.FL_DOG31_IPS_U</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_DOG31_IPS_UКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="FL_DOG31_IPS_UРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="НомерСчета" id="34">
+					<DataPath>Список.НомерСчета</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="НомерСчетаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="STATUS_PENS" id="37">
+					<DataPath>Список.STATUS_PENS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="STATUS_PENSКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="STATUS_PENSРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="FL_DOG31_IPS_K" id="40">
+					<DataPath>Список.FL_DOG31_IPS_K</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_DOG31_IPS_KКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="FL_DOG31_IPS_KРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="ACC_NUM" id="43">
+					<DataPath>Список.ACC_NUM</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_NUMКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ACC_NUMРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<LabelField name="ACTOR_ID" id="46">
+					<DataPath>Список.ACTOR_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACTOR_IDКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ACTOR_IDРасширеннаяПодсказка" id="48"/>
+				</LabelField>
+				<LabelField name="SUM_20" id="49">
+					<DataPath>Список.SUM_20</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="SUM_20КонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="SUM_20РасширеннаяПодсказка" id="51"/>
+				</LabelField>
+				<LabelField name="FL_ACC_STATUS_NEW_CLOSE" id="52">
+					<DataPath>Список.FL_ACC_STATUS_NEW_CLOSE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_ACC_STATUS_NEW_CLOSEКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="FL_ACC_STATUS_NEW_CLOSEРасширеннаяПодсказка" id="54"/>
+				</LabelField>
+				<LabelField name="ACC_TYPE_SID" id="55">
+					<DataPath>Список.ACC_TYPE_SID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_TYPE_SIDКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ACC_TYPE_SIDРасширеннаяПодсказка" id="57"/>
+				</LabelField>
+				<LabelField name="DGVR_ID" id="58">
+					<DataPath>Список.DGVR_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DGVR_IDКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="DGVR_IDРасширеннаяПодсказка" id="60"/>
+				</LabelField>
+				<LabelField name="ACC_OPEN" id="61">
+					<DataPath>Список.ACC_OPEN</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_OPENКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ACC_OPENРасширеннаяПодсказка" id="63"/>
+				</LabelField>
+				<LabelField name="DOC_ID" id="64">
+					<DataPath>Список.DOC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DOC_IDКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="DOC_IDРасширеннаяПодсказка" id="66"/>
+				</LabelField>
+				<LabelField name="DOC_CREATE" id="67">
+					<DataPath>Список.DOC_CREATE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DOC_CREATEКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="DOC_CREATEРасширеннаяПодсказка" id="69"/>
+				</LabelField>
+				<LabelField name="ACC_STATUS" id="70">
+					<DataPath>Список.ACC_STATUS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_STATUSКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ACC_STATUSРасширеннаяПодсказка" id="72"/>
+				</LabelField>
+				<LabelField name="ACC_CLOSE" id="73">
+					<DataPath>Список.ACC_CLOSE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_CLOSEКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="ACC_CLOSEРасширеннаяПодсказка" id="75"/>
+				</LabelField>
+				<LabelField name="FL_ACC_STATUS_OPEN" id="76">
+					<DataPath>Список.FL_ACC_STATUS_OPEN</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_ACC_STATUS_OPENКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="FL_ACC_STATUS_OPENРасширеннаяПодсказка" id="78"/>
+				</LabelField>
+				<LabelField name="SUM_33" id="79">
+					<DataPath>Список.SUM_33</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="SUM_33КонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="SUM_33РасширеннаяПодсказка" id="81"/>
+				</LabelField>
+				<LabelField name="FL_SUM_20" id="82">
+					<DataPath>Список.FL_SUM_20</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_SUM_20КонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="FL_SUM_20РасширеннаяПодсказка" id="84"/>
+				</LabelField>
+				<LabelField name="FL_SUM_33" id="85">
+					<DataPath>Список.FL_SUM_33</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_SUM_33КонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="FL_SUM_33РасширеннаяПодсказка" id="87"/>
+				</LabelField>
+				<LabelField name="DG_DOC_ID" id="88">
+					<DataPath>Список.DG_DOC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DG_DOC_IDКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="DG_DOC_IDРасширеннаяПодсказка" id="90"/>
+				</LabelField>
+				<LabelField name="DG_DOC_DATE" id="91">
+					<DataPath>Список.DG_DOC_DATE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DG_DOC_DATEКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="DG_DOC_DATEРасширеннаяПодсказка" id="93"/>
+				</LabelField>
+				<LabelField name="FL_DG_DOC_DATE_NOT_FUTURE" id="94">
+					<DataPath>Список.FL_DG_DOC_DATE_NOT_FUTURE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_DG_DOC_DATE_NOT_FUTUREКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="FL_DG_DOC_DATE_NOT_FUTUREРасширеннаяПодсказка" id="96"/>
+				</LabelField>
+				<LabelField name="FL_ACC_OPEN_NOT_FUTURE" id="97">
+					<DataPath>Список.FL_ACC_OPEN_NOT_FUTURE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_ACC_OPEN_NOT_FUTUREКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="FL_ACC_OPEN_NOT_FUTUREРасширеннаяПодсказка" id="99"/>
+				</LabelField>
+				<LabelField name="RESULT" id="100">
+					<DataPath>Список.RESULT</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="RESULTКонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="RESULTРасширеннаяПодсказка" id="102"/>
+				</LabelField>
+				<LabelField name="FL_UL_SPS" id="103">
+					<DataPath>Список.FL_UL_SPS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_UL_SPSКонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="FL_UL_SPSРасширеннаяПодсказка" id="105"/>
+				</LabelField>
+				<LabelField name="FACT_RESULT" id="106">
+					<DataPath>Список.FACT_RESULT</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FACT_RESULTКонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="FACT_RESULTРасширеннаяПодсказка" id="108"/>
+				</LabelField>
+				<LabelField name="FL_UL_IPS_K" id="109">
+					<DataPath>Список.FL_UL_IPS_K</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_UL_IPS_KКонтекстноеМеню" id="110"/>
+					<ExtendedTooltip name="FL_UL_IPS_KРасширеннаяПодсказка" id="111"/>
+				</LabelField>
+				<LabelField name="FL_UL_IPS_U" id="112">
+					<DataPath>Список.FL_UL_IPS_U</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="FL_UL_IPS_UКонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="FL_UL_IPS_UРасширеннаяПодсказка" id="114"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ХМ_НПО_258_Флаг</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

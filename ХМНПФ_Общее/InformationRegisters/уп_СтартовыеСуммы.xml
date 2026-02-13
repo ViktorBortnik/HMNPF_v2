@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="428c83c6-2901-4fdc-85ba-ea46688b92ba">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_СтартовыеСуммы" category="Record">
+				<xr:TypeId>e485b3b8-c65c-4bac-be08-5552a4ec4b2b</xr:TypeId>
+				<xr:ValueId>c5f89687-6118-49ac-b2be-6292b69a1cc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_СтартовыеСуммы" category="Manager">
+				<xr:TypeId>4f9ee23b-9bc7-4dc6-a9a2-53c47f4a905b</xr:TypeId>
+				<xr:ValueId>e98d0322-19fc-481e-9071-7dbcd11602ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_СтартовыеСуммы" category="Selection">
+				<xr:TypeId>5e8b68dd-74af-43ae-8785-98fa5937d08a</xr:TypeId>
+				<xr:ValueId>b7698dea-1b20-4c8d-950e-6e1457e8cacd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_СтартовыеСуммы" category="List">
+				<xr:TypeId>cf0ea6c6-828f-4d8f-b427-e54a315d4d63</xr:TypeId>
+				<xr:ValueId>6bfa9d12-1bc3-43ce-af32-9db8d701d0ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_СтартовыеСуммы" category="RecordSet">
+				<xr:TypeId>8a3be2bb-25c9-4b79-8060-4fe052ae1163</xr:TypeId>
+				<xr:ValueId>cb24f1dc-4350-4b6e-a5d1-95d93577ec01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_СтартовыеСуммы" category="RecordKey">
+				<xr:TypeId>2feb66ad-9766-4075-b35b-51921aa9a043</xr:TypeId>
+				<xr:ValueId>c087fbd4-7b49-4050-a94c-7fccebdf5245</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_СтартовыеСуммы" category="RecordManager">
+				<xr:TypeId>05a89e98-714c-47f3-aad5-2e1870e423b1</xr:TypeId>
+				<xr:ValueId>b38d34c5-704c-4d55-9cd0-288b986b2fc9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СтартовыеСуммы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a7618bff-a859-4227-8d76-a63dea12d793</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="01a9dfbf-8752-4a71-95a6-6d15b3c42881">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5061cb32-5bfa-4ea5-964e-305ddbc7e2b3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>19</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a2ed2154-478e-453f-b3b4-478bdbcd867c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d2777770-15eb-45c5-a7dc-9ac8f0ba2b8f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

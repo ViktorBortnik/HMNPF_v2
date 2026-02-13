@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a78dadbb-83d2-4902-9d27-f0cc77dbad89">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПричиныЗакрытияПС" category="Record">
+				<xr:TypeId>a7a7184b-2248-4985-9349-0cec3f8fb24c</xr:TypeId>
+				<xr:ValueId>d49c73a8-921a-4415-b4e3-c3a55f6c3500</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПричиныЗакрытияПС" category="Manager">
+				<xr:TypeId>a7c59b84-90f7-4e0c-8a7a-c1980fc034c8</xr:TypeId>
+				<xr:ValueId>741f505d-6541-4b70-8a88-dbb876a40574</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПричиныЗакрытияПС" category="Selection">
+				<xr:TypeId>a8edacb6-4e89-40b1-b106-425ee2aaf510</xr:TypeId>
+				<xr:ValueId>0c6f82c6-4538-47a3-af00-354eb6e951ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПричиныЗакрытияПС" category="List">
+				<xr:TypeId>8e3cfe27-7d53-4953-814f-5e52a694db27</xr:TypeId>
+				<xr:ValueId>ff131845-caca-4a93-9cb9-98a2e010cc43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПричиныЗакрытияПС" category="RecordSet">
+				<xr:TypeId>2210bdcf-be15-43f1-8fe0-521ce4f92541</xr:TypeId>
+				<xr:ValueId>6591455f-7932-4729-9a8f-36633f7d5b52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПричиныЗакрытияПС" category="RecordKey">
+				<xr:TypeId>4452b24b-977b-400c-80ff-d264615d1d3a</xr:TypeId>
+				<xr:ValueId>a8c16279-a51b-4f2a-88e3-100665803761</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПричиныЗакрытияПС" category="RecordManager">
+				<xr:TypeId>1d4224ab-c39a-42e6-b28c-cd3195e0a166</xr:TypeId>
+				<xr:ValueId>90fc0507-b193-4c30-b127-f5ed9de1c7f5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПричиныЗакрытияПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>009f9cdd-b998-480c-815b-a438600ade3c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4baf56c8-7f67-4a9e-9ffd-76262b4eb41e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПричинаЗакрытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4a6c591f-dc94-40c7-868f-d95b2e1055b8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ПричиныЗакрытияПС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="4c27378c-096a-4610-8453-ff4abffbb682">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4ea0d4a3-e900-4f87-9954-e489c3bc774b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

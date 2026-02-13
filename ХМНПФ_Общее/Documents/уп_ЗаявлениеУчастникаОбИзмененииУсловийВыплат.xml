@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="7b4d3650-0d27-4442-bcb2-8045d96e68ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеУчастникаОбИзмененииУсловийВыплат" category="Object">
+				<xr:TypeId>fa5d6967-109b-44e4-ba90-2e4dd2e3779d</xr:TypeId>
+				<xr:ValueId>b2537532-e5cd-4da9-a2ee-0ca1850cff5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеУчастникаОбИзмененииУсловийВыплат" category="Ref">
+				<xr:TypeId>35875a43-7173-4647-a177-926e3f165085</xr:TypeId>
+				<xr:ValueId>339bf203-e0cc-4e9a-a5a0-4c2ae81d0dde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеУчастникаОбИзмененииУсловийВыплат" category="Selection">
+				<xr:TypeId>c6ebe423-df4e-4cdd-bffa-71dacfe2f581</xr:TypeId>
+				<xr:ValueId>14c849fd-aa60-4707-a2ff-a2da98104a9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеУчастникаОбИзмененииУсловийВыплат" category="List">
+				<xr:TypeId>2c6ba9d8-1ab9-4711-a842-b983c66e361f</xr:TypeId>
+				<xr:ValueId>989bd306-7b62-4ee4-b7dc-280bd5beebee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеУчастникаОбИзмененииУсловийВыплат" category="Manager">
+				<xr:TypeId>a9eb8a8f-7db8-441c-82be-7061a8cfe203</xr:TypeId>
+				<xr:ValueId>304202c5-1e62-4bc0-b7a8-0bad13832a6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеУчастникаОбИзмененииУсловийВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4b4ff1e0-7d00-4f8d-8444-b8e81c6959cb</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

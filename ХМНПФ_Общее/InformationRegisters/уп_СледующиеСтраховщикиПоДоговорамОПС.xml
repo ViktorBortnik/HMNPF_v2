@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="13a424ef-e9f3-4173-b019-88c67d500a1e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_СледующиеСтраховщикиПоДоговорамОПС" category="Record">
+				<xr:TypeId>3d8a45b8-5e2a-484b-97b6-e3b388084fb0</xr:TypeId>
+				<xr:ValueId>8741d1b2-3666-4385-8990-8f502c6ae542</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_СледующиеСтраховщикиПоДоговорамОПС" category="Manager">
+				<xr:TypeId>2232d9ed-e435-4a75-869a-6edccc8fb2b6</xr:TypeId>
+				<xr:ValueId>3a0a2b31-9787-4b27-b2df-66f7ce41727c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_СледующиеСтраховщикиПоДоговорамОПС" category="Selection">
+				<xr:TypeId>7b609fe5-85be-4674-ab0f-24daceab0a0e</xr:TypeId>
+				<xr:ValueId>4bb50841-86de-4ef6-aeee-5713dc6d1a7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_СледующиеСтраховщикиПоДоговорамОПС" category="List">
+				<xr:TypeId>36b69b78-b3de-463a-81ec-3cef509717a7</xr:TypeId>
+				<xr:ValueId>520819ec-3458-4a4a-aefd-fff28a322cd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_СледующиеСтраховщикиПоДоговорамОПС" category="RecordSet">
+				<xr:TypeId>01025b06-f503-47c0-9e1b-366bf53a9726</xr:TypeId>
+				<xr:ValueId>65856e6d-39e2-40a7-b752-fa234897145f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_СледующиеСтраховщикиПоДоговорамОПС" category="RecordKey">
+				<xr:TypeId>b7eb1223-d680-494f-8166-a66c5d068de4</xr:TypeId>
+				<xr:ValueId>675c344e-ceb0-4ebe-bcd6-621ade25daa5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_СледующиеСтраховщикиПоДоговорамОПС" category="RecordManager">
+				<xr:TypeId>4fcad9c2-101b-45f2-9671-c0bf3eae5526</xr:TypeId>
+				<xr:ValueId>45c782cc-b33f-4b30-b25a-6f70f9bacf5b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СледующиеСтраховщикиПоДоговорамОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a30e9839-bc1d-4976-8624-b2d2925b705f</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="c61f078d-1a2e-41e9-9067-254345e718cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СледующийСтраховщик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3860b31a-7ade-4626-bdb2-a3d6d732dc04</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a04a7fab-ed6c-4b54-8a02-eef408ac052f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2ac53f3a-61b8-4237-9a66-609c0da2c977</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="61cf98f6-0750-49db-8d23-d439d5d1fd54">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ДополнительныеСведенияОВзносах" category="Object">
+				<xr:TypeId>1e688fc2-b838-4f3d-a406-23c3ee2d2bf5</xr:TypeId>
+				<xr:ValueId>eda629be-9286-42ac-9a7e-d6d1790453f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ДополнительныеСведенияОВзносах" category="Ref">
+				<xr:TypeId>994f9185-206e-4d60-94a3-63246a33aaa5</xr:TypeId>
+				<xr:ValueId>0db1bbd7-8181-40b1-b3be-7fea37ffa443</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ДополнительныеСведенияОВзносах" category="Selection">
+				<xr:TypeId>27f11a06-975f-4fd8-9874-ed4a7a787de6</xr:TypeId>
+				<xr:ValueId>cab12b9d-dc66-405d-8cc4-87e02837c020</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ДополнительныеСведенияОВзносах" category="List">
+				<xr:TypeId>b097c7cd-2b13-47a4-85f9-4b2bd9188177</xr:TypeId>
+				<xr:ValueId>3a3877c0-bd53-441b-93df-47524ea6734a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ДополнительныеСведенияОВзносах" category="Manager">
+				<xr:TypeId>fee25871-dacf-48be-bcc3-bb5f9d3d82c0</xr:TypeId>
+				<xr:ValueId>2fafaec7-2c46-4994-9466-4396189bd67c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДополнительныеСведенияОВзносах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>69363e0a-ae36-459d-a5b8-e6217b75f41a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

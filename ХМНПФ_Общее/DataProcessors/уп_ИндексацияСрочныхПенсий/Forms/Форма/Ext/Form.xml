@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСформировать" id="29">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаСформироватьРасширеннаяПодсказка" id="30"/>
+			</Button>
+			<Button name="ФормаПровести" id="31">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="32"/>
+			</Button>
+			<Button name="ФормаПрименить" id="33">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаПрименитьРасширеннаяПодсказка" id="34"/>
+			</Button>
+			<Button name="ФормаОтменить" id="35">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаОтменитьРасширеннаяПодсказка" id="36"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="38"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Организация" id="1">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ДатаФормированияДокументов" id="4">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаФормированияДокументовКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаФормированияДокументовРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<CheckBoxField name="ВключатьвРасчетПриостановленныеПС" id="39">
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВключатьвРасчетПриостановленныеПСКонтекстноеМеню" id="40"/>
+			<ExtendedTooltip name="ВключатьвРасчетПриостановленныеПСРасширеннаяПодсказка" id="41"/>
+		</CheckBoxField>
+		<Table name="НовыеДокументы" id="10">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НовыеДокументыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="НовыеДокументыКоманднаяПанель" id="12">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НовыеДокументыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="НовыеДокументыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>НовыеДокументы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НовыеДокументыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="НовыеДокументыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НовыеДокументыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>НовыеДокументы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НовыеДокументыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="НовыеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НовыеДокументыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>НовыеДокументы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НовыеДокументыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="НовыеДокументыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НовыеДокументыНомерСтроки" id="23">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НовыеДокументыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="НовыеДокументыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="НовыеДокументыДокумент" id="26">
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение размеров пенсионных выплат</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НовыеДокументыДокументКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="НовыеДокументыДокументРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Ответственный" id="7">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="9"/>
+		</InputField>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаСформировать" id="29">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаСформироватьРасширеннаяПодсказка" id="30"/>
+				</Button>
+				<Button name="ФормаПровести" id="31">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="32"/>
+				</Button>
+				<Button name="ФормаПрименить" id="33">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаПрименитьРасширеннаяПодсказка" id="34"/>
+				</Button>
+				<Button name="ФормаОтменить" id="35">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаОтменитьРасширеннаяПодсказка" id="36"/>
+				</Button>
+				<Button name="ФормаЗакрыть" id="37">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="38"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="Организация" id="1">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="ДатаФормированияДокументов" id="4">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ДатаФормированияДокументовКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="ДатаФормированияДокументовРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<CheckBoxField name="ВключатьвРасчетПриостановленныеПС" id="39">
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ВключатьвРасчетПриостановленныеПСКонтекстноеМеню" id="40"/>
+				<ExtendedTooltip name="ВключатьвРасчетПриостановленныеПСРасширеннаяПодсказка" id="41"/>
+			</CheckBoxField>
+			<Table name="НовыеДокументы" id="10">
+				<Representation>List</Representation>
+				<ReadOnly>true</ReadOnly>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="НовыеДокументыКонтекстноеМеню" id="11"/>
+				<AutoCommandBar name="НовыеДокументыКоманднаяПанель" id="12">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="НовыеДокументыРасширеннаяПодсказка" id="13"/>
+				<SearchStringAddition name="НовыеДокументыСтрокаПоиска" id="14">
+					<AdditionSource>
+						<Item>НовыеДокументы</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="НовыеДокументыСтрокаПоискаКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="НовыеДокументыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="НовыеДокументыСостояниеПросмотра" id="17">
+					<AdditionSource>
+						<Item>НовыеДокументы</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="НовыеДокументыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="НовыеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="НовыеДокументыУправлениеПоиском" id="20">
+					<AdditionSource>
+						<Item>НовыеДокументы</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="НовыеДокументыУправлениеПоискомКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="НовыеДокументыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="НовыеДокументыНомерСтроки" id="23">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НовыеДокументыНомерСтрокиКонтекстноеМеню" id="24"/>
+						<ExtendedTooltip name="НовыеДокументыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+					</LabelField>
+					<InputField name="НовыеДокументыДокумент" id="26">
+						<ReadOnly>true</ReadOnly>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Изменение размеров пенсионных выплат</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НовыеДокументыДокументКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="НовыеДокументыДокументРасширеннаяПодсказка" id="28"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<InputField name="Ответственный" id="7">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ОтветственныйКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="9"/>
+			</InputField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

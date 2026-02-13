@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="48c37eb3-02f8-40f3-8e74-700f903951d7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЛентыНовостей" category="Object">
+				<xr:TypeId>80dd37ae-bb59-4718-ab84-2e70dec07185</xr:TypeId>
+				<xr:ValueId>de850d03-68f8-411a-a90c-aeb20fceb954</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЛентыНовостей" category="Ref">
+				<xr:TypeId>0b0a06c3-e058-4f86-924c-b2b181aa9046</xr:TypeId>
+				<xr:ValueId>819bda1b-5031-4689-b738-56c648c6da43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЛентыНовостей" category="Selection">
+				<xr:TypeId>1279a7f7-4b7c-418a-8acf-3d4d2792057c</xr:TypeId>
+				<xr:ValueId>19928a18-e115-429a-9f3c-97fbeca02df6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЛентыНовостей" category="List">
+				<xr:TypeId>2e865645-8aa9-48c4-8aeb-bd92c2c2d292</xr:TypeId>
+				<xr:ValueId>9f79d3ac-f65c-4fff-b186-fdf0b3cb960b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЛентыНовостей" category="Manager">
+				<xr:TypeId>8b612345-3a84-4c9f-9407-54ac2671c3e5</xr:TypeId>
+				<xr:ValueId>6160491e-0672-40c2-a0d0-53e8d0c6c323</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЛентыНовостей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>28eef48b-ac29-4e18-a658-49354524d41e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

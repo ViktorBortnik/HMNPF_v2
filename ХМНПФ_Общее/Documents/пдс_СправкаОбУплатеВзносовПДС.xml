@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="754cd10b-5e93-4b14-a355-a343e03d20da">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.пдс_СправкаОбУплатеВзносовПДС" category="Object">
+				<xr:TypeId>02db7006-d9b8-4dce-b78a-99e37f8cb834</xr:TypeId>
+				<xr:ValueId>e2158706-2127-47e6-8aca-ea6d884acc6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.пдс_СправкаОбУплатеВзносовПДС" category="Ref">
+				<xr:TypeId>bfcc9438-48a2-44c4-b25e-727a89cbfda1</xr:TypeId>
+				<xr:ValueId>831824a9-0b50-43c7-a5b5-e68c15d27dcc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.пдс_СправкаОбУплатеВзносовПДС" category="Selection">
+				<xr:TypeId>8af09630-f218-4e22-ad3b-31acc3c7dbf4</xr:TypeId>
+				<xr:ValueId>2d7ced72-9217-44ff-8868-83db528764f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.пдс_СправкаОбУплатеВзносовПДС" category="List">
+				<xr:TypeId>d823dfb1-162b-467c-a8c1-8be39b9d06d0</xr:TypeId>
+				<xr:ValueId>a8faef66-daa0-4117-9492-ecb8e3d4cef9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.пдс_СправкаОбУплатеВзносовПДС" category="Manager">
+				<xr:TypeId>08dbd2c7-7f74-4bd5-bdcb-28f51872ce53</xr:TypeId>
+				<xr:ValueId>c7dc410f-21bf-4f25-bd24-377d9d0149b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_СправкаОбУплатеВзносовПДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bb5b8779-36b6-410c-aa23-11d1d84c9e90</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

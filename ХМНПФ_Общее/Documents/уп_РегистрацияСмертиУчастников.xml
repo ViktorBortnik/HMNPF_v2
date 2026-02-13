@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="31ec5d8c-8f29-41b7-99df-815593afd86e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РегистрацияСмертиУчастников" category="Object">
+				<xr:TypeId>dc110ce1-84b5-47ab-8344-b179fe3ba0aa</xr:TypeId>
+				<xr:ValueId>16c35e22-84cc-4c41-8d4a-e161855cdcf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РегистрацияСмертиУчастников" category="Ref">
+				<xr:TypeId>cc2ced5d-cb8c-4bb8-a285-ab2a1b11b61e</xr:TypeId>
+				<xr:ValueId>b1a1b018-075a-4fac-b652-bb439142dec4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РегистрацияСмертиУчастников" category="Selection">
+				<xr:TypeId>6532b1e5-3671-4ee3-b703-e6a282b967b2</xr:TypeId>
+				<xr:ValueId>ad678a6d-ae2c-4bd6-a09b-61ad0f4cb557</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РегистрацияСмертиУчастников" category="List">
+				<xr:TypeId>e84b5ac0-f4e4-4c63-abac-994ae55dc5cc</xr:TypeId>
+				<xr:ValueId>379ee15e-b950-4c76-a789-d3d199695018</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РегистрацияСмертиУчастников" category="Manager">
+				<xr:TypeId>a4116106-6b94-4a5a-888e-f24bb2538ab3</xr:TypeId>
+				<xr:ValueId>65bacc1d-24b0-4d48-b580-029204fc98ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РегистрацияСмертиУчастников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>46f4e856-9bf8-49c8-9dd2-cddba10e83d8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="2b22bd73-47fc-494d-a622-b6c07f34dd06">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.хм_ДоставочныеУчастки" category="Object">
+				<xr:TypeId>433a291c-c29d-43f4-947f-d7ded4b1f41e</xr:TypeId>
+				<xr:ValueId>e0493cc6-7954-4674-ad9d-a43ee47fbdbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.хм_ДоставочныеУчастки" category="Ref">
+				<xr:TypeId>9670bd4b-a2d0-4323-a817-e8712166b766</xr:TypeId>
+				<xr:ValueId>6e72f289-6107-4de5-96f7-bd8494a2a90d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.хм_ДоставочныеУчастки" category="Selection">
+				<xr:TypeId>c4632883-37df-44e6-a2b0-525199194c29</xr:TypeId>
+				<xr:ValueId>63517897-483e-42e9-a394-6f43de75b779</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.хм_ДоставочныеУчастки" category="List">
+				<xr:TypeId>987b453f-01ea-49bd-9597-ebc7a8cb4426</xr:TypeId>
+				<xr:ValueId>6ec00b45-ffbe-463c-8538-a74a05666a6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.хм_ДоставочныеУчастки" category="Manager">
+				<xr:TypeId>8ca57470-4e9c-42bd-947d-df5dc6a848ab</xr:TypeId>
+				<xr:ValueId>277a978e-e006-4edf-b892-a7b4b7aa774a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_ДоставочныеУчастки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0f8adf5e-d20a-4f52-8b07-2cd1f62aad60</ExtendedConfigurationObject>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+			</Owners>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="393568a0-31f0-4fde-9596-7f86f695f2d9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоставочныйДень</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0cfd70ae-c6c7-43a6-91d5-094d5c9d81bd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f3d5cbb6-6614-4be8-b03b-0ce4f4a4ef27">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГУИД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1c7afc03-bbab-4bdb-bdf0-fdcf9386a654</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="21946788-3d79-4310-8f03-0fac5e9f5b3a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Город</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9619861c-e3e4-4561-aab5-85c478582e4b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3930aafa-9e6f-4ae3-8e7b-cd054cded15c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Улица</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b7d63892-6035-4ed5-a27f-cdee9626bef2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d82da8d3-e406-4e5c-bb4b-87aff5a22192">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cdb18804-abfd-4c2d-931a-02265b2d7362</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="670e0983-a7ef-429b-a3ac-7162577c67a7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Территория</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b538df39-6f26-4bc2-a052-d452e0faa0c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

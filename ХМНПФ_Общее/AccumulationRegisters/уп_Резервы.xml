@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="9b66ad4b-00a8-4975-be68-1733fccff5b9">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_Резервы" category="Record">
+				<xr:TypeId>5e311d2c-56ae-4c4a-8571-d47ee3258751</xr:TypeId>
+				<xr:ValueId>fcfb9b91-12e2-4bde-b208-d6613e004334</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_Резервы" category="Manager">
+				<xr:TypeId>9ef69d65-4a04-49c7-aa89-3a66fb432948</xr:TypeId>
+				<xr:ValueId>b2da4af6-e0cf-4c1d-852d-418b65a22573</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_Резервы" category="Selection">
+				<xr:TypeId>7a4a640f-52e8-4b6c-9b2d-863d3e1c0d49</xr:TypeId>
+				<xr:ValueId>4964b407-3ca9-4411-98e8-42b398241eb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_Резервы" category="List">
+				<xr:TypeId>294fa3e3-616b-4618-a54e-641325092a13</xr:TypeId>
+				<xr:ValueId>47497e4f-f02d-406b-803d-5df57b03fc1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_Резервы" category="RecordSet">
+				<xr:TypeId>e626b038-9efe-45ca-b22b-8db9cdadc9a3</xr:TypeId>
+				<xr:ValueId>e678e7d3-535d-42b4-82f3-c78c95e77619</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_Резервы" category="RecordKey">
+				<xr:TypeId>622a8f05-4ac3-41c7-a268-e1572a8d8701</xr:TypeId>
+				<xr:ValueId>abff52cb-4c58-441b-94bf-99b5ae6fe31c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_Резервы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ef4bf269-5210-498e-bc98-f2e33a084ecc</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСпискаУпр</Form>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

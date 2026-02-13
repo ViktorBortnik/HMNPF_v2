@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ReportResult>Результат</ReportResult>
+	<DetailsData>ДанныеРасшифровки</DetailsData>
+	<ReportFormType>Main</ReportFormType>
+	<AutoShowState>Auto</AutoShowState>
+	<CustomSettingsFolder>КомпоновщикНастроекПользовательскиеНастройки</CustomSettingsFolder>
+	<ReportResultViewMode>Auto</ReportResultViewMode>
+	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ОбработкаЗапроса" id="50">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обработка запроса</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обработка запроса</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ОбработкаЗапросаРасширеннаяПодсказка" id="51"/>
+				<ChildItems>
+					<Button name="ФормаСформироватьДерево" id="46">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СформироватьДерево</CommandName>
+						<ExtendedTooltip name="ФормаСформироватьДеревоРасширеннаяПодсказка" id="47"/>
+					</Button>
+					<Button name="ФормаСформироватьПоВремени" id="42">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СформироватьПоВремени</CommandName>
+						<ExtendedTooltip name="ФормаСформироватьПоВремениРасширеннаяПодсказка" id="43"/>
+					</Button>
+					<Button name="ФормаПровестиРегистратор" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПровестиРегистратор</CommandName>
+						<ExtendedTooltip name="ФормаПровестиРегистраторРасширеннаяПодсказка" id="55"/>
+					</Button>
+					<Button name="ФормаЗаполнитьРезервПоНачислению" id="58">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьРезервПоНачислению</CommandName>
+						<ExtendedTooltip name="ФормаЗаполнитьРезервПоНачислениюРасширеннаяПодсказка" id="59"/>
+					</Button>
+					<Button name="ФормаПровестиПоЗадолженностиВНачислении" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПровестиПоЗадолженностиВНачислении</CommandName>
+						<ExtendedTooltip name="ФормаПровестиПоЗадолженностиВНачисленииРасширеннаяПодсказка" id="61"/>
+					</Button>
+					<Button name="ФормаОчиститьЗадолженность" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п223ОчиститьЗадолженность</CommandName>
+						<ExtendedTooltip name="ФормаОчиститьЗадолженностьРасширеннаяПодсказка" id="66"/>
+					</Button>
+					<Button name="Формапп11СкорректироватьРезерв" id="84">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п11СкорректироватьРезерв</CommandName>
+						<ExtendedTooltip name="Формапп11СкорректироватьРезервРасширеннаяПодсказка" id="85"/>
+					</Button>
+					<Button name="Формап224ОчиститьНачисление" id="75">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п224ОчиститьНачисление</CommandName>
+						<ExtendedTooltip name="Формап224ОчиститьНачислениеРасширеннаяПодсказка" id="76"/>
+					</Button>
+					<Button name="Формап225ОчиститьРезервыНачислений" id="80">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п225ОчиститьРезервыНачислений</CommandName>
+						<ExtendedTooltip name="Формап225ОчиститьРезервыНачисленийРасширеннаяПодсказка" id="81"/>
+					</Button>
+					<Button name="Формап226ОстаткиУдержанийВФонд" id="82">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п226ОстаткиУдержанийВФонд</CommandName>
+						<ExtendedTooltip name="Формап226ОстаткиУдержанийВФондРасширеннаяПодсказка" id="83"/>
+					</Button>
+					<Button name="Формап227ОчиститьУдержания3лиц" id="86">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п227СкорректироватьУдержания3лиц</CommandName>
+						<ExtendedTooltip name="Формап227ОчиститьУдержания3лицРасширеннаяПодсказка" id="87"/>
+					</Button>
+					<Button name="Формап301ОчиститьНДФЛпоРегистратору" id="88">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.п301ОчиститьНДФЛпоРегистратору</CommandName>
+						<ExtendedTooltip name="Формап301ОчиститьНДФЛпоРегистраторуРасширеннаяПодсказка" id="89"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Popup name="ДругиеФормы" id="52">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Другие формы</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Другие формы</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ДругиеФормыРасширеннаяПодсказка" id="53"/>
+				<ChildItems>
+					<Button name="ФормаОбменСКасперНаПрямую" id="44">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбменСКасперНаПрямую</CommandName>
+						<ExtendedTooltip name="ФормаОбменСКасперНаПрямуюРасширеннаяПодсказка" id="45"/>
+					</Button>
+					<Button name="ФормаФормаПриведенияДанных" id="40">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ФормаПриведенияДанных</CommandName>
+						<ExtendedTooltip name="ФормаФормаПриведенияДанныхРасширеннаяПодсказка" id="41"/>
+					</Button>
+					<Button name="ФормаФормаСторноНДФЛ" id="56">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ФормаСторноНДФЛ</CommandName>
+						<ExtendedTooltip name="ФормаФормаСторноНДФЛРасширеннаяПодсказка" id="57"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="КомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<SpreadSheetDocumentField name="Результат" id="3">
+			<DataPath>Результат</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<TitleLocation>None</TitleLocation>
+			<Width>100</Width>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="4">
+				<ChildItems>
+					<Button name="РезультатКонтекстноеМенюПередатьСчетаНаСверку" id="93">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПередатьСчетаНаСверку</CommandName>
+						<ExtendedTooltip name="РезультатКонтекстноеМенюПередатьСчетаНаСверкуРасширеннаяПодсказка" id="94"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="5"/>
+			<Events>
+				<Event name="OnActivate">РезультатПриАктивизации</Event>
+			</Events>
+		</SpreadSheetDocumentField>
+		<UsualGroup name="Группа1" id="27">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<InputField name="Сумма" id="29">
+					<DataPath>Сумма</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СуммаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="Среднее" id="32">
+					<DataPath>Среднее</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СреднееКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СреднееРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="Количество" id="35">
+					<DataPath>Количество</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоличествоКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<CheckBoxField name="ГлавнаяФорма" id="90">
+					<DataPath>ГлавнаяФорма</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ГлавнаяФормаКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="ГлавнаяФормаРасширеннаяПодсказка" id="92"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="67">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="68"/>
+			<ChildItems>
+				<CheckBoxField name="ДополнитьДвижения" id="72">
+					<DataPath>ДополнитьДвижения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДополнитьДвиженияКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="ДополнитьДвиженияРасширеннаяПодсказка" id="74"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОчиститьРегистр" id="69">
+					<DataPath>ОчиститьДвижения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОчиститьРегистрКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ОчиститьРегистрРасширеннаяПодсказка" id="71"/>
+				</CheckBoxField>
+				<InputField name="выбОперацияНПО" id="62">
+					<DataPath>Отчет.выбОперацияНПО</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="выбОперацияНПОКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="выбОперацияНПОРасширеннаяПодсказка" id="64"/>
+				</InputField>
+				<InputField name="выбОперацияНПОСодержание" id="77">
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="выбОперацияНПОСодержаниеКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="выбОперацияНПОСодержаниеРасширеннаяПодсказка" id="79"/>
+				</InputField>
+				<CheckBoxField name="ДобавитьВЕЖ" id="95">
+					<DataPath>ДобавитьВЕЖ</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДобавитьВЕЖКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ДобавитьВЕЖРасширеннаяПодсказка" id="97"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОбновитьВЕЖ" id="101">
+					<DataPath>ОбновитьВЕЖ</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОбновитьВЕЖКонтекстноеМеню" id="102"/>
+					<ExtendedTooltip name="ОбновитьВЕЖРасширеннаяПодсказка" id="103"/>
+				</CheckBoxField>
+				<CheckBoxField name="СоздатьМЗ" id="104">
+					<DataPath>СоздатьМЗ</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СоздатьМЗКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="СоздатьМЗРасширеннаяПодсказка" id="106"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьСКД" id="107">
+					<DataPath>ЗаполнятьСКД</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗаполнятьСКДКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="ЗаполнятьСКДРасширеннаяПодсказка" id="109"/>
+				</CheckBoxField>
+				<InputField name="ТипЗагрузки" id="98">
+					<DataPath>ТипЗагрузки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТипЗагрузкиКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ТипЗагрузкиРасширеннаяПодсказка" id="100"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Отчет" id="1">
+			<Type>
+				<v8:Type>cfg:ReportObject.ХМ_СверкаФинансовыхПоказателей</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Результат" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеРасшифровки" id="3">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сумма" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Среднее" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Количество" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОчиститьДвижения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить движения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДополнитьДвижения" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнить движения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ГлавнаяФорма" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Главная форма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДобавитьВЕЖ" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в ЕЖ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипЗагрузки" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип загрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбновитьВЕЖ" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить ВЕЖ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СоздатьМЗ" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать МЗ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьСКД" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять СКД</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбменСКаспер" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен с каспер (АРХИВ)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен с каспер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбменСКаспер</Action>
+		</Command>
+		<Command name="ФормаПриведенияДанных" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма приведения данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма приведения данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ФормаПриведенияДанных</Action>
+		</Command>
+		<Command name="СформироватьПоВремени" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать по времени</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать по времени</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьПоВремени</Action>
+		</Command>
+		<Command name="ОбменСКасперНаПрямую" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен с каспер на прямую</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен с каспер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбменСКасперНаПрямую</Action>
+		</Command>
+		<Command name="СформироватьДерево" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать дерево</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать дерево</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьДерево</Action>
+		</Command>
+		<Command name="ПровестиРегистратор" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести регистратор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести регистратор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПровестиРегистратор</Action>
+		</Command>
+		<Command name="ФормаСторноНДФЛ" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма сторно НДФЛ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма сторно НДФЛ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ФормаСторноНДФЛ</Action>
+		</Command>
+		<Command name="ЗаполнитьРезервПоНачислению" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить резерв по начислению</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить резерв по начислению</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьРезервПоНачислению</Action>
+		</Command>
+		<Command name="ПровестиПоЗадолженностиВНачислении" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести по задолженности в начислении</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести по задолженности в начислении</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПровестиПоЗадолженностиВНачислении</Action>
+		</Command>
+		<Command name="п223ОчиститьЗадолженность" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.23 очистить задолженность</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П223 очистить задолженность</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п223ОчиститьЗадолженность</Action>
+		</Command>
+		<Command name="п224ОчиститьНачисление" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.24 Очистить начисление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П224 очистить начисление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п224ОчиститьНачисление</Action>
+		</Command>
+		<Command name="п225ОчиститьРезервыНачислений" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.25 очистить резервы начислений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П225 очистить резервы начислений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п225ОчиститьРезервыНачислений</Action>
+		</Command>
+		<Command name="п226ОстаткиУдержанийВФонд" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П226 остатки удержаний в фонд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П226 остатки удержаний в фонд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п226ОстаткиУдержанийВФонд</Action>
+		</Command>
+		<Command name="п11СкорректироватьРезерв" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.01 скорректировать резерв</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П11 скорректировать резерв</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п11СкорректироватьРезерв</Action>
+		</Command>
+		<Command name="п227СкорректироватьУдержания3лиц" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.27 Скорректировать удержания3лиц</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П227 скорректировать удержания3лиц</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п227СкорректироватьУдержания3лиц</Action>
+		</Command>
+		<Command name="п301ОчиститьНДФЛпоРегистратору" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>3.01 очистить НДФЛпо регистратору</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>П301 очистить НДФЛпо регистратору</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>п301ОчиститьНДФЛпоРегистратору</Action>
+		</Command>
+		<Command name="ПередатьСчетаНаСверку" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передать счета на сверку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передать счета на сверку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПередатьСчетаНаСверку</Action>
+		</Command>
+	</Commands>
+</Form>

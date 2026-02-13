@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="98bae23d-0ba0-4fc8-81b1-8e21216149bd">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПоступлениеДенежныхСредств" category="Ref">
+				<xr:TypeId>e2319224-bb02-414a-995f-5eb11b7c9917</xr:TypeId>
+				<xr:ValueId>3284284a-e4e3-491c-a8f4-4f4f78d29dd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПоступлениеДенежныхСредств" category="Manager">
+				<xr:TypeId>494bf241-7b96-4eb6-8cb1-f3a496e10bf9</xr:TypeId>
+				<xr:ValueId>6fbd8a33-98f5-4051-9115-dd9e2ea981c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПоступлениеДенежныхСредств" category="List">
+				<xr:TypeId>73042024-26b3-4af0-9bd2-0f39271252b2</xr:TypeId>
+				<xr:ValueId>bcea3aaf-7029-4a64-bd90-ee28cfc4e64d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийПоступлениеДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6777c8a2-a5d8-4894-bf4d-8ebb48b8c41d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="be485e97-0a50-4f73-9c87-40c312ce4d11">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>уп_ВозвратВзносовНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>80303e20-42c0-42f1-bcb5-2904171c9c8d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

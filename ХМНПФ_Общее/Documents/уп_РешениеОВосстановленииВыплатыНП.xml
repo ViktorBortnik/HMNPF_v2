@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="362a5d49-cdb5-4c58-9f75-689d7fbc7f14">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РешениеОВосстановленииВыплатыНП" category="Object">
+				<xr:TypeId>1797dc51-8788-4523-8c6f-1f00d5531c52</xr:TypeId>
+				<xr:ValueId>da48215c-3355-48cd-989f-c38ddd11ff16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РешениеОВосстановленииВыплатыНП" category="Ref">
+				<xr:TypeId>2a1bdc60-6e9b-436e-b763-0f2a56365596</xr:TypeId>
+				<xr:ValueId>2d30ec97-bb75-4e54-9ca1-381a0a1a8f0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РешениеОВосстановленииВыплатыНП" category="Selection">
+				<xr:TypeId>82ebf592-c3ee-473f-8896-1a8abcabb045</xr:TypeId>
+				<xr:ValueId>1b173af5-5231-46f9-a6ff-38fda2530e78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РешениеОВосстановленииВыплатыНП" category="List">
+				<xr:TypeId>7325e5a0-a743-4834-ad52-a182ea0aa97d</xr:TypeId>
+				<xr:ValueId>44d52534-15cf-4a2a-883e-278915565754</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РешениеОВосстановленииВыплатыНП" category="Manager">
+				<xr:TypeId>8a22ed91-3e9f-4fa0-9872-38fd81340396</xr:TypeId>
+				<xr:ValueId>c453d8f6-ba47-46d7-a245-a6e0285ed838</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РешениеОВосстановленииВыплатыНП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6564097b-2e0e-488c-8400-c859ece16ec2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

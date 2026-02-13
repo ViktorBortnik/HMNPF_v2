@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<VerticalSpacing>OneAndHalf</VerticalSpacing>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыгрузить" id="110">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаВыгрузитьРасширеннаяПодсказка" id="111"/>
+			</Button>
+			<Button name="ФормаПрерватьВыгрузку" id="137">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаПрерватьВыгрузкуРасширеннаяПодсказка" id="138"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="226">
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="227"/>
+					<ChildItems>
+						<RadioButtonField name="ВидВыгрузки" id="134">
+							<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<EqualColumnsWidth>true</EqualColumnsWidth>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>XML</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">1</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Excel</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">2</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ВидВыгрузкиКонтекстноеМеню" id="135"/>
+							<ExtendedTooltip name="ВидВыгрузкиРасширеннаяПодсказка" id="136"/>
+						</RadioButtonField>
+						<InputField name="ПутьКАрхиватору" id="228">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ChoiceButton>true</ChoiceButton>
+							<ClearButton>true</ClearButton>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ПутьКАрхиваторуКонтекстноеМеню" id="229"/>
+							<ExtendedTooltip name="ПутьКАрхиваторуРасширеннаяПодсказка" id="230"/>
+						</InputField>
+						<CheckBoxField name="ВыгружатьЗаново" id="219">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выгрузить каждый пакет</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Tumbler</CheckBoxType>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>БЛ='Только невыгруженные пачки'; БИ=Полностью</v8:content>
+								</v8:item>
+							</EditFormat>
+							<EqualItemsWidth>false</EqualItemsWidth>
+							<ContextMenu name="ВыгружатьЗановоКонтекстноеМеню" id="220"/>
+							<ExtendedTooltip name="ВыгружатьЗановоРасширеннаяПодсказка" id="221"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа5" id="231">
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="232"/>
+					<ChildItems>
+						<UsualGroup name="Группа2" id="222">
+							<Group>AlwaysHorizontal</Group>
+							<HorizontalSpacing>None</HorizontalSpacing>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="223"/>
+							<ChildItems>
+								<RadioButtonField name="ОбщаяПапка" id="233">
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Tumbler</RadioButtonType>
+									<EqualColumnsWidth>true</EqualColumnsWidth>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Каталог по строкам</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Общий каталог</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ОбщаяПапкаКонтекстноеМеню" id="234"/>
+									<ExtendedTooltip name="ОбщаяПапкаРасширеннаяПодсказка" id="235"/>
+								</RadioButtonField>
+								<CheckBoxField name="ОбщаяПапка_" id="56">
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Общая папка</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОбщаяПапка_КонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="ОбщаяПапка_РасширеннаяПодсказка" id="58"/>
+								</CheckBoxField>
+								<InputField name="ПутьОбщейПапки" id="53">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Путь к общей папке</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ChoiceButton>true</ChoiceButton>
+									<ClearButton>true</ClearButton>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="ПутьОбщейПапкиКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ПутьОбщейПапкиРасширеннаяПодсказка" id="55"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="142">
+			<Group>Vertical</Group>
+			<VerticalSpacing>None</VerticalSpacing>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="143"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаТело" id="144">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тело</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тело</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТелоРасширеннаяПодсказка" id="145"/>
+					<ChildItems>
+						<Table name="СписокПакетов" id="146">
+							<Representation>List</Representation>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.СостоянияРасширенийКонфигурации</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</RowsPicture>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокПакетовКонтекстноеМеню" id="147"/>
+							<AutoCommandBar name="СписокПакетовКоманднаяПанель" id="148">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Popup name="СписокПакетовГруппа5" id="174">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Подбор</v8:content>
+											</v8:item>
+										</Title>
+										<BackColor>web:Yellow</BackColor>
+										<ExtendedTooltip name="СписокПакетовГруппа5РасширеннаяПодсказка" id="175"/>
+										<ChildItems>
+											<ButtonGroup name="СписокПакетовГруппа6" id="224">
+												<ExtendedTooltip name="СписокПакетовГруппа6РасширеннаяПодсказка" id="225"/>
+												<ChildItems>
+													<Button name="Подбор" id="176">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<BackColor>web:Yellow</BackColor>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Выбрать пакеты</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="ПодборРасширеннаяПодсказка" id="177"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<Button name="СписокПакетовНеОтправленные" id="178">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Все неотправленные пакеты</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="СписокПакетовНеОтправленныеРасширеннаяПодсказка" id="179"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+									<Button name="СписокПакетовОчиститьСписокПакетов" id="180">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="СписокПакетовОчиститьСписокПакетовРасширеннаяПодсказка" id="181"/>
+									</Button>
+									<ButtonGroup name="СписокПакетовГруппа2" id="182">
+										<Representation>Compact</Representation>
+										<ExtendedTooltip name="СписокПакетовГруппа2РасширеннаяПодсказка" id="183"/>
+										<ChildItems>
+											<Button name="СписокПакетовДобавить" id="184">
+												<Type>CommandBarButton</Type>
+												<Representation>Picture</Representation>
+												<CommandName>0</CommandName>
+												<Picture>
+													<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="СписокПакетовДобавитьРасширеннаяПодсказка" id="185"/>
+											</Button>
+											<Button name="СписокПакетовУдалитьСтроку" id="186">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовУдалитьСтрокуРасширеннаяПодсказка" id="187"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="СписокПакетовГруппа1" id="188">
+										<Representation>Compact</Representation>
+										<ExtendedTooltip name="СписокПакетовГруппа1РасширеннаяПодсказка" id="189"/>
+										<ChildItems>
+											<Button name="СписокПакетовВыбратьВсе" id="190">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовВыбратьВсеРасширеннаяПодсказка" id="191"/>
+											</Button>
+											<Button name="СписокПакетовСнятьВсе" id="192">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовСнятьВсеРасширеннаяПодсказка" id="193"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="СписокПакетовГруппа3" id="194">
+										<Representation>Compact</Representation>
+										<ExtendedTooltip name="СписокПакетовГруппа3РасширеннаяПодсказка" id="195"/>
+										<ChildItems>
+											<Button name="СписокПакетовПереместитьВверх" id="196">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовПереместитьВверхРасширеннаяПодсказка" id="197"/>
+											</Button>
+											<Button name="СписокПакетовПереместитьВниз" id="198">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовПереместитьВнизРасширеннаяПодсказка" id="199"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="СписокПакетовГруппа4" id="200">
+										<Representation>Compact</Representation>
+										<ExtendedTooltip name="СписокПакетовГруппа4РасширеннаяПодсказка" id="201"/>
+										<ChildItems>
+											<Button name="СписокПакетовСортироватьВозр" id="202">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовСортироватьВозрРасширеннаяПодсказка" id="203"/>
+											</Button>
+											<Button name="СписокПакетовСортироватьУбыв" id="204">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СписокПакетовСортироватьУбывРасширеннаяПодсказка" id="205"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокПакетовРасширеннаяПодсказка" id="149"/>
+							<SearchStringAddition name="СписокПакетовСтрокаПоиска" id="150">
+								<AdditionSource>
+									<Item>СписокПакетов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПакетовСтрокаПоискаКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="СписокПакетовСтрокаПоискаРасширеннаяПодсказка" id="152"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокПакетовСостояниеПросмотра" id="153">
+								<AdditionSource>
+									<Item>СписокПакетов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПакетовСостояниеПросмотраКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="СписокПакетовСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокПакетовУправлениеПоиском" id="156">
+								<AdditionSource>
+									<Item>СписокПакетов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокПакетовУправлениеПоискомКонтекстноеМеню" id="157"/>
+								<ExtendedTooltip name="СписокПакетовУправлениеПоискомРасширеннаяПодсказка" id="158"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокПакетовВыгружен" id="159">
+									<Visible>false</Visible>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокПакетовВыгруженКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="СписокПакетовВыгруженРасширеннаяПодсказка" id="161"/>
+								</LabelField>
+								<CheckBoxField name="СписокПакетовВыгрузить" id="162">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вкл</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<FixingInTable>Left</FixingInTable>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СписокПакетовВыгрузитьКонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="СписокПакетовВыгрузитьРасширеннаяПодсказка" id="164"/>
+								</CheckBoxField>
+								<InputField name="СписокПакетовПакетЭД" id="165">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокПакетовПакетЭДКонтекстноеМеню" id="166"/>
+									<ExtendedTooltip name="СписокПакетовПакетЭДРасширеннаяПодсказка" id="167"/>
+								</InputField>
+								<InputField name="СписокПакетовВидЭД" id="168">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокПакетовВидЭДКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="СписокПакетовВидЭДРасширеннаяПодсказка" id="170"/>
+								</InputField>
+								<InputField name="СписокПакетовПутьВыгрузки" id="171">
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceButton>true</ChoiceButton>
+									<ClearButton>true</ClearButton>
+									<OpenButton>true</OpenButton>
+									<ContextMenu name="СписокПакетовПутьВыгрузкиКонтекстноеМеню" id="172"/>
+									<ExtendedTooltip name="СписокПакетовПутьВыгрузкиРасширеннаяПодсказка" id="173"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаВыгрузка" id="206">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выгрузка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выгрузка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<VerticalSpacing>None</VerticalSpacing>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаВыгрузкаРасширеннаяПодсказка" id="207"/>
+					<ChildItems>
+						<UsualGroup name="Группа4" id="208">
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="209"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация1" id="210">
+									<TextColor>style:ГиперссылкаЦвет</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выполняется выгрузка</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="211"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="212"/>
+								</LabelDecoration>
+								<PictureDecoration name="Декорация2" id="213">
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="Декорация2КонтекстноеМеню" id="214"/>
+									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="215"/>
+								</PictureDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<ProgressBarField name="ИндикаторВыгрузки" id="216">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выгружено</v8:content>
+								</v8:item>
+							</Title>
+							<TitleTextColor>style:ГиперссылкаЦвет</TitleTextColor>
+							<TitleLocation>None</TitleLocation>
+							<ShowPercent>true</ShowPercent>
+							<ContextMenu name="ИндикаторВыгрузкиКонтекстноеМеню" id="217"/>
+							<ExtendedTooltip name="ИндикаторВыгрузкиРасширеннаяПодсказка" id="218"/>
+						</ProgressBarField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СписокПакетовВыгружен</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СписокПакетов.Выгружен</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">web:GreenYellow</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.20">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<VerticalSpacing>OneAndHalf</VerticalSpacing>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаВыгрузить" id="110">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаВыгрузитьРасширеннаяПодсказка" id="111"/>
+				</Button>
+				<Button name="ФормаПрерватьВыгрузку" id="137">
+					<Type>CommandBarButton</Type>
+					<Visible>false</Visible>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаПрерватьВыгрузкуРасширеннаяПодсказка" id="138"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаШапка" id="59">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="60"/>
+				<ChildItems>
+					<UsualGroup name="Группа3" id="226">
+						<Group>AlwaysHorizontal</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="227"/>
+						<ChildItems>
+							<RadioButtonField name="ВидВыгрузки" id="134">
+								<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
+								<RadioButtonType>Tumbler</RadioButtonType>
+								<EqualColumnsWidth>true</EqualColumnsWidth>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>XML</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:string">1</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Excel</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:string">2</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ContextMenu name="ВидВыгрузкиКонтекстноеМеню" id="135"/>
+								<ExtendedTooltip name="ВидВыгрузкиРасширеннаяПодсказка" id="136"/>
+							</RadioButtonField>
+							<InputField name="ПутьКАрхиватору" id="228">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ChoiceButton>true</ChoiceButton>
+								<ClearButton>true</ClearButton>
+								<OpenButton>true</OpenButton>
+								<ContextMenu name="ПутьКАрхиваторуКонтекстноеМеню" id="229"/>
+								<ExtendedTooltip name="ПутьКАрхиваторуРасширеннаяПодсказка" id="230"/>
+							</InputField>
+							<CheckBoxField name="ВыгружатьЗаново" id="219">
+								<Visible>false</Visible>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выгрузить каждый пакет</v8:content>
+									</v8:item>
+								</Title>
+								<CheckBoxType>Tumbler</CheckBoxType>
+								<EditFormat>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>БЛ='Только невыгруженные пачки'; БИ=Полностью</v8:content>
+									</v8:item>
+								</EditFormat>
+								<EqualItemsWidth>false</EqualItemsWidth>
+								<ContextMenu name="ВыгружатьЗановоКонтекстноеМеню" id="220"/>
+								<ExtendedTooltip name="ВыгружатьЗановоРасширеннаяПодсказка" id="221"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="Группа5" id="231">
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="232"/>
+						<ChildItems>
+							<UsualGroup name="Группа2" id="222">
+								<Group>AlwaysHorizontal</Group>
+								<HorizontalSpacing>None</HorizontalSpacing>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="223"/>
+								<ChildItems>
+									<RadioButtonField name="ОбщаяПапка" id="233">
+										<TitleLocation>None</TitleLocation>
+										<RadioButtonType>Tumbler</RadioButtonType>
+										<EqualColumnsWidth>true</EqualColumnsWidth>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Каталог по строкам</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:decimal">0</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Общий каталог</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:decimal">1</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ContextMenu name="ОбщаяПапкаКонтекстноеМеню" id="234"/>
+										<ExtendedTooltip name="ОбщаяПапкаРасширеннаяПодсказка" id="235"/>
+									</RadioButtonField>
+									<CheckBoxField name="ОбщаяПапка_" id="56">
+										<Visible>false</Visible>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Общая папка</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>None</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ОбщаяПапка_КонтекстноеМеню" id="57"/>
+										<ExtendedTooltip name="ОбщаяПапка_РасширеннаяПодсказка" id="58"/>
+									</CheckBoxField>
+									<InputField name="ПутьОбщейПапки" id="53">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Путь к общей папке</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>None</TitleLocation>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<ChoiceButton>true</ChoiceButton>
+										<ClearButton>true</ClearButton>
+										<OpenButton>true</OpenButton>
+										<ContextMenu name="ПутьОбщейПапкиКонтекстноеМеню" id="54"/>
+										<ExtendedTooltip name="ПутьОбщейПапкиРасширеннаяПодсказка" id="55"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="Группа1" id="142">
+				<Group>Vertical</Group>
+				<VerticalSpacing>None</VerticalSpacing>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="143"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаТело" id="144">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа тело</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа тело</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаТелоРасширеннаяПодсказка" id="145"/>
+						<ChildItems>
+							<Table name="СписокПакетов" id="146">
+								<Representation>List</Representation>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<RowsPicture>
+									<xr:Ref>CommonPicture.СостоянияРасширенийКонфигурации</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</RowsPicture>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="СписокПакетовКонтекстноеМеню" id="147"/>
+								<AutoCommandBar name="СписокПакетовКоманднаяПанель" id="148">
+									<Autofill>false</Autofill>
+									<ChildItems>
+										<Popup name="СписокПакетовГруппа5" id="174">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подбор</v8:content>
+												</v8:item>
+											</Title>
+											<BackColor>web:Yellow</BackColor>
+											<ExtendedTooltip name="СписокПакетовГруппа5РасширеннаяПодсказка" id="175"/>
+											<ChildItems>
+												<ButtonGroup name="СписокПакетовГруппа6" id="224">
+													<ExtendedTooltip name="СписокПакетовГруппа6РасширеннаяПодсказка" id="225"/>
+													<ChildItems>
+														<Button name="Подбор" id="176">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<BackColor>web:Yellow</BackColor>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выбрать пакеты</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ПодборРасширеннаяПодсказка" id="177"/>
+														</Button>
+													</ChildItems>
+												</ButtonGroup>
+												<Button name="СписокПакетовНеОтправленные" id="178">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Все неотправленные пакеты</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="СписокПакетовНеОтправленныеРасширеннаяПодсказка" id="179"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+										<Button name="СписокПакетовОчиститьСписокПакетов" id="180">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="СписокПакетовОчиститьСписокПакетовРасширеннаяПодсказка" id="181"/>
+										</Button>
+										<ButtonGroup name="СписокПакетовГруппа2" id="182">
+											<Representation>Compact</Representation>
+											<ExtendedTooltip name="СписокПакетовГруппа2РасширеннаяПодсказка" id="183"/>
+											<ChildItems>
+												<Button name="СписокПакетовДобавить" id="184">
+													<Type>CommandBarButton</Type>
+													<Representation>Picture</Representation>
+													<CommandName>0</CommandName>
+													<Picture>
+														<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<ExtendedTooltip name="СписокПакетовДобавитьРасширеннаяПодсказка" id="185"/>
+												</Button>
+												<Button name="СписокПакетовУдалитьСтроку" id="186">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовУдалитьСтрокуРасширеннаяПодсказка" id="187"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="СписокПакетовГруппа1" id="188">
+											<Representation>Compact</Representation>
+											<ExtendedTooltip name="СписокПакетовГруппа1РасширеннаяПодсказка" id="189"/>
+											<ChildItems>
+												<Button name="СписокПакетовВыбратьВсе" id="190">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовВыбратьВсеРасширеннаяПодсказка" id="191"/>
+												</Button>
+												<Button name="СписокПакетовСнятьВсе" id="192">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовСнятьВсеРасширеннаяПодсказка" id="193"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="СписокПакетовГруппа3" id="194">
+											<Representation>Compact</Representation>
+											<ExtendedTooltip name="СписокПакетовГруппа3РасширеннаяПодсказка" id="195"/>
+											<ChildItems>
+												<Button name="СписокПакетовПереместитьВверх" id="196">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовПереместитьВверхРасширеннаяПодсказка" id="197"/>
+												</Button>
+												<Button name="СписокПакетовПереместитьВниз" id="198">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовПереместитьВнизРасширеннаяПодсказка" id="199"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="СписокПакетовГруппа4" id="200">
+											<Representation>Compact</Representation>
+											<ExtendedTooltip name="СписокПакетовГруппа4РасширеннаяПодсказка" id="201"/>
+											<ChildItems>
+												<Button name="СписокПакетовСортироватьВозр" id="202">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовСортироватьВозрРасширеннаяПодсказка" id="203"/>
+												</Button>
+												<Button name="СписокПакетовСортироватьУбыв" id="204">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокПакетовСортироватьУбывРасширеннаяПодсказка" id="205"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="СписокПакетовРасширеннаяПодсказка" id="149"/>
+								<SearchStringAddition name="СписокПакетовСтрокаПоиска" id="150">
+									<AdditionSource>
+										<Item>СписокПакетов</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокПакетовСтрокаПоискаКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="СписокПакетовСтрокаПоискаРасширеннаяПодсказка" id="152"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СписокПакетовСостояниеПросмотра" id="153">
+									<AdditionSource>
+										<Item>СписокПакетов</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокПакетовСостояниеПросмотраКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="СписокПакетовСостояниеПросмотраРасширеннаяПодсказка" id="155"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СписокПакетовУправлениеПоиском" id="156">
+									<AdditionSource>
+										<Item>СписокПакетов</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокПакетовУправлениеПоискомКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="СписокПакетовУправлениеПоискомРасширеннаяПодсказка" id="158"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="СписокПакетовВыгружен" id="159">
+										<Visible>false</Visible>
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СписокПакетовВыгруженКонтекстноеМеню" id="160"/>
+										<ExtendedTooltip name="СписокПакетовВыгруженРасширеннаяПодсказка" id="161"/>
+									</LabelField>
+									<CheckBoxField name="СписокПакетовВыгрузить" id="162">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Вкл</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<FixingInTable>Left</FixingInTable>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="СписокПакетовВыгрузитьКонтекстноеМеню" id="163"/>
+										<ExtendedTooltip name="СписокПакетовВыгрузитьРасширеннаяПодсказка" id="164"/>
+									</CheckBoxField>
+									<InputField name="СписокПакетовПакетЭД" id="165">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СписокПакетовПакетЭДКонтекстноеМеню" id="166"/>
+										<ExtendedTooltip name="СписокПакетовПакетЭДРасширеннаяПодсказка" id="167"/>
+									</InputField>
+									<InputField name="СписокПакетовВидЭД" id="168">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СписокПакетовВидЭДКонтекстноеМеню" id="169"/>
+										<ExtendedTooltip name="СписокПакетовВидЭДРасширеннаяПодсказка" id="170"/>
+									</InputField>
+									<InputField name="СписокПакетовПутьВыгрузки" id="171">
+										<EditMode>EnterOnInput</EditMode>
+										<ChoiceButton>true</ChoiceButton>
+										<ClearButton>true</ClearButton>
+										<OpenButton>true</OpenButton>
+										<ContextMenu name="СписокПакетовПутьВыгрузкиКонтекстноеМеню" id="172"/>
+										<ExtendedTooltip name="СписокПакетовПутьВыгрузкиРасширеннаяПодсказка" id="173"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаВыгрузка" id="206">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа выгрузка</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа выгрузка</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<VerticalSpacing>None</VerticalSpacing>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ThroughAlign>Use</ThroughAlign>
+						<ExtendedTooltip name="ГруппаВыгрузкаРасширеннаяПодсказка" id="207"/>
+						<ChildItems>
+							<UsualGroup name="Группа4" id="208">
+								<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="209"/>
+								<ChildItems>
+									<LabelDecoration name="Декорация1" id="210">
+										<TextColor>style:ГиперссылкаЦвет</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выполняется выгрузка</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация1КонтекстноеМеню" id="211"/>
+										<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="212"/>
+									</LabelDecoration>
+									<PictureDecoration name="Декорация2" id="213">
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="Декорация2КонтекстноеМеню" id="214"/>
+										<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="215"/>
+									</PictureDecoration>
+								</ChildItems>
+							</UsualGroup>
+							<ProgressBarField name="ИндикаторВыгрузки" id="216">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выгружено</v8:content>
+									</v8:item>
+								</Title>
+								<TitleTextColor>style:ГиперссылкаЦвет</TitleTextColor>
+								<TitleLocation>None</TitleLocation>
+								<ShowPercent>true</ShowPercent>
+								<ContextMenu name="ИндикаторВыгрузкиКонтекстноеМеню" id="217"/>
+								<ExtendedTooltip name="ИндикаторВыгрузкиРасширеннаяПодсказка" id="218"/>
+							</ProgressBarField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>СписокПакетовВыгружен</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">СписокПакетов.Выгружен</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:GreenYellow</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="080612d2-b11d-41e0-9ee5-8e77f1313f0b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ИзменениеРазмеровВыплатОПС" category="Object">
+				<xr:TypeId>3c2fd71b-0d11-4f57-a635-ddbc14aa842b</xr:TypeId>
+				<xr:ValueId>ef6f6e94-ebbc-42af-955c-606bfb629f58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ИзменениеРазмеровВыплатОПС" category="Ref">
+				<xr:TypeId>fe955de7-9716-4d25-992e-0b17d5c58dc8</xr:TypeId>
+				<xr:ValueId>18a24114-da3a-44d6-bb95-ae568802db36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ИзменениеРазмеровВыплатОПС" category="Selection">
+				<xr:TypeId>c5337b45-8b3a-4b53-b08e-c4c2ce6ab3b8</xr:TypeId>
+				<xr:ValueId>94f7ace1-2445-4929-b665-b33c4d305961</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ИзменениеРазмеровВыплатОПС" category="List">
+				<xr:TypeId>3db9aa48-f400-413e-8f9c-e3f56e1eb137</xr:TypeId>
+				<xr:ValueId>f2641ba3-cadf-454c-8e40-d036c8da7a0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ИзменениеРазмеровВыплатОПС" category="Manager">
+				<xr:TypeId>7df39509-43e6-4322-8cb9-9582567803fa</xr:TypeId>
+				<xr:ValueId>85130a30-7dfb-4d51-b14a-6c11495b733a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ИзменениеРазмеровВыплатОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dfda1a52-a01f-4caa-bb17-4683e35f9b31</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

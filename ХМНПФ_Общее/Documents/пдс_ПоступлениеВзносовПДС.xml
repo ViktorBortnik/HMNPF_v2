@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="20ef4c5d-33e3-4df2-a670-80e70614811d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.пдс_ПоступлениеВзносовПДС" category="Object">
+				<xr:TypeId>0bc80426-9b50-4a16-b4ca-c4dfc7baa5e5</xr:TypeId>
+				<xr:ValueId>fcd40015-619e-49a7-93d9-35e3a1b9d0fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.пдс_ПоступлениеВзносовПДС" category="Ref">
+				<xr:TypeId>ea23803c-8246-4026-8426-41fe55c5c161</xr:TypeId>
+				<xr:ValueId>1b5c35d0-d293-40c9-a847-ddff60c32ce2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.пдс_ПоступлениеВзносовПДС" category="Selection">
+				<xr:TypeId>09acacc4-00f8-4b92-9821-fd7a1886c2cf</xr:TypeId>
+				<xr:ValueId>15528437-5134-406c-95e2-3101a9afbec4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.пдс_ПоступлениеВзносовПДС" category="List">
+				<xr:TypeId>dd256022-1509-4192-8175-afc615be4c29</xr:TypeId>
+				<xr:ValueId>39fb714c-42cf-4a64-ab6e-4b35376b6e61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.пдс_ПоступлениеВзносовПДС" category="Manager">
+				<xr:TypeId>7f230992-18c1-44d8-8270-a6164a24e365</xr:TypeId>
+				<xr:ValueId>bb1da080-1e33-4b8a-8b58-3cdafd479e6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_ПоступлениеВзносовПДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>67288ac7-87ed-4654-bd70-cd577a980a09</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="65d0df2b-d23e-482b-a2ce-cc1e7d678759">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСписков</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97d8add6-de4d-4283-9fb4-9dbd7a217863</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="6ced4589-668e-448a-b61e-1d1c5d818c45">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.пдс_ПоступлениеВзносовПДС.СписокСчетов" category="TabularSection">
+						<xr:TypeId>4d191d1e-aa68-4aab-bf3e-8c6a05e961ea</xr:TypeId>
+						<xr:ValueId>c3faf1cd-ad46-4792-9176-311b585f2e3a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.пдс_ПоступлениеВзносовПДС.СписокСчетов" category="TabularSectionRow">
+						<xr:TypeId>9e9a4e6f-aaed-40f1-afa9-b51f1f0066c3</xr:TypeId>
+						<xr:ValueId>823494c9-0b98-4491-9a20-2b871bf18932</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СписокСчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7253cab9-123d-47fa-851d-4703a2ff18fc</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCalculationTypes uuid="12496ac4-f65d-458c-ad2f-c98a26dafffb">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.УдалитьОсновныеНачисленияОрганизаций" category="Object">
+				<xr:TypeId>62b5953a-c170-4902-a004-a166f411386b</xr:TypeId>
+				<xr:ValueId>ac81a4c6-9f18-4356-a6ac-797ff3a0089f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.УдалитьОсновныеНачисленияОрганизаций" category="Ref">
+				<xr:TypeId>e8846878-475c-47ef-94e8-cc2aa0312a17</xr:TypeId>
+				<xr:ValueId>6345aecd-6145-411f-ac2f-f190ec2aaa15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.УдалитьОсновныеНачисленияОрганизаций" category="Selection">
+				<xr:TypeId>d1ece60c-d331-4ea7-9b71-a56da996aeb8</xr:TypeId>
+				<xr:ValueId>e1d928f2-8db4-4eff-a5f4-4ec2def0f4db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.УдалитьОсновныеНачисленияОрганизаций" category="List">
+				<xr:TypeId>d1c12359-c46e-47b5-90ef-894c45006096</xr:TypeId>
+				<xr:ValueId>7d284fad-bc72-4ed8-ab65-39729bf489be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.УдалитьОсновныеНачисленияОрганизаций" category="Manager">
+				<xr:TypeId>e80a0657-779f-4bcb-9ed0-cb2a6a9cfcbb</xr:TypeId>
+				<xr:ValueId>2a10187a-fa0b-4a35-81db-6badf51b2074</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.УдалитьОсновныеНачисленияОрганизаций" category="DisplacingCalculationTypes">
+				<xr:TypeId>ae174212-5fe0-4f60-8837-1806d95fb772</xr:TypeId>
+				<xr:ValueId>79a5a91e-bc07-49fd-8efb-e251f64bf95c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.УдалитьОсновныеНачисленияОрганизаций" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>c8002bc3-71f4-44a1-bfeb-b13ee803b253</xr:TypeId>
+				<xr:ValueId>35e3c304-d0a2-4195-93f9-33c9f26f3a6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.УдалитьОсновныеНачисленияОрганизаций" category="BaseCalculationTypes">
+				<xr:TypeId>010c40a1-9f6f-4923-8a4c-cf4244d28474</xr:TypeId>
+				<xr:ValueId>48b69081-0025-4d7e-a913-d0a6e1215771</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.УдалитьОсновныеНачисленияОрганизаций" category="BaseCalculationTypesRow">
+				<xr:TypeId>869101fd-aedd-4cb2-b43b-31e794b459eb</xr:TypeId>
+				<xr:ValueId>97774157-b135-444e-87db-f8f3f65815f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.УдалитьОсновныеНачисленияОрганизаций" category="LeadingCalculationTypes">
+				<xr:TypeId>27dc8671-478a-4c58-9e53-33abe0652234</xr:TypeId>
+				<xr:ValueId>5c09926d-12e4-4198-bf81-3f28113c50a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.УдалитьОсновныеНачисленияОрганизаций" category="LeadingCalculationTypesRow">
+				<xr:TypeId>a5e23c4d-1c1e-4cb1-9ac8-b0589f51546c</xr:TypeId>
+				<xr:ValueId>30f550ab-2d3d-45ee-91c3-f633d91b7fae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УдалитьОсновныеНачисленияОрганизаций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>49bec45b-a7ee-4cb0-9de5-19440ac12e4b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCalculationTypes>
+</MetaDataObject>

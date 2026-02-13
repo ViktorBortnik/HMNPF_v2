@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="17857fb5-b6f7-457c-b9ad-fd05adac0d61">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="Record">
+				<xr:TypeId>15af7c12-0823-4348-aa5a-43f33823c188</xr:TypeId>
+				<xr:ValueId>41f81c19-ab29-4392-86c5-2118b473fa45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="Manager">
+				<xr:TypeId>b247a97b-4574-48b9-bd29-292bdce3a0b1</xr:TypeId>
+				<xr:ValueId>7b81a49f-a9a2-47e1-b61c-04de0d0a7525</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="Selection">
+				<xr:TypeId>ddd03837-eb18-44d7-b31d-45cb6f41ba97</xr:TypeId>
+				<xr:ValueId>d4931f25-048c-443e-ba99-905c7e0f48e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="List">
+				<xr:TypeId>88bca847-aa45-4d5b-aae8-e7f19c7f4845</xr:TypeId>
+				<xr:ValueId>068c2010-c0b0-4115-b810-b94b864c2566</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="RecordSet">
+				<xr:TypeId>7c130f0a-bcf2-40d8-8003-17ed22b6d364</xr:TypeId>
+				<xr:ValueId>c1d2e953-b9f0-4ae6-aa94-266de515c5ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="RecordKey">
+				<xr:TypeId>fcefd2e8-e364-44b0-ba5a-671f63fc5500</xr:TypeId>
+				<xr:ValueId>93b27e91-fc99-4146-bc26-03dae7a070e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ДатыПервогоВзносаПредыдущегоСтраховщика" category="RecordManager">
+				<xr:TypeId>53f87c9d-d9a8-4f16-a5db-9a095e33d041</xr:TypeId>
+				<xr:ValueId>618920ee-eacc-4c57-8514-4162eb4885d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДатыПервогоВзносаПредыдущегоСтраховщика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e1b90f05-94fa-443f-9d94-39a38eda235d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="6077c2f4-d7ea-4961-8916-1a4c57905d1c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаВзноса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e3a38962-e4bd-4670-ba7a-1ff17c21548d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="639583df-9ad7-4681-9fcb-d5f3f7bf87a7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Страховщик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9dd094a0-4bab-4ace-aa58-bc7f6bd0fa2f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="6fc74ccd-ec9d-4eb8-a0a0-7fa5246652dd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8d521bc8-5b4c-4702-a8a0-f0d5a8d21536</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="eefc57e9-a26d-44c9-8e04-a17763b286e7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ШаблоныДоговоров" category="Object">
+				<xr:TypeId>7606eb8b-2f10-4f7f-bca3-042913a14c3e</xr:TypeId>
+				<xr:ValueId>396bd46c-fc78-47b3-85e9-efbf2d3908d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ШаблоныДоговоров" category="Ref">
+				<xr:TypeId>4421d5ae-23a2-41b5-8464-f4806092ab9d</xr:TypeId>
+				<xr:ValueId>acd6eda2-fcef-4a57-a4d0-2243bf2daef8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ШаблоныДоговоров" category="Selection">
+				<xr:TypeId>c55ab213-db82-4456-a278-3405b420dc52</xr:TypeId>
+				<xr:ValueId>1198120b-e259-4777-a962-c02ba039b99c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ШаблоныДоговоров" category="List">
+				<xr:TypeId>27861c5e-c7a6-4fe2-b4a7-064c588ba83e</xr:TypeId>
+				<xr:ValueId>29582200-b448-4152-b67c-ac5b69e4ecc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ШаблоныДоговоров" category="Manager">
+				<xr:TypeId>a4441ee3-f004-4a97-8225-74817e48b1fe</xr:TypeId>
+				<xr:ValueId>b7a5b346-6328-4788-ba9f-b5f3f54e6e1d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ШаблоныДоговоров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e47201cb-e1ae-45d4-bc28-35e19e0c2ffe</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="17a3200a-c780-459f-b4f4-58f9d76b06b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗачислятьВзносыНаЗакрытыеСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5fbff22f-9a34-40f4-b2e4-1111d6e2919a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="267a1d59-f950-40cf-83e0-fc4c62d96b92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗачислятьВзносыНаПодготовкаКЗакрытию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2ec6c18-f33a-4faa-8567-bd81b17e0a20</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6bd41e47-50cf-419d-bcca-ecf949cdeea7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АлгоритмРасчетаВыкупнойСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e80137a3-f8c7-4454-96a3-659c6962c13c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_АлгоритмыРасчетаВыкупнойСуммы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

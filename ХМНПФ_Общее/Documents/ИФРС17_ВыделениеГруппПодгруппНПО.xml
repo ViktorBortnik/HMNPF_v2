@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="742f8b94-0114-4379-8c76-0ab8a1db26a6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИФРС17_ВыделениеГруппПодгруппНПО" category="Object">
+				<xr:TypeId>b39e348d-025c-4a40-b0ac-c8b9dac07100</xr:TypeId>
+				<xr:ValueId>c8b1f84f-9526-43d7-803e-dded8c90dab2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИФРС17_ВыделениеГруппПодгруппНПО" category="Ref">
+				<xr:TypeId>a7688cdb-f81f-486e-a1c8-c6dd3e254855</xr:TypeId>
+				<xr:ValueId>7082ef45-6c67-48cf-80f0-06c94bec346a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИФРС17_ВыделениеГруппПодгруппНПО" category="Selection">
+				<xr:TypeId>1da53cda-3c33-4b66-9258-49ca64f3c133</xr:TypeId>
+				<xr:ValueId>9dfa3064-ce81-4ede-b090-b6fe2c9cd784</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИФРС17_ВыделениеГруппПодгруппНПО" category="List">
+				<xr:TypeId>384c55b6-ad0e-40ea-9a6f-a49708012b0c</xr:TypeId>
+				<xr:ValueId>82955eed-e844-4828-b425-e8434913c8d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИФРС17_ВыделениеГруппПодгруппНПО" category="Manager">
+				<xr:TypeId>272508c9-75af-43ef-bf95-28129f856deb</xr:TypeId>
+				<xr:ValueId>3eff7fd0-640b-4697-979a-7735f21ee0de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИФРС17_ВыделениеГруппПодгруппНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8f145e60-219f-45eb-ab96-780c3439b74d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

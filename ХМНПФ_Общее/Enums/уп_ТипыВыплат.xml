@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="1793e753-1e72-4ea4-8e97-b4b6a061df78">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ТипыВыплат" category="Ref">
+				<xr:TypeId>b493caea-1866-4689-9642-5ffe4f0bccad</xr:TypeId>
+				<xr:ValueId>297ce115-6fcb-454f-9d9c-322de63ee4c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ТипыВыплат" category="Manager">
+				<xr:TypeId>03903ff7-2e30-4ebe-8157-15e5ef18ed94</xr:TypeId>
+				<xr:ValueId>4cb49d5c-3c2c-41c1-917a-1c93d8e58917</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ТипыВыплат" category="List">
+				<xr:TypeId>89cea989-84e8-402a-9d49-d42ce6faec51</xr:TypeId>
+				<xr:ValueId>1b2dc3e4-2898-4089-81f4-88b28eaf4df2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ТипыВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e4f7ca27-fd88-405a-94ab-d8766c97e746</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b7fff271-d4b7-48da-a589-1166954c061f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыПенсий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ae51e5c-764c-4ee2-8bf0-694fac2d218b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="902cd5a2-58b2-4bf4-9721-e8d5ebfe86ad">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереводВДругойПФ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c196d8bf-a275-433a-a5aa-851a165c711a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c69c2a80-719e-405f-8fb2-6f9b823fee77">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыРасторженцам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aff511e0-a22d-4b43-afa1-549ff27705d6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0a5c7b4d-ef1e-4fc4-8d51-12468ad005d4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратВзносов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eb06e5d1-db7e-48e3-a5d1-5f979126c0d3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c3805c04-381d-4f00-8799-60d91e8ddab0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиновременнаяВыплатаОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>514b279e-4d52-4b35-ae86-aa0c857d7562</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9f73e6ca-7afa-45b2-935c-e90bbbfa283f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыПенсийОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>46017897-f695-4134-9c5e-c21cc253a695</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e7083b64-d5f2-4d76-965d-fca8c99315f4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратМатеринскогоКапитала</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>31ccd100-dce2-4c97-a9c1-b49bfc9821e8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f9ddca3a-8b0e-459f-a4c0-85dcbd2e96d4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СрочнаяПенсияОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d281b0ca-82a6-4ef7-a241-6f01333a13fa</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5f0c39fe-14d3-4b82-8771-117cc09973af">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратВыплатПравопреемникамОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b8b0de2e-f151-4dae-8111-e0a3fa5ac2d7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba85a6f8-1209-4d21-9753-d7f31c5df1ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратЕдиновременнойВыплатыОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da369964-2980-483e-b8c1-8d69dd3ce46e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82a96353-af28-488c-be2a-1a01b4edcd05">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратНакопительнойПенсииОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da9f014b-5ff0-429f-aabe-a6b93dd73d89</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="843eb549-e4cb-4997-b808-742690222733">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратСрочнойПенсииОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b800f5d-3d64-4869-b4a9-c849157babfe</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="68577f5b-998d-44da-96c9-347668ea97d3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратПенсииНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f1c91f7e-61c6-41cb-aed2-d3eb512b90b5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="80a3b529-77f1-44f4-94a4-392e8f421c9c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратВыплатНаследникамНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>78e7b50e-69c8-4a9d-8576-541d70520f25</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0529c930-5929-447f-a661-cacce428b89c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратВыплатРасторженцамНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>066ab6c7-74de-438b-88e2-547d36eb714a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c7b1eaca-0cef-43e0-a37b-d7161a52bd32">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыНаследникам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f4add6e7-aabc-42a7-8e0b-38aea97a4593</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8526c8b-fdaa-4c77-ac20-bcf8d2cb12ce">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереводВДругойНПФ_НПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b57ec7f5-44d6-4cc3-b14d-05daa450d0d5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e26fa9b2-9032-4cf5-882b-0c479387d109">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыНаследникамОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a8e90c71-64a2-401b-b342-e3607e00e09b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3dbae2d5-d919-4d49-846c-c9e0c5d9cdef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежПенсияНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>65e1a7b5-4166-4fa1-a60e-29906c63e39e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6f4d9d1f-42f2-4b46-bcd1-bc5eb18762fc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежРасторжениеНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>273a567b-992d-42bb-af77-289d1d5a989d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e213de20-ab4a-4daa-8674-b7474759bf4c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежПравопреемникиНПО</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88d79ebc-85f7-4c14-b233-4a6dbd41580e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c2fb3e3d-34a1-4b4c-9239-cd24dcd638f6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежНПОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d2dc300d-33d8-4078-9107-b26a84755d28</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="04f98dde-acb8-425e-895d-2f727a35fda7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежСВОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88a16dd4-4887-40d9-ba0a-d9b31a4f08e3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a25dc8fc-c199-4d0f-a0cf-2c4b0217d1ce">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежЕВОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>755519a2-e984-4443-a341-89eea40d9515</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e27552c8-e2e9-42c3-bbd0-d85a4f69d31b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтвергнутыйПлатежПравопреемникиОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c612d4b6-7952-4216-b8fa-0bf5d174db82</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c00707d9-beb7-4408-81af-49276ba44efe">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазделениеСНИЛС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1ebcf292-3d62-449d-b0a9-7df556229fce</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

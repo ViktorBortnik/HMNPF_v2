@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a67d765d-bd43-444c-8eb0-59ec907488ae">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ОткрытиеДоговора" category="Object">
+				<xr:TypeId>3c54530f-b790-4a0a-8c54-670e13c68fea</xr:TypeId>
+				<xr:ValueId>943e7923-1a5a-4cd9-a3c6-0bce181da806</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ОткрытиеДоговора" category="Ref">
+				<xr:TypeId>df8680ee-da91-40f3-a264-815259ff4691</xr:TypeId>
+				<xr:ValueId>901461e6-ab3c-438d-8e5d-a7e3e0eb33dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ОткрытиеДоговора" category="Selection">
+				<xr:TypeId>279180cb-ffa0-4420-8b20-6d769368cb00</xr:TypeId>
+				<xr:ValueId>681beb46-7999-4cbc-9e42-581f8fbf510c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ОткрытиеДоговора" category="List">
+				<xr:TypeId>f1702aeb-9699-4a73-9e04-50e7371e57bb</xr:TypeId>
+				<xr:ValueId>77845927-abd1-423a-91d4-e7057886ead7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ОткрытиеДоговора" category="Manager">
+				<xr:TypeId>cbe6ca68-e4b1-4f4b-980a-054eb709d2c2</xr:TypeId>
+				<xr:ValueId>b3695b3c-0a34-48bd-b082-1b0b3dd15b89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ОткрытиеДоговора</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4aff1245-a514-446e-bf02-1cbe26a46c95</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

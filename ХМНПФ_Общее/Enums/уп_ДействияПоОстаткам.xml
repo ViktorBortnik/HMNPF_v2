@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="5a682897-2719-4465-9e76-3964f2483e84">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ДействияПоОстаткам" category="Ref">
+				<xr:TypeId>59c934da-0227-4d9d-9794-332edacd5ce5</xr:TypeId>
+				<xr:ValueId>42d2b647-fa32-4719-9ea8-2997bec85ebf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ДействияПоОстаткам" category="Manager">
+				<xr:TypeId>a3e579a5-dfee-4fcd-8299-cce4db187a39</xr:TypeId>
+				<xr:ValueId>558881a8-859e-45c9-95df-b0a283cbee60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ДействияПоОстаткам" category="List">
+				<xr:TypeId>4f7a28cb-f077-4d4e-b8dc-6bb2676ab868</xr:TypeId>
+				<xr:ValueId>094dde97-ca6f-46ee-aeef-1b64adb8c7eb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДействияПоОстаткам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b11216e0-520e-4e94-b83a-bd29f7e8ce98</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

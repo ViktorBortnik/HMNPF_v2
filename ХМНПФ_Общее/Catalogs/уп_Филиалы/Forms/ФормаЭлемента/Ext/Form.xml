@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ХМПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="НаименованиеПолное" id="28">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Владелец" id="7">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Подразделение" id="38">
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="40"/>
+		</InputField>
+		<UsualGroup name="ГруппаРаботников" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа работников</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа работников</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРаботниковРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<InputField name="КоличествоРаботников" id="31">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>5</MaxWidth>
+					<ContextMenu name="КоличествоРаботниковКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="КоличествоРаботниковРасширеннаяПодсказка" id="33"/>
+				</InputField>
+				<Button name="ИсторияРаботников" id="36">
+					<Type>Hyperlink</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>История </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ИсторияРаботниковРасширеннаяПодсказка" id="37"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="ОбособленныйБаланс" id="10">
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОбособленныйБалансКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ОбособленныйБалансРасширеннаяПодсказка" id="12"/>
+		</CheckBoxField>
+		<InputField name="Организация" id="25">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<CheckBoxField name="ПравоРазмещатьПР" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Право размещать средства пенсионного резерва</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПравоРазмещатьПРКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПравоРазмещатьПРРасширеннаяПодсказка" id="15"/>
+		</CheckBoxField>
+		<InputField name="НомерРегиона" id="16">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерРегионаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="НомерРегионаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="МестоНахожденияФилиала" id="19">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МестоНахожденияФилиалаКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="МестоНахожденияФилиалаРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="СведенияОФилиале" id="22">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СведенияОФилиалеКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="СведенияОФилиалеРасширеннаяПодсказка" id="24"/>
+		</InputField>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="Код" id="1">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="Наименование" id="4">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<InputField name="НаименованиеПолное" id="28">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="30"/>
+			</InputField>
+			<InputField name="Владелец" id="7">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<InputField name="Подразделение" id="38">
+				<ContextMenu name="ПодразделениеКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="40"/>
+			</InputField>
+			<UsualGroup name="ГруппаРаботников" id="34">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа работников</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа работников</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаРаботниковРасширеннаяПодсказка" id="35"/>
+				<ChildItems>
+					<InputField name="КоличествоРаботников" id="31">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>5</MaxWidth>
+						<ContextMenu name="КоличествоРаботниковКонтекстноеМеню" id="32"/>
+						<ExtendedTooltip name="КоличествоРаботниковРасширеннаяПодсказка" id="33"/>
+					</InputField>
+					<Button name="ИсторияРаботников" id="36">
+						<Type>Hyperlink</Type>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>История </v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ИсторияРаботниковРасширеннаяПодсказка" id="37"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<CheckBoxField name="ОбособленныйБаланс" id="10">
+				<TitleLocation>Right</TitleLocation>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ОбособленныйБалансКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="ОбособленныйБалансРасширеннаяПодсказка" id="12"/>
+			</CheckBoxField>
+			<InputField name="Организация" id="25">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ОрганизацияКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="27"/>
+			</InputField>
+			<CheckBoxField name="ПравоРазмещатьПР" id="13">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Право размещать средства пенсионного резерва</v8:content>
+					</v8:item>
+				</Title>
+				<TitleLocation>Right</TitleLocation>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ПравоРазмещатьПРКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ПравоРазмещатьПРРасширеннаяПодсказка" id="15"/>
+			</CheckBoxField>
+			<InputField name="НомерРегиона" id="16">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="НомерРегионаКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="НомерРегионаРасширеннаяПодсказка" id="18"/>
+			</InputField>
+			<InputField name="МестоНахожденияФилиала" id="19">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="МестоНахожденияФилиалаКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="МестоНахожденияФилиалаРасширеннаяПодсказка" id="21"/>
+			</InputField>
+			<InputField name="СведенияОФилиале" id="22">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="СведенияОФилиалеКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="СведенияОФилиалеРасширеннаяПодсказка" id="24"/>
+			</InputField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

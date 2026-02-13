@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="a5184bf8-fae2-439f-b99b-aa424c228f5b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ТипыСуммОПС" category="Object">
+				<xr:TypeId>20f15dbb-a781-4059-8a60-6bd5ccceb4e2</xr:TypeId>
+				<xr:ValueId>e2a7cfa3-dfb4-40c8-8562-7e86e5b274c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ТипыСуммОПС" category="Ref">
+				<xr:TypeId>0e091418-a4a1-46c5-b110-073a906c32b3</xr:TypeId>
+				<xr:ValueId>257b5dd6-33d5-46aa-923e-bb8a493cddbc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ТипыСуммОПС" category="Selection">
+				<xr:TypeId>83b5d233-9ae9-41a5-b054-169e0137c51d</xr:TypeId>
+				<xr:ValueId>3878ca48-cee6-44e8-9234-720f2de1afa1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ТипыСуммОПС" category="List">
+				<xr:TypeId>17f79aa3-a4a7-40ee-b6b3-4bfbba6ecf51</xr:TypeId>
+				<xr:ValueId>862fdae6-989e-411a-943a-2406fcb78fb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ТипыСуммОПС" category="Manager">
+				<xr:TypeId>c79c4078-c52c-4288-b518-62eb56994a3e</xr:TypeId>
+				<xr:ValueId>3c197a75-8ac1-43a6-9545-6aa2faa0e5e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ТипыСуммОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>76c46c0e-2871-4ccf-8db7-83c3ce8de0b8</ExtendedConfigurationObject>
+			<CodeLength>5</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>Number</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

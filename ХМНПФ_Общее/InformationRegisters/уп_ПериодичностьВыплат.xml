@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="f505fee2-5a79-46a3-8ad3-8a4a210520a0">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПериодичностьВыплат" category="Record">
+				<xr:TypeId>d46914a5-34c5-41ee-8ec5-e8a2a47e56c4</xr:TypeId>
+				<xr:ValueId>d731d549-8c1e-44bf-aec5-9495657075e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПериодичностьВыплат" category="Manager">
+				<xr:TypeId>345437d7-a8db-42ab-981c-fc4d79f919bd</xr:TypeId>
+				<xr:ValueId>ed32f21c-ade1-4293-a365-948eaaf461c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПериодичностьВыплат" category="Selection">
+				<xr:TypeId>ace2809c-cca9-4387-a45b-cab0fbe72341</xr:TypeId>
+				<xr:ValueId>b6965cca-61a3-431a-98c0-f2b2c31186bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПериодичностьВыплат" category="List">
+				<xr:TypeId>b4d653fd-403e-4e6a-b66b-5b70dff9eaef</xr:TypeId>
+				<xr:ValueId>2b20b395-b5c1-4121-9e53-050d35766822</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПериодичностьВыплат" category="RecordSet">
+				<xr:TypeId>c12797d5-0c6c-4443-8492-892e50b9c863</xr:TypeId>
+				<xr:ValueId>b0f72c01-2470-43bd-a446-8ca9ee16c010</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПериодичностьВыплат" category="RecordKey">
+				<xr:TypeId>538a58cb-3399-47d4-a4bf-77f50280b627</xr:TypeId>
+				<xr:ValueId>f68ce4b4-af33-48ac-af52-fe59a6528650</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПериодичностьВыплат" category="RecordManager">
+				<xr:TypeId>36c5c985-a5f5-40c6-b165-9a3d431212ac</xr:TypeId>
+				<xr:ValueId>e6254489-a235-4a5e-9e92-11a2511f176d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПериодичностьВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>35bbb4c3-945e-4ac5-88ae-61f93be1116b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ba1315dc-bb42-471f-ae6c-75c8f110cc55">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодичностьВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>64a4443a-59fe-4c89-8df1-2872162a4957</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ПериодичностьВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="bd5c37c6-fe77-46d9-9094-0b08b8ebb129">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>45d7026a-a88a-419e-bd43-5952b49823e8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

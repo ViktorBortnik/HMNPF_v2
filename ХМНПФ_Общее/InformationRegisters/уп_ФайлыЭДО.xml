@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="34349906-dae8-4608-9813-79c4899c49ab">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ФайлыЭДО" category="Record">
+				<xr:TypeId>526ee48a-5b9c-47fc-8bdc-cdf7f0192dcd</xr:TypeId>
+				<xr:ValueId>61b5ac31-9d5f-4606-9c6e-f454bd2f099d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ФайлыЭДО" category="Manager">
+				<xr:TypeId>58a29c57-856e-422b-8e5e-e5ed89a7e8ca</xr:TypeId>
+				<xr:ValueId>322d786c-e223-40f2-b386-53176935ba17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ФайлыЭДО" category="Selection">
+				<xr:TypeId>d899fcd2-4042-4a1f-bf7a-01247f25cb18</xr:TypeId>
+				<xr:ValueId>6304ce9e-ca98-4ad3-8c42-ae9be9c280de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ФайлыЭДО" category="List">
+				<xr:TypeId>7e681e83-54d9-471a-b6d5-541054dedc75</xr:TypeId>
+				<xr:ValueId>ee5fa1f3-1e3b-4294-974d-3cfb068ecc81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ФайлыЭДО" category="RecordSet">
+				<xr:TypeId>6b16a217-d1a2-4689-b957-d5e4b55051f4</xr:TypeId>
+				<xr:ValueId>f741bb7a-4de6-4c06-84a5-f0123fcd4ce2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ФайлыЭДО" category="RecordKey">
+				<xr:TypeId>9013c7ab-89dd-4bcd-b139-c0c32ca718c0</xr:TypeId>
+				<xr:ValueId>85ddca01-0b94-4db9-97e5-55bd6201b4f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ФайлыЭДО" category="RecordManager">
+				<xr:TypeId>5ecb2588-bdaa-4aac-9a07-f2e7feeeeb65</xr:TypeId>
+				<xr:ValueId>54f77eb1-1692-4669-9e46-399231aecd29</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ФайлыЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ddedbb4c-9a20-491a-bdec-b7c1fee5272a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЗаписи</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="9bbafb28-148a-4843-80a8-60fdeb3dab55">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_ЗагрузкаУмершихОПС" category="Object">
+				<xr:TypeId>ea733a66-4313-4439-95e5-3daaedd99f9b</xr:TypeId>
+				<xr:ValueId>d366973c-a459-4242-a588-3bad55a46b06</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_ЗагрузкаУмершихОПС" category="Manager">
+				<xr:TypeId>70afb483-83ed-42f0-b55e-fad8272c234e</xr:TypeId>
+				<xr:ValueId>159eba0c-3301-4d8b-986a-98b8a9e9eb69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗагрузкаУмершихОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e35fced9-117a-45ae-b08a-893b14f1b5da</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</DataProcessor>
+</MetaDataObject>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8102c579-d07f-4b75-904b-13b011a3c972">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СправкаНДФЛ" category="Object">
+				<xr:TypeId>cf1bc540-af2c-4291-9ec2-92ee8004cdcd</xr:TypeId>
+				<xr:ValueId>e02c36e1-5773-468e-9e86-131ea0de1f83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СправкаНДФЛ" category="Ref">
+				<xr:TypeId>0f0ba6a2-9ed3-4bc6-a1ab-df7c66244e08</xr:TypeId>
+				<xr:ValueId>c02e0a79-440a-4399-b44b-80e61d456d45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СправкаНДФЛ" category="Selection">
+				<xr:TypeId>961f1b3b-7e1a-423e-8d6a-ceb1b05e6946</xr:TypeId>
+				<xr:ValueId>de20bf1c-c9a2-4782-9b60-3f7b6e896308</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СправкаНДФЛ" category="List">
+				<xr:TypeId>d67ae739-4b65-4a55-8cb4-c6f8fe7cce7a</xr:TypeId>
+				<xr:ValueId>aad6dd1e-c227-4417-8ea2-50f89a9a7f98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СправкаНДФЛ" category="Manager">
+				<xr:TypeId>4b2408f3-04b8-4c33-9c41-0a6642f0bb1b</xr:TypeId>
+				<xr:ValueId>b2c2ad0d-50c1-466f-a65c-f7c36be10fe3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СправкаНДФЛ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>62701331-1499-4655-8afb-91023167fbf3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

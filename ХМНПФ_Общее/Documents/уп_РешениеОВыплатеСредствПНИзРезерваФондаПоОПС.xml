@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9de67d44-724f-4e3f-861b-da0f892565b0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС" category="Object">
+				<xr:TypeId>9add55f2-dba8-4e32-8f3c-032654c427f0</xr:TypeId>
+				<xr:ValueId>757b2b7a-f027-4943-8c98-bdcd62b2e584</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС" category="Ref">
+				<xr:TypeId>dbb343b3-b9f5-4585-ba04-311580c8be66</xr:TypeId>
+				<xr:ValueId>1adaeebd-237e-4cfb-b126-2df3a17a9b1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС" category="Selection">
+				<xr:TypeId>89fd0ea9-9b8b-4266-ac2b-20613142a561</xr:TypeId>
+				<xr:ValueId>28085dbd-7459-46e1-a76b-105252fed614</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС" category="List">
+				<xr:TypeId>39c11d6d-f3ea-4a2d-a94e-92e876f2ed62</xr:TypeId>
+				<xr:ValueId>11000b02-6b95-4d08-b1c8-ec3456f65221</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС" category="Manager">
+				<xr:TypeId>b8fe1f27-84d8-44a7-9e1c-4275336ad677</xr:TypeId>
+				<xr:ValueId>f99418fb-2e38-431e-b9f5-711ea96653bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1182732d-cafb-4d66-88a8-43eb6295c17b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="bdca3964-8d4d-41e8-993e-61266ec702c3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c3006380-60ba-45d7-b2c9-d90a6f35ef34</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5546241c-78cd-442c-9e61-520c08182e49">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0838d051-e293-4b4a-9215-68de3d756e20</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cd4cf76b-5741-44d9-9505-ca0558368900">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Правопреемник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7e17e95b-e62a-4f15-8c3a-5fefdb004ec9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a385ef3c-88e7-46e0-b0c0-10ca57929208">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>01bae70f-438f-4932-bff1-fb5f2531f363</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.уп_ЗаявлениеПравопреемникаОВыплатеОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d7697b68-a567-480b-9a43-954b80303f80">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Доля</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dba94608-ddab-46d8-be1f-26e1d41e95ba</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>уф_ФормаДокумента</Form>
+			<TabularSection uuid="6bf615b7-4453-4a1a-bd4d-a9a2ab11f131">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС.РасшифровкаСуммы" category="TabularSection">
+						<xr:TypeId>b5921d03-8b93-4410-bc46-6739e2b7448d</xr:TypeId>
+						<xr:ValueId>8b2b4cd2-b252-48ae-976b-cfe654d1a03f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_РешениеОВыплатеСредствПНИзРезерваФондаПоОПС.РасшифровкаСуммы" category="TabularSectionRow">
+						<xr:TypeId>6191c3a0-c8e9-4628-ae6a-d3aa2ba054dd</xr:TypeId>
+						<xr:ValueId>4beed47c-5678-4ca2-ae14-3aeb092a2f2f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0a5a0709-9a71-4d6f-b4ad-6ec09e9e5000</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2f4507ea-0ff5-4eb5-b612-a952a3cb11ed">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТипСуммы</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ca09da8d-779e-4cdf-8b50-e119806bfba4</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ТипыСуммОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="551ccee4-c1a2-4e55-9fb1-3fd94c14f3e6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТипРезерва</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>df7fadc0-b6f5-4283-b934-e72fba668523</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.уп_ТипыРезервовОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="67d80ff5-d04c-4246-b7c8-0742110b0d9b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>fdce45b0-7405-46df-8499-5f56e6645aee</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2d83a53b-db20-4673-8bd6-f06ffa588e64">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаКомпенсации</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ddc52690-92f0-4c10-aafc-a61d7e53e4e6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="14c5abb6-78fb-4c31-87f1-2e3355793f6e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаВосполнения</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e32fa5ac-8199-4698-8666-caa4d58dfc69</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bfae1643-5c6f-46c5-b9ef-e37b76cfaff3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаВозмещения</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8e4ef735-8b53-4b6b-af35-d3dae687be83</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c102417b-9a71-4389-82fe-06f3ffa15eb6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаКВыплате</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3b350187-862b-4e34-a0d2-ce0858f35754</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

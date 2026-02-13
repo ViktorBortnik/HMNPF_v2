@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="dbc8e49b-0d35-4bb9-b90c-9abee6565281">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПолучателиПоДоговорамОбслуживания" category="Record">
+				<xr:TypeId>bea65fd3-15be-45d2-a082-700205de4657</xr:TypeId>
+				<xr:ValueId>c4c21628-4d66-4073-99b5-406c422e6810</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПолучателиПоДоговорамОбслуживания" category="Manager">
+				<xr:TypeId>cc975536-8a50-40ca-8503-e4a701936910</xr:TypeId>
+				<xr:ValueId>6607ac6d-3aeb-4cee-b944-971ca071cddc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПолучателиПоДоговорамОбслуживания" category="Selection">
+				<xr:TypeId>8d0f037b-5a86-4262-abed-81842f1a3013</xr:TypeId>
+				<xr:ValueId>8255a451-8e7d-41f5-bf1d-50eb851a3f74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПолучателиПоДоговорамОбслуживания" category="List">
+				<xr:TypeId>ef61653d-a978-45c4-9d16-a52d61744789</xr:TypeId>
+				<xr:ValueId>9bb1e9bb-aa4a-4da5-8de9-262cddde60d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПолучателиПоДоговорамОбслуживания" category="RecordSet">
+				<xr:TypeId>d7cf2cc8-6edd-4146-ae7f-ed53d4c9955c</xr:TypeId>
+				<xr:ValueId>4da5855f-e403-4bd7-a13d-2b5a68a50e9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПолучателиПоДоговорамОбслуживания" category="RecordKey">
+				<xr:TypeId>f722ce69-d4b8-4486-ab23-8022d15a3148</xr:TypeId>
+				<xr:ValueId>d6801645-a455-4ccf-b12e-4438caba1ca4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПолучателиПоДоговорамОбслуживания" category="RecordManager">
+				<xr:TypeId>26fda2b4-96fc-40a5-a3c7-c3e02eb0fb46</xr:TypeId>
+				<xr:ValueId>62992d6e-1e74-4660-a904-1b911ade58e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПолучателиПоДоговорамОбслуживания</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0b01023e-6702-4022-93c0-d946013ca4f1</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4a9b5015-a7d4-49a7-80c3-af46d973606c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПолучательВПлатежномПоручении</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c8186b3e-6371-46a1-98af-9d5ff4e31bdd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e1b49430-12ec-4089-9775-18a24d339261">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетныйСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9f2399e1-6a7a-4e2c-81cf-378a80354e38</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="18285ba6-a974-46d9-8c08-6a7ee1ee5058">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Получатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f3f1172-f8ee-4acb-8db1-39e754d5aab2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

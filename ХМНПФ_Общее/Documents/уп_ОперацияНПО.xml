@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3d03d445-aa2c-4062-b567-3f6606a26afd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ОперацияНПО" category="Object">
+				<xr:TypeId>cf5f4362-27c0-40d0-ad5f-2a94560a6cac</xr:TypeId>
+				<xr:ValueId>fadab1d4-df2e-455f-94de-4dafaedf7446</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ОперацияНПО" category="Ref">
+				<xr:TypeId>b221424e-5a2a-4f75-8d77-7053af041365</xr:TypeId>
+				<xr:ValueId>4ada09d6-aa7b-4b9c-b4e1-391f5384fc5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ОперацияНПО" category="Selection">
+				<xr:TypeId>f46bccd3-7c88-4f44-a73f-635788c9f3d5</xr:TypeId>
+				<xr:ValueId>7960dfea-3782-42fa-97af-497664d2a65d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ОперацияНПО" category="List">
+				<xr:TypeId>9d758e4f-f711-4ee1-940f-7eb8f98219df</xr:TypeId>
+				<xr:ValueId>7d1b9fe5-0ac4-4636-9a65-213f40633489</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ОперацияНПО" category="Manager">
+				<xr:TypeId>f3609249-fa27-4c5d-b079-bb0806808453</xr:TypeId>
+				<xr:ValueId>51b5116f-a7a6-420f-906c-0212c6b3e71d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ОперацияНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>35bcb724-258c-45c7-904e-7bd8ac20cc4d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

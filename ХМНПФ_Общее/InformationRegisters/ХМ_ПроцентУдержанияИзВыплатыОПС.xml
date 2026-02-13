@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="7a8796a9-64a2-4772-9aa5-4dbde20dcf55">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_ПроцентУдержанияИзВыплатыОПС" category="Record">
+				<xr:TypeId>14d717f4-d29e-40c5-9606-0c3475eba57c</xr:TypeId>
+				<xr:ValueId>6f1279a6-e61f-4441-877f-0a65f6e35937</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_ПроцентУдержанияИзВыплатыОПС" category="Manager">
+				<xr:TypeId>3f32c1c3-eb3d-4280-9324-77ae75e31439</xr:TypeId>
+				<xr:ValueId>461a7cbe-05d5-423c-96aa-d36aea26af27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_ПроцентУдержанияИзВыплатыОПС" category="Selection">
+				<xr:TypeId>b8667536-0370-4380-82bd-f2e7bccfa04c</xr:TypeId>
+				<xr:ValueId>e2e6b6f7-945c-406c-891f-2fff32dc4e19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_ПроцентУдержанияИзВыплатыОПС" category="List">
+				<xr:TypeId>080045d6-4b27-4d32-acbf-6421c7372c33</xr:TypeId>
+				<xr:ValueId>95719969-334c-4805-a4c0-8a91c6e71864</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_ПроцентУдержанияИзВыплатыОПС" category="RecordSet">
+				<xr:TypeId>0cc33f8b-e625-475c-b313-95a0a595f802</xr:TypeId>
+				<xr:ValueId>51e0df59-acdc-4a4c-bc90-b1967c9c4a12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_ПроцентУдержанияИзВыплатыОПС" category="RecordKey">
+				<xr:TypeId>fb227510-a8f5-422e-b38c-53b43155b955</xr:TypeId>
+				<xr:ValueId>b7f48953-a710-4d9e-ba1b-a173777994e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_ПроцентУдержанияИзВыплатыОПС" category="RecordManager">
+				<xr:TypeId>9f0dbcd8-491a-44b6-a3df-d6cfb0155ea8</xr:TypeId>
+				<xr:ValueId>e31fffc6-cba3-4b06-8aaf-41b00f0c3038</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_ПроцентУдержанияИзВыплатыОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7aca7f7e-1a62-403a-a6b9-218817ff1f4a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="46815755-49cd-4235-b8a5-368f430f34b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентУдержания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d384cb37-b787-4fce-8e3a-ad89810c564e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="da204b74-7850-45b7-8edf-2c7eed8f4b61">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НетЗаявления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3071401e-af87-4f02-b89f-dd1d5b0317ea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f9eb18db-c265-4421-ad75-4ec1f64cd299">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗадолженностьПогашена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>514716a1-375c-4df3-a936-a23ff53ddf0b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="69383bf0-0688-4358-9862-efde07e6bc28">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>812153d3-7d79-4c7b-9f65-eaf52842c9f7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="871deac6-9727-4e14-83e1-40174f95553b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>85863a2f-82af-46f1-946f-854078d2d84a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="5854062c-067d-466d-a501-2a0439c58cfc">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.хм_уп_СостоянияПС_Архив" category="Record">
+				<xr:TypeId>7d0d62de-9326-4413-9480-9791bffb2d1d</xr:TypeId>
+				<xr:ValueId>0d37cc7f-339d-4fcb-ac19-19c54715123d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.хм_уп_СостоянияПС_Архив" category="Manager">
+				<xr:TypeId>6e2f1ea8-4f51-4d66-a207-1e233e0d39c7</xr:TypeId>
+				<xr:ValueId>86695064-0925-4770-b8bc-946db2581c36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.хм_уп_СостоянияПС_Архив" category="Selection">
+				<xr:TypeId>144bd324-c61c-40e5-8e73-e11e8883e973</xr:TypeId>
+				<xr:ValueId>f7862741-8f9e-4246-be31-4f43a042afea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.хм_уп_СостоянияПС_Архив" category="List">
+				<xr:TypeId>46b7f416-7258-49fb-8484-5e8ec873419c</xr:TypeId>
+				<xr:ValueId>ad43665a-f4ec-4036-8289-ced3a90a5272</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.хм_уп_СостоянияПС_Архив" category="RecordSet">
+				<xr:TypeId>b0430979-0f98-4a3f-8576-4ce1a42d2181</xr:TypeId>
+				<xr:ValueId>e3119eb6-8854-4cfb-a45c-b348e8e8f620</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.хм_уп_СостоянияПС_Архив" category="RecordKey">
+				<xr:TypeId>2e3623bd-5ccf-4312-8b87-c1172ff45bca</xr:TypeId>
+				<xr:ValueId>def170ee-c7c3-41e5-bbe1-21e5d16ca9dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.хм_уп_СостоянияПС_Архив" category="RecordManager">
+				<xr:TypeId>02d8409a-79c8-4095-b964-909c73703597</xr:TypeId>
+				<xr:ValueId>6125e264-d30e-4884-9775-30c0c141a44a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_уп_СостоянияПС_Архив</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5b871e2d-c157-4319-88e8-7e334e5e65f0</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b78d7d8c-e1fe-4f7b-aaa0-a622dc978681">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаУстановкиСостояния</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f885036d-13d3-418e-9246-93b668f761e5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1d163d63-078c-4972-afd0-ac73ba0b3055">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bb03cf55-68ae-44e0-be5b-b38e8dddd12a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеОснованияНПО</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5c99404e-af9e-47a3-a204-fee92255d8ba">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расшифровка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1e6b9b14-bdc5-47d4-9302-1a3fb0606638</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_РасшифровкаСостоянийПС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b754c148-1671-40cc-a2b3-6238984b0221">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c4f75298-540f-4274-bb13-24e283ce8cff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_СостоянияПС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b56137db-3cde-4a16-b29a-8833bc95e36b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОкончанияОснований</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5e353fcb-53cc-44ba-8765-f9316dd8e3d1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="e306b9bd-0718-4bc5-8e4e-7da32ab64e4a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>59a05cd4-db4e-4755-94c6-e431deb04838</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cb54064d-b173-4521-b29b-8212b0b85fa0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РегистраторАрхив</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0b7b3289-c2d8-4366-bd6c-b4aaa5d42e41</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

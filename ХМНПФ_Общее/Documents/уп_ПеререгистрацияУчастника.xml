@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f5295400-6225-4efc-942c-b8b942a9d055">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПеререгистрацияУчастника" category="Object">
+				<xr:TypeId>376b1d66-eb6a-48c7-8d29-722611b10bf8</xr:TypeId>
+				<xr:ValueId>b25aa85d-1f46-49fe-bc58-9f0d01596e77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПеререгистрацияУчастника" category="Ref">
+				<xr:TypeId>c36ac440-ad10-49b5-b038-b1c9c259da81</xr:TypeId>
+				<xr:ValueId>5a9fff7c-24a3-4a71-953b-f2181f011ee6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПеререгистрацияУчастника" category="Selection">
+				<xr:TypeId>86c49b38-fa27-44ba-931d-5bbdb33ddcb0</xr:TypeId>
+				<xr:ValueId>e8674186-76e8-4767-a21e-86854f099699</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПеререгистрацияУчастника" category="List">
+				<xr:TypeId>56077822-1f00-48c8-879a-e119adf0426d</xr:TypeId>
+				<xr:ValueId>89df7a99-233d-4499-9f4c-deed82b41a42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПеререгистрацияУчастника" category="Manager">
+				<xr:TypeId>6959a06d-9596-486e-b4c1-697bd05176b8</xr:TypeId>
+				<xr:ValueId>630e36e9-fd94-46a3-a7a9-a23e07ec2bb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПеререгистрацияУчастника</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ff7291b5-c372-438b-9346-567a6282f7f3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

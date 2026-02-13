@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="1b6ab21a-8287-40bd-9790-924f9043fd8d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.хм_СрезСчетчикНачисленийНПО" category="Record">
+				<xr:TypeId>3ab580b7-9299-432f-b307-0d82315b812a</xr:TypeId>
+				<xr:ValueId>99d94a4b-942f-47c5-83b7-0b95db8a0725</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.хм_СрезСчетчикНачисленийНПО" category="Manager">
+				<xr:TypeId>05f28232-e446-4588-a989-810c21d803cd</xr:TypeId>
+				<xr:ValueId>5502967e-8ad4-4cfc-a223-c0a3456e1c38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.хм_СрезСчетчикНачисленийНПО" category="Selection">
+				<xr:TypeId>7a04ca97-77a0-40be-8a96-d60567ff10a2</xr:TypeId>
+				<xr:ValueId>23fd6e78-5890-476c-b951-6fa285d7b446</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.хм_СрезСчетчикНачисленийНПО" category="List">
+				<xr:TypeId>4c7ce77f-eb9d-4d90-b974-5652619b24ac</xr:TypeId>
+				<xr:ValueId>3e348b16-974c-497f-927d-b64a2538c2e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.хм_СрезСчетчикНачисленийНПО" category="RecordSet">
+				<xr:TypeId>557d3401-fcae-4a2f-9f60-908856117ff3</xr:TypeId>
+				<xr:ValueId>a54e1ac8-7dd8-4fd8-9736-cd22e448b259</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.хм_СрезСчетчикНачисленийНПО" category="RecordKey">
+				<xr:TypeId>771d0dd1-dadd-4e0b-950f-2209aab9da44</xr:TypeId>
+				<xr:ValueId>acf09261-fba7-4048-9cc5-aa40980e403c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.хм_СрезСчетчикНачисленийНПО" category="RecordManager">
+				<xr:TypeId>45bea231-af7e-4d0d-865f-d23e8062a9b0</xr:TypeId>
+				<xr:ValueId>9834ad8b-ac5a-48fa-a7d0-ad313f44737f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_СрезСчетчикНачисленийНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>951fc1c2-a6e2-4d9c-aa5f-980fbe7a76e9</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.хм_СрезСчетчикНачисленийНПО.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0a8aede8-a5e5-42b1-94d8-2b7e4b788e73">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>17f471af-28c6-4a8a-9b5e-faf0eff09c5a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="eabb1a49-0fad-4c93-9161-fcb69b913180">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаУстановкиСостояния</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b9f86068-31db-4482-9f74-e1b97467fdb1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="20728453-1ba2-438f-b88e-58947eda4993">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fa1d694c-e41f-449a-8040-9d9ea3c8a0bb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

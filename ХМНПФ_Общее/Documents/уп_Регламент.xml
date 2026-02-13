@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="60970b8c-2195-4cfd-9cf7-ec55b5984013">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_Регламент" category="Object">
+				<xr:TypeId>d92af5fd-6556-4b47-b4c5-78054c93e46d</xr:TypeId>
+				<xr:ValueId>7ae35de5-33f4-48c7-9033-ecce76eca716</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_Регламент" category="Ref">
+				<xr:TypeId>97533eac-172f-43d8-9f1b-7eb1d76b55f9</xr:TypeId>
+				<xr:ValueId>b7b24200-6e2e-4a00-ae3a-07a7492d5200</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_Регламент" category="Selection">
+				<xr:TypeId>c9ce3ddc-3bc7-4998-a2b9-06f947b87b8d</xr:TypeId>
+				<xr:ValueId>a753eb0d-0172-4dbc-b603-aa02fbddd6ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_Регламент" category="List">
+				<xr:TypeId>57ec1eb9-5657-4c33-a4d2-e25be1e31b10</xr:TypeId>
+				<xr:ValueId>ba20a22b-af26-4f78-a784-e58ad4b81f12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_Регламент" category="Manager">
+				<xr:TypeId>ae2c2b29-1207-4d71-9c0e-3cb6e04e8e7e</xr:TypeId>
+				<xr:ValueId>e9920ec8-165e-4da4-9366-20345c1520c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_Регламент</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1ba5e967-257a-4550-b8f3-9d2c8244aabf</ExtendedConfigurationObject>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ec96659e-4fc6-4622-8b91-2b312fbaea21">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХМ_ПриостановкаВыплатПриНаличииПричиныПрекращения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2dc00d14-4f69-413c-8ebc-ac096d3bb7af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5c7d7685-19f0-4b54-ae86-15d43ef40086">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>492a7d0a-890c-42ae-83b6-7376312fdddb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2bf4b7d3-47ed-44fe-a8c3-2f5b880d5673">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aa9c85e2-1507-4cd4-99fc-5f14fcc895b2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cfe2c261-278c-4fc4-97b4-a64c6db46f76">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a3530494-75c1-42ef-8367-1f5c1aecc559</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>уф_ФормаДокумента</Form>
+			<TabularSection uuid="4b16b2df-28c0-43c7-9968-e024a7205ca9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_Регламент.ЗакрытиеСчетов" category="TabularSection">
+						<xr:TypeId>546a911e-685d-442f-9119-79619b40a4c7</xr:TypeId>
+						<xr:ValueId>ad13bbe9-676b-4906-9823-f5622f008fbf</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_Регламент.ЗакрытиеСчетов" category="TabularSectionRow">
+						<xr:TypeId>668a6b2a-be48-4ce7-9825-b7a89055c082</xr:TypeId>
+						<xr:ValueId>69b716b7-f097-454b-9b8f-ddf9b66ce663</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗакрытиеСчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e1f308cd-ebf9-4543-88e2-d5ac78a2c137</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="17a341eb-9a9e-44da-9c90-05f0d19163d1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ХМ_ПричинаПрекращенияВыплаты</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4c351661-267b-47ba-ae5d-d4678f18b3aa</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.ХМ_ПричиныПрекращенияВыплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="86d8964f-1ad1-4f89-accd-b26395c3c309">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c3945c41-4073-4f9a-85fd-6954193dabc8</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="13ca81bf-0562-4d33-a566-5b6081aed361">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>19bce32a-dd95-4201-b509-e50f52575e79</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9918240d-5ab3-4fb6-875d-e04daf478b1f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_Регламент.Приостановка" category="TabularSection">
+						<xr:TypeId>a1709338-561c-49d2-8687-81d804c8db6c</xr:TypeId>
+						<xr:ValueId>114d83c1-eb8c-4f98-b7f9-0630024a9c6b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_Регламент.Приостановка" category="TabularSectionRow">
+						<xr:TypeId>4a135066-037b-4bd8-9757-c588bad1fbbf</xr:TypeId>
+						<xr:ValueId>b018d457-6bf8-4968-9ea1-b5bc52399b2d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Приостановка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5e1621a2-387c-4e39-8830-74d0679af39c</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4f4c4ba2-5c7a-46f5-a31a-7b54b52e894c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаОкончанияОснований</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>15abc367-571e-4300-9208-d6a5c5d94e0e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d68b402e-bf8c-43e3-af8a-95db288f15bf">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f7c155d2-d525-48fc-9a59-b14b505857f9</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="94c68b63-3364-4d77-a97f-439e55cfd16c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПенсионныйДоговор</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4c3963ff-68d1-4e9c-b183-4a62815accf1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f84dca52-f9f7-49a3-874e-34908f64eff3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d9ed4f9a-d076-4274-9d7f-5fd508dc51e6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="05c0771b-2e4e-4846-a123-76aa069026de">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Основание</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9836c857-92ed-444b-b5a6-0337cadaec01</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеОснованияНПО</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d47eab96-e583-4ba4-bf06-9f1ea24481d4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПричинаПриостановки</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d81516ad-e838-43f6-913d-beed8012bb39</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПричиныПриостановок</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="d7997db6-91b5-4dad-920f-1eef89bec8f8">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_Регламент.ЗакрытиеДоговоров" category="TabularSection">
+						<xr:TypeId>c31a22b7-f0ce-4165-b6d6-b2413396e8a2</xr:TypeId>
+						<xr:ValueId>ee7e46aa-7b52-487c-b359-f634942863fc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_Регламент.ЗакрытиеДоговоров" category="TabularSectionRow">
+						<xr:TypeId>c4e145b5-231e-45dd-a8c9-57ac97571f66</xr:TypeId>
+						<xr:ValueId>327979e4-142a-4434-88c2-0251c76300d9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗакрытиеДоговоров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eb0179a4-1ce4-4de1-af31-91c6e20e1157</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1da747db-f723-4714-b421-d13a2dfb772e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПенсионныйДоговор</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e5f77f39-ccc2-4f42-9b69-902e07b1cb2f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5894be2c-e41b-45c4-aaf1-790278640808">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПричинаЗакрытия</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>36743522-0243-444c-80e1-9eb2d00af0fa</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.уп_ПричиныЗакрытияПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b8e295d8-7cd2-4078-990e-056c70a705fd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_Регламент.ЗакрытиеСчетовДосрочное" category="TabularSection">
+						<xr:TypeId>5fb527af-474c-4ab1-b6cb-eaca34f10fa1</xr:TypeId>
+						<xr:ValueId>0903aed8-5c36-4855-ac24-7fc6bc3ca854</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_Регламент.ЗакрытиеСчетовДосрочное" category="TabularSectionRow">
+						<xr:TypeId>be71b3e8-8656-42c2-a053-6b19431855d3</xr:TypeId>
+						<xr:ValueId>2ae6991c-5c02-4fc5-9c78-4fb4a5b08b87</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗакрытиеСчетовДосрочное</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a74e39cf-80fa-42b6-8cce-c7ac3de4a7f5</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="51033cfa-6aab-465b-a9c8-aca995b996d2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>31396199-7811-40dc-9aa3-a18670f9027d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="46995047-62ef-42b5-871e-4b07a0cae875">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9ede08ae-71fa-49d8-885a-31e58e294fd2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="09d95f98-eefc-4335-ad5c-d8eaf4d48d46">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПенсионныйДоговор</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>bfccc4d0-00f2-4377-838b-9bc42563cbcf</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="43542e94-4265-40f7-9a82-60d2706e864c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_Регламент.ЗакрытиеНеоплатаПервогоВзноса" category="TabularSection">
+						<xr:TypeId>aae022c5-5b17-49cc-9e3f-e606d12a57c5</xr:TypeId>
+						<xr:ValueId>99d13fea-9432-459c-855e-a50275ba44df</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_Регламент.ЗакрытиеНеоплатаПервогоВзноса" category="TabularSectionRow">
+						<xr:TypeId>90dcb5a7-41ea-4683-90a8-ecc98cd2f42f</xr:TypeId>
+						<xr:ValueId>5b603e45-b5c8-42fb-bbc1-ca2956238463</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗакрытиеНеоплатаПервогоВзноса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a11d0b52-5c7b-4854-8c05-9e77a2b65e05</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9677d591-d23c-44a4-891a-adb0fc88e31f">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d6192d90-fa76-4712-8aa8-d19569de2a45</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d5d74c7f-a112-49c2-91c7-311fb5590e3b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3fe3ac2f-f714-48ac-9163-afb51bb5422e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="502ac040-14c4-456e-8d3e-546863548d74">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПенсионныйДоговор</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>52b0e85c-84ac-489e-bf32-5b0e068e5ce9</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="a0b1da83-d94a-4620-949d-217e78e18cc6">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_Регламент.СписокСчетов" category="TabularSection">
+						<xr:TypeId>7c05ae5f-2bf4-42e2-8e78-0584fb1966c6</xr:TypeId>
+						<xr:ValueId>63f12d84-3d14-492e-a938-278c9229b349</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_Регламент.СписокСчетов" category="TabularSectionRow">
+						<xr:TypeId>2164f8cd-0ad4-4995-ad31-99b1dcfaa6f2</xr:TypeId>
+						<xr:ValueId>1c4d79f7-dbc0-4d63-b48e-a6b4b6dfe79f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СписокСчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>36746658-3416-4a11-be03-bfd967a71065</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1b926042-a2c7-45ce-a91d-21e0bf0210ff">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d58e382f-5dd2-4fda-ad7e-70eea6ea7844</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fb9b897e-519d-4074-9892-9ddab7e43461">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>44a8df71-6bb5-40ce-8bfc-575625af0511</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

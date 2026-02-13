@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6953ad64-11dd-4d2b-83be-64614407030f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ВидыДвижений" category="Ref">
+				<xr:TypeId>15620865-793b-46fd-b2a0-99783dd4ec29</xr:TypeId>
+				<xr:ValueId>c8f3dd51-90d8-46f2-b3f5-67f4066e71b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ВидыДвижений" category="Manager">
+				<xr:TypeId>973e3765-3e08-4ff7-a133-a53357edbf64</xr:TypeId>
+				<xr:ValueId>211ac60a-8114-40be-a721-13478e2b0c0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ВидыДвижений" category="List">
+				<xr:TypeId>bd97def2-e91f-4ae2-8c3f-95e96200fd8a</xr:TypeId>
+				<xr:ValueId>5b5b02bc-4bb3-4da2-a4ea-0f8703d63c18</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВидыДвижений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9f8970a2-2775-4854-afa7-9b0ae2d53954</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

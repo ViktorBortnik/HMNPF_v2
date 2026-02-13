@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="31c94e05-f2b9-47dc-b1e0-0f00ae44cfd1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПоступлениеВзносов" category="Object">
+				<xr:TypeId>25169479-cdf1-486d-a05e-5ca3cf422be8</xr:TypeId>
+				<xr:ValueId>692712f1-5a3f-4bff-b35f-e478b6419418</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПоступлениеВзносов" category="Ref">
+				<xr:TypeId>dcf7521e-b827-49f1-af6e-3129d4fd2856</xr:TypeId>
+				<xr:ValueId>fa3acf54-218b-43d5-8895-0c6e585dde67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПоступлениеВзносов" category="Selection">
+				<xr:TypeId>88de0e6e-c4cf-4c2d-bf27-68c0296eb2e2</xr:TypeId>
+				<xr:ValueId>4ef73b81-e3fc-4550-815e-2c1312c4f482</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПоступлениеВзносов" category="List">
+				<xr:TypeId>912d3de9-3521-40ac-81db-26cf5d530825</xr:TypeId>
+				<xr:ValueId>c6f225bc-c7e6-4d77-834c-8983fe226164</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПоступлениеВзносов" category="Manager">
+				<xr:TypeId>e3507e7d-0b19-4ba8-9567-5b43df8a28f9</xr:TypeId>
+				<xr:ValueId>8e9cbf5e-490f-4735-8c80-dbec99147f64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПоступлениеВзносов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>11e142a6-1d25-48ae-baf5-cb9b76eeccec</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ВидЭД" id="53">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ВидЭДКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ВидЭДРасширеннаяПодсказка" id="55"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ОтделениеПФР" id="74">
+			<ReadOnly>true</ReadOnly>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ОтделениеПФРКонтекстноеМеню" id="75"/>
+			<ExtendedTooltip name="ОтделениеПФРРасширеннаяПодсказка" id="76"/>
+		</InputField>
+		<Table name="ДоговорыОПС" id="7">
+			<Representation>List</Representation>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДоговорыОПСКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ДоговорыОПСКоманднаяПанель" id="9">
+				<HorizontalAlign>Right</HorizontalAlign>
+				<ChildItems>
+					<Button name="ДоговорыОПСНайти" id="46">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>0</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.Find</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ДоговорыОПСНайтиРасширеннаяПодсказка" id="47"/>
+					</Button>
+					<Button name="ДоговорыОПСОтменитьПоиск" id="48">
+						<Type>CommandBarButton</Type>
+						<Representation>Picture</Representation>
+						<CommandName>0</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.CancelSearch</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ДоговорыОПСОтменитьПоискРасширеннаяПодсказка" id="49"/>
+					</Button>
+					<Popup name="ДоговорыОПСГруппаИзменитьФлаг" id="86">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Изменить флаг ...</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Договоры ОПСГруппа изменить флаг</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ДоговорыОПСГруппаИзменитьФлагРасширеннаяПодсказка" id="87"/>
+						<ChildItems>
+							<Button name="ДоговорыОПСКомандаИзменитьФлагЕРЗЛ" id="88">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ДоговорыОПСКомандаИзменитьФлагЕРЗЛРасширеннаяПодсказка" id="89"/>
+							</Button>
+							<Button name="ДоговорыОПСКомандаИзменитьФлагОВзносах" id="90">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ДоговорыОПСКомандаИзменитьФлагОВзносахРасширеннаяПодсказка" id="91"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДоговорыОПСРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ДоговорыОПССтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ДоговорыОПС</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыОПССтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ДоговорыОПССтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДоговорыОПССостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ДоговорыОПС</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыОПССостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ДоговорыОПССостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДоговорыОПСУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ДоговорыОПС</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыОПСУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ДоговорыОПСУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДоговорыОПСНомерСтроки" id="20">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ДоговорыОПСНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ДоговорыОПСЗапросВПФР" id="59">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСЗапросВПФРКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ДоговорыОПСЗапросВПФРРасширеннаяПодсказка" id="61"/>
+				</InputField>
+				<InputField name="ДоговорыОПСДокумент" id="62">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСДокументКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ДоговорыОПСДокументРасширеннаяПодсказка" id="64"/>
+				</InputField>
+				<InputField name="ДоговорыОПССНИЛС" id="43">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПССНИЛСКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ДоговорыОПССНИЛСРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="ДоговорыОПСДоговорОПС" id="23">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСДоговорОПСКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДоговорыОПСДоговорОПСРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ДоговорыОПСЗастрахованноеЛицо" id="26">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСЗастрахованноеЛицоКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДоговорыОПСЗастрахованноеЛицоРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ДоговорыОПСДокументРегистрации" id="65">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСДокументРегистрацииКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ДоговорыОПСДокументРегистрацииРасширеннаяПодсказка" id="67"/>
+				</InputField>
+				<InputField name="ДоговорыОПСУведомление" id="56">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСУведомлениеКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДоговорыОПСУведомлениеРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="ДоговорыОПСПлатежныйДокумент" id="29">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСПлатежныйДокументКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ДоговорыОПСПлатежныйДокументРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ДоговорыОПСОснованиеПрекращения" id="50">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСОснованиеПрекращенияКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ДоговорыОПСОснованиеПрекращенияРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ДоговорыОПСЗаявление" id="32">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСЗаявлениеКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДоговорыОПСЗаявлениеРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ДоговорыОПСВидВыплаты" id="35">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСВидВыплатыКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ДоговорыОПСВидВыплатыРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ДоговорыОПССумма" id="38">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПССуммаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ДоговорыОПССуммаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ДоговорыОПСПолучатель" id="68">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСПолучательКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ДоговорыОПСПолучательРасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="ДоговорыОПСОрганизация" id="77">
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДоговорыОПСОрганизацияКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ДоговорыОПСОрганизацияРасширеннаяПодсказка" id="79"/>
+				</InputField>
+				<InputField name="ДоговорыОПССчет" id="71">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПССчетКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ДоговорыОПССчетРасширеннаяПодсказка" id="73"/>
+				</InputField>
+				<CheckBoxField name="ДоговорыОПСНужнаВыпискаЕРЗЛ" id="80">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСНужнаВыпискаЕРЗЛКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ДоговорыОПСНужнаВыпискаЕРЗЛРасширеннаяПодсказка" id="82"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСНужныСведенияОВзносах" id="83">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСНужныСведенияОВзносахКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ДоговорыОПСНужныСведенияОВзносахРасширеннаяПодсказка" id="85"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Шапка" id="41">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="42"/>
+				<ChildItems>
+					<InputField name="Номер" id="1">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+					</InputField>
+					<InputField name="Дата" id="4">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+					</InputField>
+					<InputField name="ВидЭД" id="53">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="ВидЭДКонтекстноеМеню" id="54"/>
+						<ExtendedTooltip name="ВидЭДРасширеннаяПодсказка" id="55"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="ОтделениеПФР" id="74">
+				<ReadOnly>true</ReadOnly>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ContextMenu name="ОтделениеПФРКонтекстноеМеню" id="75"/>
+				<ExtendedTooltip name="ОтделениеПФРРасширеннаяПодсказка" id="76"/>
+			</InputField>
+			<Table name="ДоговорыОПС" id="7">
+				<Representation>List</Representation>
+				<ChangeRowOrder>false</ChangeRowOrder>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="ДоговорыОПСКонтекстноеМеню" id="8"/>
+				<AutoCommandBar name="ДоговорыОПСКоманднаяПанель" id="9">
+					<HorizontalAlign>Right</HorizontalAlign>
+					<ChildItems>
+						<Button name="ДоговорыОПСНайти" id="46">
+							<Type>CommandBarButton</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>0</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.Find</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ДоговорыОПСНайтиРасширеннаяПодсказка" id="47"/>
+						</Button>
+						<Button name="ДоговорыОПСОтменитьПоиск" id="48">
+							<Type>CommandBarButton</Type>
+							<Representation>Picture</Representation>
+							<CommandName>0</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.CancelSearch</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ДоговорыОПСОтменитьПоискРасширеннаяПодсказка" id="49"/>
+						</Button>
+						<Popup name="ДоговорыОПСГруппаИзменитьФлаг" id="86">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Изменить флаг ...</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Договоры ОПСГруппа изменить флаг</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ДоговорыОПСГруппаИзменитьФлагРасширеннаяПодсказка" id="87"/>
+							<ChildItems>
+								<Button name="ДоговорыОПСКомандаИзменитьФлагЕРЗЛ" id="88">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ДоговорыОПСКомандаИзменитьФлагЕРЗЛРасширеннаяПодсказка" id="89"/>
+								</Button>
+								<Button name="ДоговорыОПСКомандаИзменитьФлагОВзносах" id="90">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ДоговорыОПСКомандаИзменитьФлагОВзносахРасширеннаяПодсказка" id="91"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ДоговорыОПСРасширеннаяПодсказка" id="10"/>
+				<SearchStringAddition name="ДоговорыОПССтрокаПоиска" id="11">
+					<AdditionSource>
+						<Item>ДоговорыОПС</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДоговорыОПССтрокаПоискаКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ДоговорыОПССтрокаПоискаРасширеннаяПодсказка" id="13"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ДоговорыОПССостояниеПросмотра" id="14">
+					<AdditionSource>
+						<Item>ДоговорыОПС</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДоговорыОПССостояниеПросмотраКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ДоговорыОПССостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ДоговорыОПСУправлениеПоиском" id="17">
+					<AdditionSource>
+						<Item>ДоговорыОПС</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ДоговорыОПСУправлениеПоискомКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДоговорыОПСУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="ДоговорыОПСНомерСтроки" id="20">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСНомерСтрокиКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="ДоговорыОПСНомерСтрокиРасширеннаяПодсказка" id="22"/>
+					</LabelField>
+					<InputField name="ДоговорыОПСЗапросВПФР" id="59">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСЗапросВПФРКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="ДоговорыОПСЗапросВПФРРасширеннаяПодсказка" id="61"/>
+					</InputField>
+					<InputField name="ДоговорыОПСДокумент" id="62">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСДокументКонтекстноеМеню" id="63"/>
+						<ExtendedTooltip name="ДоговорыОПСДокументРасширеннаяПодсказка" id="64"/>
+					</InputField>
+					<InputField name="ДоговорыОПССНИЛС" id="43">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПССНИЛСКонтекстноеМеню" id="44"/>
+						<ExtendedTooltip name="ДоговорыОПССНИЛСРасширеннаяПодсказка" id="45"/>
+					</InputField>
+					<InputField name="ДоговорыОПСДоговорОПС" id="23">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСДоговорОПСКонтекстноеМеню" id="24"/>
+						<ExtendedTooltip name="ДоговорыОПСДоговорОПСРасширеннаяПодсказка" id="25"/>
+					</InputField>
+					<InputField name="ДоговорыОПСЗастрахованноеЛицо" id="26">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСЗастрахованноеЛицоКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="ДоговорыОПСЗастрахованноеЛицоРасширеннаяПодсказка" id="28"/>
+					</InputField>
+					<InputField name="ДоговорыОПСДокументРегистрации" id="65">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСДокументРегистрацииКонтекстноеМеню" id="66"/>
+						<ExtendedTooltip name="ДоговорыОПСДокументРегистрацииРасширеннаяПодсказка" id="67"/>
+					</InputField>
+					<InputField name="ДоговорыОПСУведомление" id="56">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСУведомлениеКонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="ДоговорыОПСУведомлениеРасширеннаяПодсказка" id="58"/>
+					</InputField>
+					<InputField name="ДоговорыОПСПлатежныйДокумент" id="29">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСПлатежныйДокументКонтекстноеМеню" id="30"/>
+						<ExtendedTooltip name="ДоговорыОПСПлатежныйДокументРасширеннаяПодсказка" id="31"/>
+					</InputField>
+					<InputField name="ДоговорыОПСОснованиеПрекращения" id="50">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСОснованиеПрекращенияКонтекстноеМеню" id="51"/>
+						<ExtendedTooltip name="ДоговорыОПСОснованиеПрекращенияРасширеннаяПодсказка" id="52"/>
+					</InputField>
+					<InputField name="ДоговорыОПСЗаявление" id="32">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСЗаявлениеКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="ДоговорыОПСЗаявлениеРасширеннаяПодсказка" id="34"/>
+					</InputField>
+					<InputField name="ДоговорыОПСВидВыплаты" id="35">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСВидВыплатыКонтекстноеМеню" id="36"/>
+						<ExtendedTooltip name="ДоговорыОПСВидВыплатыРасширеннаяПодсказка" id="37"/>
+					</InputField>
+					<InputField name="ДоговорыОПССумма" id="38">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПССуммаКонтекстноеМеню" id="39"/>
+						<ExtendedTooltip name="ДоговорыОПССуммаРасширеннаяПодсказка" id="40"/>
+					</InputField>
+					<InputField name="ДоговорыОПСПолучатель" id="68">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСПолучательКонтекстноеМеню" id="69"/>
+						<ExtendedTooltip name="ДоговорыОПСПолучательРасширеннаяПодсказка" id="70"/>
+					</InputField>
+					<InputField name="ДоговорыОПСОрганизация" id="77">
+						<EditMode>EnterOnInput</EditMode>
+						<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+						<ContextMenu name="ДоговорыОПСОрганизацияКонтекстноеМеню" id="78"/>
+						<ExtendedTooltip name="ДоговорыОПСОрганизацияРасширеннаяПодсказка" id="79"/>
+					</InputField>
+					<InputField name="ДоговорыОПССчет" id="71">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПССчетКонтекстноеМеню" id="72"/>
+						<ExtendedTooltip name="ДоговорыОПССчетРасширеннаяПодсказка" id="73"/>
+					</InputField>
+					<CheckBoxField name="ДоговорыОПСНужнаВыпискаЕРЗЛ" id="80">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСНужнаВыпискаЕРЗЛКонтекстноеМеню" id="81"/>
+						<ExtendedTooltip name="ДоговорыОПСНужнаВыпискаЕРЗЛРасширеннаяПодсказка" id="82"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСНужныСведенияОВзносах" id="83">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСНужныСведенияОВзносахКонтекстноеМеню" id="84"/>
+						<ExtendedTooltip name="ДоговорыОПСНужныСведенияОВзносахРасширеннаяПодсказка" id="85"/>
+					</CheckBoxField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

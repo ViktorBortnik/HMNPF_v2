@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6e5413af-3e4b-4e88-9e56-76b434c3f5c6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РешениеОбОтказеСВ" category="Object">
+				<xr:TypeId>24717a1c-028e-468e-b2c7-a6bf8ca50a2c</xr:TypeId>
+				<xr:ValueId>0d07d557-6f7c-45e8-8eb1-d278923ce624</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РешениеОбОтказеСВ" category="Ref">
+				<xr:TypeId>6e3f6b42-8fef-4f8b-9b85-cd8be297d7dc</xr:TypeId>
+				<xr:ValueId>7096e772-de7f-416c-8fa6-f731c7c473a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РешениеОбОтказеСВ" category="Selection">
+				<xr:TypeId>5b2e1aa3-d1fc-48f9-8606-32bc716cdd81</xr:TypeId>
+				<xr:ValueId>343fa9fe-10fd-4f55-84c2-587d4a9b5672</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РешениеОбОтказеСВ" category="List">
+				<xr:TypeId>a82238ee-dfa5-4f0b-9fd5-57af9d44de54</xr:TypeId>
+				<xr:ValueId>7726dc80-9193-4173-a6d0-4810036d049f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РешениеОбОтказеСВ" category="Manager">
+				<xr:TypeId>05651876-2a20-4ad1-83f4-76575b433f24</xr:TypeId>
+				<xr:ValueId>6bebd7a1-a1a0-4f96-9c51-61f7875aab87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РешениеОбОтказеСВ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5034c6cc-c1c6-48f5-90d6-b60e8941d53e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="014279c6-5fd6-4b13-ad1b-1d1ce5117982">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b06b3f9e-380b-4aa7-864d-c922dac0772a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="149644ea-a33e-44fc-a323-04d440f9948f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2cb4a9cc-fb0a-48bc-a911-0998bb41c1d9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="42aad04e-10e0-47a5-be29-af4efcab7cbc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1943ccd2-72ed-44ea-9f26-1569eb112a52</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.уп_ЗаявлениеЗЛОНазначенииСрочнойВыплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1e48b4bf-785c-4b77-8d92-fb55f7029a4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e1caa017-9888-48f9-a859-787917dfe408</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>уф_ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

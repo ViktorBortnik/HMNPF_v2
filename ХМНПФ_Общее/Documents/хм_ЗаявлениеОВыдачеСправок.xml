@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2cc0dc59-dfc2-47db-8889-69a76dbaf1e1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.хм_ЗаявлениеОВыдачеСправок" category="Object">
+				<xr:TypeId>c78759cd-068d-48ec-bbaa-1d386f68bbc9</xr:TypeId>
+				<xr:ValueId>48d5ae99-22d2-4ae9-a946-257616fbc407</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.хм_ЗаявлениеОВыдачеСправок" category="Ref">
+				<xr:TypeId>4ee970fe-b5ac-4c72-80a7-a021f327ad26</xr:TypeId>
+				<xr:ValueId>f744b56b-07c8-47f2-8400-fc3e488fd68c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.хм_ЗаявлениеОВыдачеСправок" category="Selection">
+				<xr:TypeId>e8003daf-78ff-407e-9012-7f47f30cabe1</xr:TypeId>
+				<xr:ValueId>1d55111b-db7a-4660-8817-59796e259194</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.хм_ЗаявлениеОВыдачеСправок" category="List">
+				<xr:TypeId>fd4f756c-f425-4f46-8dd5-0a49792d41a5</xr:TypeId>
+				<xr:ValueId>c54b37cc-2500-4e58-adaf-9f9ea00fd72a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.хм_ЗаявлениеОВыдачеСправок" category="Manager">
+				<xr:TypeId>a06e1dc3-8153-492c-b83f-317b1e61daf6</xr:TypeId>
+				<xr:ValueId>15f29caa-6bcc-4ffa-bc8e-be397627a02b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_ЗаявлениеОВыдачеСправок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>95eda2a5-fd02-4893-8bb7-e49950cac20b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

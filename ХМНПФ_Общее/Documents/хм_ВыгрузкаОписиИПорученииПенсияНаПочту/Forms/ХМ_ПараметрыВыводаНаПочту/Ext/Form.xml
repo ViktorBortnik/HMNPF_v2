@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПодтвердитьПараметрыЗаполнения" id="165">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПодтвердитьПараметрыЗаполнения</CommandName>
+				<ExtendedTooltip name="ФормаПодтвердитьПараметрыЗаполненияРасширеннаяПодсказка" id="166"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="45">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<CheckBoxField name="ЗаполнятьАдресРайонаРегионом" id="1">
+					<DataPath>ЗаполнятьАдресРайонаРегионом</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗаполнятьАдресРайонаРегиономКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ЗаполнятьАдресРайонаРегиономРасширеннаяПодсказка" id="3"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьНаселенныйПунктГородом" id="4">
+					<DataPath>ЗаполнятьНаселенныйПунктГородом</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗаполнятьНаселенныйПунктГородомКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ЗаполнятьНаселенныйПунктГородомРасширеннаяПодсказка" id="6"/>
+				</CheckBoxField>
+				<CheckBoxField name="НеВыводитьКППОрганизации" id="96">
+					<DataPath>НеВыводитьКППОрганизации</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НеВыводитьКППОрганизацииКонтекстноеМеню" id="97"/>
+					<ExtendedTooltip name="НеВыводитьКППОрганизацииРасширеннаяПодсказка" id="98"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа6" id="102">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="103"/>
+			<ChildItems>
+				<UsualGroup name="Группа8" id="112">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правила вывода документов УЛ</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="113"/>
+					<ChildItems>
+						<Table name="ХМ_ПочтаУдостоверяющиеДокумент" id="167">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ХМ_ПочтаУдостоверяющиеДокумент</DataPath>
+							<RowPictureDataPath>ХМ_ПочтаУдостоверяющиеДокумент.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ХМ_ПочтаУдостоверяющиеДокументКонтекстноеМеню" id="168"/>
+							<AutoCommandBar name="ХМ_ПочтаУдостоверяющиеДокументКоманднаяПанель" id="169"/>
+							<ExtendedTooltip name="ХМ_ПочтаУдостоверяющиеДокументРасширеннаяПодсказка" id="170"/>
+							<SearchStringAddition name="ХМ_ПочтаУдостоверяющиеДокументСтрокаПоиска" id="171">
+								<AdditionSource>
+									<Item>ХМ_ПочтаУдостоверяющиеДокумент</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_ПочтаУдостоверяющиеДокументСтрокаПоискаКонтекстноеМеню" id="172"/>
+								<ExtendedTooltip name="ХМ_ПочтаУдостоверяющиеДокументСтрокаПоискаРасширеннаяПодсказка" id="173"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ХМ_ПочтаУдостоверяющиеДокументСостояниеПросмотра" id="174">
+								<AdditionSource>
+									<Item>ХМ_ПочтаУдостоверяющиеДокумент</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_ПочтаУдостоверяющиеДокументСостояниеПросмотраКонтекстноеМеню" id="175"/>
+								<ExtendedTooltip name="ХМ_ПочтаУдостоверяющиеДокументСостояниеПросмотраРасширеннаяПодсказка" id="176"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ХМ_ПочтаУдостоверяющиеДокументУправлениеПоиском" id="177">
+								<AdditionSource>
+									<Item>ХМ_ПочтаУдостоверяющиеДокумент</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_ПочтаУдостоверяющиеДокументУправлениеПоискомКонтекстноеМеню" id="178"/>
+								<ExtendedTooltip name="ХМ_ПочтаУдостоверяющиеДокументУправлениеПоискомРасширеннаяПодсказка" id="179"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ХМ_ПочтаУдостоверяющиеДокументДокументФизическогоЛица" id="180">
+									<DataPath>ХМ_ПочтаУдостоверяющиеДокумент.ДокументФизическогоЛица</DataPath>
+									<ContextMenu name="ХМ_ПочтаУдостоверяющиеДокументДокументФизическогоЛицаКонтекстноеМеню" id="181"/>
+									<ExtendedTooltip name="ХМ_ПочтаУдостоверяющиеДокументДокументФизическогоЛицаРасширеннаяПодсказка" id="182"/>
+								</LabelField>
+								<LabelField name="ХМ_ПочтаУдостоверяющиеДокументПредставление" id="183">
+									<DataPath>ХМ_ПочтаУдостоверяющиеДокумент.Представление</DataPath>
+									<ContextMenu name="ХМ_ПочтаУдостоверяющиеДокументПредставлениеКонтекстноеМеню" id="184"/>
+									<ExtendedTooltip name="ХМ_ПочтаУдостоверяющиеДокументПредставлениеРасширеннаяПодсказка" id="185"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа10" id="141">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КБК по выплаты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="142"/>
+					<ChildItems>
+						<Table name="ХМ_КБКпоТипуВыплаты1" id="143">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ХМ_КБКпоТипуВыплаты</DataPath>
+							<RowPictureDataPath>ХМ_КБКпоТипуВыплаты.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ХМ_КБКпоТипуВыплаты1КонтекстноеМеню" id="144"/>
+							<AutoCommandBar name="ХМ_КБКпоТипуВыплаты1КоманднаяПанель" id="145"/>
+							<ExtendedTooltip name="ХМ_КБКпоТипуВыплаты1РасширеннаяПодсказка" id="146"/>
+							<SearchStringAddition name="ХМ_КБКпоТипуВыплаты1СтрокаПоиска" id="147">
+								<AdditionSource>
+									<Item>ХМ_КБКпоТипуВыплаты1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_КБКпоТипуВыплаты1СтрокаПоискаКонтекстноеМеню" id="148"/>
+								<ExtendedTooltip name="ХМ_КБКпоТипуВыплаты1СтрокаПоискаРасширеннаяПодсказка" id="149"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ХМ_КБКпоТипуВыплаты1СостояниеПросмотра" id="150">
+								<AdditionSource>
+									<Item>ХМ_КБКпоТипуВыплаты1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_КБКпоТипуВыплаты1СостояниеПросмотраКонтекстноеМеню" id="151"/>
+								<ExtendedTooltip name="ХМ_КБКпоТипуВыплаты1СостояниеПросмотраРасширеннаяПодсказка" id="152"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ХМ_КБКпоТипуВыплаты1УправлениеПоиском" id="153">
+								<AdditionSource>
+									<Item>ХМ_КБКпоТипуВыплаты1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_КБКпоТипуВыплаты1УправлениеПоискомКонтекстноеМеню" id="154"/>
+								<ExtendedTooltip name="ХМ_КБКпоТипуВыплаты1УправлениеПоискомРасширеннаяПодсказка" id="155"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ХМ_КБКпоТипуВыплатыТипВыплаты1" id="156">
+									<DataPath>ХМ_КБКпоТипуВыплаты.ТипВыплаты</DataPath>
+									<ContextMenu name="ХМ_КБКпоТипуВыплатыТипВыплаты1КонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="ХМ_КБКпоТипуВыплатыТипВыплаты1РасширеннаяПодсказка" id="158"/>
+								</LabelField>
+								<LabelField name="ХМ_КБКпоТипуВыплатыКодВыплатыПоКБК1" id="159">
+									<DataPath>ХМ_КБКпоТипуВыплаты.КодВыплатыПоКБК</DataPath>
+									<ContextMenu name="ХМ_КБКпоТипуВыплатыКодВыплатыПоКБК1КонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="ХМ_КБКпоТипуВыплатыКодВыплатыПоКБК1РасширеннаяПодсказка" id="161"/>
+								</LabelField>
+								<LabelField name="ХМ_КБКпоТипуВыплатыНаименованиеВыплатыПоКБК1" id="162">
+									<DataPath>ХМ_КБКпоТипуВыплаты.НаименованиеВыплатыПоКБК</DataPath>
+									<ContextMenu name="ХМ_КБКпоТипуВыплатыНаименованиеВыплатыПоКБК1КонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="ХМ_КБКпоТипуВыплатыНаименованиеВыплатыПоКБК1РасширеннаяПодсказка" id="164"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ЗаполнятьАдресРайонаРегионом" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять адрес района регионом (в случае отсутствия второго)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьНаселенныйПунктГородом" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять населенный пункт городом</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ХМ_ПочтаУдостоверяющиеДокумент" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(ХМ) Наименование удостоверяющих документов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ХМ_ПочтаУдостоверяющиеДокумент</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ХМ_КБКпоТипуВыплаты" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(ХМ) КБК по типу выплаты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ХМ_КБКпоТипуВыплаты</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="НеВыводитьКППОрганизации" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не выводить КПП организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПодтвердитьПараметрыЗаполнения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтвердить параметры заполнения и продолжить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтвердить параметры заполнения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодтвердитьПараметрыЗаполнения</Action>
+		</Command>
+	</Commands>
+</Form>

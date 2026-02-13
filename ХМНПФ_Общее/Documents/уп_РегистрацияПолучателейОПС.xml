@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1cb7090a-97eb-495f-aa3f-98e86776bc1d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РегистрацияПолучателейОПС" category="Object">
+				<xr:TypeId>d8ba6403-9aec-4a10-a9e1-5d52f71cb6b8</xr:TypeId>
+				<xr:ValueId>3796e928-5a43-4d2b-ab50-c5aae164bb67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РегистрацияПолучателейОПС" category="Ref">
+				<xr:TypeId>32ac316d-25a7-4f41-928f-771dcbd09163</xr:TypeId>
+				<xr:ValueId>e4236795-af91-47bd-89e9-f15dd1649a81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РегистрацияПолучателейОПС" category="Selection">
+				<xr:TypeId>dd32706a-4e31-4ba4-abec-c5127d741ad3</xr:TypeId>
+				<xr:ValueId>2e0926cf-00a4-4ab4-9c25-2159c0d5ee5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РегистрацияПолучателейОПС" category="List">
+				<xr:TypeId>3c79cc71-869a-4f86-938d-b1f47af3ab4d</xr:TypeId>
+				<xr:ValueId>43a6c10c-6d9b-4c60-a402-3d74fdd04546</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РегистрацияПолучателейОПС" category="Manager">
+				<xr:TypeId>29aa9560-b118-4699-aa78-2495a8a68d11</xr:TypeId>
+				<xr:ValueId>abffefa4-3c3c-4a57-9886-783c4ced5704</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РегистрацияПолучателейОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3d754c53-14de-4a3d-ab5f-3a8ebdbdff17</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="287d6272-9393-4847-801d-fbcb8c6778f1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7b2997c3-4125-4d35-a6d5-7cd6ce8bd85f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="15bcfbb1-0e30-464d-8399-4ed3485055b4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_РегистрацияПолучателейОПС.Участники" category="TabularSection">
+						<xr:TypeId>96e9fbc2-9601-43ed-8eb5-e87d2cfded61</xr:TypeId>
+						<xr:ValueId>9b52841f-2cb6-417a-94b9-5c05180db831</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_РегистрацияПолучателейОПС.Участники" category="TabularSectionRow">
+						<xr:TypeId>36bdf638-b4ce-4af2-a8cd-672f1c06d223</xr:TypeId>
+						<xr:ValueId>323826c0-f54c-4fa4-bfb1-6d2997de420f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участники</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>27cde2d2-0d56-4970-81b9-8c1087bd8714</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="50d31214-d758-4a5d-b47c-f8e0fa0e09c0">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорОПС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e0dca92c-54d6-488a-9977-5ad1830742d5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0eea2438-e0de-4865-b213-f50f7e10b2c7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>be5b602d-f0d4-486c-ab74-256b765e494e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2aa1ae38-ecd6-41bd-acb7-e163964b364e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТипЛицевогоСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8aba5bbf-9384-459f-8e05-b8bc7394ab26</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.уп_ТипыЛицевыхСчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d6ae7d1f-49f0-4dfb-ab66-c54c04c29e5d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерЛицевогоСчета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>01971d4c-159e-4fb2-975f-687ce34485bc</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>25</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1fca37e2-689c-4a15-aab4-035b04997c42">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Получатель</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>fe5f2814-e033-45d3-bd20-a0f3186afe81</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="49f1e166-9040-41fe-bbb2-2bf79ed93893">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоверенноеЛицо</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7dc6f0d5-e42c-4466-b3b9-77bbc3726c33</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9530c23f-ffa6-4d56-90f1-e06f11d187e5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ФормаВыплаты</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>32694b4e-51cb-4e72-8b32-b5647b528d8a</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.уп_ФормыВыплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ea5af47d-715c-4064-9b7f-75709d08f48d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>РасчетныйСчет</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a5a4b6e4-6d4c-4dc1-ae99-91b3aabc2da6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a09dbcd4-2271-4fd3-9fbd-49fef0d785ea">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументВозврата</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>00611135-0915-4634-af0b-555a1b730618</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

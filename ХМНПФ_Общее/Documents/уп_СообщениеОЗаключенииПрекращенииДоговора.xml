@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8c125eaf-adca-47de-b58e-02efb0d3d277">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_СообщениеОЗаключенииПрекращенииДоговора" category="Object">
+				<xr:TypeId>f4780955-748a-4c71-a5f3-ee9c70c5c180</xr:TypeId>
+				<xr:ValueId>791fad9f-1f8d-4c83-8e1a-e35241ef3a2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_СообщениеОЗаключенииПрекращенииДоговора" category="Ref">
+				<xr:TypeId>42d0ab41-f639-4796-a307-f8cd72c1aaf5</xr:TypeId>
+				<xr:ValueId>9f67be6d-1906-42d8-8d07-baf968fb79d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_СообщениеОЗаключенииПрекращенииДоговора" category="Selection">
+				<xr:TypeId>a6939f08-d13d-4984-9661-625a6e851bfe</xr:TypeId>
+				<xr:ValueId>be0e0172-3cc7-4372-af96-c00c6c474e81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_СообщениеОЗаключенииПрекращенииДоговора" category="List">
+				<xr:TypeId>02feff2b-7123-4661-9220-926b85988086</xr:TypeId>
+				<xr:ValueId>826f4739-0d83-49c6-b706-1177ad098e7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_СообщениеОЗаключенииПрекращенииДоговора" category="Manager">
+				<xr:TypeId>ddf1b07d-4531-4405-95af-d1dc13d7342f</xr:TypeId>
+				<xr:ValueId>59668a2a-8302-451d-8b41-1cbc549da66d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СообщениеОЗаключенииПрекращенииДоговора</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>51126fac-0049-45da-bfb9-dd5c66a39562</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

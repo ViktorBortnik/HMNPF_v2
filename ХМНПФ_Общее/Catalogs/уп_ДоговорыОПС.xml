@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="39dd5ede-64cb-45bd-b72d-20f5497229d9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ДоговорыОПС" category="Object">
+				<xr:TypeId>2bce184b-0d61-4288-815d-7fae54074c7a</xr:TypeId>
+				<xr:ValueId>8ff8072d-d40f-4da4-bebe-633c650f07a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ДоговорыОПС" category="Ref">
+				<xr:TypeId>5a696c33-6c2b-45f4-9c60-286af0a2ebd8</xr:TypeId>
+				<xr:ValueId>38b24e10-2af9-4c99-bc7a-7a2b62166e86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ДоговорыОПС" category="Selection">
+				<xr:TypeId>72698345-d709-40b7-86d1-7a85554246cc</xr:TypeId>
+				<xr:ValueId>b94111f4-7f1e-4014-84e0-c33c4e92974b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ДоговорыОПС" category="List">
+				<xr:TypeId>d7ed75c2-96a2-4086-a28a-81a075e3709a</xr:TypeId>
+				<xr:ValueId>6f6da067-4228-4139-8c87-f68bf044885c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ДоговорыОПС" category="Manager">
+				<xr:TypeId>5c19f961-9756-43a8-a12f-847f8e044729</xr:TypeId>
+				<xr:ValueId>a010b7e4-f45f-4cc8-81b5-95f17ff21396</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДоговорыОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>478020f3-bd2d-442f-965d-fc5c7bdbfb88</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="10d45637-96d6-4197-8570-11cd7b580cab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаЗаключения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d0f5a8f2-2ad3-4897-a129-5d35dbeb161c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e87b5249-2b36-4083-9870-72ace4456025">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>342d3940-bd54-4d88-8541-7a10b6a3f83f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2e8d624-f1df-486f-8866-6f81f4444642">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5ea9ced8-bd9a-49a2-9edd-ea370865bd8b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e378694-b9fc-47e6-8476-8534f1281a94">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНазначенияНЧТП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a197766d-8c01-488d-8d50-4f9bb96e3e17</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="259c06ea-2743-46bf-9133-38e627c6693e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СрокНЧТППриНазначении</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b842a40-94be-4321-b805-467ef014b6ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

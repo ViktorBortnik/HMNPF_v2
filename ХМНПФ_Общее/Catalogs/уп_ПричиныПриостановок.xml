@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="bcb70607-ba14-49fe-b1e1-c70a5ea20830">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ПричиныПриостановок" category="Object">
+				<xr:TypeId>f88bbeea-214d-4096-8577-96e79a0a51b6</xr:TypeId>
+				<xr:ValueId>92793d1e-d166-4b4b-b7b9-b66eee40303b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ПричиныПриостановок" category="Ref">
+				<xr:TypeId>3dcfd014-627e-464f-9938-5ee0f09e86db</xr:TypeId>
+				<xr:ValueId>29c7c13c-cd74-416c-a648-207765badb59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ПричиныПриостановок" category="Selection">
+				<xr:TypeId>9f30544f-dbe1-4f93-ac37-1337cced14cc</xr:TypeId>
+				<xr:ValueId>ad992335-4406-49e1-aefe-e981d879c1dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ПричиныПриостановок" category="List">
+				<xr:TypeId>f13ebbb1-65d1-41d6-815c-3e2977eb8692</xr:TypeId>
+				<xr:ValueId>c7dacd4b-c23e-4967-ad5b-421c3367bf79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ПричиныПриостановок" category="Manager">
+				<xr:TypeId>0c604046-7a8b-4898-958d-0c6fa0b43a1b</xr:TypeId>
+				<xr:ValueId>29a1c4a4-ddcf-4dc4-9bbc-ae0e5009a4c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПричиныПриостановок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e3f5106-15fe-4dba-a5f2-87fa1c794615</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

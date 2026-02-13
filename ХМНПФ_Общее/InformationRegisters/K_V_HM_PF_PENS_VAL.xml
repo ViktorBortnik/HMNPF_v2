@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="891e7358-1dd7-4b2d-93ec-c457d7697707">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.K_V_HM_PF_PENS_VAL" category="Record">
+				<xr:TypeId>f83fdd64-87ef-4df0-806a-89dd5d30a823</xr:TypeId>
+				<xr:ValueId>0a81a9e5-c80c-46a3-b8f8-bd5c09225e2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.K_V_HM_PF_PENS_VAL" category="Manager">
+				<xr:TypeId>6394ecd9-aeca-43ad-ac1e-35797b1d7a23</xr:TypeId>
+				<xr:ValueId>48f3b1bf-2dbb-4295-86a2-660c94a053e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.K_V_HM_PF_PENS_VAL" category="Selection">
+				<xr:TypeId>c7eb48c9-bfd0-4ce0-80a2-8f5753cf80dd</xr:TypeId>
+				<xr:ValueId>e1e53953-f313-4955-99c9-8dcc1da02cfe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.K_V_HM_PF_PENS_VAL" category="List">
+				<xr:TypeId>74d10777-5c81-404c-b0f3-afe93c64e0b3</xr:TypeId>
+				<xr:ValueId>d7f4ac17-5a6b-4c3a-91c8-4b6bc59ccce6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.K_V_HM_PF_PENS_VAL" category="RecordSet">
+				<xr:TypeId>d66deb30-bbc5-4510-8ad8-d29463c44d80</xr:TypeId>
+				<xr:ValueId>e7ba681b-5768-45e3-9c57-5b2de3f7971a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.K_V_HM_PF_PENS_VAL" category="RecordKey">
+				<xr:TypeId>b1a10157-e806-468c-9fb3-eea4bce8b216</xr:TypeId>
+				<xr:ValueId>22695b11-9c95-4fda-b0df-dbd5179ff645</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.K_V_HM_PF_PENS_VAL" category="RecordManager">
+				<xr:TypeId>2b9b1c16-6cf1-4d9d-91e6-4fc796cbfeef</xr:TypeId>
+				<xr:ValueId>3fbe1a3c-252e-42b3-9c0c-e47aa865f015</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>K_V_HM_PF_PENS_VAL</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>781edd25-0919-48ca-9cbe-961daabec22e</ExtendedConfigurationObject>
+			<DefaultRecordForm/>
+			<DefaultListForm>InformationRegister.K_V_HM_PF_PENS_VAL.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ccdb07cc-bdb4-4753-86c6-db9491425605">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d4d55b56-d3a3-4d74-a53a-f977b370660d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="55a8dbfe-322a-4da6-ba2b-ad011f227839">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c61cbdee-be25-4a29-bee9-6c77fcbc3d53</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c7ce697f-0262-4d3e-8472-56d290608bec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>STATUS_DOC_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>94214963-d138-4b57-b64a-af344c45c158</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ee801bb7-a274-4f61-9d4f-a5f4b8bc5283">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>PENS_VAL</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b75517d2-40d2-45f2-99fd-4c254df66f76</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="868db7cf-c4f4-439e-a164-7527986acdf4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>DOC_TYPE_SID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5b50e4eb-05a7-433c-ac5f-cc3bb82a1be1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="c711ba0b-9910-4de9-af5e-a8b1f1c759b4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>PF_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>44e9e652-1ff7-497b-8aa7-dc0e24f678f8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="101c5d7f-e4a6-4c5a-a2d2-8f94a68d032f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ACC_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>41153ecf-c434-4bf7-b9c0-f547acc43c92</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="316be54e-6fb2-425c-9af2-a7bf054643b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RP_DOC_BEGIN</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b2ab14b-d900-4f5f-997b-0a2ca99882fd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3ac2005b-b924-42ce-a89d-85bffe2e064c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.пдс_РешениеОбОтказеВВыплатеВыкупнойСуммы" category="Object">
+				<xr:TypeId>83e154ba-385b-42fc-88cf-18b749bb0465</xr:TypeId>
+				<xr:ValueId>f6537411-f3c2-417a-92f5-1b91a4a98569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.пдс_РешениеОбОтказеВВыплатеВыкупнойСуммы" category="Ref">
+				<xr:TypeId>96060199-b6a4-4029-aaf9-942cd8aa01d7</xr:TypeId>
+				<xr:ValueId>38d3b15e-e8f8-4a5d-9812-a6c0951443bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.пдс_РешениеОбОтказеВВыплатеВыкупнойСуммы" category="Selection">
+				<xr:TypeId>d5ff8740-a0ff-45e7-94ab-96d2afe3f88e</xr:TypeId>
+				<xr:ValueId>49b3a840-274f-4821-bd3d-c92b3f344971</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.пдс_РешениеОбОтказеВВыплатеВыкупнойСуммы" category="List">
+				<xr:TypeId>e9bf2c41-a21d-4345-b147-5e8467f2a371</xr:TypeId>
+				<xr:ValueId>ec2547fd-a771-42f7-9192-a7908f674fb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.пдс_РешениеОбОтказеВВыплатеВыкупнойСуммы" category="Manager">
+				<xr:TypeId>125eb628-5584-4882-a151-56d9a5828f79</xr:TypeId>
+				<xr:ValueId>3743fb98-6e14-4bc3-9ac2-9099132222f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_РешениеОбОтказеВВыплатеВыкупнойСуммы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2d03e3aa-0037-4d61-9075-7f10833e40ac</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0c887e3e-3d0d-45f7-b5ba-2e316fc24874">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>133431a8-9b98-4d1e-bc2b-86d411e679a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Template>хмПДС_Приложение2</Template>
+			<Template>хмПДС_Приложение5</Template>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

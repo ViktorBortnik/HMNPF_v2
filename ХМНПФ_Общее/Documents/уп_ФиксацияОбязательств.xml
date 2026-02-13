@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e441522c-9920-4c4d-8642-ab405b7748c5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ФиксацияОбязательств" category="Object">
+				<xr:TypeId>586ceddc-cb85-4c50-8591-bd5359b9f21c</xr:TypeId>
+				<xr:ValueId>04c69d62-7df4-4777-9a23-3eae57f2d4f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ФиксацияОбязательств" category="Ref">
+				<xr:TypeId>be6aad6f-ea6e-4868-ad32-8ca52a7cc40d</xr:TypeId>
+				<xr:ValueId>4a8b9abc-4dd2-4882-9f79-8a0c2bdcde29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ФиксацияОбязательств" category="Selection">
+				<xr:TypeId>a17f0f9e-9449-497a-a9d9-cfb0909d7170</xr:TypeId>
+				<xr:ValueId>816a6a07-0af8-4ac8-b0db-3e1158086357</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ФиксацияОбязательств" category="List">
+				<xr:TypeId>2841fc17-00a3-4290-a185-1b5788d07b95</xr:TypeId>
+				<xr:ValueId>d7680afa-0e98-40e1-b16d-9841a16ad431</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ФиксацияОбязательств" category="Manager">
+				<xr:TypeId>55372b5a-9a9b-4399-b4c8-b51390278d8c</xr:TypeId>
+				<xr:ValueId>e852d566-e037-4557-aff3-e1092fb2938f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ФиксацияОбязательств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d0f0e62-ee0a-49e5-9419-da0fe89df55a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

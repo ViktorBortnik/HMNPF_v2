@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="38c9049c-802b-418f-b3bf-ec897b160ad4">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_ВыгрузкаПенсионныхСчетов" category="Object">
+				<xr:TypeId>4d782c97-7ff2-494e-b71d-595cb9a52b33</xr:TypeId>
+				<xr:ValueId>35a8a8bd-232c-4efd-a567-9ca19b7a5412</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_ВыгрузкаПенсионныхСчетов" category="Manager">
+				<xr:TypeId>0ee6a95f-4a19-4385-9d65-1bb452b596e4</xr:TypeId>
+				<xr:ValueId>5f304017-25ac-410d-8692-2ed249181549</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВыгрузкаПенсионныхСчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f56a9310-077c-47e5-b699-ea6474905330</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="1a7bf4d9-3724-4bfe-aeda-6ff0a65fbc95">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_НазначениеПлатежа" category="Record">
+				<xr:TypeId>e96e834c-b2d4-4122-bc3c-8f666ed34406</xr:TypeId>
+				<xr:ValueId>5018204b-27f0-4bf2-a3c0-18a55a7a381a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_НазначениеПлатежа" category="Manager">
+				<xr:TypeId>f91832be-fb57-42b1-947b-37c7170d56be</xr:TypeId>
+				<xr:ValueId>291e4629-6727-4b1c-8137-21aa95f70e29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_НазначениеПлатежа" category="Selection">
+				<xr:TypeId>fae0d998-2100-4044-ad7d-b539ffa91ca6</xr:TypeId>
+				<xr:ValueId>3a4294aa-e626-4404-a47e-aa346648a938</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_НазначениеПлатежа" category="List">
+				<xr:TypeId>9203d2e4-ea04-40a2-b201-308f9b4f5e40</xr:TypeId>
+				<xr:ValueId>381ebc1f-8482-4abc-a1e0-bacc588fe33e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_НазначениеПлатежа" category="RecordSet">
+				<xr:TypeId>e1639ad1-f60f-4f64-8b63-aafaf5d2e02a</xr:TypeId>
+				<xr:ValueId>3deec595-645c-4ae0-9d96-46296eedcf19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_НазначениеПлатежа" category="RecordKey">
+				<xr:TypeId>f533b4ed-d193-4d20-b68d-4ec8551eb7ee</xr:TypeId>
+				<xr:ValueId>c0269475-ceee-4dc0-8848-d234113c0cc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_НазначениеПлатежа" category="RecordManager">
+				<xr:TypeId>c40c3a87-9db0-416d-88ec-2952819bd8d5</xr:TypeId>
+				<xr:ValueId>85d19767-048f-4987-aa12-e955ed790b07</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_НазначениеПлатежа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c3301504-09c8-41b9-ba6e-d9744432eb81</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="25955469-5152-488e-a782-d441112e88f0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НазначениеПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ac72b7ac-737f-4972-a610-b1901598e273</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="232f88d6-146f-44c2-8cd0-d796de983bea">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Получатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>26964d41-87e9-4887-be5f-e9f66f8dcd87</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="45643960-a64e-4b3e-8491-9ec641dac6a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетныйСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>17c5eed5-ad66-4789-83be-9cadf873a5f8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="c3654961-3cca-4de8-adc7-4e8ad6a3e38d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>58ab1760-192f-48e4-b886-1ee9158bd7e3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

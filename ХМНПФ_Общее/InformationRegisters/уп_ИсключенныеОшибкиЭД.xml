@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="0d819b9b-a284-419a-9a7a-a90d3b103a8a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ИсключенныеОшибкиЭД" category="Record">
+				<xr:TypeId>9ac81701-4252-4554-854c-055fe2a5b029</xr:TypeId>
+				<xr:ValueId>61c54d82-264f-4646-948c-78b2c2d405cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ИсключенныеОшибкиЭД" category="Manager">
+				<xr:TypeId>df8ff484-b2d0-49a4-bcc2-6e386e07489d</xr:TypeId>
+				<xr:ValueId>f313f5b9-73bd-4fac-902f-b731602b640f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ИсключенныеОшибкиЭД" category="Selection">
+				<xr:TypeId>bd28241d-cdbe-4323-ab23-be6bd7b0555d</xr:TypeId>
+				<xr:ValueId>af704601-4922-4561-8343-6d8fb99d6bf6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ИсключенныеОшибкиЭД" category="List">
+				<xr:TypeId>3fa40203-935b-4c3b-b4fa-9729c94df311</xr:TypeId>
+				<xr:ValueId>de2f560a-29aa-449d-98ed-a5a9f7cc9129</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ИсключенныеОшибкиЭД" category="RecordSet">
+				<xr:TypeId>1730ec6b-155c-41b5-9743-bf6591168944</xr:TypeId>
+				<xr:ValueId>41b57402-c51f-4806-b9d5-718809e313ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ИсключенныеОшибкиЭД" category="RecordKey">
+				<xr:TypeId>94d27aab-f4a2-45e0-8207-1d47d701cf11</xr:TypeId>
+				<xr:ValueId>b8b8043f-f30f-471d-b074-26f147d59c65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ИсключенныеОшибкиЭД" category="RecordManager">
+				<xr:TypeId>166577d9-3408-4844-a034-d4f5259e486f</xr:TypeId>
+				<xr:ValueId>44f2c08f-b75c-4fdc-b8ae-00c4a8bbeaf4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ИсключенныеОшибкиЭД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f9a8978b-8134-4edf-ac88-582d4fb9437a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="91e96547-be0b-49c8-8d6b-b68b9babc87a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Обработано</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4533e75f-7edc-4e30-9722-9996d142736f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="4db31d85-de8c-459c-8d00-8f255cdd926a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97cea5fe-cf54-4fd4-b3d4-01e58bc0bba9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

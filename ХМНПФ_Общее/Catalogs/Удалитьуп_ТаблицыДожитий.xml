@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="161734a5-7ef6-4d54-9f2d-d13ee62ead24">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Удалитьуп_ТаблицыДожитий" category="Object">
+				<xr:TypeId>940a2e06-54d7-4a42-8ff3-4763e466e21f</xr:TypeId>
+				<xr:ValueId>f99cce0d-1a21-422e-ba71-3b37e206e3eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Удалитьуп_ТаблицыДожитий" category="Ref">
+				<xr:TypeId>7388e7f4-77e7-419d-8658-0dd0ed3da838</xr:TypeId>
+				<xr:ValueId>1aea3584-81cb-4cee-8659-72e66481bec5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Удалитьуп_ТаблицыДожитий" category="Selection">
+				<xr:TypeId>cd8987bc-a50d-41d8-aa8a-783eae095367</xr:TypeId>
+				<xr:ValueId>ca330613-ade0-4db6-9e18-06faedbb369c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Удалитьуп_ТаблицыДожитий" category="List">
+				<xr:TypeId>c3e3cf1e-7a3c-490e-9b4e-a50e075b44f6</xr:TypeId>
+				<xr:ValueId>930fd73c-c163-45eb-a9b6-92584e8dacf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Удалитьуп_ТаблицыДожитий" category="Manager">
+				<xr:TypeId>9242d67e-6cf6-4839-ad75-7d5e3b060dbc</xr:TypeId>
+				<xr:ValueId>616180b2-abbf-49bf-96ac-fb7c8382c9b1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Удалитьуп_ТаблицыДожитий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c198815a-1845-41dd-a568-f17034a9cdac</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

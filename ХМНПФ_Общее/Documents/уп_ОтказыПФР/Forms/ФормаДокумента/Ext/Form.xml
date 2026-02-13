@@ -1,0 +1,2243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаПечать" id="228">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="229"/>
+			</Popup>
+			<Button name="ФормаФайлы" id="230">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<Picture>
+					<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>(устаревшее)</v8:content>
+					</v8:item>
+				</Title>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаФайлыРасширеннаяПодсказка" id="231"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Организация" id="7">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаНомерДата" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<LabelField name="уп_ВходящийПакетЭД" id="232">
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="уп_ВходящийПакетЭДКонтекстноеМеню" id="233"/>
+					<ExtendedTooltip name="уп_ВходящийПакетЭДРасширеннаяПодсказка" id="234"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДоговорыОПС" id="19">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДоговорыОПСКонтекстноеМеню" id="20"/>
+			<AutoCommandBar name="ДоговорыОПСКоманднаяПанель" id="21">
+				<ChildItems>
+					<Popup name="ДоговорыОПСГруппа1" id="220">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заполнить</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ДоговорыОПСГруппа1РасширеннаяПодсказка" id="221"/>
+						<ChildItems>
+							<Button name="ДоговорыОПСИзСправочника" id="222">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ДоговорыОПСИзСправочникаРасширеннаяПодсказка" id="223"/>
+							</Button>
+							<Button name="ДоговорыОПСИзФайла" id="224">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ДоговорыОПСИзФайлаРасширеннаяПодсказка" id="225"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+					<Button name="ДоговорыОПСОчистить" id="226">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ДоговорыОПСОчиститьРасширеннаяПодсказка" id="227"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДоговорыОПСРасширеннаяПодсказка" id="22"/>
+			<SearchStringAddition name="ДоговорыОПССтрокаПоиска" id="23">
+				<AdditionSource>
+					<Item>ДоговорыОПС</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыОПССтрокаПоискаКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ДоговорыОПССтрокаПоискаРасширеннаяПодсказка" id="25"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДоговорыОПССостояниеПросмотра" id="26">
+				<AdditionSource>
+					<Item>ДоговорыОПС</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыОПССостояниеПросмотраКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ДоговорыОПССостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДоговорыОПСУправлениеПоиском" id="29">
+				<AdditionSource>
+					<Item>ДоговорыОПС</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоговорыОПСУправлениеПоискомКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ДоговорыОПСУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДоговорыОПСНомерСтроки" id="32">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСНомерСтрокиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДоговорыОПСНомерСтрокиРасширеннаяПодсказка" id="34"/>
+				</LabelField>
+				<InputField name="ДоговорыОПСДоговорОПС" id="35">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСДоговорОПСКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ДоговорыОПСДоговорОПСРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ДоговорыОПСУчастник" id="38">
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Застрахованное лицо</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоговорыОПСУчастникКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ДоговорыОПСУчастникРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<CheckBoxField name="ДоговорыОПСОтказ1" id="41">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ1КонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ1РасширеннаяПодсказка" id="43"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ2" id="44">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ2КонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ2РасширеннаяПодсказка" id="46"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ3" id="47">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ3КонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ3РасширеннаяПодсказка" id="49"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ4" id="50">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ4КонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ4РасширеннаяПодсказка" id="52"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ5" id="53">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ5КонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ5РасширеннаяПодсказка" id="55"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ6" id="56">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ6КонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ6РасширеннаяПодсказка" id="58"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ7" id="59">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ7КонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ7РасширеннаяПодсказка" id="61"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ8" id="62">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ8КонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ8РасширеннаяПодсказка" id="64"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ9" id="65">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ9КонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ9РасширеннаяПодсказка" id="67"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ10" id="68">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ10КонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ10РасширеннаяПодсказка" id="70"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ11" id="71">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ11КонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ11РасширеннаяПодсказка" id="73"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ12" id="74">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ12КонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ12РасширеннаяПодсказка" id="76"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДоговорыОПСОтказ15" id="235">
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоговорыОПСОтказ15КонтекстноеМеню" id="236"/>
+					<ExtendedTooltip name="ДоговорыОПСОтказ15РасширеннаяПодсказка" id="237"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаПричиныОтказа" id="287">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причины отказа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа причины отказа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаПричиныОтказаРасширеннаяПодсказка" id="288"/>
+			<ChildItems>
+				<Pages name="Панель" id="82">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Панель</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Панель</v8:content>
+						</v8:item>
+					</ToolTip>
+					<PagesRepresentation>None</PagesRepresentation>
+					<ExtendedTooltip name="ПанельРасширеннаяПодсказка" id="83"/>
+					<ChildItems>
+						<Page name="Отказы2006" id="84">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы2006</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2006</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="Отказы2006РасширеннаяПодсказка" id="85"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация5" id="98">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>5 - Имеется информация о смерти застрахованного лица</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация5КонтекстноеМеню" id="99"/>
+									<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="100"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация4" id="95">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>4 - Данные, указанные в договоре, не соответствуют данным, указанным в индивидуальном лицевом счете в ПФР</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация4КонтекстноеМеню" id="96"/>
+									<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="97"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация3" id="92">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>3 - Договор заключен ненадлежащими сторонами</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация3КонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="94"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация2" id="89">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация2КонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="91"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация1" id="86">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="88"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+						<Page name="Отказы2004" id="101">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы2004</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2004</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="Отказы2004РасширеннаяПодсказка" id="102"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОтказы2004Левая" id="301">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2004 левая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2004 левая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2004ЛеваяРасширеннаяПодсказка" id="302"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация6" id="103">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>1 - Заявление удовлетворено</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация6КонтекстноеМеню" id="104"/>
+											<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="105"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация7" id="106">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>2 - Заявление не удовлетворено</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация7КонтекстноеМеню" id="107"/>
+											<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="108"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация8" id="109">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>3 - Заявление в ПФР не поступало</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация8КонтекстноеМеню" id="110"/>
+											<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="111"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация9" id="112">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>4 - Заявление удовлетворено, но НПФ отличается от указанного в договоре</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация9КонтекстноеМеню" id="113"/>
+											<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="114"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтказы2004Правая" id="303">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2004 правая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2004 правая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2004ПраваяРасширеннаяПодсказка" id="304"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация13" id="124">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>5 - Договор заключен ненадлежащими сторонами</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация13КонтекстноеМеню" id="125"/>
+											<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="126"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация12" id="121">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>6 - Договор заключен с нарушением законодательства РФ</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация12КонтекстноеМеню" id="122"/>
+											<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="123"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация11" id="118">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>7 - Договор заключен верно, надо подать заявление</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация11КонтекстноеМеню" id="119"/>
+											<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="120"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация10" id="115">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>8 - Вдоговоре указаны неверные данные</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация10КонтекстноеМеню" id="116"/>
+											<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="117"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+						<Page name="Отказы2008" id="127">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы2008</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2008</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="Отказы2008РасширеннаяПодсказка" id="128"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация14" id="129">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация14КонтекстноеМеню" id="130"/>
+									<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="131"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация15" id="132">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация15КонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="134"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация16" id="135">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>3 - Договор заключен ненадлежащими сторонами</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация16КонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="Декорация16РасширеннаяПодсказка" id="137"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация17" id="138">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>4 - В один период может действовать только один договор</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация17КонтекстноеМеню" id="139"/>
+									<ExtendedTooltip name="Декорация17РасширеннаяПодсказка" id="140"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация19" id="144">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>5 - Данные, указанные в договоре, не соответствуют данным, указанным в индивидуальном лицевом счете в ПФР</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация19КонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="Декорация19РасширеннаяПодсказка" id="146"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация18" id="141">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>6 - Имеется информация о смерти застрахованного лица</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация18КонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="Декорация18РасширеннаяПодсказка" id="143"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+						<Page name="Отказы2015" id="147">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2015</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2015</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="Отказы2015РасширеннаяПодсказка" id="148"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОтказы2015Левая" id="297">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2015 левая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2015 левая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2015ЛеваяРасширеннаяПодсказка" id="298"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация20" id="149">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация20КонтекстноеМеню" id="150"/>
+											<ExtendedTooltip name="Декорация20РасширеннаяПодсказка" id="151"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация21" id="152">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация21КонтекстноеМеню" id="153"/>
+											<ExtendedTooltip name="Декорация21РасширеннаяПодсказка" id="154"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация22" id="155">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>3 - Несоответствие данным лицевого счета</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация22КонтекстноеМеню" id="156"/>
+											<ExtendedTooltip name="Декорация22РасширеннаяПодсказка" id="157"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация23" id="158">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>4 - Имеется информация о смерти</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация23КонтекстноеМеню" id="159"/>
+											<ExtendedTooltip name="Декорация23РасширеннаяПодсказка" id="160"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация24" id="161">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>5 - Договор не актуальный</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация24КонтекстноеМеню" id="162"/>
+											<ExtendedTooltip name="Декорация24РасширеннаяПодсказка" id="163"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация25" id="164">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>6 - Имеется информация о смерти (дата сметы &gt; даты договора)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация25КонтекстноеМеню" id="165"/>
+											<ExtendedTooltip name="Декорация25РасширеннаяПодсказка" id="166"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтказы2015Правая" id="299">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2015 правая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2015 правая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2015ПраваяРасширеннаяПодсказка" id="300"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация26" id="167">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>7 - Нарушено право выбора (неверный страховщик)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация26КонтекстноеМеню" id="168"/>
+											<ExtendedTooltip name="Декорация26РасширеннаяПодсказка" id="169"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация30" id="179">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>8 - НПФ не осуществляет деятельность по формированию и инвестированию СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация30КонтекстноеМеню" id="180"/>
+											<ExtendedTooltip name="Декорация30РасширеннаяПодсказка" id="181"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация29" id="176">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>9 - Прочее</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация29КонтекстноеМеню" id="177"/>
+											<ExtendedTooltip name="Декорация29РасширеннаяПодсказка" id="178"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация28" id="173">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>10 - ЗЛ назначена выплата из СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация28КонтекстноеМеню" id="174"/>
+											<ExtendedTooltip name="Декорация28РасширеннаяПодсказка" id="175"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация27" id="170">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>11 - ЗЛ обращалось за выплатой СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация27КонтекстноеМеню" id="171"/>
+											<ExtendedTooltip name="Декорация27РасширеннаяПодсказка" id="172"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+						<Page name="Отказы2016" id="182">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2016</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2016</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="Отказы2016РасширеннаяПодсказка" id="183"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОтказы2016Левая" id="293">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2016 левая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2016 левая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2016ЛеваяРасширеннаяПодсказка" id="294"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация31" id="184">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация31КонтекстноеМеню" id="185"/>
+											<ExtendedTooltip name="Декорация31РасширеннаяПодсказка" id="186"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация32" id="187">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация32КонтекстноеМеню" id="188"/>
+											<ExtendedTooltip name="Декорация32РасширеннаяПодсказка" id="189"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация33" id="190">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>3 - Несоответствие данным лицевого счета</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация33КонтекстноеМеню" id="191"/>
+											<ExtendedTooltip name="Декорация33РасширеннаяПодсказка" id="192"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация34" id="193">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>4 - Имеется информация о смерти</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация34КонтекстноеМеню" id="194"/>
+											<ExtendedTooltip name="Декорация34РасширеннаяПодсказка" id="195"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация35" id="196">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>5 - Договор не актуальный</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация35КонтекстноеМеню" id="197"/>
+											<ExtendedTooltip name="Декорация35РасширеннаяПодсказка" id="198"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация36" id="199">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>6 - Имеется информация о смерти (дата сметы &gt; даты договора)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация36КонтекстноеМеню" id="200"/>
+											<ExtendedTooltip name="Декорация36РасширеннаяПодсказка" id="201"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтказы2016Правая" id="295">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2016 правая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2016 правая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2016ПраваяРасширеннаяПодсказка" id="296"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация37" id="202">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>7 - Нарушено право выбора (неверный страховщик)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация37КонтекстноеМеню" id="203"/>
+											<ExtendedTooltip name="Декорация37РасширеннаяПодсказка" id="204"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация38" id="205">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>8 - НПФ не осуществляет деятельность по формированию и инвестированию СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация38КонтекстноеМеню" id="206"/>
+											<ExtendedTooltip name="Декорация38РасширеннаяПодсказка" id="207"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация39" id="208">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>9 - Прочее</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация39КонтекстноеМеню" id="209"/>
+											<ExtendedTooltip name="Декорация39РасширеннаяПодсказка" id="210"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация40" id="211">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>10 - ЗЛ назначена выплата из СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация40КонтекстноеМеню" id="212"/>
+											<ExtendedTooltip name="Декорация40РасширеннаяПодсказка" id="213"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация42" id="217">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>11 - ЗЛ обращалось за выплатой СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация42КонтекстноеМеню" id="218"/>
+											<ExtendedTooltip name="Декорация42РасширеннаяПодсказка" id="219"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация41" id="214">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>12 - НПФ не в реестре АСВ</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация41КонтекстноеМеню" id="215"/>
+											<ExtendedTooltip name="Декорация41РасширеннаяПодсказка" id="216"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+						<Page name="Отказы2020" id="238">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2020</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отказы 2020</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="Отказы2020РасширеннаяПодсказка" id="239"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОтказы2020Левая" id="289">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2020 левая</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2020ЛеваяРасширеннаяПодсказка" id="290"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация43" id="240">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация43КонтекстноеМеню" id="241"/>
+											<ExtendedTooltip name="Декорация43РасширеннаяПодсказка" id="242"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация44" id="243">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация44КонтекстноеМеню" id="244"/>
+											<ExtendedTooltip name="Декорация44РасширеннаяПодсказка" id="245"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация45" id="246">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>3 - Несоответствие данным лицевого счета</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация45КонтекстноеМеню" id="247"/>
+											<ExtendedTooltip name="Декорация45РасширеннаяПодсказка" id="248"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация46" id="249">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>4 - Имеется информация о смерти</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация46КонтекстноеМеню" id="250"/>
+											<ExtendedTooltip name="Декорация46РасширеннаяПодсказка" id="251"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация47" id="252">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>5 - Договор не актуальный</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация47КонтекстноеМеню" id="253"/>
+											<ExtendedTooltip name="Декорация47РасширеннаяПодсказка" id="254"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация48" id="255">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>6 - Имеется информация о смерти (дата сметы &gt; даты договора)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация48КонтекстноеМеню" id="256"/>
+											<ExtendedTooltip name="Декорация48РасширеннаяПодсказка" id="257"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация49" id="258">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>7 - Нарушено право выбора (неверный страховщик)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация49КонтекстноеМеню" id="259"/>
+											<ExtendedTooltip name="Декорация49РасширеннаяПодсказка" id="260"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтказы2020Правая" id="291">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отказы2020 правая</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтказы2020ПраваяРасширеннаяПодсказка" id="292"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация50" id="261">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>8 - НПФ не осуществляет деятельность по формированию и инвестированию СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация50КонтекстноеМеню" id="262"/>
+											<ExtendedTooltip name="Декорация50РасширеннаяПодсказка" id="263"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация51" id="264">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>9 - Прочее</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация51КонтекстноеМеню" id="265"/>
+											<ExtendedTooltip name="Декорация51РасширеннаяПодсказка" id="266"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация52" id="267">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>10 - ЗЛ назначена выплата из СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация52КонтекстноеМеню" id="268"/>
+											<ExtendedTooltip name="Декорация52РасширеннаяПодсказка" id="269"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация53" id="270">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>11 - ЗЛ обращалось за выплатой СПН</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация53КонтекстноеМеню" id="271"/>
+											<ExtendedTooltip name="Декорация53РасширеннаяПодсказка" id="272"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация54" id="273">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>12 - НПФ не в реестре АСВ</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация54КонтекстноеМеню" id="274"/>
+											<ExtendedTooltip name="Декорация54РасширеннаяПодсказка" id="275"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация55" id="276">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>15 - Не наступил срок рассмотрения заявления</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация55КонтекстноеМеню" id="277"/>
+											<ExtendedTooltip name="Декорация55РасширеннаяПодсказка" id="278"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомментарийОтветственный" id="279">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа комментарий ответственный</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа комментарий ответственный</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="280"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="281">
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="282"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="283"/>
+				</InputField>
+				<InputField name="Ответственный" id="284">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="285"/>
+					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="286"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Popup name="ГруппаПечать" id="228">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>StdPicture.Print</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="229"/>
+				</Popup>
+				<Button name="ФормаФайлы" id="230">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(устаревшее)</v8:content>
+						</v8:item>
+					</Title>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаФайлыРасширеннаяПодсказка" id="231"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="Организация" id="7">
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<UsualGroup name="ГруппаНомерДата" id="77">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа номер дата</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа номер дата</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="78"/>
+				<ChildItems>
+					<InputField name="Номер" id="1">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+					</InputField>
+					<InputField name="Дата" id="4">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+					</InputField>
+					<LabelField name="уп_ВходящийПакетЭД" id="232">
+						<Hiperlink>true</Hiperlink>
+						<ContextMenu name="уп_ВходящийПакетЭДКонтекстноеМеню" id="233"/>
+						<ExtendedTooltip name="уп_ВходящийПакетЭДРасширеннаяПодсказка" id="234"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="ДоговорыОПС" id="19">
+				<Representation>List</Representation>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="ДоговорыОПСКонтекстноеМеню" id="20"/>
+				<AutoCommandBar name="ДоговорыОПСКоманднаяПанель" id="21">
+					<ChildItems>
+						<Popup name="ДоговорыОПСГруппа1" id="220">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заполнить</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ДоговорыОПСГруппа1РасширеннаяПодсказка" id="221"/>
+							<ChildItems>
+								<Button name="ДоговорыОПСИзСправочника" id="222">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ДоговорыОПСИзСправочникаРасширеннаяПодсказка" id="223"/>
+								</Button>
+								<Button name="ДоговорыОПСИзФайла" id="224">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ДоговорыОПСИзФайлаРасширеннаяПодсказка" id="225"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+						<Button name="ДоговорыОПСОчистить" id="226">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДоговорыОПСОчиститьРасширеннаяПодсказка" id="227"/>
+						</Button>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ДоговорыОПСРасширеннаяПодсказка" id="22"/>
+				<SearchStringAddition name="ДоговорыОПССтрокаПоиска" id="23">
+					<AdditionSource>
+						<Item>ДоговорыОПС</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДоговорыОПССтрокаПоискаКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДоговорыОПССтрокаПоискаРасширеннаяПодсказка" id="25"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ДоговорыОПССостояниеПросмотра" id="26">
+					<AdditionSource>
+						<Item>ДоговорыОПС</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДоговорыОПССостояниеПросмотраКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДоговорыОПССостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ДоговорыОПСУправлениеПоиском" id="29">
+					<AdditionSource>
+						<Item>ДоговорыОПС</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ДоговорыОПСУправлениеПоискомКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ДоговорыОПСУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="ДоговорыОПСНомерСтроки" id="32">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСНомерСтрокиКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="ДоговорыОПСНомерСтрокиРасширеннаяПодсказка" id="34"/>
+					</LabelField>
+					<InputField name="ДоговорыОПСДоговорОПС" id="35">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСДоговорОПСКонтекстноеМеню" id="36"/>
+						<ExtendedTooltip name="ДоговорыОПСДоговорОПСРасширеннаяПодсказка" id="37"/>
+					</InputField>
+					<InputField name="ДоговорыОПСУчастник" id="38">
+						<ReadOnly>true</ReadOnly>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Застрахованное лицо</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДоговорыОПСУчастникКонтекстноеМеню" id="39"/>
+						<ExtendedTooltip name="ДоговорыОПСУчастникРасширеннаяПодсказка" id="40"/>
+					</InputField>
+					<CheckBoxField name="ДоговорыОПСОтказ1" id="41">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ1КонтекстноеМеню" id="42"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ1РасширеннаяПодсказка" id="43"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ2" id="44">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ2КонтекстноеМеню" id="45"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ2РасширеннаяПодсказка" id="46"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ3" id="47">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ3КонтекстноеМеню" id="48"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ3РасширеннаяПодсказка" id="49"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ4" id="50">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ4КонтекстноеМеню" id="51"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ4РасширеннаяПодсказка" id="52"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ5" id="53">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ5КонтекстноеМеню" id="54"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ5РасширеннаяПодсказка" id="55"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ6" id="56">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ6КонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ6РасширеннаяПодсказка" id="58"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ7" id="59">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ7КонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ7РасширеннаяПодсказка" id="61"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ8" id="62">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ8КонтекстноеМеню" id="63"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ8РасширеннаяПодсказка" id="64"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ9" id="65">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ9КонтекстноеМеню" id="66"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ9РасширеннаяПодсказка" id="67"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ10" id="68">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ10КонтекстноеМеню" id="69"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ10РасширеннаяПодсказка" id="70"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ11" id="71">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ11КонтекстноеМеню" id="72"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ11РасширеннаяПодсказка" id="73"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ12" id="74">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ12КонтекстноеМеню" id="75"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ12РасширеннаяПодсказка" id="76"/>
+					</CheckBoxField>
+					<CheckBoxField name="ДоговорыОПСОтказ15" id="235">
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ДоговорыОПСОтказ15КонтекстноеМеню" id="236"/>
+						<ExtendedTooltip name="ДоговорыОПСОтказ15РасширеннаяПодсказка" id="237"/>
+					</CheckBoxField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="ГруппаПричиныОтказа" id="287">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Причины отказа</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа причины отказа</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Behavior>Collapsible</Behavior>
+				<Collapsed>true</Collapsed>
+				<ControlRepresentation>Picture</ControlRepresentation>
+				<ExtendedTooltip name="ГруппаПричиныОтказаРасширеннаяПодсказка" id="288"/>
+				<ChildItems>
+					<Pages name="Панель" id="82">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Панель</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Панель</v8:content>
+							</v8:item>
+						</ToolTip>
+						<PagesRepresentation>None</PagesRepresentation>
+						<ExtendedTooltip name="ПанельРасширеннаяПодсказка" id="83"/>
+						<ChildItems>
+							<Page name="Отказы2006" id="84">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы2006</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2006</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="Отказы2006РасширеннаяПодсказка" id="85"/>
+								<ChildItems>
+									<LabelDecoration name="Декорация5" id="98">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>5 - Имеется информация о смерти застрахованного лица</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация5КонтекстноеМеню" id="99"/>
+										<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="100"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация4" id="95">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>4 - Данные, указанные в договоре, не соответствуют данным, указанным в индивидуальном лицевом счете в ПФР</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация4КонтекстноеМеню" id="96"/>
+										<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="97"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация3" id="92">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>3 - Договор заключен ненадлежащими сторонами</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация3КонтекстноеМеню" id="93"/>
+										<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="94"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация2" id="89">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация2КонтекстноеМеню" id="90"/>
+										<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="91"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация1" id="86">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация1КонтекстноеМеню" id="87"/>
+										<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="88"/>
+									</LabelDecoration>
+								</ChildItems>
+							</Page>
+							<Page name="Отказы2004" id="101">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы2004</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2004</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<ExtendedTooltip name="Отказы2004РасширеннаяПодсказка" id="102"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаОтказы2004Левая" id="301">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2004 левая</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2004 левая</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2004ЛеваяРасширеннаяПодсказка" id="302"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация6" id="103">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>1 - Заявление удовлетворено</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация6КонтекстноеМеню" id="104"/>
+												<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="105"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация7" id="106">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>2 - Заявление не удовлетворено</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация7КонтекстноеМеню" id="107"/>
+												<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="108"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация8" id="109">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>3 - Заявление в ПФР не поступало</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация8КонтекстноеМеню" id="110"/>
+												<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="111"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация9" id="112">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>4 - Заявление удовлетворено, но НПФ отличается от указанного в договоре</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация9КонтекстноеМеню" id="113"/>
+												<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="114"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаОтказы2004Правая" id="303">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2004 правая</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2004 правая</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2004ПраваяРасширеннаяПодсказка" id="304"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация13" id="124">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>5 - Договор заключен ненадлежащими сторонами</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация13КонтекстноеМеню" id="125"/>
+												<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="126"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация12" id="121">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>6 - Договор заключен с нарушением законодательства РФ</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация12КонтекстноеМеню" id="122"/>
+												<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="123"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация11" id="118">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>7 - Договор заключен верно, надо подать заявление</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация11КонтекстноеМеню" id="119"/>
+												<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="120"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация10" id="115">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>8 - Вдоговоре указаны неверные данные</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация10КонтекстноеМеню" id="116"/>
+												<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="117"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</Page>
+							<Page name="Отказы2008" id="127">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы2008</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2008</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="Отказы2008РасширеннаяПодсказка" id="128"/>
+								<ChildItems>
+									<LabelDecoration name="Декорация14" id="129">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация14КонтекстноеМеню" id="130"/>
+										<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="131"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация15" id="132">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация15КонтекстноеМеню" id="133"/>
+										<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="134"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация16" id="135">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>3 - Договор заключен ненадлежащими сторонами</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация16КонтекстноеМеню" id="136"/>
+										<ExtendedTooltip name="Декорация16РасширеннаяПодсказка" id="137"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация17" id="138">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>4 - В один период может действовать только один договор</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация17КонтекстноеМеню" id="139"/>
+										<ExtendedTooltip name="Декорация17РасширеннаяПодсказка" id="140"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация19" id="144">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>5 - Данные, указанные в договоре, не соответствуют данным, указанным в индивидуальном лицевом счете в ПФР</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация19КонтекстноеМеню" id="145"/>
+										<ExtendedTooltip name="Декорация19РасширеннаяПодсказка" id="146"/>
+									</LabelDecoration>
+									<LabelDecoration name="Декорация18" id="141">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>6 - Имеется информация о смерти застрахованного лица</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="Декорация18КонтекстноеМеню" id="142"/>
+										<ExtendedTooltip name="Декорация18РасширеннаяПодсказка" id="143"/>
+									</LabelDecoration>
+								</ChildItems>
+							</Page>
+							<Page name="Отказы2015" id="147">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2015</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2015</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<ExtendedTooltip name="Отказы2015РасширеннаяПодсказка" id="148"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаОтказы2015Левая" id="297">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2015 левая</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2015 левая</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2015ЛеваяРасширеннаяПодсказка" id="298"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация20" id="149">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация20КонтекстноеМеню" id="150"/>
+												<ExtendedTooltip name="Декорация20РасширеннаяПодсказка" id="151"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация21" id="152">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация21КонтекстноеМеню" id="153"/>
+												<ExtendedTooltip name="Декорация21РасширеннаяПодсказка" id="154"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация22" id="155">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>3 - Несоответствие данным лицевого счета</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация22КонтекстноеМеню" id="156"/>
+												<ExtendedTooltip name="Декорация22РасширеннаяПодсказка" id="157"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация23" id="158">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>4 - Имеется информация о смерти</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация23КонтекстноеМеню" id="159"/>
+												<ExtendedTooltip name="Декорация23РасширеннаяПодсказка" id="160"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация24" id="161">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>5 - Договор не актуальный</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация24КонтекстноеМеню" id="162"/>
+												<ExtendedTooltip name="Декорация24РасширеннаяПодсказка" id="163"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация25" id="164">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>6 - Имеется информация о смерти (дата сметы &gt; даты договора)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация25КонтекстноеМеню" id="165"/>
+												<ExtendedTooltip name="Декорация25РасширеннаяПодсказка" id="166"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаОтказы2015Правая" id="299">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2015 правая</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2015 правая</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2015ПраваяРасширеннаяПодсказка" id="300"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация26" id="167">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>7 - Нарушено право выбора (неверный страховщик)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация26КонтекстноеМеню" id="168"/>
+												<ExtendedTooltip name="Декорация26РасширеннаяПодсказка" id="169"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация30" id="179">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>8 - НПФ не осуществляет деятельность по формированию и инвестированию СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация30КонтекстноеМеню" id="180"/>
+												<ExtendedTooltip name="Декорация30РасширеннаяПодсказка" id="181"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация29" id="176">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>9 - Прочее</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация29КонтекстноеМеню" id="177"/>
+												<ExtendedTooltip name="Декорация29РасширеннаяПодсказка" id="178"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация28" id="173">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>10 - ЗЛ назначена выплата из СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация28КонтекстноеМеню" id="174"/>
+												<ExtendedTooltip name="Декорация28РасширеннаяПодсказка" id="175"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация27" id="170">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>11 - ЗЛ обращалось за выплатой СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация27КонтекстноеМеню" id="171"/>
+												<ExtendedTooltip name="Декорация27РасширеннаяПодсказка" id="172"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</Page>
+							<Page name="Отказы2016" id="182">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2016</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2016</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<ExtendedTooltip name="Отказы2016РасширеннаяПодсказка" id="183"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаОтказы2016Левая" id="293">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2016 левая</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2016 левая</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2016ЛеваяРасширеннаяПодсказка" id="294"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация31" id="184">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация31КонтекстноеМеню" id="185"/>
+												<ExtendedTooltip name="Декорация31РасширеннаяПодсказка" id="186"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация32" id="187">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация32КонтекстноеМеню" id="188"/>
+												<ExtendedTooltip name="Декорация32РасширеннаяПодсказка" id="189"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация33" id="190">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>3 - Несоответствие данным лицевого счета</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация33КонтекстноеМеню" id="191"/>
+												<ExtendedTooltip name="Декорация33РасширеннаяПодсказка" id="192"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация34" id="193">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>4 - Имеется информация о смерти</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация34КонтекстноеМеню" id="194"/>
+												<ExtendedTooltip name="Декорация34РасширеннаяПодсказка" id="195"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация35" id="196">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>5 - Договор не актуальный</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация35КонтекстноеМеню" id="197"/>
+												<ExtendedTooltip name="Декорация35РасширеннаяПодсказка" id="198"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация36" id="199">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>6 - Имеется информация о смерти (дата сметы &gt; даты договора)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация36КонтекстноеМеню" id="200"/>
+												<ExtendedTooltip name="Декорация36РасширеннаяПодсказка" id="201"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаОтказы2016Правая" id="295">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2016 правая</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2016 правая</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2016ПраваяРасширеннаяПодсказка" id="296"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация37" id="202">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>7 - Нарушено право выбора (неверный страховщик)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация37КонтекстноеМеню" id="203"/>
+												<ExtendedTooltip name="Декорация37РасширеннаяПодсказка" id="204"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация38" id="205">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>8 - НПФ не осуществляет деятельность по формированию и инвестированию СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация38КонтекстноеМеню" id="206"/>
+												<ExtendedTooltip name="Декорация38РасширеннаяПодсказка" id="207"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация39" id="208">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>9 - Прочее</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация39КонтекстноеМеню" id="209"/>
+												<ExtendedTooltip name="Декорация39РасширеннаяПодсказка" id="210"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация40" id="211">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>10 - ЗЛ назначена выплата из СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация40КонтекстноеМеню" id="212"/>
+												<ExtendedTooltip name="Декорация40РасширеннаяПодсказка" id="213"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация42" id="217">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>11 - ЗЛ обращалось за выплатой СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация42КонтекстноеМеню" id="218"/>
+												<ExtendedTooltip name="Декорация42РасширеннаяПодсказка" id="219"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация41" id="214">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>12 - НПФ не в реестре АСВ</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация41КонтекстноеМеню" id="215"/>
+												<ExtendedTooltip name="Декорация41РасширеннаяПодсказка" id="216"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</Page>
+							<Page name="Отказы2020" id="238">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2020</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отказы 2020</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<ExtendedTooltip name="Отказы2020РасширеннаяПодсказка" id="239"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаОтказы2020Левая" id="289">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2020 левая</v8:content>
+											</v8:item>
+										</Title>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2020ЛеваяРасширеннаяПодсказка" id="290"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация43" id="240">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>1 - Заявление не удовлетворено (оставлено без рассмотрения)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация43КонтекстноеМеню" id="241"/>
+												<ExtendedTooltip name="Декорация43РасширеннаяПодсказка" id="242"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация44" id="243">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>2 - Заявление в ПФР не поступало</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация44КонтекстноеМеню" id="244"/>
+												<ExtendedTooltip name="Декорация44РасширеннаяПодсказка" id="245"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация45" id="246">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>3 - Несоответствие данным лицевого счета</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация45КонтекстноеМеню" id="247"/>
+												<ExtendedTooltip name="Декорация45РасширеннаяПодсказка" id="248"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация46" id="249">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>4 - Имеется информация о смерти</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация46КонтекстноеМеню" id="250"/>
+												<ExtendedTooltip name="Декорация46РасширеннаяПодсказка" id="251"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация47" id="252">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>5 - Договор не актуальный</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация47КонтекстноеМеню" id="253"/>
+												<ExtendedTooltip name="Декорация47РасширеннаяПодсказка" id="254"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация48" id="255">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>6 - Имеется информация о смерти (дата сметы &gt; даты договора)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация48КонтекстноеМеню" id="256"/>
+												<ExtendedTooltip name="Декорация48РасширеннаяПодсказка" id="257"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация49" id="258">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>7 - Нарушено право выбора (неверный страховщик)</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация49КонтекстноеМеню" id="259"/>
+												<ExtendedTooltip name="Декорация49РасширеннаяПодсказка" id="260"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаОтказы2020Правая" id="291">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отказы2020 правая</v8:content>
+											</v8:item>
+										</Title>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтказы2020ПраваяРасширеннаяПодсказка" id="292"/>
+										<ChildItems>
+											<LabelDecoration name="Декорация50" id="261">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>8 - НПФ не осуществляет деятельность по формированию и инвестированию СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация50КонтекстноеМеню" id="262"/>
+												<ExtendedTooltip name="Декорация50РасширеннаяПодсказка" id="263"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация51" id="264">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>9 - Прочее</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация51КонтекстноеМеню" id="265"/>
+												<ExtendedTooltip name="Декорация51РасширеннаяПодсказка" id="266"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация52" id="267">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>10 - ЗЛ назначена выплата из СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация52КонтекстноеМеню" id="268"/>
+												<ExtendedTooltip name="Декорация52РасширеннаяПодсказка" id="269"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация53" id="270">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>11 - ЗЛ обращалось за выплатой СПН</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация53КонтекстноеМеню" id="271"/>
+												<ExtendedTooltip name="Декорация53РасширеннаяПодсказка" id="272"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация54" id="273">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>12 - НПФ не в реестре АСВ</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация54КонтекстноеМеню" id="274"/>
+												<ExtendedTooltip name="Декорация54РасширеннаяПодсказка" id="275"/>
+											</LabelDecoration>
+											<LabelDecoration name="Декорация55" id="276">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>15 - Не наступил срок рассмотрения заявления</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="Декорация55КонтекстноеМеню" id="277"/>
+												<ExtendedTooltip name="Декорация55РасширеннаяПодсказка" id="278"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</Page>
+						</ChildItems>
+					</Pages>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКомментарийОтветственный" id="279">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа комментарий ответственный</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа комментарий ответственный</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="280"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="281">
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="282"/>
+						<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="283"/>
+					</InputField>
+					<InputField name="Ответственный" id="284">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="285"/>
+						<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="286"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

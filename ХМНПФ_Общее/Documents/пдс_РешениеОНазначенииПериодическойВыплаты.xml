@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ce86eaff-34af-4bff-9021-9136f6a1e351">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.пдс_РешениеОНазначенииПериодическойВыплаты" category="Object">
+				<xr:TypeId>347c65cb-ffeb-4bbc-b5fd-6f739722d7bf</xr:TypeId>
+				<xr:ValueId>3dc68445-0961-4338-aece-766d61ee1fd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.пдс_РешениеОНазначенииПериодическойВыплаты" category="Ref">
+				<xr:TypeId>854140db-4304-4b1f-b5ab-7834c8c09e49</xr:TypeId>
+				<xr:ValueId>5505fdb3-f0b3-44cd-a0f3-42ae446ec3c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.пдс_РешениеОНазначенииПериодическойВыплаты" category="Selection">
+				<xr:TypeId>00a811af-e598-41ea-8c53-44fe45f1ab1d</xr:TypeId>
+				<xr:ValueId>1dcc8ff3-8f0c-492f-aab1-06f983b49e99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.пдс_РешениеОНазначенииПериодическойВыплаты" category="List">
+				<xr:TypeId>923c8d62-7b1c-488c-a6b7-bd6c0ffcda25</xr:TypeId>
+				<xr:ValueId>cca19e49-115f-4ebc-94d2-35f1f00added</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.пдс_РешениеОНазначенииПериодическойВыплаты" category="Manager">
+				<xr:TypeId>fa905387-b6c7-4fdf-bda1-6104e55cbf42</xr:TypeId>
+				<xr:ValueId>96bb1295-daa5-45ba-b967-e3e36dd4f08c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_РешениеОНазначенииПериодическойВыплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>518820c8-525e-46d3-aa4a-b2321ba69a48</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

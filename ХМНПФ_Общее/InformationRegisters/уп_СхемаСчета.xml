@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a13f40fc-e690-446c-8307-6bd38d9f0cfb">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_СхемаСчета" category="Record">
+				<xr:TypeId>9584fa81-7040-4dd0-a76a-14d2445dab30</xr:TypeId>
+				<xr:ValueId>05c1cc5a-3fac-4973-a345-5dcfbd0bba5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_СхемаСчета" category="Manager">
+				<xr:TypeId>9b9836e7-8f0f-4cae-97b3-78764a558394</xr:TypeId>
+				<xr:ValueId>87a9bfab-97c1-4ccf-b8df-1ffea65b30de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_СхемаСчета" category="Selection">
+				<xr:TypeId>572780b5-a45d-4202-8ea9-4c645a7a42ff</xr:TypeId>
+				<xr:ValueId>9d265062-f95d-4e7d-89af-2c4a5f94e975</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_СхемаСчета" category="List">
+				<xr:TypeId>6759195c-fa93-4dda-8f34-37e141505089</xr:TypeId>
+				<xr:ValueId>2ad4656f-40d0-4893-be28-6576ebf58259</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_СхемаСчета" category="RecordSet">
+				<xr:TypeId>a7b4cbd5-a2b6-419c-ba4c-ca27a5621e09</xr:TypeId>
+				<xr:ValueId>56c3215d-f56d-44de-beca-012e11cfe3b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_СхемаСчета" category="RecordKey">
+				<xr:TypeId>1f73983c-d92f-45ad-81aa-9e49cddfdd50</xr:TypeId>
+				<xr:ValueId>2c715fe6-7b85-4274-96c2-f002020ecda2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_СхемаСчета" category="RecordManager">
+				<xr:TypeId>640478ae-04a7-4908-ad5a-088c03f83f72</xr:TypeId>
+				<xr:ValueId>4ce89d54-1aba-4fa2-a7f5-c2351175ee0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СхемаСчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7af011ab-ce1d-47ca-9618-553c8ba57fff</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e7769e64-1c69-4be8-ad0d-c9c0d7e6a163">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Схема</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ee3a1875-40a1-4fc9-82cb-b66024494dbb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСхемы</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0ff1d212-7a27-40c3-aca2-d144a54973f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипПенсии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b080c85d-7f54-4de2-8340-8a91b3b412e3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыПенсионныхСхем</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="eccf585d-bd38-4b88-8104-ebc73008bd78">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7e01251d-bbae-4e5d-aa24-ee2f24e62d49</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

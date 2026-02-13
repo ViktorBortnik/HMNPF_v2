@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0c62f9b1-0f3c-4d2c-93cf-04c4c75aa472">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.хм_РаспоряжениеНаПроведениеУдержаний" category="Object">
+				<xr:TypeId>2081cffe-cc5e-4db9-8944-17204d111e66</xr:TypeId>
+				<xr:ValueId>c1bf36c7-14bb-4b86-a132-31c16699ff30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.хм_РаспоряжениеНаПроведениеУдержаний" category="Ref">
+				<xr:TypeId>565e2e92-6180-4697-8a31-b80227533c9a</xr:TypeId>
+				<xr:ValueId>bf39a872-eae3-40d0-8902-160b0bf943a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.хм_РаспоряжениеНаПроведениеУдержаний" category="Selection">
+				<xr:TypeId>522fcfb6-a98d-4e0b-b6b5-6a6a24506929</xr:TypeId>
+				<xr:ValueId>727be628-5045-485a-8000-21308721a2f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.хм_РаспоряжениеНаПроведениеУдержаний" category="List">
+				<xr:TypeId>c9241783-d8fa-4d98-bbdb-2a023b52d088</xr:TypeId>
+				<xr:ValueId>e7afc4a4-d1e7-4b53-909a-62764f0273d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.хм_РаспоряжениеНаПроведениеУдержаний" category="Manager">
+				<xr:TypeId>6d5030a5-cbff-4c0a-b5a4-107a5798aac5</xr:TypeId>
+				<xr:ValueId>a7e705fe-bf52-44d3-b9d9-50441861351e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_РаспоряжениеНаПроведениеУдержаний</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>272bd0d7-d18a-416b-bacc-f8ee19d6e30a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6cde549d-9cf0-427e-abe3-2f40d18ff214">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПакетЭД_v2" category="Object">
+				<xr:TypeId>06d1111a-8fb9-4ed6-a4a0-1daed7eb3119</xr:TypeId>
+				<xr:ValueId>4020d12f-3d01-4a10-a56d-e1a0659fb2cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПакетЭД_v2" category="Ref">
+				<xr:TypeId>322b47ae-fe90-4d59-b15a-d3c619276266</xr:TypeId>
+				<xr:ValueId>9aa63e78-35a3-4190-aea9-72de48b07c87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПакетЭД_v2" category="Selection">
+				<xr:TypeId>59114d3a-6898-4948-b3f5-715da0d041a1</xr:TypeId>
+				<xr:ValueId>c2346705-a790-40f2-8469-4e303c37d390</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПакетЭД_v2" category="List">
+				<xr:TypeId>ac0b6699-2529-4556-a305-f373309276ca</xr:TypeId>
+				<xr:ValueId>f622e8a9-43c9-463e-8c37-9a674a66dda8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПакетЭД_v2" category="Manager">
+				<xr:TypeId>e9edf9fc-ccdd-4c89-990f-accf98b4ed25</xr:TypeId>
+				<xr:ValueId>8c26b6aa-f976-4db1-b27f-7cab93896551</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПакетЭД_v2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c6cc09ff-a4db-4716-9d59-ee51d33b6433</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

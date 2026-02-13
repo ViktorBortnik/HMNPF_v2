@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="7a713451-8e86-48ad-b27a-c353c68ae4f0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПереводСредствИзРезерваОПС" category="Object">
+				<xr:TypeId>7de66c8e-4c19-46f9-9289-4582e4f5c886</xr:TypeId>
+				<xr:ValueId>d85c9d7d-1e15-4b95-aee1-ed9f85e81601</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПереводСредствИзРезерваОПС" category="Ref">
+				<xr:TypeId>8f159b70-7ab3-4c9e-a52a-c565836dc304</xr:TypeId>
+				<xr:ValueId>d08022f5-82aa-4e04-8746-54679eda55ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПереводСредствИзРезерваОПС" category="Selection">
+				<xr:TypeId>de716e6c-33f2-46f4-ab1a-b1c6ab399315</xr:TypeId>
+				<xr:ValueId>618d610a-1f36-47c0-afeb-6f4383bb976e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПереводСредствИзРезерваОПС" category="List">
+				<xr:TypeId>8d3f1bf7-cfb4-47ac-8299-77199983bc4e</xr:TypeId>
+				<xr:ValueId>a651009b-a21b-4844-bcc7-57896fc7cda4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПереводСредствИзРезерваОПС" category="Manager">
+				<xr:TypeId>02947cfc-a52a-49d9-a26a-3907a1916fc1</xr:TypeId>
+				<xr:ValueId>370d045d-7b08-4217-96db-94f82e11e6a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПереводСредствИзРезерваОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6926093c-980f-444c-ad55-58744b935019</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4fa8b350-439c-4800-8a1c-8ef68bafcc86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипРешения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>538cc937-3a77-4c4c-89ed-79ea9572ae28</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="548950aa-48b6-4fbe-9f8f-07f1233f004c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0bcbaffc-cebb-4160-8def-02f2f3f07449</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b1d518ca-7b27-4596-aa95-7ab6ebf7e4c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f0680a1-0d53-43b8-86f6-b75cf8e981dc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="75e6b88f-28e5-4206-bd1d-c93f24d11d2f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_ПереводСредствИзРезерваОПС.РасшифровкаСуммы" category="TabularSection">
+						<xr:TypeId>f2f52efa-7837-4dd6-a4c3-ab028087befa</xr:TypeId>
+						<xr:ValueId>8fcba504-ccdb-4432-9611-1df32209b1f3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_ПереводСредствИзРезерваОПС.РасшифровкаСуммы" category="TabularSectionRow">
+						<xr:TypeId>3cb61033-745c-4c88-8723-994bb98e09a1</xr:TypeId>
+						<xr:ValueId>45056121-1963-4b16-89a2-238bd32659c9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fbc9d243-62c9-4c6a-a654-449c22b31e02</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d7dbd696-31ab-4845-bd07-fdfe3c24defe">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорОПС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>93b0b43d-266e-4a40-aad6-3be72b26ab54</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b84a82b2-6058-43fc-a26c-5bb984f40c58">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТипСуммы</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>899c11c8-84c0-4a84-8588-28346f27e23c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ТипыСуммОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b5f6ec39-afe0-40f3-8822-ff5dace4baeb">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0bd26818-b131-4b1c-b4d6-e7debebf27bb</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="061e03bd-52f5-44f2-85ac-aca0528b9691">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТипРезерва</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9d0d073e-978c-42f2-b89e-269cbc217af5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.уп_ТипыРезервовОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2bf726dc-8b7a-4448-b573-bbe6e1cc1bf1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ХМ_ДатаВыплаты</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>2b712b75-dd86-4204-bf6a-f784d8abf12b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="4cf21dbc-a35d-44d8-b2a0-be95085b8600">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_ПереводСредствИзРезерваОПС.ДоговорыОПС" category="TabularSection">
+						<xr:TypeId>f2e165c5-6e34-460f-9105-c528ebc5cada</xr:TypeId>
+						<xr:ValueId>0b104fbe-080b-44ae-a481-a10eec3566d5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_ПереводСредствИзРезерваОПС.ДоговорыОПС" category="TabularSectionRow">
+						<xr:TypeId>aff22d8d-0389-4868-ae91-78d4c5e3425e</xr:TypeId>
+						<xr:ValueId>aa0dc175-7fff-43ef-ad1c-c73bd13f0650</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорыОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c185889e-25ab-4486-8d19-ba5f0f9ed86b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="87e73f8a-5781-4cef-8594-08f5778b559b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорОПС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>958179aa-b7d7-45de-95ec-9abb413dad96</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3955319b-2173-4d99-89b2-0b76ed73b4ee">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗастрахованноеЛицо</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e817f8b3-dc8d-4c5d-af3f-63e537eae5b6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ab926ed1-a9fa-41a3-829e-27fff59ed7f9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>32d179c7-73e0-4f95-87ef-1f8623fcfc73</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

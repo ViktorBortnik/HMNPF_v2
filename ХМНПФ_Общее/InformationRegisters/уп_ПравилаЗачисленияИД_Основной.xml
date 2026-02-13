@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="52c96ef7-9f85-4949-bd33-49986db7cceb">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПравилаЗачисленияИД_Основной" category="Record">
+				<xr:TypeId>bf481e63-cf02-4b02-81f6-92bee8942337</xr:TypeId>
+				<xr:ValueId>62f2e77d-56e7-4c5e-8b83-72afa3fd4a9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПравилаЗачисленияИД_Основной" category="Manager">
+				<xr:TypeId>ddb491ec-ea89-495c-9f71-57aabd1f595c</xr:TypeId>
+				<xr:ValueId>7ffba567-85d9-4006-98fd-0ab8d186010b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПравилаЗачисленияИД_Основной" category="Selection">
+				<xr:TypeId>db69a39d-a806-4699-8bd9-80566e16a68e</xr:TypeId>
+				<xr:ValueId>4ff593f0-6d15-4c83-ab9d-f4be008383e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПравилаЗачисленияИД_Основной" category="List">
+				<xr:TypeId>db3f0607-9825-4ab7-bc95-7639f52240ab</xr:TypeId>
+				<xr:ValueId>9ecfe7bd-a04c-4dc5-b1bd-72b9c93acc3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПравилаЗачисленияИД_Основной" category="RecordSet">
+				<xr:TypeId>2e9d0a6c-99ab-4021-8292-5193ccfbcfd1</xr:TypeId>
+				<xr:ValueId>21e89472-381a-4b6d-855e-d679a12439ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПравилаЗачисленияИД_Основной" category="RecordKey">
+				<xr:TypeId>848edae4-4db3-4972-9668-61f7871ee5cf</xr:TypeId>
+				<xr:ValueId>5819bc0e-fb5c-4bd7-970d-80ac94f4c2ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПравилаЗачисленияИД_Основной" category="RecordManager">
+				<xr:TypeId>ee999260-dc73-4f20-b03b-40dee1d6f769</xr:TypeId>
+				<xr:ValueId>68f02103-31cc-4bd6-8502-e43eeb165d12</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПравилаЗачисленияИД_Основной</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0086db1e-53cd-43ff-8d35-a0af6b5a1b8a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a31b2007-04dd-4834-9013-1f318df67a3c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипПенсионногоСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f51f60a0-ef10-4873-b441-30b565b15872</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыПенсионныхСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

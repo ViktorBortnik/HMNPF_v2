@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="907b91e2-97eb-4c97-ba48-05e0c1a9aa03">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ТипыПенсионныхСхем" category="Ref">
+				<xr:TypeId>9306145f-28f7-4e1f-aa4e-e45f8c5aa425</xr:TypeId>
+				<xr:ValueId>5b1ac78a-a068-4172-9364-f2632b7e0600</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ТипыПенсионныхСхем" category="Manager">
+				<xr:TypeId>a6cbde0b-0c58-4e3a-bd41-2a390ddebf4c</xr:TypeId>
+				<xr:ValueId>359880f9-bf41-4ccf-ae35-0fb12fcfc970</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ТипыПенсионныхСхем" category="List">
+				<xr:TypeId>529613e9-ae4f-46c6-a705-14504f286617</xr:TypeId>
+				<xr:ValueId>bf043b74-0fbc-4f7f-908e-16a1d397d0da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ТипыПенсионныхСхем</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>99c28a0c-0c46-440e-99d3-29957694a0d8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="704dbb3d-1c62-446f-aad3-355b73140750">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СрочныхВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7785dea0-afc0-45d2-acd5-296b949777c9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1bbcd3c8-f0f8-4ebe-8512-0a35bc4a921d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПожизненныхВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8758bc3c-8737-43de-87d2-0c499f7011dc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="192e39fa-1036-48e5-983b-915a0f913e0b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоИсчерпанияСредствНаСчете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fb4364c7-1ef2-4ea2-8e4c-8f852d8907f8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

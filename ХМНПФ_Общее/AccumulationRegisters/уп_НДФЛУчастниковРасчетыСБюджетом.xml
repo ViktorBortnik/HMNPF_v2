@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="24b029e4-4595-493d-914e-7e2c1eb388fe">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_НДФЛУчастниковРасчетыСБюджетом" category="Record">
+				<xr:TypeId>be69723f-0ba9-44fb-9a1a-8b179bd152b3</xr:TypeId>
+				<xr:ValueId>73d75093-585e-44b2-a77b-4a482751811a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_НДФЛУчастниковРасчетыСБюджетом" category="Manager">
+				<xr:TypeId>26b5870d-4be4-42b1-b19a-5ad491e3c83e</xr:TypeId>
+				<xr:ValueId>b64b63ac-1cf4-421d-ace2-ad7cc397d9b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_НДФЛУчастниковРасчетыСБюджетом" category="Selection">
+				<xr:TypeId>bfd93569-3b76-428a-a326-85afc07a234e</xr:TypeId>
+				<xr:ValueId>bf16f61a-3245-417b-8163-839b7140d75b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_НДФЛУчастниковРасчетыСБюджетом" category="List">
+				<xr:TypeId>93aeaee0-57cc-4838-86ee-69bd452299dc</xr:TypeId>
+				<xr:ValueId>70cda267-74b0-4f80-965d-17408d69c135</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_НДФЛУчастниковРасчетыСБюджетом" category="RecordSet">
+				<xr:TypeId>e0405170-ea73-4534-8ed6-5b3d7946b0f9</xr:TypeId>
+				<xr:ValueId>7cadc9e9-d5e7-4483-b34e-325c9f4d458f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_НДФЛУчастниковРасчетыСБюджетом" category="RecordKey">
+				<xr:TypeId>76a7a7e8-213b-4663-af51-8b92d4b39297</xr:TypeId>
+				<xr:ValueId>ccb4f31e-a68e-4439-adb1-6321fa86d1ab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_НДФЛУчастниковРасчетыСБюджетом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0e1e0160-04c2-409e-af32-6f2346c5a01e</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ab067222-f86d-4525-9344-a67e32382191">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Налог</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f6876aea-fbb4-471b-bebe-e29e2170162e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>13</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d9333028-19f2-46c8-81a2-2499879e401a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПримененныйВычетЛичный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e9c9262f-beb5-42d8-909e-f3632442a952</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="08005a2b-5171-4e77-8db6-1f5faf327588">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПримененныйВычетНаДетей</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>62fd9121-61f9-4d12-915c-7bed538360a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="0ec0927f-c54d-42fc-b577-44af30a88128">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d4b7bb9a-80dc-4294-8dcc-6f5e48c36570</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="dd16afa7-1159-4a0d-90d2-0d821970ec38">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b36f3ab1-b1b8-4284-9dee-678788303cf1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="680e6029-0e76-48a4-8334-08a2437f847a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтавкаНалогообложенияРезидента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37422498-90a0-426c-88dd-2588eb0623b0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.НДФЛСтавкиНалогообложенияРезидента</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a7fbef3a-504f-448a-a23b-bd456bb6ffd1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МесяцНалоговогоПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>85d2b7bf-9060-470e-b9a3-bfbd31acd683</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4c70397f-46dd-47a8-b52d-ec4d27834cdd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8976df99-8475-4653-a906-9fc4b398af87</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="3280ac77-cbb5-4a7f-9d7b-a2d90958b8ad">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УдалитьВидРасчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f2b8994-b994-40d7-b651-c7a6da9d0cf3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.УдалитьОсновныеНачисленияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4b183de1-4012-403d-9701-32815c4200cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидРасчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1282d5ff-c968-4d0c-b53d-e9ae36b28938</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

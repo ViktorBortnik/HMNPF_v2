@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="8c8f7327-1c09-45a2-aaed-3118df263e37">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_НачислениеИДОПС" category="Object">
+				<xr:TypeId>a5e0cc7b-1efd-420d-b15a-9ae3e51e582c</xr:TypeId>
+				<xr:ValueId>354d8aa8-45ee-4f81-8b9f-15a9f1901e3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_НачислениеИДОПС" category="Manager">
+				<xr:TypeId>2cca0d9c-8887-4bb3-810a-e3cf80162ff6</xr:TypeId>
+				<xr:ValueId>f97208d7-14c5-4dce-ab66-3291fd541b4e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_НачислениеИДОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4e2ac974-20b3-46ed-95eb-a6499751da3d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

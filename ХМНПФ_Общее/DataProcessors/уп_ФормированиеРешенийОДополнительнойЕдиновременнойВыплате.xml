@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="b24397ae-fb6f-440c-9361-fcbd3c69d4af">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_ФормированиеРешенийОДополнительнойЕдиновременнойВыплате" category="Object">
+				<xr:TypeId>dd5059dd-4ace-435b-8e8d-2ab50ce90d37</xr:TypeId>
+				<xr:ValueId>a2eb825d-6559-4934-95d7-40867d462306</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_ФормированиеРешенийОДополнительнойЕдиновременнойВыплате" category="Manager">
+				<xr:TypeId>92dbe452-3caf-4d95-a49d-fb9033227058</xr:TypeId>
+				<xr:ValueId>296572d0-e52f-450a-bbf6-b12bdec8929a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ФормированиеРешенийОДополнительнойЕдиновременнойВыплате</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>917de8e9-4c29-48d7-8abd-6a824e76dfa1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

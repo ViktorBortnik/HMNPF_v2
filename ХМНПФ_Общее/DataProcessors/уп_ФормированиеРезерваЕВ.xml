@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="e444bca6-9c6a-46c5-8e01-123016abe088">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_ФормированиеРезерваЕВ" category="Object">
+				<xr:TypeId>f9060514-37bf-4a26-8647-2fa23e51e8ef</xr:TypeId>
+				<xr:ValueId>e38103d4-2003-4aa1-8d58-a6ba919fec18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_ФормированиеРезерваЕВ" category="Manager">
+				<xr:TypeId>14615cb8-e674-49e1-8746-a72377fabd44</xr:TypeId>
+				<xr:ValueId>0d13e939-ee3f-45aa-855c-d72ca978a26a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ФормированиеРезерваЕВ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b98d0b9b-b336-4da7-ad52-7dcb94d24a1f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

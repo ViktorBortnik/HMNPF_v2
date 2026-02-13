@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="dcf9ecbb-3bcb-4978-8ab3-524dfcbd769c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИФРС17_ПараметрыГруппыДоговоровНПО" category="Object">
+				<xr:TypeId>f9c2ac33-33f5-49d8-b0c7-ee66f6144e29</xr:TypeId>
+				<xr:ValueId>6041c031-0b3a-4c52-9799-8a7a45608b6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИФРС17_ПараметрыГруппыДоговоровНПО" category="Ref">
+				<xr:TypeId>fed8ef2d-ac7e-455a-9c73-9c0feb41125b</xr:TypeId>
+				<xr:ValueId>a2a87b88-2631-4fe4-a0dc-4441826be71c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИФРС17_ПараметрыГруппыДоговоровНПО" category="Selection">
+				<xr:TypeId>14cd57ec-6342-45a2-ae80-23fcf935384e</xr:TypeId>
+				<xr:ValueId>5ad4ceef-798f-461d-ad61-a07cfeb1bd26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИФРС17_ПараметрыГруппыДоговоровНПО" category="List">
+				<xr:TypeId>f83b9ba9-6ac8-45cb-b615-f1b24a001836</xr:TypeId>
+				<xr:ValueId>0951d4ef-e0cb-420d-9800-2190ce96a49f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИФРС17_ПараметрыГруппыДоговоровНПО" category="Manager">
+				<xr:TypeId>f2f403d9-6927-40cb-9760-56f15dd3aecb</xr:TypeId>
+				<xr:ValueId>1a892a3d-2df8-4afc-900e-2bd0b1ca724b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИФРС17_ПараметрыГруппыДоговоровНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4297296d-5d7d-42c0-a8f3-cb0ab3118915</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

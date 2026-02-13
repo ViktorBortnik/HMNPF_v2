@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="4957ea31-f2e9-476d-bf9d-b7f47179bf79">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.пдс_ДоговорыПДС" category="Object">
+				<xr:TypeId>b03febac-38f2-4b08-ba91-ddce1a81a746</xr:TypeId>
+				<xr:ValueId>e3caa948-3cd9-447a-9dd2-5b9d43c5d896</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.пдс_ДоговорыПДС" category="Ref">
+				<xr:TypeId>23977d39-17ca-41d7-86a4-7cde75616461</xr:TypeId>
+				<xr:ValueId>563563df-fc4d-4e2a-a61a-93f8e49c54d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.пдс_ДоговорыПДС" category="Selection">
+				<xr:TypeId>2f074752-d318-4b9a-be11-fd9577f2f9a3</xr:TypeId>
+				<xr:ValueId>899aa3f6-dda2-4c74-8184-e61e1f7259f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.пдс_ДоговорыПДС" category="List">
+				<xr:TypeId>461160e7-2707-4fee-a928-1a28ece02089</xr:TypeId>
+				<xr:ValueId>8ab11aa8-2c1a-405c-912c-29c5d57b2fa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.пдс_ДоговорыПДС" category="Manager">
+				<xr:TypeId>fa4b0028-6caa-4f5c-af85-246437ed2da7</xr:TypeId>
+				<xr:ValueId>8ee924a0-a2ab-444c-888c-f6d1a3a0cbe8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_ДоговорыПДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a990bf02-25c3-4383-a317-52fd57c476a6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

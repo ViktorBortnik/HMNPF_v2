@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="ff884509-c025-4b13-868d-2dae8c6519b9">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_СчетчикНачислений" category="Record">
+				<xr:TypeId>b2db5c6f-e970-447e-8034-d54b3daaeede</xr:TypeId>
+				<xr:ValueId>8430b9a5-45a6-48f7-be8f-82143d3af456</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_СчетчикНачислений" category="Manager">
+				<xr:TypeId>1dbe43f6-d55f-413b-91e7-f208babc7e22</xr:TypeId>
+				<xr:ValueId>7f898c16-98e8-4ca3-a651-cb5d3fedc1a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_СчетчикНачислений" category="Selection">
+				<xr:TypeId>b3d81521-2ade-4036-b9ee-33b5836337c7</xr:TypeId>
+				<xr:ValueId>57fddea4-22b6-4054-84ae-a9b53b725654</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_СчетчикНачислений" category="List">
+				<xr:TypeId>a6f9ebab-bb34-45e2-9eb8-28569ab07f8c</xr:TypeId>
+				<xr:ValueId>63fc5259-81d4-49b5-820d-601e0a3eda2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_СчетчикНачислений" category="RecordSet">
+				<xr:TypeId>fa62368e-21b7-47cb-b54f-2fa7c36c0c3b</xr:TypeId>
+				<xr:ValueId>48ff9683-9e7c-4a64-8eef-fd02f7df08eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_СчетчикНачислений" category="RecordKey">
+				<xr:TypeId>10ffcbe0-574c-4c7e-868a-9b590782d123</xr:TypeId>
+				<xr:ValueId>f7f2404d-0849-43a8-968b-537914a53885</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СчетчикНачислений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4f67cf3c-d69d-445d-91f4-9d1deae0e7c1</ExtendedConfigurationObject>
+			<DefaultListForm>AccumulationRegister.уп_СчетчикНачислений.Form.ХМФормаСписка</DefaultListForm>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e56a9e13-9358-4438-9424-e98093eb0c3e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1c8e3020-2db6-42c5-9b2a-4a8bb89b12f5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="8b74b9e1-65fc-44ef-a9c2-798f4a4fc845">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df2ca109-5d63-4609-b6e8-0e14eb9c4593</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

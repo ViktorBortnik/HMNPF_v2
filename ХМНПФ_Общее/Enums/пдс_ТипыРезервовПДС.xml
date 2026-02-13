@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="b4dccfe3-8a22-48d0-8faa-ffd826482e49">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.пдс_ТипыРезервовПДС" category="Ref">
+				<xr:TypeId>0a68bad6-262f-43f5-a7d8-54d22f5f64dc</xr:TypeId>
+				<xr:ValueId>4e136b92-2c0a-4c28-a548-a19e31164c7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.пдс_ТипыРезервовПДС" category="Manager">
+				<xr:TypeId>1e01c90d-986a-4a24-a0e3-f29d1be72b04</xr:TypeId>
+				<xr:ValueId>94dc8086-26d9-47bf-914f-c3d8bc357099</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.пдс_ТипыРезервовПДС" category="List">
+				<xr:TypeId>59b55867-e6a2-4deb-b8e5-877c7df33f84</xr:TypeId>
+				<xr:ValueId>4f784676-8635-40f0-a555-9562653d40e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_ТипыРезервовПДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0964ad6e-430f-4ea9-863d-7552356e793e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="009e9d1d-3d8d-455c-a5ce-e2a22c7c509a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>90e759b5-a8bc-4b7d-949e-891317fdb711</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5058b2b2-06f9-4caa-85c3-d75cf212cbdd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Страховой</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0f9ddc2e-c43d-4c96-983d-19bb3b38bfb0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b2869e57-fba1-4705-802d-2127e2b39434">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РезервЕдиновременнойВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b0d650e-4844-4934-8633-a8c20df23d7f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d76f4407-a35a-48c8-932d-c187bd22e8c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РезервСрочнойВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9705b506-8641-4f9f-b028-62dab1f7626b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9b7af5b3-50dd-4efe-99da-f69ae609f7d1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РезервПожизненнойВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1988abac-6136-424c-8410-92fe40e25bfc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8aeb9b13-f195-4c6e-8e73-a2f50200be6c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПерерасчетПоПоступившемуВзносу" category="Object">
+				<xr:TypeId>d2714aec-c416-465a-9f3f-305f627b1f50</xr:TypeId>
+				<xr:ValueId>f0db2ef6-7cac-4b16-8702-7a3983033242</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПерерасчетПоПоступившемуВзносу" category="Ref">
+				<xr:TypeId>a3cb1ac3-87de-4a91-bc48-17a19012dd17</xr:TypeId>
+				<xr:ValueId>6539803a-6dd7-4a90-a5e1-21e9d9086aab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПерерасчетПоПоступившемуВзносу" category="Selection">
+				<xr:TypeId>0b5da8b7-548b-49a2-a87c-5dacef030231</xr:TypeId>
+				<xr:ValueId>2f144740-7f14-4f8e-883f-ddf2cd47ecc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПерерасчетПоПоступившемуВзносу" category="List">
+				<xr:TypeId>96c88919-9f01-473d-896b-ee1d86d1ba88</xr:TypeId>
+				<xr:ValueId>5c2c162f-fc72-4bb6-a570-7f057aed78a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПерерасчетПоПоступившемуВзносу" category="Manager">
+				<xr:TypeId>c9f0d1f0-4b9e-46eb-ab59-b3c103e7cf05</xr:TypeId>
+				<xr:ValueId>176a2faf-6601-44c2-b8b5-7c3bfc473292</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПерерасчетПоПоступившемуВзносу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>81241115-3296-4610-909d-35b417822bf2</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

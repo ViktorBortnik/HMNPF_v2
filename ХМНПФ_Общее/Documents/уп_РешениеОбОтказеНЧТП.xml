@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="33f0c3c4-2254-42f3-85c3-79f9e5975a5e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РешениеОбОтказеНЧТП" category="Object">
+				<xr:TypeId>e8ff0b9d-c687-45b2-8702-760d235ee925</xr:TypeId>
+				<xr:ValueId>954dc5e2-8956-4689-9d5a-5ab274ecacb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РешениеОбОтказеНЧТП" category="Ref">
+				<xr:TypeId>7c781bb0-acb8-41bb-b509-527b655e0561</xr:TypeId>
+				<xr:ValueId>dd0de7c3-5922-4fd3-a6dc-2a0946d8a713</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РешениеОбОтказеНЧТП" category="Selection">
+				<xr:TypeId>91960f00-b432-4fd5-984d-86cd14b66b5e</xr:TypeId>
+				<xr:ValueId>f3300815-3f5b-4765-8b69-e3108d412535</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РешениеОбОтказеНЧТП" category="List">
+				<xr:TypeId>fb21e9cd-8904-461d-94dc-38df63e6e18e</xr:TypeId>
+				<xr:ValueId>3410c3a9-4377-4147-a574-8331cca848ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РешениеОбОтказеНЧТП" category="Manager">
+				<xr:TypeId>93852953-ab07-4ccc-bd60-f60ee3012592</xr:TypeId>
+				<xr:ValueId>c63c12d5-a96a-479d-abfe-eace51fb4b7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РешениеОбОтказеНЧТП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9901b0a6-0010-4069-b9a9-91724293e501</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

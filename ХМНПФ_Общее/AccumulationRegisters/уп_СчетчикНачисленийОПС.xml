@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="54f41c96-cf94-4d15-a6c1-68f1da908ebc">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_СчетчикНачисленийОПС" category="Record">
+				<xr:TypeId>b894169f-623f-4303-a981-4c203abdcda7</xr:TypeId>
+				<xr:ValueId>29c45cd2-27de-4458-bbb5-e3ab2f48b12b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_СчетчикНачисленийОПС" category="Manager">
+				<xr:TypeId>cd99201b-36b3-48ac-a354-28d5344132c3</xr:TypeId>
+				<xr:ValueId>08892fdf-abd7-4c18-a48d-0d50956ed583</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_СчетчикНачисленийОПС" category="Selection">
+				<xr:TypeId>9db59c4b-8291-4ddd-a91e-9eb5003053b6</xr:TypeId>
+				<xr:ValueId>6ae22c64-285d-4c4a-83b1-f5319138f601</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_СчетчикНачисленийОПС" category="List">
+				<xr:TypeId>c4154ea8-9b87-4e66-a5cb-845a64f74320</xr:TypeId>
+				<xr:ValueId>22bf37e6-3e76-450f-82b3-2a9be8dca0f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_СчетчикНачисленийОПС" category="RecordSet">
+				<xr:TypeId>7643974d-3eba-4a34-a96b-0d92ddaa196a</xr:TypeId>
+				<xr:ValueId>a3f6e925-b137-4d47-b3ea-95e8b42e3fb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_СчетчикНачисленийОПС" category="RecordKey">
+				<xr:TypeId>22388bcb-1f75-489d-b759-ed36b33f95ec</xr:TypeId>
+				<xr:ValueId>32f1370e-347d-46d2-b41a-622b1bfccb9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СчетчикНачисленийОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6161a264-a47b-405a-8352-cd9b992f0171</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ee8c590e-b621-4dac-8f00-bd6acd68bf6c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>947dff20-65e2-480d-812a-350eb0d7bdca</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="547e53a3-96fa-4d3f-ad44-1e18aaf35e3b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9580db0e-82cb-4bd9-98fa-f54aa1495b13</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="9271a16d-82dc-4176-b35a-4d7021a1fc0a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипПенсии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>28a3b767-eef3-42c5-a7f3-8bba60435ce3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыПенсийОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

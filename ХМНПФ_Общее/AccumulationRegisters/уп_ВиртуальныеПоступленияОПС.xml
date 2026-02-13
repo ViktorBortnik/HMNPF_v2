@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="aa27c52c-f936-4231-a30d-c20c1c4e7eb9">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_ВиртуальныеПоступленияОПС" category="Record">
+				<xr:TypeId>51eb0aef-e202-4de0-aeda-a36fa36d1f5a</xr:TypeId>
+				<xr:ValueId>f164c2d8-df17-4537-bff4-67ec4346c967</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_ВиртуальныеПоступленияОПС" category="Manager">
+				<xr:TypeId>8af39648-920f-4114-a15f-71259a8dd7bb</xr:TypeId>
+				<xr:ValueId>bc73c453-3a81-4ecc-bd81-cd16f9332125</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_ВиртуальныеПоступленияОПС" category="Selection">
+				<xr:TypeId>54f38e1b-a10a-42af-9075-f1ed9d86c387</xr:TypeId>
+				<xr:ValueId>92ebe14c-a586-486f-be2d-13ba9f1cf20f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_ВиртуальныеПоступленияОПС" category="List">
+				<xr:TypeId>59efd3f4-bdd7-4473-b543-78974a8206c1</xr:TypeId>
+				<xr:ValueId>cd664a94-28d7-4a3e-b5b3-445278784409</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_ВиртуальныеПоступленияОПС" category="RecordSet">
+				<xr:TypeId>922b5ba7-20ac-4cf3-b9c2-53a5df8c9001</xr:TypeId>
+				<xr:ValueId>179e5ae9-8741-465d-9c78-ac6bc001a55d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_ВиртуальныеПоступленияОПС" category="RecordKey">
+				<xr:TypeId>d3c73762-06ac-4f20-a7e0-3fd437e64094</xr:TypeId>
+				<xr:ValueId>585fc9d0-43e6-41d4-b49a-4b3aec8d95dd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВиртуальныеПоступленияОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>12ebbfbb-ef1c-4b1e-8fd5-4b2438386d24</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ac15ca5d-8480-43da-a10a-e4684c9265f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0d06af81-1de2-4e90-ab34-d3d779247ff6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="111023ad-d2be-4357-933d-520d9deb48fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>36cc75d3-4cbf-4920-930b-f6472257103c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="0c00f5ea-f218-4b4c-bbce-5522f08131a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3919274e-559d-4393-ba8a-43bbd14b1cc1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e3580a39-b699-4c68-b9ad-924698bf4354">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаКонцаПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b31e03f8-c341-44ba-9c97-b3074ce058f9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7e4e2b37-a0c9-4626-9628-bff72c7a52ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4cbf9b2f-93f7-448d-a2a5-d472d932b1ce</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ТипыСуммОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b15ffe8d-569b-40a6-ae29-acf3a2c96122">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ОтказыПФР" category="Object">
+				<xr:TypeId>613c62b3-22c4-469b-a984-118961386cdc</xr:TypeId>
+				<xr:ValueId>051b9dad-b516-4db8-b59e-2b241009b106</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ОтказыПФР" category="Ref">
+				<xr:TypeId>01981b7f-6337-4493-826d-1e361b97af31</xr:TypeId>
+				<xr:ValueId>b1ef98bb-9951-4934-aab0-0bd540049ded</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ОтказыПФР" category="Selection">
+				<xr:TypeId>112e84d7-ccbc-4001-a096-a1f3b2915e28</xr:TypeId>
+				<xr:ValueId>d9252f23-f715-4510-b36a-02e088a7de14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ОтказыПФР" category="List">
+				<xr:TypeId>10c78ceb-cbf4-406c-b358-bee8de94f462</xr:TypeId>
+				<xr:ValueId>ba04179b-2173-41d3-941d-38a8e2973660</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ОтказыПФР" category="Manager">
+				<xr:TypeId>be740c64-cfc8-4f05-ae9c-3645d38208ce</xr:TypeId>
+				<xr:ValueId>53e907d5-430e-4825-8d9a-ce1482be5ea4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ОтказыПФР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d273b913-2dca-40ab-a368-22eb495feafc</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8d206efd-fadc-4202-abb0-c97fb0ed3943">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РучнаяКорректировка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1cd27ec4-abda-41ca-a9f1-2cf9c7c2b8c7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="74a98060-17f6-4854-ba62-4b75f8879343">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_ОтказыПФР.ДоговорыОПС" category="TabularSection">
+						<xr:TypeId>cf5a8a34-0597-4d8a-a3ab-a0e42f4f3615</xr:TypeId>
+						<xr:ValueId>d1046429-59c3-4688-9b6b-0df79982a0f0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_ОтказыПФР.ДоговорыОПС" category="TabularSectionRow">
+						<xr:TypeId>bb7ddce4-9680-4b8d-a9bc-0f7a4d6b20df</xr:TypeId>
+						<xr:ValueId>91461258-55aa-4e88-8fa2-783517e614a0</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорыОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>49aac2db-086f-4525-96e3-d63575b553d4</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a3ac1961-4964-47ca-a589-82fbae250f5b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорОПС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f4fb1d2a-9851-4e92-a051-dc0bbbe4ea12</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d67db933-c891-4de5-b2c9-227a9a5895f1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ceba1144-3942-48c5-b6e5-5441ac01bc05</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="223b8b98-0ef4-46a0-b84b-b0af0c79d62d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ1</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>de361ca2-d6a2-4d89-a74d-a4e06b23f959</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7248a774-b553-4f9a-8485-63c69ee32d44">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ2</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e36dfe2b-e208-4c22-936b-9b41677ce141</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="829e7788-e875-48e3-9fea-46dc47d9cef1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ3</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>102f1f66-ee51-403f-9375-0c528cacde8c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c6350be0-f5f6-4d01-b30a-62dbed0aac64">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ4</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7eb6fcb0-efcb-47fb-b63d-7bdf46476b19</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9039307d-21da-4d33-a5ad-7ba6d572649d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ5</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0e93abe5-24f2-4e3b-a748-fe106db0d192</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a224e2f-0053-4a23-9402-641c2aa5e89b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ6</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3e949433-7b50-4eb7-bef3-402a926a0b8f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ea0b5606-62ef-430d-9cee-965690f33556">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ7</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f849773d-c68b-48d1-a6ff-e8fa8e83f12f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0a519bf4-871a-4d7d-b324-7b7333cae947">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ8</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>92141592-abb1-437d-83ab-9b93cc4f3965</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e72d00a5-ecfa-4c86-ad5c-e6f926a28bb4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ9</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>81eedc4d-d4fa-4e18-abd4-d8c35dd98561</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6b006fe4-4742-4c6f-ad79-357fe2b09a07">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ10</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a3506536-6809-4444-87fd-12c7c8c74610</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8e124997-cbe0-4023-9842-b9f7eb2636f0">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ11</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>985bbde9-3979-4e0b-950c-6ee9e95dcef0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="de868015-5066-4c8d-89ee-e642b1a01029">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ12</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ef7ac102-13db-4650-9517-947029e2a7ed</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="00aa3027-f6a8-42ce-ada2-72bd6928b6c6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отказ15</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e46d1987-cf2a-45b6-a4c1-7ced2810a2bc</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4718b97b-7709-4431-86dd-9db509baaf74">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ХМ_Отказ15</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>240e6c96-77f8-45db-9732-e39d6c462beb</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

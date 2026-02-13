@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="79f70a37-69fb-41bb-ae1b-8ff448ba9b17">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ПенсионныеДоговоры" category="Object">
+				<xr:TypeId>f796d2f6-ed0b-422e-9f7f-d160d6034215</xr:TypeId>
+				<xr:ValueId>df940879-f247-4d7b-81af-4075227a926f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ПенсионныеДоговоры" category="Ref">
+				<xr:TypeId>379278c5-f877-46e3-bbf1-e6d70887c56d</xr:TypeId>
+				<xr:ValueId>83ca3bc5-0630-403f-9320-4748737b102c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ПенсионныеДоговоры" category="Selection">
+				<xr:TypeId>48ea6b93-dd02-423d-b8ca-16bf793c7fa0</xr:TypeId>
+				<xr:ValueId>b7037a9d-13ab-4024-84e1-7ea4ced45ea6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ПенсионныеДоговоры" category="List">
+				<xr:TypeId>5b012ede-3a36-4849-8da2-2c046e10a2bb</xr:TypeId>
+				<xr:ValueId>02449cd5-c124-447b-a203-42df585fb3cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ПенсионныеДоговоры" category="Manager">
+				<xr:TypeId>d44a9353-55e1-4b77-9864-4dfa1a29d603</xr:TypeId>
+				<xr:ValueId>26e047a1-00a8-4305-92c5-a3252e41d04e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПенсионныеДоговоры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>01726f7e-a880-4197-9124-de24c245b3e7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ece1a916-b8d2-4579-b24f-7de1f57e39b6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4ea5e625-8c15-4894-91ea-eb67951a3ec9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="abd15f2a-fd60-4ce5-9e62-529aba032eb0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Вкладчик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af525292-739d-43d2-a014-0d9dfdcaa894</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e04df1f6-c591-4826-ab6f-7380392c65eb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>69342f6b-2d58-45ee-aad5-799e6119a1e7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a748fe96-6bee-44e5-bacf-da77bf7f7178">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПричинаЗакрытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5450bc76-6a96-454e-8f27-922c46e7ed68</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ПричиныЗакрытияПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="06c99b95-5305-4273-858d-990e9b497bad">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Схема</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>071416a7-7887-4356-95ec-f15745dc2040</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0eab0628-7f93-4f7f-8c9f-bd04e68d7425">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипРезерва</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>598b7121-6c58-415e-9295-4495960c7961</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ФормаРезерваНПО</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="68098545-9e34-4c86-b809-0477b81f5a75">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаЗаключения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4fa6ecd4-1b36-450a-8b8d-aa026644a012</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0185e07a-df1f-429a-98b6-87ac22cca959">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаДействия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8e344436-a684-4c62-97dd-27a581f122cd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4572df9d-60d9-44a1-9989-5c840267ee1a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5804cf9c-17b1-4d1a-aec7-aa21c73a5f69</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e962abf1-4b37-4d03-90a8-9a06484093a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АлгоритмРасчетаВыкупнойСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37ecf11d-bd00-425d-a824-e8869a7640a4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_АлгоритмыРасчетаВыкупнойСуммы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаВыбораУп</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

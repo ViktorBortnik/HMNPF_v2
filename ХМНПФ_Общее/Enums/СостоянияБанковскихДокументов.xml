@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0ba0a7b4-b3fa-4590-9155-acf4f3b4d922">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияБанковскихДокументов" category="Ref">
+				<xr:TypeId>d432a632-7200-44da-9c68-84ba1a745652</xr:TypeId>
+				<xr:ValueId>2700a4f0-29ca-431b-a85d-ca4e632bdbdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияБанковскихДокументов" category="Manager">
+				<xr:TypeId>9638f380-2497-4b18-929e-7576a2360b29</xr:TypeId>
+				<xr:ValueId>607620ac-aec2-49b5-9731-2360a90f6869</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияБанковскихДокументов" category="List">
+				<xr:TypeId>ebc841c3-7955-4774-8c36-594b2add689d</xr:TypeId>
+				<xr:ValueId>030069ea-c535-4471-a83e-1eb0ab721b36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияБанковскихДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf1b23cc-072e-47ac-98af-2f8d956a243a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="69be67ad-26b0-4a97-9021-31e05dcd76c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подготовлено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eac84d9b-57b8-4106-acda-e0f4b26947e7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="76b7f7ef-5e6d-4cd8-aadc-025cbd7b034e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отклонено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a99e9803-2909-44b8-8662-9b3efb98a339</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="93ece7a3-463c-4330-9c62-63b8d6be14ef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отправлено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e65e60cf-7de1-4125-9a19-699ec044348c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="66e62ef1-4d9a-40b6-b8bc-acbfed546fe7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Оплачено</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>54c14d2d-2c13-463d-8218-ced463a2f037</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e0fa7244-175b-4f39-ac57-058ba4f79ee8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаПодписи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>768e1069-44e8-4491-af80-4d4b8c47e4a9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

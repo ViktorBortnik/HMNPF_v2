@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c3a82052-9759-49ba-9b7f-244a93c190a7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.пдс_ОткрытиеДоговораПДС" category="Object">
+				<xr:TypeId>4a931124-ad17-479d-bec2-35159b76c63c</xr:TypeId>
+				<xr:ValueId>27bc2384-e79d-43ef-8428-81a548d635fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.пдс_ОткрытиеДоговораПДС" category="Ref">
+				<xr:TypeId>922e7176-cee1-4aad-9e6d-cf5965871091</xr:TypeId>
+				<xr:ValueId>cbe20c89-cb25-4cc7-bc52-426b27c93a33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.пдс_ОткрытиеДоговораПДС" category="Selection">
+				<xr:TypeId>809c9483-9be1-48c7-b4c5-6dcd9526f8f2</xr:TypeId>
+				<xr:ValueId>9f07fcbb-3531-4dfa-99d3-006a645ef338</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.пдс_ОткрытиеДоговораПДС" category="List">
+				<xr:TypeId>0f2d1b12-8dd4-4638-bc92-81a48d3dfd62</xr:TypeId>
+				<xr:ValueId>00128f12-a31c-4d23-af7e-ca8af267f656</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.пдс_ОткрытиеДоговораПДС" category="Manager">
+				<xr:TypeId>7c86aa23-e378-4c1f-9907-8fc97d898382</xr:TypeId>
+				<xr:ValueId>fd460022-25bc-4250-9992-4e748f8857ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_ОткрытиеДоговораПДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e96caa1d-f498-482c-9e6f-0fb05c276136</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2e2a5fa8-7ff9-480a-937a-0d6e231337ef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйДоговор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d18d0e44-b8a6-4c17-b300-84c1b5303c9a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.пдс_ДоговорыПДС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

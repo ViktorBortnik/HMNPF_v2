@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="7d90acc5-397a-4d5b-b67a-cb59473e64a6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КадроваяИсторияСотрудников" category="Record">
+				<xr:TypeId>a7834f53-515c-41d3-9c71-fe22b97176e5</xr:TypeId>
+				<xr:ValueId>98f98362-f18a-4621-ba01-17e9bd1b2f91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КадроваяИсторияСотрудников" category="Manager">
+				<xr:TypeId>2ad63ea4-7e22-40aa-b509-5204d5b51f51</xr:TypeId>
+				<xr:ValueId>28229b66-c070-414d-a7d2-f165e781cc3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КадроваяИсторияСотрудников" category="Selection">
+				<xr:TypeId>bffa2c15-e444-4eee-9d55-c8ead9df58a5</xr:TypeId>
+				<xr:ValueId>0d10c5f6-4df3-4eb3-9545-a86c5b26777d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КадроваяИсторияСотрудников" category="List">
+				<xr:TypeId>40a3cf29-4063-4a92-a636-ce76925e6325</xr:TypeId>
+				<xr:ValueId>125627b7-c78d-4c48-8bc8-96d2f4e71a42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КадроваяИсторияСотрудников" category="RecordSet">
+				<xr:TypeId>d610443a-7ea5-44c7-9cda-0655555dfbb9</xr:TypeId>
+				<xr:ValueId>301de3ed-16cd-4ef5-bba1-6cda8ab04808</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КадроваяИсторияСотрудников" category="RecordKey">
+				<xr:TypeId>fc322f16-6074-49df-809f-b2b6dd8daf25</xr:TypeId>
+				<xr:ValueId>50ec6279-a5dd-4a57-b56e-5860b2e76f7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КадроваяИсторияСотрудников" category="RecordManager">
+				<xr:TypeId>6a19bc81-0edb-4581-9059-c677449eeeef</xr:TypeId>
+				<xr:ValueId>b27a5526-af3e-4f06-bc5e-3ce23221bfe0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КадроваяИсторияСотрудников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>77549c2a-a84b-49d6-8f15-86c632de6a12</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="dcaf1592-e584-474d-84b0-26d801d32cd1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0dfb2dba-dda8-405e-82ac-9efb60b7ac90</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e585fd20-0b83-4c45-9bf1-273a7f9a655c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a0d8999d-f931-45ef-b8e5-8b7627be9a55</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="59bd31a5-89b2-4a30-b910-8e500f51b6f8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Должность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b1514e03-58a3-4ab5-adb3-0c489937f078</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8f669254-0533-4e17-ab85-327dad7d6d6f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a13bbcd4-53b1-4002-9507-ff2e287c2fd2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыКадровыхСобытий</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="bfd60a3d-62ac-41ed-88cd-7648db11f0ab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>92f56107-7440-44c8-9707-cf490d1c0f52</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f94260e7-cd1a-4ab9-899b-71c27466fba1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГоловнаяОрганизация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>28fac540-4b56-40e5-8e9e-159318c029fd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1b024de8-3cd2-467d-b958-3d2942a94c6f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8768e276-1e30-4c3b-88f5-62c831a80dea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

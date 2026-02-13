@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="01235ab6-b1f0-46e8-8ab7-2cbd3690d753">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_ПочтаУдостоверяющиеДокумент" category="Record">
+				<xr:TypeId>3b8258d8-dc05-479b-b424-7b6de3ec4d04</xr:TypeId>
+				<xr:ValueId>b3fc0c52-ee18-431e-9972-2333ccd3b349</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_ПочтаУдостоверяющиеДокумент" category="Manager">
+				<xr:TypeId>6514eeda-0c21-4973-96c2-415d2adcc644</xr:TypeId>
+				<xr:ValueId>eede2841-f575-4f59-b647-ddfc13236d90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_ПочтаУдостоверяющиеДокумент" category="Selection">
+				<xr:TypeId>24fb2520-cf29-4265-9db4-b802dfce96bd</xr:TypeId>
+				<xr:ValueId>bd2870ba-7401-4c36-b71b-b7b388c6e67f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_ПочтаУдостоверяющиеДокумент" category="List">
+				<xr:TypeId>fd2d49f0-42cd-467d-8736-6633f61d99ec</xr:TypeId>
+				<xr:ValueId>383731b9-1b08-493d-87ee-3c79161439d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_ПочтаУдостоверяющиеДокумент" category="RecordSet">
+				<xr:TypeId>6fd4a2bc-fa76-454b-83ec-ceb77febc412</xr:TypeId>
+				<xr:ValueId>6b0ddc1f-6d5b-47a0-94cd-76837a2a59e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_ПочтаУдостоверяющиеДокумент" category="RecordKey">
+				<xr:TypeId>bf5ebac0-8053-4194-98f9-f958c3beef64</xr:TypeId>
+				<xr:ValueId>df446aa2-6282-4151-859b-0759a74766ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_ПочтаУдостоверяющиеДокумент" category="RecordManager">
+				<xr:TypeId>ffd50f48-8770-4e60-a0ab-9c7ec958af25</xr:TypeId>
+				<xr:ValueId>4784ba2a-164e-4351-a775-9f194fde1754</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_ПочтаУдостоверяющиеДокумент</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e0aca907-d25c-4916-a14a-52144e757bdb</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="075ab069-c91d-4908-a98c-b6c3e954a035">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Представление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3693582f-53c3-4cc3-afc8-8dd2dbef3066</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ba4760e1-0cd3-4622-b618-c259661339a5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументФизическогоЛица</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e96e58d1-b908-4ab5-a8c2-93eaa18b8cf8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыДокументовФизическихЛиц</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

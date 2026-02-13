@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f9ac442c-21b6-4ff1-8c0f-bb856f3bf0f0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.епс_ВидыДвиженияПенсионныхНакоплений" category="Ref">
+				<xr:TypeId>99c3f99c-32b4-4f9c-a16a-cc935945cbbf</xr:TypeId>
+				<xr:ValueId>145b381a-fc42-403f-b604-04b473d54eb7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.епс_ВидыДвиженияПенсионныхНакоплений" category="Manager">
+				<xr:TypeId>b2a3af24-a7ae-4952-9693-dbc11fa07ccf</xr:TypeId>
+				<xr:ValueId>5326ce91-ad2a-4f57-a6ff-9b0e44f51fdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.епс_ВидыДвиженияПенсионныхНакоплений" category="List">
+				<xr:TypeId>17c128b0-2202-4ed5-b8d6-f10b29012a3b</xr:TypeId>
+				<xr:ValueId>70a7c65a-bd81-46ec-903d-2eaec17afd79</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>епс_ВидыДвиженияПенсионныхНакоплений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a8e52362-79ab-4c79-930a-76e32f7e2abf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

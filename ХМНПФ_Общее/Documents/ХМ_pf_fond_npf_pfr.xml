@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2b1fba6b-6cb5-44e3-8886-5c82b7d0332a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ХМ_pf_fond_npf_pfr" category="Object">
+				<xr:TypeId>c88464ec-7809-4f93-942e-1d2b0348e945</xr:TypeId>
+				<xr:ValueId>c308701b-0c96-4c5a-ae53-58cb817e3a88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ХМ_pf_fond_npf_pfr" category="Ref">
+				<xr:TypeId>eae63f27-19f5-4db3-be4a-5dea52bd4596</xr:TypeId>
+				<xr:ValueId>fe29d7bb-c34c-4d10-9031-69ed32afea81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ХМ_pf_fond_npf_pfr" category="Selection">
+				<xr:TypeId>9b83b82d-edbd-4147-b607-12a0dc3c8f22</xr:TypeId>
+				<xr:ValueId>663680ee-6462-458e-8a65-575daef70cd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ХМ_pf_fond_npf_pfr" category="List">
+				<xr:TypeId>fb391f4f-3833-4b57-87a6-4fd5105b73f6</xr:TypeId>
+				<xr:ValueId>44b98a05-1c70-4253-a983-bd90b816f07d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ХМ_pf_fond_npf_pfr" category="Manager">
+				<xr:TypeId>cef55716-8b39-444d-88a4-31d0f90b6723</xr:TypeId>
+				<xr:ValueId>3142429d-4bd4-41d3-af01-c3954db5b191</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_pf_fond_npf_pfr</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>38c811c1-9bbd-470d-9a24-1f06835dc351</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

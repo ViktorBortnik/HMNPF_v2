@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="7d5a4bb4-8fd6-4af9-8732-5845781fcd41">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ХМ_СправкаОСтраховомСтаже" category="Object">
+				<xr:TypeId>3751f271-c498-4c79-b134-0a638380b95f</xr:TypeId>
+				<xr:ValueId>ca6e0db1-678e-44b2-9a67-ba364b31d583</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ХМ_СправкаОСтраховомСтаже" category="Ref">
+				<xr:TypeId>042655a9-47fb-427b-813d-11715c815396</xr:TypeId>
+				<xr:ValueId>73007240-a398-4ee6-ba9b-6aa45e903c24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ХМ_СправкаОСтраховомСтаже" category="Selection">
+				<xr:TypeId>10677ae4-17b1-448f-aa0a-8ea6429e3e99</xr:TypeId>
+				<xr:ValueId>2c67e1a6-3b54-4528-bb70-2fbfe0b4a8c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ХМ_СправкаОСтраховомСтаже" category="List">
+				<xr:TypeId>6cb977e6-d6f8-4964-94d7-7a335d4d2cf7</xr:TypeId>
+				<xr:ValueId>f9d1d471-6c2a-4c05-b8c9-e831437b4354</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ХМ_СправкаОСтраховомСтаже" category="Manager">
+				<xr:TypeId>7e054a87-6711-4635-8297-18cadeb6af01</xr:TypeId>
+				<xr:ValueId>e4a581cc-cd18-4da9-b341-55ee4479927a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_СправкаОСтраховомСтаже</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>86ba0f21-503a-4136-ac08-d63c15c1280d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

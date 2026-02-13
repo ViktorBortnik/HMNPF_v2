@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c22c505a-1351-4134-82e8-7aa1a117baa0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ЭДПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>b41f24e2-78ba-43fc-abd6-eda7c406bc2d</xr:TypeId>
+				<xr:ValueId>f2e6d091-de84-47d2-a5d7-0a0531a9c8a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ЭДПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>16f3b521-4061-47c2-a402-64d3f5d189ed</xr:TypeId>
+				<xr:ValueId>09c22ec0-c9a3-4449-8475-3d9e6f1e1e35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ЭДПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>aa7183c1-5e25-4925-8d2a-92892501df68</xr:TypeId>
+				<xr:ValueId>1a880cfc-647b-4338-b57a-15e511086fbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ЭДПрисоединенныеФайлы" category="List">
+				<xr:TypeId>b3af53c6-5169-4363-b71c-cb6423fcd488</xr:TypeId>
+				<xr:ValueId>5c78accd-e498-496b-b41e-b2798dec2d8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ЭДПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>55c049ab-c3dd-40d3-84bd-35b40ae5a14d</xr:TypeId>
+				<xr:ValueId>498ff0ba-4c23-46d1-92e4-352757b99bf4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЭДПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a6469c83-376a-44de-963b-c110e2f45640</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

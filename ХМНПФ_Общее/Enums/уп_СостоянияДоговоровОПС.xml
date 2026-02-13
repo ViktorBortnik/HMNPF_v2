@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f55ed088-e673-4b0b-a31f-b5c44a07c140">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_СостоянияДоговоровОПС" category="Ref">
+				<xr:TypeId>f1816efe-a214-4bf6-9c02-7c338157c455</xr:TypeId>
+				<xr:ValueId>56af281f-83ec-4a65-893f-bd127f9786fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_СостоянияДоговоровОПС" category="Manager">
+				<xr:TypeId>3f8fd425-7bd8-439f-9d24-8b7d8cb82042</xr:TypeId>
+				<xr:ValueId>cf92201c-96c5-40a1-b787-d452bb81ac8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_СостоянияДоговоровОПС" category="List">
+				<xr:TypeId>a35b36fc-758d-4600-8e1d-803029738b0e</xr:TypeId>
+				<xr:ValueId>76cdd74d-c280-47a6-9e51-2d5a78000574</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СостоянияДоговоровОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>086f28fc-be22-4b09-b72f-2c02fe5bd9c2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ef46e701-4d12-44be-81c8-84d0fc72f7fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заключен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>256fac4b-4087-400c-aa8d-11fb4f10b3d2</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a7b29b42-6c49-45d5-851e-062b52da72e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжиданиеПодтвержденияПФР</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7fdab12d-60e2-4c08-b0a4-e065c774d7be</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="97d17fc7-71f9-4f6f-a39d-0bad01f58e00">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжиданиеПоступленияВзносов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fe669270-d0eb-4177-bbe4-9a0a2dc3bc49</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="39561b67-ab74-4c09-9071-b64bbdfcb367">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НакопительныйПериод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>34775b11-5fc8-40fb-9392-da40d7fadead</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a666574f-fc06-4a38-91f4-7a32e6129afb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатнойПериод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2efc911-c490-4778-af54-787a96d87076</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ef0b300b-2af1-4b5f-916f-348ec79061e3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПриостановленПоОтказуИзПФР</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ce04789f-8189-4e79-b5cf-e9d946afe894</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="47009977-83f9-4832-981e-bffc518bfad0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПодготовкаКЗакрытию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93d8d04c-6eab-4ae6-ac42-a67598c11fad</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6f98329d-dc56-4b64-83d2-3d8ccf6385e4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Закрыт</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b19d86a0-3285-4e85-87f3-3adb39d3cb76</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bbe35dc1-0142-426f-af25-dc8375616577">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыПриостановлены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>83a02076-b9ff-4c5d-879f-1d4a8a1fb993</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="65aee8eb-3c29-44e8-9b7c-2790120864e8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачисленияПриостановлены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>690159e6-8cab-4757-b983-8e12b8d422a5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="53be8e78-8f13-40e3-9386-1748f67c9568">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиновременнаяВыплата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b9363a7-16e8-4097-b597-2ef552f4b3d0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c4ffb4f7-b3a4-48a1-88a0-e7d5e3ecaeed">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбязательстваВыполнены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ba4c6068-f692-4f07-a1de-e2a8b1e6400a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2b7f7a3f-55a1-4eea-a8bb-c4de853af8b8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХМ_Анулирован</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f1654e21-867b-463e-a7b3-008d0e75ec64</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

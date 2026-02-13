@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fb19862f-cd84-4bba-913f-de8734429829">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РаспределениеИД" category="Object">
+				<xr:TypeId>4a21e06e-b113-4d8a-b089-f85d16dafaa4</xr:TypeId>
+				<xr:ValueId>398e6cae-3c52-4365-9cd6-71925dfa1dd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РаспределениеИД" category="Ref">
+				<xr:TypeId>4c4bdc8f-5dc9-4878-9a91-c2844ac07ef7</xr:TypeId>
+				<xr:ValueId>8216e04f-db0f-411e-a4e4-80fa0ef84b92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РаспределениеИД" category="Selection">
+				<xr:TypeId>8195d782-5ef3-4979-a9af-35b1a5feb9ea</xr:TypeId>
+				<xr:ValueId>068cfd88-3c98-44f4-9f74-a1bc8395e909</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РаспределениеИД" category="List">
+				<xr:TypeId>a77710f4-6468-4ff2-94ef-29195b470c28</xr:TypeId>
+				<xr:ValueId>62a8b5b3-0d52-40ce-8245-e17300682d1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РаспределениеИД" category="Manager">
+				<xr:TypeId>9fbeb58e-0c8a-45d4-8c3e-168bdd80e978</xr:TypeId>
+				<xr:ValueId>9d8b8c18-1a57-4ae7-aa5c-299f9d6e6b23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РаспределениеИД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1f12f115-2b12-41c3-a907-08f1044e8547</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="502c4389-5b73-4214-b0ee-36341f9c6803">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_РазмерПенсии" category="Record">
+				<xr:TypeId>8b6ff44d-6c11-47b6-9cf6-df1a63d83c8b</xr:TypeId>
+				<xr:ValueId>39d61fe7-9343-49ce-97ed-248b6094810c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_РазмерПенсии" category="Manager">
+				<xr:TypeId>0615d73d-a349-4450-8795-3e84c1f074f5</xr:TypeId>
+				<xr:ValueId>57709258-f80a-4da1-bdbe-d6a75b9c6c25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_РазмерПенсии" category="Selection">
+				<xr:TypeId>87ed9c03-2f1a-400d-b8bf-94c5173890ca</xr:TypeId>
+				<xr:ValueId>6cfa7674-b8f4-4ab5-9e9c-9d6ff020a77d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_РазмерПенсии" category="List">
+				<xr:TypeId>92565649-6adc-43bb-84e4-cfd3ab3a8ee7</xr:TypeId>
+				<xr:ValueId>a6fd51fd-85c7-4e81-8ee7-c7858224494c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_РазмерПенсии" category="RecordSet">
+				<xr:TypeId>fcfd9dd3-b88f-49e8-9ceb-55be7cec353d</xr:TypeId>
+				<xr:ValueId>7ca1a936-8b6f-4e5e-9f32-b6fcc09ed87a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_РазмерПенсии" category="RecordKey">
+				<xr:TypeId>a5c7a3d5-3c82-42b2-9ecd-a06c351e9b5a</xr:TypeId>
+				<xr:ValueId>a5f7d951-efbc-4806-a658-2ee1c98d802c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_РазмерПенсии" category="RecordManager">
+				<xr:TypeId>abb19f1d-974a-4d04-ae10-85e0e1dd12c0</xr:TypeId>
+				<xr:ValueId>ffc42435-cefc-487c-9e88-32203e3e23e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>RecordSetModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РазмерПенсии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>960249e7-d9cc-4b03-9ac0-6f4e4ed2f1ae</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9874e889-23dc-4950-aa91-3538e40ade8b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Размер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7eda1efa-117e-4e3e-9311-fbc326668831</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="16813b91-0dd3-4608-a3de-c8ce3f742f4e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПолныйРазмер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a8686d51-7c27-4c1c-b8fc-daceb8db1564</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="c2bf09d0-a9fd-4514-beeb-6bfceacafe8c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d6719e58-43e6-4d4a-8a49-c76a042eea4d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

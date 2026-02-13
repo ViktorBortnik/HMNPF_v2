@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0c3b0f91-03c7-4ead-924f-e2aa07d9a523">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПачкаЗЛДляЭДОПФР" category="Object">
+				<xr:TypeId>97ed2f22-934c-4431-ac14-a66b1f38b7d1</xr:TypeId>
+				<xr:ValueId>c7846225-bd0b-4945-9ed9-83cea7180ca7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПачкаЗЛДляЭДОПФР" category="Ref">
+				<xr:TypeId>ed3e67a7-757f-44be-93ac-dc70db75daaa</xr:TypeId>
+				<xr:ValueId>4d5aafd3-0801-4238-89cb-9dd6035da571</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПачкаЗЛДляЭДОПФР" category="Selection">
+				<xr:TypeId>79cdd4d4-e831-4eb1-8904-375a190b500e</xr:TypeId>
+				<xr:ValueId>1589df97-64da-4144-ab8d-e48fe2cb7f59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПачкаЗЛДляЭДОПФР" category="List">
+				<xr:TypeId>968c893f-c503-4fc3-82d9-08afc4a72c7f</xr:TypeId>
+				<xr:ValueId>3b5c6bd9-26c4-4046-8818-c4491d87a058</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПачкаЗЛДляЭДОПФР" category="Manager">
+				<xr:TypeId>24436caa-2d9d-4953-ada5-57bfb09506d1</xr:TypeId>
+				<xr:ValueId>92fa2907-24b1-45d2-a016-ca5ca0b9e720</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПачкаЗЛДляЭДОПФР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ab8f53bb-ea26-4298-b199-3985c3f1e6d0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

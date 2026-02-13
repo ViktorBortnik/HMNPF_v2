@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="44dae282-c277-43a1-9236-101f47bd93e2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_ПеререгистрацияУчастников" category="Record">
+				<xr:TypeId>2e3004ea-9488-40ac-a7af-de84c8791df8</xr:TypeId>
+				<xr:ValueId>0daca826-e41c-48d9-82e6-0bfe0965cf27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_ПеререгистрацияУчастников" category="Manager">
+				<xr:TypeId>47b7a705-643f-47d4-ae8b-ae5179d13632</xr:TypeId>
+				<xr:ValueId>ab043189-c7c7-4a6b-adc0-0474d1d32259</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_ПеререгистрацияУчастников" category="Selection">
+				<xr:TypeId>eab9f731-60b2-4a3b-a9ba-91c965551b6c</xr:TypeId>
+				<xr:ValueId>8917cb72-c4cb-4aa0-b1ec-c6524e80be11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_ПеререгистрацияУчастников" category="List">
+				<xr:TypeId>23b0161e-45de-4f53-a440-0d4eb3d9855a</xr:TypeId>
+				<xr:ValueId>a6c3b141-8a58-4868-ab48-4bbd42f08090</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_ПеререгистрацияУчастников" category="RecordSet">
+				<xr:TypeId>024b5d97-e6a1-485a-b05f-3f440887f3de</xr:TypeId>
+				<xr:ValueId>744f4c2d-08ad-473f-af85-dfc593f8618b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_ПеререгистрацияУчастников" category="RecordKey">
+				<xr:TypeId>525d5285-02a0-4755-82de-b533618f961c</xr:TypeId>
+				<xr:ValueId>d3b3ece6-a9cb-43cb-acd5-8bd209ad4882</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_ПеререгистрацияУчастников" category="RecordManager">
+				<xr:TypeId>6f6bdd49-1c63-43f2-8da4-149034ba1eb5</xr:TypeId>
+				<xr:ValueId>c0159f43-e022-4d8d-8e07-5af0826efb2c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_ПеререгистрацияУчастников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1fe9b03e-bb01-494c-b882-40f078455118</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.ХМ_ПеререгистрацияУчастников.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e4ca26d2-1dd2-49e1-a6fe-7af0831d5cb1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаПеререгистрации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>83792b74-348d-42e7-ba4b-f4485018e7c0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="fcd1ea8d-382a-4921-a8e5-f7217b2223ba">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70c21e6e-5bc7-427b-8072-3c7587cfe9a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="03c94e6c-2839-46fa-898c-1606ebcb5265">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eb80d162-af27-4730-8c87-53520c2359e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

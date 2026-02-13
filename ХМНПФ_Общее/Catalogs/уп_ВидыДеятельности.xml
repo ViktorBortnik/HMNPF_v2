@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="046a7900-2f0c-49e3-bb65-48b866fc1835">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ВидыДеятельности" category="Object">
+				<xr:TypeId>2b3d0dbf-c1e4-4db2-927b-3eacc213f7de</xr:TypeId>
+				<xr:ValueId>8745c1d3-030b-4942-8ac3-be553915dd32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ВидыДеятельности" category="Ref">
+				<xr:TypeId>455cfddd-f5ea-4bb3-bb39-2a4a9eaf93cb</xr:TypeId>
+				<xr:ValueId>2a5a5451-5d22-4c78-bc1b-4e2f4bbdfc13</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ВидыДеятельности" category="Selection">
+				<xr:TypeId>4b7121d3-191a-4029-8bfb-1ef782a04b76</xr:TypeId>
+				<xr:ValueId>3d9ba814-abfb-477b-9e84-5abc3f97db76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ВидыДеятельности" category="List">
+				<xr:TypeId>828bea6f-adbc-4a00-9b7e-669eb367bb56</xr:TypeId>
+				<xr:ValueId>82a98135-4b4b-44ca-946f-d5a31004f426</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ВидыДеятельности" category="Manager">
+				<xr:TypeId>c036be42-d6ff-45db-806d-e0d2e92870a2</xr:TypeId>
+				<xr:ValueId>e9621c60-d732-4ddd-804b-c0450b3dc4ae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВидыДеятельности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b3adb9cd-4c56-4172-b319-664bf442a7eb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

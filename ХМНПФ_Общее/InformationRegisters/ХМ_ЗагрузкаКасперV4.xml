@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="9daa441b-a836-4c8a-9888-56c033be0aff">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_ЗагрузкаКасперV4" category="Record">
+				<xr:TypeId>234899a7-81c1-49b3-8ce1-209defd9158b</xr:TypeId>
+				<xr:ValueId>7dc5def4-2eb2-4d74-a1c8-4f12ccb15689</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_ЗагрузкаКасперV4" category="Manager">
+				<xr:TypeId>0b38e07a-e91f-4e6a-9834-98e9ad868a49</xr:TypeId>
+				<xr:ValueId>4e41e98d-e527-4fac-9868-0b20402535ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_ЗагрузкаКасперV4" category="Selection">
+				<xr:TypeId>4189ce55-e8dc-49b8-8d90-d6cb7ce2309e</xr:TypeId>
+				<xr:ValueId>6170375c-5e44-43d0-bea9-4b9ce93bb4c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_ЗагрузкаКасперV4" category="List">
+				<xr:TypeId>c27a6133-bb83-417d-9746-17433a7cb7dd</xr:TypeId>
+				<xr:ValueId>e2a4a89b-1190-4ae2-bf86-80ee0f510f4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_ЗагрузкаКасперV4" category="RecordSet">
+				<xr:TypeId>3221f8ad-ed7a-4c0a-8088-07574485e33c</xr:TypeId>
+				<xr:ValueId>bb35a5f9-2322-4ac8-9ef4-c24a4872a11f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_ЗагрузкаКасперV4" category="RecordKey">
+				<xr:TypeId>7d8e11d1-3426-45d8-9389-005d68088fca</xr:TypeId>
+				<xr:ValueId>51fbbb7d-ff9a-42cf-9978-2e65de8b58e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_ЗагрузкаКасперV4" category="RecordManager">
+				<xr:TypeId>d2cfdee3-fca3-4a25-820e-2755287d70d9</xr:TypeId>
+				<xr:ValueId>502fc41c-e502-4e2f-a948-0431a9e4001d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_ЗагрузкаКасперV4</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5b95cb24-cf02-4a6e-aece-33ced775304b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

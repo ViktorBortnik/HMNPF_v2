@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="474bb6e1-6cec-47ca-a6ee-6ca99e211ba2">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_Поступления" category="Record">
+				<xr:TypeId>beb5a324-5362-4391-8472-64c4f5041c93</xr:TypeId>
+				<xr:ValueId>da8b4c6f-c556-4b6b-a826-a4c9b4ca7394</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_Поступления" category="Manager">
+				<xr:TypeId>ea5cebc7-0465-4137-86e0-f9b5649dde5c</xr:TypeId>
+				<xr:ValueId>d8a5b581-4745-4b4d-96d6-ead195edbae3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_Поступления" category="Selection">
+				<xr:TypeId>deed026c-cfe3-47ca-becc-a9afbd366a57</xr:TypeId>
+				<xr:ValueId>af162ca4-2739-4833-9cf2-7678886c3797</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_Поступления" category="List">
+				<xr:TypeId>0778cf1e-2c15-452d-95cf-0b358fbfaaef</xr:TypeId>
+				<xr:ValueId>8b3600ba-fb73-4c3b-9275-cb48a1a45070</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_Поступления" category="RecordSet">
+				<xr:TypeId>935bc023-2884-4765-99a2-db1b4ce6c179</xr:TypeId>
+				<xr:ValueId>03059306-9247-4878-85dd-3dbd7bbf0738</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_Поступления" category="RecordKey">
+				<xr:TypeId>7d75a55b-a94f-470d-a971-cc1d5e4ada9a</xr:TypeId>
+				<xr:ValueId>fb999843-e1c1-4444-ad1b-7aa347873be6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_Поступления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e83528b2-72d6-4a86-91bd-d93ba1ade885</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="03bea3d6-f1a8-4f16-813b-d77f31220c04">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>91be2dbe-057c-4cc0-a946-d8d4cbb855f3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

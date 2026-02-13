@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="9b82a89e-f977-4702-8afa-e3cf445ab30d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.K_V_HM_MAP_PAY_PERIODICITY" category="Record">
+				<xr:TypeId>028c2fa5-205f-4d33-a404-f349479e4fd0</xr:TypeId>
+				<xr:ValueId>dfbc4056-c516-4e83-9055-54792ed4e513</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.K_V_HM_MAP_PAY_PERIODICITY" category="Manager">
+				<xr:TypeId>41eb6db2-5951-419f-80fa-e3926f8673c8</xr:TypeId>
+				<xr:ValueId>9e341880-d1f8-40c1-8912-7cba94075e40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.K_V_HM_MAP_PAY_PERIODICITY" category="Selection">
+				<xr:TypeId>b4b5b9af-be6d-46f1-9f07-17e26c95fee9</xr:TypeId>
+				<xr:ValueId>417b8857-322a-4f0d-85ea-24b32fe18ac0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.K_V_HM_MAP_PAY_PERIODICITY" category="List">
+				<xr:TypeId>cbfd47e4-81e2-4687-b82a-475ca3ec40ac</xr:TypeId>
+				<xr:ValueId>2b7e5ebb-8068-4156-a16f-c9d98a70e721</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.K_V_HM_MAP_PAY_PERIODICITY" category="RecordSet">
+				<xr:TypeId>8bdd7e40-2078-4433-b18c-9b0005045f65</xr:TypeId>
+				<xr:ValueId>38ac0e81-9c54-4650-9a11-f0c55c484abf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.K_V_HM_MAP_PAY_PERIODICITY" category="RecordKey">
+				<xr:TypeId>1b411bec-30a6-423c-b995-15715528dff9</xr:TypeId>
+				<xr:ValueId>5bf44cab-1500-4c28-9a06-20dd504db81f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.K_V_HM_MAP_PAY_PERIODICITY" category="RecordManager">
+				<xr:TypeId>50d01bbf-d1cd-4a5b-9d2a-e44a87a84ea6</xr:TypeId>
+				<xr:ValueId>0d537532-6cd4-4025-b3f6-49965793c62a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>K_V_HM_MAP_PAY_PERIODICITY</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4368a046-fe4b-4102-ab96-3adbf286915e</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.K_V_HM_MAP_PAY_PERIODICITY.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="825db94e-5864-4e65-9301-19b766f442e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9ba9e9cf-ddc7-4fd2-b35b-1dc6d7464628</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="104f1fb3-dbc4-4305-a704-408113b56c18">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2a245bc0-5969-4c71-b6b7-6c0d5ff5279a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e5185a5b-7c85-457c-a105-3ba367a214f6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>STATUS_DOC_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c423a5ba-3ef0-427e-8102-ee3a3be54da9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="af1bc307-9136-480a-8bd3-3de2be13e246">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>DOC_TYPE_SID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c062521-ece5-472b-a95a-3b300d6cee07</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3f8d0ce4-f7a7-4e7c-9de7-ad89c08ce9ac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>DOC_BEGIN</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2b70ec9-27ca-4a24-ad1f-ff29551bc220</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="380b179a-25e8-4d97-beb6-0fd7748b8aab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодичностьВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3e021ed8-9bdf-4105-b782-abb786d8887c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ПериодичностьВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7f924705-2c1b-4cdf-bd08-11e0d306106d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерМесяцаВПериоде</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cb1a622-a817-4da0-ac70-219091df1a2f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="39c6b6a0-061a-43a2-8751-8db87629b112">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>PF_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a221e709-0e3c-4377-a0d4-d2d0f4c29a35</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d3e1f079-1538-4a58-9957-ceb59b062554">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ACC_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6f6e9352-7f5b-46d7-b441-e74be142843f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1808fe9b-815a-42c3-a953-a73033d3bf55">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RP_DOC_BEGIN</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b0661707-6db9-422b-bbf6-5b6e3fafe25e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

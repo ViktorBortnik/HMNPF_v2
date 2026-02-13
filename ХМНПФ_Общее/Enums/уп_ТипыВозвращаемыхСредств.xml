@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ca18aaff-17b2-4342-be6b-6a1fa55b99c2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ТипыВозвращаемыхСредств" category="Ref">
+				<xr:TypeId>0b22369f-df9a-450e-814a-89c9849b499e</xr:TypeId>
+				<xr:ValueId>c53c2664-78db-49d8-ad89-7e50ade008ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ТипыВозвращаемыхСредств" category="Manager">
+				<xr:TypeId>841181b6-a9e4-4d78-a15f-d83899986fb6</xr:TypeId>
+				<xr:ValueId>3fb6e5ae-0e6f-41f8-acec-0c1f104f31da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ТипыВозвращаемыхСредств" category="List">
+				<xr:TypeId>3b3d5e6d-28c7-4a8f-ad4f-485a141363f5</xr:TypeId>
+				<xr:ValueId>16399e6e-b865-43ba-b29a-5eb45e9612a1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ТипыВозвращаемыхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3c6a49cd-1b18-41b6-a51b-c4707a896285</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

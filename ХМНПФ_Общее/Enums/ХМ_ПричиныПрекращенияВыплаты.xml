@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8526110d-44b5-4eca-873f-0403864db86e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ХМ_ПричиныПрекращенияВыплаты" category="Ref">
+				<xr:TypeId>d03cb46f-a8ad-4957-baeb-97066b7adbee</xr:TypeId>
+				<xr:ValueId>560f01c1-60cc-49e1-8297-64c01d6df317</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ХМ_ПричиныПрекращенияВыплаты" category="Manager">
+				<xr:TypeId>7e13cb84-2ad8-4e90-b201-7fe40f9f068d</xr:TypeId>
+				<xr:ValueId>96ce9364-e882-4fd6-891c-f39fe9693ac4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ХМ_ПричиныПрекращенияВыплаты" category="List">
+				<xr:TypeId>93811584-11dc-408e-98af-36c26b1a9fce</xr:TypeId>
+				<xr:ValueId>fa66d2ae-54da-4cfe-bfca-fca18640203c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_ПричиныПрекращенияВыплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b899c6f4-c129-49d0-bd7c-7bd0a7c9ca5e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="537f53f1-9f84-4284-a401-4e0b1ddcae9d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИсчерпаниеДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4fb5a58f-9fab-47c1-9b1f-e2bdceefb781</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="22ba5ebe-40cc-4fd0-aa13-b290798bae86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИстечениеСрокаВыплатыПостоянно</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b8424072-a9be-4f2f-9164-228ced1e51d1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

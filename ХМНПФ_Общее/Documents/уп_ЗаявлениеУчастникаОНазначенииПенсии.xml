@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9fc71193-8949-4199-8991-9aa95fa3690e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеУчастникаОНазначенииПенсии" category="Object">
+				<xr:TypeId>c708567c-63bb-4f1c-be98-3b22812a3a75</xr:TypeId>
+				<xr:ValueId>a50678b2-c8de-4e46-86ad-64cebf53c6c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеУчастникаОНазначенииПенсии" category="Ref">
+				<xr:TypeId>4fa76531-d8ac-4320-ae7c-4ac3f6657b0f</xr:TypeId>
+				<xr:ValueId>a8a8ebaa-d5bb-4f7c-9c6f-f82f5507934d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеУчастникаОНазначенииПенсии" category="Selection">
+				<xr:TypeId>22de8fc0-67f9-4d55-8e4c-51853b51331a</xr:TypeId>
+				<xr:ValueId>7419e8bc-09c7-4d03-9c53-09e5b31584fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеУчастникаОНазначенииПенсии" category="List">
+				<xr:TypeId>9d8d6a62-b478-4b64-95db-b0b2b93287ce</xr:TypeId>
+				<xr:ValueId>78ac9ece-26d5-4d2b-a133-b2d9fdec3ec4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеУчастникаОНазначенииПенсии" category="Manager">
+				<xr:TypeId>e02ed8ba-ff17-4e0b-8a2f-7f1e58236d5d</xr:TypeId>
+				<xr:ValueId>c594f0af-aae8-4285-b96c-eba761e07cdb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеУчастникаОНазначенииПенсии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ea40c0cf-3254-4c1f-80d3-da1fe0b877b7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

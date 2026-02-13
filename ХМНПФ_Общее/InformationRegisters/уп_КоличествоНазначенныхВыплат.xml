@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="93403294-477e-4f24-b864-5df27539342b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_КоличествоНазначенныхВыплат" category="Record">
+				<xr:TypeId>6f23b63e-506f-43ce-a8fe-f9e5f8eb8d71</xr:TypeId>
+				<xr:ValueId>5da487d3-310f-41df-b406-4619d9e740ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_КоличествоНазначенныхВыплат" category="Manager">
+				<xr:TypeId>2b6bff85-cef6-460d-bb9c-ab4d8faad1ee</xr:TypeId>
+				<xr:ValueId>781645e7-53da-4ae5-b2da-56be8ed894dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_КоличествоНазначенныхВыплат" category="Selection">
+				<xr:TypeId>abaf25a3-8121-4feb-ab3a-aa9cd5b18e01</xr:TypeId>
+				<xr:ValueId>071fff38-7c17-4626-9d1f-b72d94f5a618</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_КоличествоНазначенныхВыплат" category="List">
+				<xr:TypeId>83f72927-f162-49aa-967b-961a440d85ff</xr:TypeId>
+				<xr:ValueId>2d319b1a-960a-4859-9b3d-1850e32950cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_КоличествоНазначенныхВыплат" category="RecordSet">
+				<xr:TypeId>e99bc150-22a4-42ee-b7c5-a702556962d7</xr:TypeId>
+				<xr:ValueId>36774a0b-7124-4ba0-ab88-12387f406119</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_КоличествоНазначенныхВыплат" category="RecordKey">
+				<xr:TypeId>1bd81da3-9a73-4f10-b439-cd94f82d867f</xr:TypeId>
+				<xr:ValueId>f1b1538e-fb6e-4ab5-9922-2a80c0ac5e5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_КоличествоНазначенныхВыплат" category="RecordManager">
+				<xr:TypeId>2f9fab51-8ec3-4b08-9cd4-05dfae57843e</xr:TypeId>
+				<xr:ValueId>0f537807-2162-40af-a103-38f4f3431b69</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_КоличествоНазначенныхВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f5b26251-f134-4abe-953a-7906694c73f4</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="61849513-8153-499e-80bb-5f1e7027ad50">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93d75e01-971e-48cb-942f-469b720e18de</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2d0b20b4-9a00-4dc4-945f-caf2608d0ea3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>690617e1-cfd9-4619-95fb-3bc6b954fdd4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

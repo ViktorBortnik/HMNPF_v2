@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="67a9079e-cf47-4506-9cd5-9d02840a685d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПодтверждениеПФР" category="Object">
+				<xr:TypeId>24398d1d-bdff-4c75-9e2e-08a88722834e</xr:TypeId>
+				<xr:ValueId>a508b575-2683-4705-8a58-a2ca272980c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПодтверждениеПФР" category="Ref">
+				<xr:TypeId>b906dae4-2013-4187-af51-37cb0286ae85</xr:TypeId>
+				<xr:ValueId>5b66accf-a353-4b04-a36d-85ec998ac93f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПодтверждениеПФР" category="Selection">
+				<xr:TypeId>55935e1b-59be-402a-8d74-257fc32e0538</xr:TypeId>
+				<xr:ValueId>b4506769-76b5-4b71-a71f-a84cb327da05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПодтверждениеПФР" category="List">
+				<xr:TypeId>8565699a-a23e-43a5-9c76-720eb140c269</xr:TypeId>
+				<xr:ValueId>dd4e40cf-7f1b-4267-80ca-74fb00ca30cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПодтверждениеПФР" category="Manager">
+				<xr:TypeId>452a4186-79e0-49b2-9e20-a7e44392ccc4</xr:TypeId>
+				<xr:ValueId>9bdec9d6-eabc-499e-ad10-c170c2cdeb28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПодтверждениеПФР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>147f0d7c-9765-442d-bfaa-47e656de89b8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="aeb89c81-c6d4-4726-931b-1e285402e191">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_ПодтверждениеПФР.ДоговорыОПС" category="TabularSection">
+						<xr:TypeId>581ab53d-8dbb-4e9f-8ca8-db678860e0dd</xr:TypeId>
+						<xr:ValueId>7de9d8b1-eb32-4423-9340-fd4b68c8eda5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_ПодтверждениеПФР.ДоговорыОПС" category="TabularSectionRow">
+						<xr:TypeId>6fe0fefb-3a13-4f26-b534-62535ed2c6ea</xr:TypeId>
+						<xr:ValueId>1dceb2a1-c948-4f78-991b-98ed29605597</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорыОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f7ad4890-0001-4e91-980f-405f53c99e5f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c75f7161-24b1-4682-aeff-9bf0ec1d2f16">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорОПС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>174b1f68-e168-42c7-951c-433e46cf6136</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b94a17d8-84a8-452c-9070-88bb0e92128b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Участник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3ce02e5a-4d0c-49ce-a24d-c0eb67fdb536</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a1ed6915-6552-4f49-8f31-f88b0e1b98f4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПредыдущийСтраховщик</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>055a7fbd-31c5-44fa-b241-3522db14ac70</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

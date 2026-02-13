@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1b6d0087-f30a-4909-9d84-134276e08ce6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеНаПредоставлениеВычетов" category="Object">
+				<xr:TypeId>ab78e8a5-b608-4365-87f5-a2ac198ecf2d</xr:TypeId>
+				<xr:ValueId>79532191-1b1f-48e6-b6f5-d644d3fd0cad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеНаПредоставлениеВычетов" category="Ref">
+				<xr:TypeId>4d3dcf60-ab17-4147-85c0-5f11ac4ea112</xr:TypeId>
+				<xr:ValueId>715f25d3-1633-4831-a918-5fcfcf9f966e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеНаПредоставлениеВычетов" category="Selection">
+				<xr:TypeId>7f04cd04-f670-4961-89bc-fb41cfa28832</xr:TypeId>
+				<xr:ValueId>98187ed6-3755-4948-9549-33cbc56b0b9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеНаПредоставлениеВычетов" category="List">
+				<xr:TypeId>24522f8f-6590-41b7-af2b-12be6c175134</xr:TypeId>
+				<xr:ValueId>e5bf7489-d9fd-4cfb-82f8-21f67a817c8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеНаПредоставлениеВычетов" category="Manager">
+				<xr:TypeId>3bf330d6-eb1b-400b-97d3-4dc1a8b178b8</xr:TypeId>
+				<xr:ValueId>6a4780ce-3742-4453-b1a6-ade1a9ec1167</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеНаПредоставлениеВычетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a26d392d-67bd-4017-9aa7-39176a5e7acd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

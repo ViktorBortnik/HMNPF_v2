@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0884077c-fef4-4eb4-b8c1-45d9e35a7eae">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеОЕдиновременномВзносе" category="Object">
+				<xr:TypeId>4f87a90e-7d8d-456c-84bb-44de4445d244</xr:TypeId>
+				<xr:ValueId>db2cd9e7-bf58-40bc-891c-0c757b14e390</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеОЕдиновременномВзносе" category="Ref">
+				<xr:TypeId>8b0cf57e-e816-4282-8166-9a805b3612b8</xr:TypeId>
+				<xr:ValueId>f41786a1-2ca8-477a-a0f1-820212f93a3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеОЕдиновременномВзносе" category="Selection">
+				<xr:TypeId>81080013-5e28-4782-aa97-4c802ebb0f63</xr:TypeId>
+				<xr:ValueId>0246b04f-ea9d-43b7-9578-1c9a48d4fe28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеОЕдиновременномВзносе" category="List">
+				<xr:TypeId>0c5bf13f-f8d9-4631-9861-5b9bd62e1d30</xr:TypeId>
+				<xr:ValueId>0c8586f5-c6d1-4167-999c-5a4e884e333c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеОЕдиновременномВзносе" category="Manager">
+				<xr:TypeId>89aac988-821a-455a-a1ca-18347362b848</xr:TypeId>
+				<xr:ValueId>4870ecd1-07e6-43db-bfb0-0f83f6c01c9a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеОЕдиновременномВзносе</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b5130cca-ce9f-46dd-94ea-ef6540c1faf6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

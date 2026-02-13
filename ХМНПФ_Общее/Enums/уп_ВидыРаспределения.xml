@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="c2a12c23-bab4-467d-86ed-854957260b85">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ВидыРаспределения" category="Ref">
+				<xr:TypeId>411d8670-cc66-465e-bb0d-8e8ef09d82bf</xr:TypeId>
+				<xr:ValueId>bcd7bea2-88c7-4b6a-a476-8984af2c63c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ВидыРаспределения" category="Manager">
+				<xr:TypeId>effdaf30-0d3f-42af-91d8-8a85cea49ac5</xr:TypeId>
+				<xr:ValueId>d9a48db8-eb52-470d-b258-192e61aca597</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ВидыРаспределения" category="List">
+				<xr:TypeId>7a46680f-382c-4602-9327-f748bace3c6b</xr:TypeId>
+				<xr:ValueId>f57d6f59-477e-4fd7-a89e-f796b0b764fa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВидыРаспределения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>941d8c9b-6d61-443e-a3c0-7be6268c0040</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

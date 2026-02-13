@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5929c07f-c445-41e6-8463-c6913ae143e2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПриостановкаВыплатОПС" category="Object">
+				<xr:TypeId>6c3334f0-3125-499b-a684-adf1069b8d16</xr:TypeId>
+				<xr:ValueId>752a0d91-6b3f-4fdf-aa30-37e680451df2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПриостановкаВыплатОПС" category="Ref">
+				<xr:TypeId>d8b672b9-d919-4741-bb11-465bfe392ae4</xr:TypeId>
+				<xr:ValueId>7be2a90a-5737-4dc3-bcc8-b210dd2efade</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПриостановкаВыплатОПС" category="Selection">
+				<xr:TypeId>54d4ea16-6aa6-4d3e-a143-f670e52c2c4b</xr:TypeId>
+				<xr:ValueId>20132195-d2f7-4aee-bc88-6ffd11113c94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПриостановкаВыплатОПС" category="List">
+				<xr:TypeId>516644e4-f917-4bac-9988-a84289e4efc7</xr:TypeId>
+				<xr:ValueId>09e4e5c6-bb4b-431f-b345-1a349c466400</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПриостановкаВыплатОПС" category="Manager">
+				<xr:TypeId>5c235e85-4620-4674-a35e-05426ea19e3f</xr:TypeId>
+				<xr:ValueId>8f88d940-2c15-497d-a593-97dec7ce6f8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПриостановкаВыплатОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>002ab575-d7a4-4538-ab07-c9583c126bd9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1c00c52d-69f0-4eb5-9ce9-58ed2f6bb61e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РучнаяКорректировка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dab42145-7a19-4dee-a9f0-7b9bc2700314</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f83906ba-741c-4417-950b-04b6a8dda151">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>954f8910-6169-41f0-ba59-c9373f630dfd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0b44429d-1fd4-4b31-a5e5-e9d75e8f66ca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d3586ea2-ea4d-4660-aa58-974fb41580ef</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ВидыОперацийПриостановкаОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="25f831d8-f3d5-44c8-bcac-4e2891693901">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипПриостановки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0fa8e053-38c0-4bbe-94ab-702475d936ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

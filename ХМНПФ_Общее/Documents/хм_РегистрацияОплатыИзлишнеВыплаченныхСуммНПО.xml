@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="690012a8-9bae-4fa9-8efe-0f956f79ed79">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.хм_РегистрацияОплатыИзлишнеВыплаченныхСуммНПО" category="Object">
+				<xr:TypeId>a8fb73e5-8223-410b-9f88-3a5304d85ea7</xr:TypeId>
+				<xr:ValueId>0a07e938-65b0-443d-b374-919e100a041c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.хм_РегистрацияОплатыИзлишнеВыплаченныхСуммНПО" category="Ref">
+				<xr:TypeId>abaad8df-a4f2-4979-bd5f-c8584d28103c</xr:TypeId>
+				<xr:ValueId>48a82a89-4ba8-41d5-afea-21de98eb8518</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.хм_РегистрацияОплатыИзлишнеВыплаченныхСуммНПО" category="Selection">
+				<xr:TypeId>40379792-ba00-4950-805e-39d9025dc500</xr:TypeId>
+				<xr:ValueId>ae66934e-5dff-42c0-9b97-b821fc7f7ce7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.хм_РегистрацияОплатыИзлишнеВыплаченныхСуммНПО" category="List">
+				<xr:TypeId>fb6bfd8c-4b79-4adc-836f-61fa7ea64c0b</xr:TypeId>
+				<xr:ValueId>31a245e2-568a-4fb5-9f56-c7433253ce7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.хм_РегистрацияОплатыИзлишнеВыплаченныхСуммНПО" category="Manager">
+				<xr:TypeId>cf17c7cb-d043-4c4c-baa0-6a0094ade262</xr:TypeId>
+				<xr:ValueId>cef5ac9a-8681-424a-81ff-c91399781f1a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_РегистрацияОплатыИзлишнеВыплаченныхСуммНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f0474dc5-0d87-4706-b8a3-8c28e8b4e58b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

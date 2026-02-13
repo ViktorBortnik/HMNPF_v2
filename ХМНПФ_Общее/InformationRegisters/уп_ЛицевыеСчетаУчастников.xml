@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a4bbf4bc-ea5f-4f34-bd6d-8efd6c397c87">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ЛицевыеСчетаУчастников" category="Record">
+				<xr:TypeId>50e8aaad-b82f-47d1-a27d-a26d7174a357</xr:TypeId>
+				<xr:ValueId>b72e0744-daff-452c-bfc7-b7833a987fe1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ЛицевыеСчетаУчастников" category="Manager">
+				<xr:TypeId>cd5cd018-3c22-4374-bac0-2548620fbe10</xr:TypeId>
+				<xr:ValueId>b8c23bd3-88e7-42cc-a5b7-059ac3cc3738</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ЛицевыеСчетаУчастников" category="Selection">
+				<xr:TypeId>85c5c4b5-5d95-476e-b414-81eec66469ff</xr:TypeId>
+				<xr:ValueId>8f8ae89a-0ec3-4be9-8439-0c05c5ea35a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ЛицевыеСчетаУчастников" category="List">
+				<xr:TypeId>de813678-d6ad-43b5-b434-7ddf3ec6b35a</xr:TypeId>
+				<xr:ValueId>37856c0b-bfb1-4700-8704-a2338ca852f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ЛицевыеСчетаУчастников" category="RecordSet">
+				<xr:TypeId>ee4b5011-f007-4ed3-ac53-56651f1dc0d1</xr:TypeId>
+				<xr:ValueId>74777dde-8e29-419c-a0eb-1ac48f7e9842</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ЛицевыеСчетаУчастников" category="RecordKey">
+				<xr:TypeId>7d8c3aa7-9f07-45d4-ae3f-93f7cf8f8615</xr:TypeId>
+				<xr:ValueId>1905fc80-b03c-4488-974b-91a72b5dd4c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ЛицевыеСчетаУчастников" category="RecordManager">
+				<xr:TypeId>1a3fc18b-2944-488c-9dda-28858f75f6d8</xr:TypeId>
+				<xr:ValueId>b72e50dc-104c-4928-846e-1091e755dff1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>RecordSetModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЛицевыеСчетаУчастников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8995b249-d9fb-4edd-8952-9056e2629a82</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.уп_ЛицевыеСчетаУчастников.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8b0927a6-a643-4189-9e46-16167b157194">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФормаВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8a1b92e0-5997-447d-b1a6-69301c00571f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ФормыВыплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="39d83692-7060-48f4-adbc-60b32cc912ae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Банк</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a1406cf6-3696-4d52-8d0e-8f4d8a02d964</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8162483d-76cb-4c5b-984c-e9f7fd42041f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипЛицевогоСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7f4b4a45-d28f-4753-9f9c-3d890441378b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыЛицевыхСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8d8491fd-5e7d-4b5d-801c-e51759713e1a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерЛицевогоСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9809fd92-2df4-4333-9e7e-b455ead19523</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="07f1b01c-6cc0-4885-9436-cab86010c1a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетныйСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1074c930-982a-4e65-832e-2bbfe581d575</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f7976ca0-3874-44c1-ac0d-933063c3ef26">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеДействует</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>420d5073-289b-4688-af20-63c1d6d0917c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="38d9cf2b-7390-4baf-963a-a4579d50f97c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eb459e93-76c6-471d-b952-2e9082fabf83</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2a14ac11-a43a-4e85-8d3c-d982bc975a03">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e93d3352-2847-49a3-951e-bdf037d6eb96</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="0bdd6a3a-c693-4aee-a8c5-34e95b7cb99e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>01ffc8ef-e64c-4710-83a7-94d2a162b3a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

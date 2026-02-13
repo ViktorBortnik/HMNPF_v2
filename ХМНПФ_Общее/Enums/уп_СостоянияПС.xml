@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="834bdc12-d042-4942-b3ca-15e380648c9b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_СостоянияПС" category="Ref">
+				<xr:TypeId>fdee0a25-c07b-45e6-a21b-0c390762fe0f</xr:TypeId>
+				<xr:ValueId>27a59c68-81a0-4da3-b9e8-e2a8c4e4f0d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_СостоянияПС" category="Manager">
+				<xr:TypeId>71943653-df80-4686-a78b-0eefbd73cd4f</xr:TypeId>
+				<xr:ValueId>597fa8ca-2594-4cf6-bd7a-4160a7008711</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_СостоянияПС" category="List">
+				<xr:TypeId>f407abb0-c33c-411b-bb5f-c427aeef4569</xr:TypeId>
+				<xr:ValueId>ce1b3ff2-4e81-4154-92c9-3f80a9886043</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СостоянияПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>605fdcf7-8764-4dbd-ace3-8da7d2ad1436</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f64394dd-1cc3-4137-beb0-77933bbaf7c5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжиданиеВзносов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>33cd116f-9471-4d5f-aae2-98c37351326c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bae2ae30-a8a1-4421-a4c7-b27f2d127d34">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НакопительныйПериод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ed782197-2aad-43c6-a660-dd957f48d798</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d966b985-e0a5-4804-97ff-8e801a9d7d0f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатнойПериод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cf7caada-0f26-4482-be0a-dc370facacb0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4d76ffa4-1ff1-48a3-ad88-02802e65b676">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачисленияПриостановлены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48526193-8155-4631-9e4b-962d9b28872c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="73da4c8b-f561-40f2-98fc-ffaf5659b737">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПодготовкаКЗакрытию</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d1040d64-9c8d-4342-bd8b-cf33b5d0ea13</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="313ccb5a-0da3-4b58-9437-ffd334c725e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Закрыт</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a833035d-2a36-4fec-9640-76b53f6d4d77</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="07e0b99c-420b-47f3-959f-f4c200393acb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыплатыПриостановлены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>27629739-b981-44f3-b8bd-52c37455d2dd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

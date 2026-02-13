@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="70f1163a-b1ad-4a3a-9c4a-e9dd75a3078f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="Record">
+				<xr:TypeId>45f6e9f3-eb60-4cfe-a16c-3e495ffb1e68</xr:TypeId>
+				<xr:ValueId>89752095-4f1c-4e96-a83b-08f8b58ad91d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="Manager">
+				<xr:TypeId>d6eb5024-cb8e-480e-a4be-543ae90b6fd7</xr:TypeId>
+				<xr:ValueId>56e64d53-2f7d-49aa-afe7-d04cf1d9cd82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="Selection">
+				<xr:TypeId>e7708258-98ce-410c-bdb6-b718cc7e97f8</xr:TypeId>
+				<xr:ValueId>aea551b3-f7dc-4f29-8f97-dc3260c52861</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="List">
+				<xr:TypeId>71f77539-3edf-4280-8b63-2b47242f2797</xr:TypeId>
+				<xr:ValueId>71bc54c3-1934-4475-bbf9-096a5ee6cf96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="RecordSet">
+				<xr:TypeId>935a3aba-9af5-46d3-98c6-eea0056e1003</xr:TypeId>
+				<xr:ValueId>d73a7749-6790-4ae9-98a9-dd91787449e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="RecordKey">
+				<xr:TypeId>88270f1c-ac66-442c-b6c8-dee3bb786e9e</xr:TypeId>
+				<xr:ValueId>e5219732-a65b-4642-b9a6-d2cf69b06777</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусФизическихЛицКакНалогоплательщиковНДФЛ" category="RecordManager">
+				<xr:TypeId>90c2595a-f888-48bd-bc8f-4252069d0f56</xr:TypeId>
+				<xr:ValueId>984a8435-e072-43aa-807b-519fc7b15244</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусФизическихЛицКакНалогоплательщиковНДФЛ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c005e35c-35f9-4d6d-982e-2b852b5830ce</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="2ed47399-85fe-4644-8eb2-9871f660d134">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Статус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cb6f186e-9aaf-4d43-aa7f-3a3d1a67474b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатусыНалогоплательщиковПоНДФЛ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3c7391e6-4e0a-4605-987f-bb1fe42d091b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УдалитьУдалитьСтатус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>80f9b307-1e3c-4eec-b379-16d43d4d3ae2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.УдалитьСтатусыНалогоплательщиковПоНДФЛ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ec1df235-235d-499d-ae15-4e38c2cfdf0a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>12246830-8534-4260-be6e-2162c4a479a4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

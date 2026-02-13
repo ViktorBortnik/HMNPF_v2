@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ReportResult>Результат</ReportResult>
+	<DetailsData>ДанныеРасшифровки</DetailsData>
+	<ReportFormType>Main</ReportFormType>
+	<AutoShowState>Auto</AutoShowState>
+	<CustomSettingsFolder>КомпоновщикНастроекПользовательскиеНастройки</CustomSettingsFolder>
+	<ReportResultViewMode>Auto</ReportResultViewMode>
+	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ОткрытьДанные" id="53">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Открыть данные</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Открыть данные</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ОткрытьДанныеРасширеннаяПодсказка" id="54"/>
+				<ChildItems>
+					<Button name="ФормаОткрытьСостоянияКаспер" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьСостоянияКаспер</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьСостоянияКасперРасширеннаяПодсказка" id="56"/>
+					</Button>
+					<Button name="ФормаОткрытьСостояния1С" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьСостояния1С</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьСостояния1СРасширеннаяПодсказка" id="58"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Popup name="ФормаГруппа1" id="13">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обработка</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаГруппа1РасширеннаяПодсказка" id="14"/>
+				<ChildItems>
+					<Button name="УстановитьСостояниеПСнаВчерашнийДень" id="6">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьСостояниеПСнаВчерашнийДень</CommandName>
+						<ExtendedTooltip name="УстановитьСостояниеПСнаВчерашнийДеньРасширеннаяПодсказка" id="7"/>
+					</Button>
+					<Button name="ФормаУстановитьРазмерПенсии" id="11">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьРазмерПенсии</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьРазмерПенсииРасширеннаяПодсказка" id="12"/>
+					</Button>
+					<Button name="ФормаУстановитьПериодичность" id="25">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьПериодичность</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьПериодичностьРасширеннаяПодсказка" id="26"/>
+					</Button>
+					<Button name="ФормаУстановитьСхемуВыплат" id="27">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьСхемуВыплат</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьСхемуВыплатРасширеннаяПодсказка" id="28"/>
+					</Button>
+					<Button name="ФормаУстановитьСрочныеВыплаты" id="32">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьСрочныеВыплаты</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьСрочныеВыплатыРасширеннаяПодсказка" id="33"/>
+					</Button>
+					<Button name="ФормаУстановитьПервуюВыплату" id="34">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьПервуюВыплату</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьПервуюВыплатуРасширеннаяПодсказка" id="35"/>
+					</Button>
+					<Button name="ФормаУстановитьЛицевыеСчета" id="36">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьЛицевыеСчета</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьЛицевыеСчетаРасширеннаяПодсказка" id="37"/>
+					</Button>
+					<Button name="ФормаУстановитьДатуПеререгистрации" id="38">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьДатуПеререгистрации</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьДатуПеререгистрацииРасширеннаяПодсказка" id="39"/>
+					</Button>
+					<Button name="ФормаСообщитьКоличество" id="51">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СообщитьКоличество</CommandName>
+						<ExtendedTooltip name="ФормаСообщитьКоличествоРасширеннаяПодсказка" id="52"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Сворачивание" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки (Свернуть)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сворачивание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки (Развернуть)</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<ExtendedTooltip name="СворачиваниеРасширеннаяПодсказка" id="66"/>
+			<ChildItems>
+				<UsualGroup name="КомпоновщикНастроекПользовательскиеНастройки" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</Title>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<SpreadSheetDocumentField name="Результат" id="3">
+			<DataPath>Результат</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<TitleLocation>None</TitleLocation>
+			<Width>100</Width>
+			<ContextMenu name="РезультатКонтекстноеМеню" id="4">
+				<ChildItems>
+					<Button name="РезультатКонтекстноеМенюПередатьСчетаНаСверку" id="70">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПередатьСчетаНаСверку</CommandName>
+						<ExtendedTooltip name="РезультатКонтекстноеМенюПередатьСчетаНаСверкуРасширеннаяПодсказка" id="71"/>
+					</Button>
+					<Button name="ФормаПерегрузитьИзКаспер" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПерегрузитьИзКаспер</CommandName>
+						<ExtendedTooltip name="ФормаПерегрузитьИзКасперРасширеннаяПодсказка" id="62"/>
+					</Button>
+					<Button name="ФормаПровестиВыделенные" id="59">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПровестиВыделенные</CommandName>
+						<ExtendedTooltip name="ФормаПровестиВыделенныеРасширеннаяПодсказка" id="60"/>
+					</Button>
+					<Button name="РезультатКонтекстноеМенюДобавитьСчетаВИсключение" id="72">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ДобавитьСчетаВИсключение</CommandName>
+						<ExtendedTooltip name="РезультатКонтекстноеМенюДобавитьСчетаВИсключениеРасширеннаяПодсказка" id="73"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="5"/>
+			<Events>
+				<Event name="OnActivate">РезультатПриАктивизации</Event>
+			</Events>
+		</SpreadSheetDocumentField>
+		<UsualGroup name="Группа1" id="23">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<CheckBoxField name="ДополнитьДвижения" id="17">
+					<DataPath>ДополнитьДвижения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДополнитьДвиженияКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДополнитьДвиженияРасширеннаяПодсказка" id="19"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОчиститьДвижения" id="29">
+					<DataPath>ОчиститьДвижения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОчиститьДвиженияКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ОчиститьДвиженияРасширеннаяПодсказка" id="31"/>
+				</CheckBoxField>
+				<InputField name="выбОперацияНПО" id="8">
+					<DataPath>Отчет.выбОперацияНПО</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="выбОперацияНПОКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="выбОперацияНПОРасширеннаяПодсказка" id="10"/>
+				</InputField>
+				<InputField name="выбОперацияНПОСодержание" id="20">
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="выбОперацияНПОСодержаниеКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="выбОперацияНПОСодержаниеРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<CheckBoxField name="ДобавитьВЕЖ" id="74">
+					<DataPath>ДобавитьВЕЖ</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДобавитьВЕЖКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ДобавитьВЕЖРасширеннаяПодсказка" id="76"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОбновитьВЕЖ" id="80">
+					<DataPath>ОбновитьВЕЖ</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОбновитьВЕЖКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ОбновитьВЕЖРасширеннаяПодсказка" id="82"/>
+				</CheckBoxField>
+				<CheckBoxField name="СоздатьМЗ" id="83">
+					<DataPath>СоздатьМЗ</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СоздатьМЗКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="СоздатьМЗРасширеннаяПодсказка" id="85"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьСКД" id="86">
+					<DataPath>ЗаполнятьСКД</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗаполнятьСКДКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ЗаполнятьСКДРасширеннаяПодсказка" id="88"/>
+				</CheckBoxField>
+				<InputField name="ТипЗагрузки" id="77">
+					<DataPath>ТипЗагрузки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТипЗагрузкиКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ТипЗагрузкиРасширеннаяПодсказка" id="79"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="40">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Сумма" id="42">
+					<DataPath>Сумма</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СуммаКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="44"/>
+				</InputField>
+				<InputField name="Среднее" id="45">
+					<DataPath>Среднее</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СреднееКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="СреднееРасширеннаяПодсказка" id="47"/>
+				</InputField>
+				<InputField name="Количество" id="48">
+					<DataPath>Количество</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоличествоКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<CheckBoxField name="ГлавнаяФорма" id="67">
+					<DataPath>ГлавнаяФорма</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ГлавнаяФормаКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ГлавнаяФормаРасширеннаяПодсказка" id="69"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Отчет" id="1">
+			<Type>
+				<v8:Type>cfg:ReportObject.ХМ_СверкаНеФинансовыхПоказателей</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Результат" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеРасшифровки" id="3">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДополнитьДвижения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнить движения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОчиститьДвижения" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить движения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Количество" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Среднее" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сумма" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ГлавнаяФорма" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Главная форма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДобавитьВЕЖ" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в ЕЖ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипЗагрузки" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип загрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбновитьВЕЖ" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить ВЕЖ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СоздатьМЗ" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать МЗ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьСКД" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнять СКД</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УстановитьСостояниеПСнаВчерашнийДень" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить состояние ПС на вчерашний день</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить состояние п сна вчерашний день</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСостояниеПСнаВчерашнийДень</Action>
+		</Command>
+		<Command name="УстановитьРазмерПенсии" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить размер пенсии</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить размер пенсии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьРазмерПенсии</Action>
+		</Command>
+		<Command name="УстановитьПериодичность" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить периодичность</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить периодичность</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьПериодичность</Action>
+		</Command>
+		<Command name="УстановитьСхемуВыплат" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить схему выплат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить схему выплат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСхемуВыплат</Action>
+		</Command>
+		<Command name="УстановитьСрочныеВыплаты" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить срочные выплаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить срочные выплаты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСрочныеВыплаты</Action>
+		</Command>
+		<Command name="УстановитьПервуюВыплату" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить первую выплату</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить первую выплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьПервуюВыплату</Action>
+		</Command>
+		<Command name="УстановитьДатуПеререгистрации" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить даты перерегистрации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить дату перерегистрации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьДатуПеререгистрации</Action>
+		</Command>
+		<Command name="УстановитьЛицевыеСчета" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить лицевые счета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить лицевые счета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьЛицевыеСчета</Action>
+		</Command>
+		<Command name="СообщитьКоличество" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщить количество</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщить количество</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СообщитьКоличество</Action>
+		</Command>
+		<Command name="ОткрытьСостоянияКаспер" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть состояния каспер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть состояния каспер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСостоянияКаспер</Action>
+		</Command>
+		<Command name="ОткрытьСостояния1С" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть состояния 1С</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть состояния1 С</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСостояния1С</Action>
+		</Command>
+		<Command name="ПровестиВыделенные" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести выделенные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Провести выделенные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПровестиВыделенные</Action>
+		</Command>
+		<Command name="ПерегрузитьИзКаспер" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перегрузить из каспер выделенные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перегрузить из каспер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерегрузитьИзКаспер</Action>
+		</Command>
+		<Command name="ПередатьСчетаНаСверку" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передать счета на сверку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передать счета на сверку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПередатьСчетаНаСверку</Action>
+		</Command>
+		<Command name="ДобавитьСчетаВИсключение" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить счета в исключение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить счета в исключение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьСчетаВИсключение</Action>
+		</Command>
+		<Command name="УстановитьСостояниеПСнаВчерашнийДеньПользНастройки" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>УстановитьСостояниеПСнаВчерашнийДеньПользНастройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить состояние п сна вчерашний день польз настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСостояниеПСнаВчерашнийДеньПользНастройки</Action>
+		</Command>
+		<Command name="СохранитьПользователскиеНастройки" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить пользователские настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить пользователские настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьПользователскиеНастройки</Action>
+		</Command>
+	</Commands>
+</Form>

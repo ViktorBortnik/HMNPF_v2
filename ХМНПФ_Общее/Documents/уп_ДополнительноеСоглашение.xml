@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8d774171-d3b9-4b69-8f36-49f0dc80f68b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ДополнительноеСоглашение" category="Object">
+				<xr:TypeId>47bf1d20-2620-4f46-bac0-7058b701758d</xr:TypeId>
+				<xr:ValueId>73802a23-a469-4627-b008-af747acf40d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ДополнительноеСоглашение" category="Ref">
+				<xr:TypeId>056d95c8-a1eb-4d04-ba74-a6e014ded4e2</xr:TypeId>
+				<xr:ValueId>150eed6f-0d7e-40ff-9d0e-7be6ada80997</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ДополнительноеСоглашение" category="Selection">
+				<xr:TypeId>ede3e738-abc2-485b-98b4-6d5cc24a98ea</xr:TypeId>
+				<xr:ValueId>9b177354-fefd-43fa-85bf-15cfcb7defd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ДополнительноеСоглашение" category="List">
+				<xr:TypeId>525bb618-7fff-47c8-a6b8-bd9c3324b5fe</xr:TypeId>
+				<xr:ValueId>90bc23d6-0a8e-4f91-ab55-c30fb7e58434</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ДополнительноеСоглашение" category="Manager">
+				<xr:TypeId>a823b030-2be9-41f9-8bb8-62a4812cbb8e</xr:TypeId>
+				<xr:ValueId>009f4d64-58c4-4ef4-82ba-daa85902ee85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДополнительноеСоглашение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>548eb890-c794-4a3c-9e22-47f23a79ab53</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокументаУп</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

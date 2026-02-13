@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="ТипЗагрузки" id="7">
+					<DataPath>Объект.ТипЗагрузки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТипЗагрузкиКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ТипЗагрузкиРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<CheckBoxField name="ВыполняетсяОбмен" id="10">
+					<DataPath>Объект.ВыполняетсяОбмен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыполняетсяОбменКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ВыполняетсяОбменРасширеннаяПодсказка" id="12"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЕжемесячнаяЗагрузка" id="94">
+					<DataPath>Объект.ЕжемесячнаяЗагрузка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЕжемесячнаяЗагрузкаКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="ЕжемесячнаяЗагрузкаРасширеннаяПодсказка" id="96"/>
+				</CheckBoxField>
+				<CheckBoxField name="ПотоковаяЗагрузка" id="97">
+					<DataPath>Объект.ПотоковаяЗагрузка</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПотоковаяЗагрузкаКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="ПотоковаяЗагрузкаРасширеннаяПодсказка" id="99"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа1" id="100">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="101"/>
+			<ChildItems>
+				<Page name="Группа2" id="102">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="103"/>
+					<ChildItems>
+						<Table name="ХМ_МенеджерЗагрузки" id="13">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ХМ_МенеджерЗагрузки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ХМ_МенеджерЗагрузкиКонтекстноеМеню" id="14"/>
+							<AutoCommandBar name="ХМ_МенеджерЗагрузкиКоманднаяПанель" id="15">
+								<ChildItems>
+									<Button name="ХМ_МенеджерЗагрузкиСообщитьЛог" id="79">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСообщитьЛогРасширеннаяПодсказка" id="80"/>
+									</Button>
+									<Button name="ХМ_МенеджерЗагрузкиСообщитьЛогОшибок" id="92">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСообщитьЛогОшибокРасширеннаяПодсказка" id="93"/>
+									</Button>
+									<Button name="ХМ_МенеджерЗагрузкиОчистить" id="81">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиОчиститьРасширеннаяПодсказка" id="82"/>
+									</Button>
+									<Popup name="ХМ_МенеджерЗагрузкиГруппа" id="85">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>СтрокаТаблицыСервер_ХЗ</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>СтрокаТаблицыСервер_ХЗ</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиГруппаРасширеннаяПодсказка" id="86"/>
+										<ChildItems>
+											<Button name="ХМ_МенеджерЗагрузкиПроверитьРеквизит_СтрокаТаблицыСервер_ХЗ" id="83">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ХМ_МенеджерЗагрузкиПроверитьРеквизит_СтрокаТаблицыСервер_ХЗРасширеннаяПодсказка" id="84"/>
+											</Button>
+											<Button name="ХМ_МенеджерЗагрузкиЗаполнитьПоСтруктуре_СтрокаТаблицыСервер_ХЗ" id="87">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗаполнитьПоСтруктуре_СтрокаТаблицыСервер_ХЗРасширеннаяПодсказка" id="88"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ХМ_МенеджерЗагрузкиРасширеннаяПодсказка" id="16"/>
+							<SearchStringAddition name="ХМ_МенеджерЗагрузкиСтрокаПоиска" id="17">
+								<AdditionSource>
+									<Item>ХМ_МенеджерЗагрузки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_МенеджерЗагрузкиСтрокаПоискаКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ХМ_МенеджерЗагрузкиСостояниеПросмотра" id="20">
+								<AdditionSource>
+									<Item>ХМ_МенеджерЗагрузки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_МенеджерЗагрузкиСостояниеПросмотраКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ХМ_МенеджерЗагрузкиУправлениеПоиском" id="23">
+								<AdditionSource>
+									<Item>ХМ_МенеджерЗагрузки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ХМ_МенеджерЗагрузкиУправлениеПоискомКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="ХМ_МенеджерЗагрузкиУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ХМ_МенеджерЗагрузкиНомерСтроки" id="26">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиНомерСтрокиКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНомерСтрокиРасширеннаяПодсказка" id="28"/>
+								</LabelField>
+								<InputField name="ХМ_МенеджерЗагрузкиНачалоПрошлойЗагрузки" id="89">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.НачалоПрошлойЗагрузки</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиНачалоПрошлойЗагрузкиКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНачалоПрошлойЗагрузкиРасширеннаяПодсказка" id="91"/>
+								</InputField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиРезультат" id="29">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.Результат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиРезультатКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиРезультатРасширеннаяПодсказка" id="31"/>
+								</CheckBoxField>
+								<InputField name="ХМ_МенеджерЗагрузкиНачало" id="32">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.Начало</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиНачалоКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНачалоРасширеннаяПодсказка" id="34"/>
+								</InputField>
+								<InputField name="ХМ_МенеджерЗагрузкиОкончание" id="35">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.Окончание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиОкончаниеКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиОкончаниеРасширеннаяПодсказка" id="37"/>
+								</InputField>
+								<InputField name="ХМ_МенеджерЗагрузкиИмяТаблицы" id="38">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ИмяТаблицы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиИмяТаблицыКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиИмяТаблицыРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<InputField name="ХМ_МенеджерЗагрузкиПредставлениеТаблицы" id="41">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ПредставлениеТаблицы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиПредставлениеТаблицыКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиПредставлениеТаблицыРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагружатьИзмененияСДаты" id="44">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагружатьИзмененияСДаты</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиЗагружатьИзмененияСДатыКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагружатьИзмененияСДатыРасширеннаяПодсказка" id="46"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиИспользоватьДопУсловие" id="47">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ИспользоватьДопУсловие</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиИспользоватьДопУсловиеКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиИспользоватьДопУсловиеРасширеннаяПодсказка" id="49"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиНеПерезагружатьНайденные" id="50">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.НеПерезагружатьНайденные</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиНеПерезагружатьНайденныеКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНеПерезагружатьНайденныеРасширеннаяПодсказка" id="52"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиТолькоЗапросы" id="53">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ТолькоЗапросы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиТолькоЗапросыКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиТолькоЗапросыРасширеннаяПодсказка" id="55"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиОбновитьЗагрузку" id="56">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ОбновитьЗагрузку</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиОбновитьЗагрузкуКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиОбновитьЗагрузкуРасширеннаяПодсказка" id="58"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиНаСервере" id="59">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.НаСервере</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиНаСервереКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНаСервереРасширеннаяПодсказка" id="61"/>
+								</CheckBoxField>
+								<InputField name="ХМ_МенеджерЗагрузкиДатаИзменений" id="62">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ДатаИзменений</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиДатаИзмененийКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиДатаИзмененийРасширеннаяПодсказка" id="64"/>
+								</InputField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаКаспер" id="65">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаКаспер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаКасперКонтекстноеМеню" id="66"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаКасперРасширеннаяПодсказка" id="67"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаКлиент" id="68">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаКлиент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаКлиентКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаКлиентРасширеннаяПодсказка" id="70"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаСервер" id="71">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаСервер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаСерверКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаСерверРасширеннаяПодсказка" id="73"/>
+								</CheckBoxField>
+								<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаНеСвязанных" id="74">
+									<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаНеСвязанных</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаНеСвязанныхКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаНеСвязанныхРасширеннаяПодсказка" id="76"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="104">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомление об ошибках</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="105"/>
+					<ChildItems>
+						<Button name="ОтправитьСообщениеОбОшибках" id="128">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ОтправитьСообщениеОбОшибкахРасширеннаяПодсказка" id="129"/>
+						</Button>
+						<LabelDecoration name="Декорация1" id="125">
+							<Width>60</Width>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В карточке пользователя обязательно заполнение электронной почты</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="126"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="127"/>
+						</LabelDecoration>
+						<Table name="УведомлятьПриОшибке" id="106">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.УведомлятьПриОшибке</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УведомлятьПриОшибкеКонтекстноеМеню" id="107"/>
+							<AutoCommandBar name="УведомлятьПриОшибкеКоманднаяПанель" id="108"/>
+							<ExtendedTooltip name="УведомлятьПриОшибкеРасширеннаяПодсказка" id="109"/>
+							<SearchStringAddition name="УведомлятьПриОшибкеСтрокаПоиска" id="110">
+								<AdditionSource>
+									<Item>УведомлятьПриОшибке</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УведомлятьПриОшибкеСтрокаПоискаКонтекстноеМеню" id="111"/>
+								<ExtendedTooltip name="УведомлятьПриОшибкеСтрокаПоискаРасширеннаяПодсказка" id="112"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УведомлятьПриОшибкеСостояниеПросмотра" id="113">
+								<AdditionSource>
+									<Item>УведомлятьПриОшибке</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УведомлятьПриОшибкеСостояниеПросмотраКонтекстноеМеню" id="114"/>
+								<ExtendedTooltip name="УведомлятьПриОшибкеСостояниеПросмотраРасширеннаяПодсказка" id="115"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УведомлятьПриОшибкеУправлениеПоиском" id="116">
+								<AdditionSource>
+									<Item>УведомлятьПриОшибке</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УведомлятьПриОшибкеУправлениеПоискомКонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="УведомлятьПриОшибкеУправлениеПоискомРасширеннаяПодсказка" id="118"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="УведомлятьПриОшибкеНомерСтроки" id="119">
+									<DataPath>Объект.УведомлятьПриОшибке.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УведомлятьПриОшибкеНомерСтрокиКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="УведомлятьПриОшибкеНомерСтрокиРасширеннаяПодсказка" id="121"/>
+								</LabelField>
+								<InputField name="УведомлятьПриОшибкеПользователь" id="122">
+									<DataPath>Объект.УведомлятьПриОшибке.Пользователь</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="УведомлятьПриОшибкеПользовательКонтекстноеМеню" id="123"/>
+									<ExtendedTooltip name="УведомлятьПриОшибкеПользовательРасширеннаяПодсказка" id="124"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ХМ_ЕжедневнаяЗагрузка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.20">
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ГруппаШапка" id="77">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>AlwaysHorizontal</Group>
+				<Behavior>Usual</Behavior>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="78"/>
+				<ChildItems>
+					<InputField name="Номер" id="1">
+						<DataPath>Объект.Number</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+					</InputField>
+					<InputField name="Дата" id="4">
+						<DataPath>Объект.Date</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+					</InputField>
+					<InputField name="ТипЗагрузки" id="7">
+						<DataPath>Объект.ТипЗагрузки</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="ТипЗагрузкиКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="ТипЗагрузкиРасширеннаяПодсказка" id="9"/>
+					</InputField>
+					<CheckBoxField name="ВыполняетсяОбмен" id="10">
+						<DataPath>Объект.ВыполняетсяОбмен</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ВыполняетсяОбменКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="ВыполняетсяОбменРасширеннаяПодсказка" id="12"/>
+					</CheckBoxField>
+					<CheckBoxField name="ЕжемесячнаяЗагрузка" id="94">
+						<DataPath>Объект.ЕжемесячнаяЗагрузка</DataPath>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ЕжемесячнаяЗагрузкаКонтекстноеМеню" id="95"/>
+						<ExtendedTooltip name="ЕжемесячнаяЗагрузкаРасширеннаяПодсказка" id="96"/>
+					</CheckBoxField>
+					<CheckBoxField name="ПотоковаяЗагрузка" id="97">
+						<DataPath>Объект.ПотоковаяЗагрузка</DataPath>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ПотоковаяЗагрузкаКонтекстноеМеню" id="98"/>
+						<ExtendedTooltip name="ПотоковаяЗагрузкаРасширеннаяПодсказка" id="99"/>
+					</CheckBoxField>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Группа1" id="100">
+				<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="101"/>
+				<ChildItems>
+					<Page name="Группа2" id="102">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основная</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="103"/>
+						<ChildItems>
+							<Table name="ХМ_МенеджерЗагрузки" id="13">
+								<Representation>List</Representation>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<DataPath>Объект.ХМ_МенеджерЗагрузки</DataPath>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ХМ_МенеджерЗагрузкиКонтекстноеМеню" id="14"/>
+								<AutoCommandBar name="ХМ_МенеджерЗагрузкиКоманднаяПанель" id="15">
+									<ChildItems>
+										<Button name="ХМ_МенеджерЗагрузкиСообщитьЛог" id="79">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСообщитьЛогРасширеннаяПодсказка" id="80"/>
+										</Button>
+										<Button name="ХМ_МенеджерЗагрузкиСообщитьЛогОшибок" id="92">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСообщитьЛогОшибокРасширеннаяПодсказка" id="93"/>
+										</Button>
+										<Button name="ХМ_МенеджерЗагрузкиОчистить" id="81">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ХМ_МенеджерЗагрузкиОчиститьРасширеннаяПодсказка" id="82"/>
+										</Button>
+										<Popup name="ХМ_МенеджерЗагрузкиГруппа" id="85">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>СтрокаТаблицыСервер_ХЗ</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>СтрокаТаблицыСервер_ХЗ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ХМ_МенеджерЗагрузкиГруппаРасширеннаяПодсказка" id="86"/>
+											<ChildItems>
+												<Button name="ХМ_МенеджерЗагрузкиПроверитьРеквизит_СтрокаТаблицыСервер_ХЗ" id="83">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ХМ_МенеджерЗагрузкиПроверитьРеквизит_СтрокаТаблицыСервер_ХЗРасширеннаяПодсказка" id="84"/>
+												</Button>
+												<Button name="ХМ_МенеджерЗагрузкиЗаполнитьПоСтруктуре_СтрокаТаблицыСервер_ХЗ" id="87">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗаполнитьПоСтруктуре_СтрокаТаблицыСервер_ХЗРасширеннаяПодсказка" id="88"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ХМ_МенеджерЗагрузкиРасширеннаяПодсказка" id="16"/>
+								<SearchStringAddition name="ХМ_МенеджерЗагрузкиСтрокаПоиска" id="17">
+									<AdditionSource>
+										<Item>ХМ_МенеджерЗагрузки</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиСтрокаПоискаКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ХМ_МенеджерЗагрузкиСостояниеПросмотра" id="20">
+									<AdditionSource>
+										<Item>ХМ_МенеджерЗагрузки</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиСостояниеПросмотраКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ХМ_МенеджерЗагрузкиУправлениеПоиском" id="23">
+									<AdditionSource>
+										<Item>ХМ_МенеджерЗагрузки</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ХМ_МенеджерЗагрузкиУправлениеПоискомКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ХМ_МенеджерЗагрузкиУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ХМ_МенеджерЗагрузкиНомерСтроки" id="26">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.LineNumber</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиНомерСтрокиКонтекстноеМеню" id="27"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНомерСтрокиРасширеннаяПодсказка" id="28"/>
+									</LabelField>
+									<InputField name="ХМ_МенеджерЗагрузкиНачалоПрошлойЗагрузки" id="89">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.НачалоПрошлойЗагрузки</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиНачалоПрошлойЗагрузкиКонтекстноеМеню" id="90"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНачалоПрошлойЗагрузкиРасширеннаяПодсказка" id="91"/>
+									</InputField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиРезультат" id="29">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.Результат</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиРезультатКонтекстноеМеню" id="30"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиРезультатРасширеннаяПодсказка" id="31"/>
+									</CheckBoxField>
+									<InputField name="ХМ_МенеджерЗагрузкиНачало" id="32">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.Начало</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиНачалоКонтекстноеМеню" id="33"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНачалоРасширеннаяПодсказка" id="34"/>
+									</InputField>
+									<InputField name="ХМ_МенеджерЗагрузкиОкончание" id="35">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.Окончание</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиОкончаниеКонтекстноеМеню" id="36"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиОкончаниеРасширеннаяПодсказка" id="37"/>
+									</InputField>
+									<InputField name="ХМ_МенеджерЗагрузкиИмяТаблицы" id="38">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ИмяТаблицы</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиИмяТаблицыКонтекстноеМеню" id="39"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиИмяТаблицыРасширеннаяПодсказка" id="40"/>
+									</InputField>
+									<InputField name="ХМ_МенеджерЗагрузкиПредставлениеТаблицы" id="41">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ПредставлениеТаблицы</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиПредставлениеТаблицыКонтекстноеМеню" id="42"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиПредставлениеТаблицыРасширеннаяПодсказка" id="43"/>
+									</InputField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагружатьИзмененияСДаты" id="44">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагружатьИзмененияСДаты</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиЗагружатьИзмененияСДатыКонтекстноеМеню" id="45"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагружатьИзмененияСДатыРасширеннаяПодсказка" id="46"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиИспользоватьДопУсловие" id="47">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ИспользоватьДопУсловие</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиИспользоватьДопУсловиеКонтекстноеМеню" id="48"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиИспользоватьДопУсловиеРасширеннаяПодсказка" id="49"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиНеПерезагружатьНайденные" id="50">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.НеПерезагружатьНайденные</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиНеПерезагружатьНайденныеКонтекстноеМеню" id="51"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНеПерезагружатьНайденныеРасширеннаяПодсказка" id="52"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиТолькоЗапросы" id="53">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ТолькоЗапросы</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиТолькоЗапросыКонтекстноеМеню" id="54"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиТолькоЗапросыРасширеннаяПодсказка" id="55"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиОбновитьЗагрузку" id="56">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ОбновитьЗагрузку</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиОбновитьЗагрузкуКонтекстноеМеню" id="57"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиОбновитьЗагрузкуРасширеннаяПодсказка" id="58"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиНаСервере" id="59">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.НаСервере</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиНаСервереКонтекстноеМеню" id="60"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиНаСервереРасширеннаяПодсказка" id="61"/>
+									</CheckBoxField>
+									<InputField name="ХМ_МенеджерЗагрузкиДатаИзменений" id="62">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ДатаИзменений</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиДатаИзмененийКонтекстноеМеню" id="63"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиДатаИзмененийРасширеннаяПодсказка" id="64"/>
+									</InputField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаКаспер" id="65">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаКаспер</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаКасперКонтекстноеМеню" id="66"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаКасперРасширеннаяПодсказка" id="67"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаКлиент" id="68">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаКлиент</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаКлиентКонтекстноеМеню" id="69"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаКлиентРасширеннаяПодсказка" id="70"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаСервер" id="71">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаСервер</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаСерверКонтекстноеМеню" id="72"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаСерверРасширеннаяПодсказка" id="73"/>
+									</CheckBoxField>
+									<CheckBoxField name="ХМ_МенеджерЗагрузкиЗагрузкаНеСвязанных" id="74">
+										<DataPath>Объект.ХМ_МенеджерЗагрузки.ЗагрузкаНеСвязанных</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ХМ_МенеджерЗагрузкиЗагрузкаНеСвязанныхКонтекстноеМеню" id="75"/>
+										<ExtendedTooltip name="ХМ_МенеджерЗагрузкиЗагрузкаНеСвязанныхРасширеннаяПодсказка" id="76"/>
+									</CheckBoxField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="Группа3" id="104">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Уведомление об ошибках</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="105"/>
+						<ChildItems>
+							<Button name="ОтправитьСообщениеОбОшибках" id="128">
+								<Type>UsualButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ОтправитьСообщениеОбОшибкахРасширеннаяПодсказка" id="129"/>
+							</Button>
+							<LabelDecoration name="Декорация1" id="125">
+								<Width>60</Width>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>В карточке пользователя обязательно заполнение электронной почты</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="Декорация1КонтекстноеМеню" id="126"/>
+								<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="127"/>
+							</LabelDecoration>
+							<Table name="УведомлятьПриОшибке" id="106">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<DataPath>Объект.УведомлятьПриОшибке</DataPath>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="УведомлятьПриОшибкеКонтекстноеМеню" id="107"/>
+								<AutoCommandBar name="УведомлятьПриОшибкеКоманднаяПанель" id="108"/>
+								<ExtendedTooltip name="УведомлятьПриОшибкеРасширеннаяПодсказка" id="109"/>
+								<SearchStringAddition name="УведомлятьПриОшибкеСтрокаПоиска" id="110">
+									<AdditionSource>
+										<Item>УведомлятьПриОшибке</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="УведомлятьПриОшибкеСтрокаПоискаКонтекстноеМеню" id="111"/>
+									<ExtendedTooltip name="УведомлятьПриОшибкеСтрокаПоискаРасширеннаяПодсказка" id="112"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="УведомлятьПриОшибкеСостояниеПросмотра" id="113">
+									<AdditionSource>
+										<Item>УведомлятьПриОшибке</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="УведомлятьПриОшибкеСостояниеПросмотраКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="УведомлятьПриОшибкеСостояниеПросмотраРасширеннаяПодсказка" id="115"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="УведомлятьПриОшибкеУправлениеПоиском" id="116">
+									<AdditionSource>
+										<Item>УведомлятьПриОшибке</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="УведомлятьПриОшибкеУправлениеПоискомКонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="УведомлятьПриОшибкеУправлениеПоискомРасширеннаяПодсказка" id="118"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="УведомлятьПриОшибкеНомерСтроки" id="119">
+										<DataPath>Объект.УведомлятьПриОшибке.LineNumber</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="УведомлятьПриОшибкеНомерСтрокиКонтекстноеМеню" id="120"/>
+										<ExtendedTooltip name="УведомлятьПриОшибкеНомерСтрокиРасширеннаяПодсказка" id="121"/>
+									</LabelField>
+									<InputField name="УведомлятьПриОшибкеПользователь" id="122">
+										<DataPath>Объект.УведомлятьПриОшибке.Пользователь</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="УведомлятьПриОшибкеПользовательКонтекстноеМеню" id="123"/>
+										<ExtendedTooltip name="УведомлятьПриОшибкеПользовательРасширеннаяПодсказка" id="124"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:DocumentObject.ХМ_ЕжедневнаяЗагрузка</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Объект.RegisterRecords</Field>
+				</UseAlways>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

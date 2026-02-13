@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="4ebde5a2-37a5-4a11-9237-ab34fc28451b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ДолиПравопреемников" category="Record">
+				<xr:TypeId>79ac5efa-e40a-4c35-ad96-a411170ad2cd</xr:TypeId>
+				<xr:ValueId>84fd4fb2-f8ac-45d1-bde7-f7ca9d6daabc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ДолиПравопреемников" category="Manager">
+				<xr:TypeId>8f1050ca-5437-4ad6-b3a1-c74f2b18eea8</xr:TypeId>
+				<xr:ValueId>eb9f8a4e-717d-4a26-81c6-47f22560b936</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ДолиПравопреемников" category="Selection">
+				<xr:TypeId>d86e8f09-1bb3-4813-a290-6bfd1cee4ba9</xr:TypeId>
+				<xr:ValueId>42ff153f-b7f5-4424-964f-900dac67ba3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ДолиПравопреемников" category="List">
+				<xr:TypeId>39447f69-4384-4a96-80df-13fa69f3a8b5</xr:TypeId>
+				<xr:ValueId>3ae7a2ce-3600-48f2-a729-6eb432352bbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ДолиПравопреемников" category="RecordSet">
+				<xr:TypeId>8b982eea-cf04-4a80-a26f-8f432ce4c145</xr:TypeId>
+				<xr:ValueId>92cd7270-8f33-479e-89cd-fcc1ec0e5cdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ДолиПравопреемников" category="RecordKey">
+				<xr:TypeId>b1b35192-7d77-4181-9202-0137b94fa16d</xr:TypeId>
+				<xr:ValueId>9c8529c1-9391-476a-95e3-d7ab89404e3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ДолиПравопреемников" category="RecordManager">
+				<xr:TypeId>e4057f85-41ff-43a6-a698-a44ecb604446</xr:TypeId>
+				<xr:ValueId>6d614ba9-743c-4cf2-b132-0d6723fcd35f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДолиПравопреемников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ac8c2fec-4da5-4abf-b3b6-9db0b96ab013</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="df9e28b5-b14e-402e-909a-351137d1647a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Доля</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5df1d287-a8ef-4e12-b0f9-bd690894ebf5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>7</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="5bff108a-97b3-48c9-b736-3d42e81a6068">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Правопреемник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>34f69e86-7e74-449e-a8a3-cbd819f31f2b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="9236f673-fad3-4671-bbed-2ac55ee86a8d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4330ac3e-a585-4d66-809f-aa12460f61b5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7edc3663-56e9-45e9-b97a-91bf47808b92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заявление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>771bb509-cff3-4d74-b058-67e2c231200b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.уп_ЗаявлениеПравопреемникаОВыплатеОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

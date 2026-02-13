@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="aef96512-83bd-48f5-b724-792a6655c02a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_СостояниеЧастиПенсионногоСчетаОПС" category="Ref">
+				<xr:TypeId>14151810-295e-4f7e-99a7-80b8ca5db8c1</xr:TypeId>
+				<xr:ValueId>1e9ec9ae-ef32-4d34-9723-798a717cdb8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_СостояниеЧастиПенсионногоСчетаОПС" category="Manager">
+				<xr:TypeId>f38dba56-e6bc-49e0-bf70-1f021451eaa0</xr:TypeId>
+				<xr:ValueId>88de2265-e135-4f77-8534-ec53ee0fd1bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_СостояниеЧастиПенсионногоСчетаОПС" category="List">
+				<xr:TypeId>dc15e401-cea9-4d6f-b579-264a06ec5645</xr:TypeId>
+				<xr:ValueId>ccfe34e8-ae08-407f-a785-bb203480dbe0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СостояниеЧастиПенсионногоСчетаОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>daf29501-72e3-4fe8-8e78-6a8f7c13f240</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="fab131b9-bef4-4100-a0c1-7c59ee95654e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НакопительныйПериод</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c7ed453-7019-45be-8fe4-a35c7b7fb7d4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="864ec991-a572-423e-ae4f-8f9df85d58bb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НЧТП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b92331f9-bd15-4684-9549-70c92fa9d9a8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4d75df1c-d01a-42d5-8c77-8a4964d6ca26">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СрочнаяВыплата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>72d51fb1-5ccc-489d-8cf7-f1ee3b7f8e41</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a0275953-9dc2-4efb-a316-8adbd2ada41c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиновременнаяВыплата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f430f9ad-dcfd-4aaf-88f6-510735a149c8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82d5dd0a-1a33-433f-bd0e-4ebed01a15d3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Прекращен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1a2cc74c-4aed-465b-bd47-640628079890</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="03257987-bfe5-4f86-bef3-250fabf4caf9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбязательстваВыполнены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dd78aa7f-bf0f-4e91-a3b4-f6f23d170e1d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="041a336b-1b8c-4170-98d5-768efa2d5f80">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПрекращениеНП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dacbc03c-43ce-465d-98ee-54747e311cf1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

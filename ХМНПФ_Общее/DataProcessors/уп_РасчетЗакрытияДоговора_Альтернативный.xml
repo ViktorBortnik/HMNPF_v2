@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="2e843618-01a7-4ebb-ae03-45064d6175f2">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_РасчетЗакрытияДоговора_Альтернативный" category="Object">
+				<xr:TypeId>f407fc7b-5ccd-4d83-8313-49e4bd0cfcfe</xr:TypeId>
+				<xr:ValueId>498ebe68-ece6-4561-aadb-6a0f2e575cbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_РасчетЗакрытияДоговора_Альтернативный" category="Manager">
+				<xr:TypeId>cc1b1c6c-5057-4b94-adc0-6edaf6e2a273</xr:TypeId>
+				<xr:ValueId>c81d8e0d-14d5-4f2c-82e0-3c5e9bfff15c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РасчетЗакрытияДоговора_Альтернативный</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dd8c3f44-e984-4ad9-b121-4b530e43fdd7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6f60dbf9-0839-4c7c-a1da-8e050d42dafc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасчетныйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af753b26-a328-412b-bfb6-0eec0d0912b1</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

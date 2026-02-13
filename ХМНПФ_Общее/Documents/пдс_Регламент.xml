@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b165abdd-31d8-424d-8b9e-a70c5ef8aa5b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.пдс_Регламент" category="Object">
+				<xr:TypeId>9e2c7e30-4596-4e9a-9887-f46ce6d2761f</xr:TypeId>
+				<xr:ValueId>0cf87788-8f65-49b8-969c-55ace5dfc0d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.пдс_Регламент" category="Ref">
+				<xr:TypeId>ba5b1e71-db00-484d-9a3d-18d2ed43f544</xr:TypeId>
+				<xr:ValueId>d7c3904c-fea5-4ed7-9850-3bc914d9ee97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.пдс_Регламент" category="Selection">
+				<xr:TypeId>f21d2c20-ae21-4c25-9f08-b3ce69fb59c8</xr:TypeId>
+				<xr:ValueId>76eebc06-9924-4f08-aa06-d1315b522475</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.пдс_Регламент" category="List">
+				<xr:TypeId>75c5537d-454d-4ad3-a3c5-47e47e59f0f1</xr:TypeId>
+				<xr:ValueId>6fe8a5a0-7c34-409d-969d-231bc768e4a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.пдс_Регламент" category="Manager">
+				<xr:TypeId>d2af141b-c13e-4bf6-8ff5-511b4af2a996</xr:TypeId>
+				<xr:ValueId>267932fb-6820-4afa-acae-0434bf04cae0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>пдс_Регламент</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e068c3db-ae76-43ae-8630-ff1b382a184b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

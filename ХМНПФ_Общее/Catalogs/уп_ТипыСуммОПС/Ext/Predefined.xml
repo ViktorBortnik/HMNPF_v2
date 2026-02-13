@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="0d6fe383-c649-4297-b074-0e7a10605dc4">
+		<Name>Взносы</Name>
+		<Code xsi:type="xs:decimal">3</Code>
+		<Description>Взносы</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="a5060783-e6d2-4a1e-bd2b-0a6090cd6b1c">
+				<Name>ВзносыЮр</Name>
+				<Code xsi:type="xs:decimal">7</Code>
+				<Description>Взносы работодателя</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="48efe7c6-1796-4785-bf01-8d0b7f045629">
+				<Name>ГосПоддержка</Name>
+				<Code xsi:type="xs:decimal">6</Code>
+				<Description>Взносы софинансирование</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="9764d090-965a-45b9-b028-a1deba953881">
+				<Name>ДопВзносы</Name>
+				<Code xsi:type="xs:decimal">5</Code>
+				<Description>Доп. страховые взносы</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="edb7d180-d352-4b6b-a367-d02be5ddab78">
+				<Name>МатКапитал</Name>
+				<Code xsi:type="xs:decimal">11</Code>
+				<Description>Материнский капитал</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="e15042d9-c696-4d06-b653-d4c62180de6a">
+				<Name>ВзносыФиз</Name>
+				<Code xsi:type="xs:decimal">1</Code>
+				<Description>Страховые взносы</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="1a6e0e20-8c1b-4648-ad28-57ad41b9b1aa">
+		<Name>ИнвестДоход</Name>
+		<Code xsi:type="xs:decimal">4</Code>
+		<Description>Инвест доход</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="179fddb1-6164-481b-980b-06069bfbd49e">
+				<Name>ИДЮр</Name>
+				<Code xsi:type="xs:decimal">10</Code>
+				<Description>ИД на взносы работодателя</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="55353a59-fe41-4fe6-886d-fb61c5022d49">
+				<Name>ИДДопВзносы</Name>
+				<Code xsi:type="xs:decimal">8</Code>
+				<Description>ИД на доп. страх. взносы</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="71640b08-cfc3-4064-ae58-e507739f72a1">
+				<Name>ИДМатКапитал</Name>
+				<Code xsi:type="xs:decimal">12</Code>
+				<Description>ИД на материнский капитал</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="f8fda75e-5a01-4bfb-97ad-02fa3f31dd54">
+				<Name>ИДГосПоддержка</Name>
+				<Code xsi:type="xs:decimal">9</Code>
+				<Description>ИД на софинансирование</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="c8b24066-36e9-42dc-a545-9dda44b0b5ad">
+				<Name>ИДФиз</Name>
+				<Code xsi:type="xs:decimal">2</Code>
+				<Description>ИД на страховые взносы</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="dc8a486f-1864-4f64-a949-e5fdacd3e538">
+		<Name>РезервОПС</Name>
+		<Code xsi:type="xs:decimal">13</Code>
+		<Description>Резерв ОПС</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="5d6da0ff-87cb-460a-9dff-9d42debde95a">
+				<Name>РезервОПС_НЧТП</Name>
+				<Code xsi:type="xs:decimal">14</Code>
+				<Description>Резерв ОПС НЧТП</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="3aa82667-1f0b-4209-aa34-6dd1a2201e2e">
+				<Name>РезервОПС_СрочныхВыплат</Name>
+				<Code xsi:type="xs:decimal">15</Code>
+				<Description>Резерв ОПС срочных выплат</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

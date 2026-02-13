@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a0274538-573e-43ae-8775-09d516d193a8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПричиныЗакрытияДоговоровОПС" category="Record">
+				<xr:TypeId>52e2df8e-f0b7-4b06-a26f-2fc30a7ac3ed</xr:TypeId>
+				<xr:ValueId>e0c379a9-61b3-40a7-9c0e-6db207635701</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПричиныЗакрытияДоговоровОПС" category="Manager">
+				<xr:TypeId>5aa6b580-389a-407f-8b98-fbfa10312591</xr:TypeId>
+				<xr:ValueId>dc66eb33-e231-4366-aa47-2ef25b199b09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПричиныЗакрытияДоговоровОПС" category="Selection">
+				<xr:TypeId>c14b3847-d3fa-49fb-bedb-0149274e20a9</xr:TypeId>
+				<xr:ValueId>1a3b70ca-b07d-4794-8d60-fe298c182a3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПричиныЗакрытияДоговоровОПС" category="List">
+				<xr:TypeId>f069449b-59bb-40cc-9fda-a3bbb0e42dd2</xr:TypeId>
+				<xr:ValueId>1503afbe-30ff-4180-a342-08b84ce1c770</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПричиныЗакрытияДоговоровОПС" category="RecordSet">
+				<xr:TypeId>d73827b2-824b-4c3a-9e98-d6036bd7586e</xr:TypeId>
+				<xr:ValueId>3f8d4bd4-60dd-43e8-8fe6-659f61f38993</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПричиныЗакрытияДоговоровОПС" category="RecordKey">
+				<xr:TypeId>ed5ce027-dc84-4817-9421-149d7273786f</xr:TypeId>
+				<xr:ValueId>d7d79d7b-e0ad-403a-b895-df03c2e346b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПричиныЗакрытияДоговоровОПС" category="RecordManager">
+				<xr:TypeId>550fa25b-f0d6-48b6-906a-4de7d1a28e6c</xr:TypeId>
+				<xr:ValueId>bf956196-2c15-42ea-9d3a-57d61b27f76d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПричиныЗакрытияДоговоровОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b1b041ca-c3dd-46ba-9400-0c56bf123f6b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fbd3e5a7-5bf3-4358-8b15-4571bdc42285">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПричинаЗакрытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c81cc35e-ae9e-49ee-93f9-606f25535c2a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ПричиныЗакрытияДоговораОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="823ac6bc-0caa-42a3-b90f-82c535897f48">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e6701b23-01b3-473d-83ee-723b4dd5478a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

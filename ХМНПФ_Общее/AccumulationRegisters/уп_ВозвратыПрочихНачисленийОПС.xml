@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="93b96b6e-fbbd-472c-b0eb-ef99826f2438">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_ВозвратыПрочихНачисленийОПС" category="Record">
+				<xr:TypeId>b29d8603-2661-4745-86a4-6087df2e3025</xr:TypeId>
+				<xr:ValueId>9d7d0409-e899-4400-903a-85a21f90b49d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_ВозвратыПрочихНачисленийОПС" category="Manager">
+				<xr:TypeId>4cc8df4d-3b11-419c-98bc-4fb7aece5940</xr:TypeId>
+				<xr:ValueId>81a37916-684b-4f32-9a6b-fc89206e8562</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_ВозвратыПрочихНачисленийОПС" category="Selection">
+				<xr:TypeId>a7176ad4-073a-45ea-9f98-6a28bbee04ab</xr:TypeId>
+				<xr:ValueId>69741f90-9c28-4c72-afc7-1e94107d4538</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_ВозвратыПрочихНачисленийОПС" category="List">
+				<xr:TypeId>14fd9b45-2d4e-4df4-8522-e9f51ffaea7f</xr:TypeId>
+				<xr:ValueId>88e7854b-e8d1-4988-8d09-cf074c41368e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_ВозвратыПрочихНачисленийОПС" category="RecordSet">
+				<xr:TypeId>44572f99-762f-4cf5-8c2d-32ebcba2b3c8</xr:TypeId>
+				<xr:ValueId>f209a615-d360-4482-b67b-a027b9a7a185</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_ВозвратыПрочихНачисленийОПС" category="RecordKey">
+				<xr:TypeId>66985e9b-c102-49da-8438-f7fcee654713</xr:TypeId>
+				<xr:ValueId>af6272bb-7bae-4520-84e6-d4b0b80f387c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВозвратыПрочихНачисленийОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8b2bb75a-4f47-4045-89dc-62000304c687</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="689c300b-2be1-493e-b142-3b55cd0b904e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9228c7fd-3554-4761-9309-524195bf3c13</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2fa4fb79-b1a0-4cb4-857d-963dc02d1b4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6e7ff422-b3f0-4f52-952b-f85d55de4942</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1a43dd8e-f298-45e3-8b91-bd94b963b40e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9f17a591-8173-4b62-a971-10d9ebfd7164</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2b68bf4d-c580-4277-a924-1e4c5b265f16">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>771f4691-a109-4f75-b3fd-8d84fa745f60</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="398d78b4-461f-470b-baef-f26132ba5965">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bfc4f49e-380c-4076-8585-8a7a5a289555</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="993de4ee-dcdc-45fc-8a92-026607a937ce">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипРезерва</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>27a49416-fa05-4487-936c-140211a3cfc2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыРезервовОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ec5afc45-483e-40ab-9b9e-512cd5527ae0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d79395a4-0d2a-4427-8171-5ffa114e951b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ТипыСуммОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="26df2257-a27d-4e8b-a0f7-3bbe6a7e3c19">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Решение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>853595f0-b0b4-4550-b9d1-b508cdf5fd40</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

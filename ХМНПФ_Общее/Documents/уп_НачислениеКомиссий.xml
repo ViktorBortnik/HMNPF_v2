@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9951ef8b-b323-4a5d-b981-df3a98d839ef">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_НачислениеКомиссий" category="Object">
+				<xr:TypeId>535edd95-de99-4fac-a8df-246f606f14f4</xr:TypeId>
+				<xr:ValueId>a4983da5-be20-4464-a0ff-a1b4aa028ec8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_НачислениеКомиссий" category="Ref">
+				<xr:TypeId>d55067ce-5b62-44a3-b63c-83caea09c646</xr:TypeId>
+				<xr:ValueId>b8ddf2dc-4223-47e2-9138-3843663d71e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_НачислениеКомиссий" category="Selection">
+				<xr:TypeId>e90136a7-4992-445a-bb48-7c3d29b1c82c</xr:TypeId>
+				<xr:ValueId>b79c9f96-c539-4367-a453-cd8aa402a43d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_НачислениеКомиссий" category="List">
+				<xr:TypeId>fcbc92e1-3f84-40af-b210-d2a2d71fd6bb</xr:TypeId>
+				<xr:ValueId>4df3eb76-5c33-42af-90a1-b2c70d788854</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_НачислениеКомиссий" category="Manager">
+				<xr:TypeId>cb30dbae-701c-4d09-9439-500e17827dc1</xr:TypeId>
+				<xr:ValueId>6e2f430e-b2b9-4f3c-8322-256dfb495893</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_НачислениеКомиссий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a7de0f35-f040-4f79-bd1e-5fd0ebbed647</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>УФ_ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

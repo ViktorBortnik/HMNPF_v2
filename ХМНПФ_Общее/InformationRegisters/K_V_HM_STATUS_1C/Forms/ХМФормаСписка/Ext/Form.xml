@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">ХМОбработкаОповещенияПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="PF_ID" id="16">
+					<DataPath>Список.PF_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="PF_IDКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="PF_IDРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="ACC_ID" id="19">
+					<DataPath>Список.ACC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_IDКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ACC_IDРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="ACC_DOC_DATE" id="22">
+					<DataPath>Список.ACC_DOC_DATE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_DOC_DATEКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ACC_DOC_DATEРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="RP_DOC_M_COUNT" id="25">
+					<DataPath>Список.RP_DOC_M_COUNT</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="RP_DOC_M_COUNTКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="RP_DOC_M_COUNTРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="НомерСчета" id="28">
+					<DataPath>Список.НомерСчета</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="НомерСчетаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="BANK_ID" id="31">
+					<DataPath>Список.BANK_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="BANK_IDКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="BANK_IDРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="ДокументСчета" id="34">
+					<DataPath>Список.ДокументСчета</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДокументСчетаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ДокументСчетаРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="MAP_DOC_ID_CAUSE" id="37">
+					<DataPath>Список.MAP_DOC_ID_CAUSE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="MAP_DOC_ID_CAUSEКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="MAP_DOC_ID_CAUSEРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="ДокументВыплаты" id="40">
+					<DataPath>Список.ДокументВыплаты</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДокументВыплатыКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ДокументВыплатыРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="ACC_DOC_ID" id="43">
+					<DataPath>Список.ACC_DOC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_DOC_IDКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ACC_DOC_IDРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<LabelField name="ФормаВыплаты" id="46">
+					<DataPath>Список.ФормаВыплаты</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ФормаВыплатыКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ФормаВыплатыРасширеннаяПодсказка" id="48"/>
+				</LabelField>
+				<LabelField name="ACC_DOC_STATUS" id="49">
+					<DataPath>Список.ACC_DOC_STATUS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_DOC_STATUSКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ACC_DOC_STATUSРасширеннаяПодсказка" id="51"/>
+				</LabelField>
+				<LabelField name="STATUS" id="52">
+					<DataPath>Список.STATUS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="STATUSКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="STATUSРасширеннаяПодсказка" id="54"/>
+				</LabelField>
+				<LabelField name="STATUS_DOC_ID" id="55">
+					<DataPath>Список.STATUS_DOC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="STATUS_DOC_IDКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="STATUS_DOC_IDРасширеннаяПодсказка" id="57"/>
+				</LabelField>
+				<LabelField name="Банк" id="58">
+					<DataPath>Список.Банк</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="БанкКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="60"/>
+				</LabelField>
+				<LabelField name="MAP" id="61">
+					<DataPath>Список.MAP</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="MAPКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="MAPРасширеннаяПодсказка" id="63"/>
+				</LabelField>
+				<LabelField name="STATUS_CAUSE" id="64">
+					<DataPath>Список.STATUS_CAUSE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="STATUS_CAUSEКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="STATUS_CAUSEРасширеннаяПодсказка" id="66"/>
+				</LabelField>
+				<LabelField name="MAP_DATE_FROM" id="67">
+					<DataPath>Список.MAP_DATE_FROM</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="MAP_DATE_FROMКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="MAP_DATE_FROMРасширеннаяПодсказка" id="69"/>
+				</LabelField>
+				<LabelField name="PENS_DELIVERY" id="70">
+					<DataPath>Список.PENS_DELIVERY</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="PENS_DELIVERYКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="PENS_DELIVERYРасширеннаяПодсказка" id="72"/>
+				</LabelField>
+				<LabelField name="B_DOC_ID" id="73">
+					<DataPath>Список.B_DOC_ID</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="B_DOC_IDКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="B_DOC_IDРасширеннаяПодсказка" id="75"/>
+				</LabelField>
+				<LabelField name="Схема" id="76">
+					<DataPath>Список.Схема</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="СхемаКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="СхемаРасширеннаяПодсказка" id="78"/>
+				</LabelField>
+				<LabelField name="BANK_ACC_PERS" id="79">
+					<DataPath>Список.BANK_ACC_PERS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="BANK_ACC_PERSКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="BANK_ACC_PERSРасширеннаяПодсказка" id="81"/>
+				</LabelField>
+				<LabelField name="ACC_CLOSE_NOTE" id="82">
+					<DataPath>Список.ACC_CLOSE_NOTE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ACC_CLOSE_NOTEКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="ACC_CLOSE_NOTEРасширеннаяПодсказка" id="84"/>
+				</LabelField>
+				<LabelField name="RANTE_CLOSE" id="85">
+					<DataPath>Список.RANTE_CLOSE</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="RANTE_CLOSEКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="RANTE_CLOSEРасширеннаяПодсказка" id="87"/>
+				</LabelField>
+				<LabelField name="PENS_VAL" id="88">
+					<DataPath>Список.PENS_VAL</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="PENS_VALКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="PENS_VALРасширеннаяПодсказка" id="90"/>
+				</LabelField>
+				<LabelField name="STATUS_PENS" id="91">
+					<DataPath>Список.STATUS_PENS</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="STATUS_PENSКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="STATUS_PENSРасширеннаяПодсказка" id="93"/>
+				</LabelField>
+				<LabelField name="STATUS_1C" id="94">
+					<DataPath>Список.STATUS_1C</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="STATUS_1CКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="STATUS_1CРасширеннаяПодсказка" id="96"/>
+				</LabelField>
+				<LabelField name="СостояниеПС" id="97">
+					<DataPath>Список.СостояниеПС</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="СостояниеПСКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="СостояниеПСРасширеннаяПодсказка" id="99"/>
+				</LabelField>
+				<LabelField name="РасшифровкаСостоянияПС" id="100">
+					<DataPath>Список.РасшифровкаСостоянияПС</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="РасшифровкаСостоянияПСКонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="РасшифровкаСостоянияПСРасширеннаяПодсказка" id="102"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.K_V_HM_STATUS_1C</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

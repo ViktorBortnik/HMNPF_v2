@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="022f738d-8054-42d5-b9dd-6e48551e3af5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ВидПенсионногоСчета" category="Record">
+				<xr:TypeId>e7d2cfbe-936c-4d7e-8da3-27a9383f9fcf</xr:TypeId>
+				<xr:ValueId>4fd33043-71c4-4795-b5a6-8834f87b27c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ВидПенсионногоСчета" category="Manager">
+				<xr:TypeId>f54a93f2-5b80-447c-94e0-80b4c275c14c</xr:TypeId>
+				<xr:ValueId>f4ec44c7-cc40-4342-b250-b0b03e5e4ccd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ВидПенсионногоСчета" category="Selection">
+				<xr:TypeId>cf014438-b004-4e88-9144-d98e9f580137</xr:TypeId>
+				<xr:ValueId>59868a84-ac68-4757-9a56-d18ee91b38f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ВидПенсионногоСчета" category="List">
+				<xr:TypeId>bf265693-9594-4e1f-80c3-0d46d0b6274b</xr:TypeId>
+				<xr:ValueId>944e5dc8-0d49-4227-893e-27e98ef8f068</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ВидПенсионногоСчета" category="RecordSet">
+				<xr:TypeId>46216ea7-d535-476e-8219-fb6c3eee5293</xr:TypeId>
+				<xr:ValueId>edfbb0c7-15d5-49b7-8227-25847ef6263b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ВидПенсионногоСчета" category="RecordKey">
+				<xr:TypeId>8a5f28dc-4451-42ce-a305-12ffa0af075a</xr:TypeId>
+				<xr:ValueId>feba14da-d860-4293-bc42-3e1cb9a74bab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ВидПенсионногоСчета" category="RecordManager">
+				<xr:TypeId>07be1394-9930-4f46-bf96-7972f49391b6</xr:TypeId>
+				<xr:ValueId>5b1f0d26-2f3c-4580-9d5a-c4fc64a5bd21</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВидПенсионногоСчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f0419ae6-09f7-4364-9964-59597b44801e</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0160f02b-e026-4cab-93c3-05ba144ec8c4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидПенсионногоСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>269e29a0-ca16-4e5c-a630-89d08dd0f47b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ВидыПенсионныхСчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="22129671-21a3-4304-95d7-c687f9e1ff2a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d65d2147-b3db-4b18-9f46-dd28d4e93cbd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

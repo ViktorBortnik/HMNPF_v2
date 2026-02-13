@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d2d9cf72-6547-4440-9790-ef7c295f7cf1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеПравопреемникаОбОтказеОПС" category="Object">
+				<xr:TypeId>85540b7d-6130-4bec-a165-59ea390a6bf3</xr:TypeId>
+				<xr:ValueId>9605edc1-7a36-47cb-b850-b2528fa649d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеПравопреемникаОбОтказеОПС" category="Ref">
+				<xr:TypeId>afdaf29c-cfaf-4f45-a59b-181ecbfdbe3b</xr:TypeId>
+				<xr:ValueId>bfcd9a01-d551-446e-b76b-4289316f848f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеПравопреемникаОбОтказеОПС" category="Selection">
+				<xr:TypeId>03f7fbf5-e663-4aaf-808b-907d6c43f283</xr:TypeId>
+				<xr:ValueId>fae33ae6-65d9-4d32-a5df-b23518765797</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеПравопреемникаОбОтказеОПС" category="List">
+				<xr:TypeId>3b9c4c89-7d63-4841-80aa-8741b7702cf2</xr:TypeId>
+				<xr:ValueId>ead9c817-bb54-4878-b7fc-c59a9e99f367</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеПравопреемникаОбОтказеОПС" category="Manager">
+				<xr:TypeId>585720e0-11f9-4bf2-a557-3efcbaf910c5</xr:TypeId>
+				<xr:ValueId>10d5991c-0854-41c7-8f4a-ce55c0654e20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеПравопреемникаОбОтказеОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>eb2fdd1b-1458-4ec8-be7b-33916c9d0d57</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="11b86709-19ef-4dd0-b07c-9207564e767e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fa40470b-ff60-4f3f-9085-13553161ae7f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5ff687c8-4293-40ae-80a0-dcc2e226a655">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9211c881-3642-4491-8110-08de3391eded</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e2afc562-99cd-4690-9186-f4a6c81a0982">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fde8983a-cd6a-49a6-a0fe-516e24140d21</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="46f8d099-a190-455c-a725-e1f7f7edebd3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтепеньРодства</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>398a58b7-558d-4168-84d1-2ab501b92383</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="93c5c37c-0ea1-41d8-8977-95de1a63647b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Правопреемник31</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a57945ed-6620-49ae-ad9b-8a028bba1472</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="80fb98b2-50e4-4021-9471-d794b9e24feb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Правопреемник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c6b55d25-2dc2-4b57-8494-485d64e6ef88</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ec52ca1d-4025-49e4-9857-5aa4fefbe9b8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаРегистрации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ebf8ad05-ff35-451d-93ce-1c18e474f971</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="226ac9e1-1155-4184-b008-bfbd942ac136">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e24ff88b-3e12-4f5b-b7d9-703b69e540e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>уф_ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

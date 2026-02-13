@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="8a478954-9b2f-4463-ba32-ffc30c1dd417">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_СостоянияДоговора" category="Record">
+				<xr:TypeId>c92bc8d4-7c0a-4368-b243-a7f44672806b</xr:TypeId>
+				<xr:ValueId>03817983-1034-4256-86bc-bb56c12db7d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_СостоянияДоговора" category="Manager">
+				<xr:TypeId>c22218c6-73d4-49c1-9942-db699a6ea118</xr:TypeId>
+				<xr:ValueId>206c1afe-40f4-4e15-ae59-423ee43e199d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_СостоянияДоговора" category="Selection">
+				<xr:TypeId>6adeee9c-01c5-4947-abf7-6b3b2d1d183d</xr:TypeId>
+				<xr:ValueId>b5920fbc-c826-4883-8650-2fa54173923d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_СостоянияДоговора" category="List">
+				<xr:TypeId>9d99b4b2-b167-45f3-8820-51ecb376efc3</xr:TypeId>
+				<xr:ValueId>750992dc-715d-48aa-8e3e-a04a63529d42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_СостоянияДоговора" category="RecordSet">
+				<xr:TypeId>e45372b1-0199-40bd-aa67-415a2ee6aedb</xr:TypeId>
+				<xr:ValueId>33e6730c-62d3-4f19-a002-3989c0c1f16e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_СостоянияДоговора" category="RecordKey">
+				<xr:TypeId>c47e5934-70db-4a87-aab1-cb1dadecf1e1</xr:TypeId>
+				<xr:ValueId>289d4e2d-8b7e-49cf-9fdf-537f73d70461</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_СостоянияДоговора" category="RecordManager">
+				<xr:TypeId>af85b891-8995-4720-bc8c-0dda72978900</xr:TypeId>
+				<xr:ValueId>af890a2c-6c97-40df-aad0-7061009dfc24</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СостоянияДоговора</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8f25918e-f8b7-47a6-a6de-a7985881df95</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fc612d70-94d3-48bb-bba8-f770042938ae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2bc28a91-7e53-4352-b8d6-9c55aa016f3a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_СостоянияДоговора</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bfa33a0b-08b5-464a-9d57-8102bd1109e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаУстановкиСостояния</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>edc187a8-adce-482f-98b0-3b9b0aea1c98</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="c97c7769-7078-43d4-a92f-3c9def5dcf86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйДоговор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6c503f6a-0665-43a7-8e1d-7dd744c7bae1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеДоговоры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="5b300dbd-765b-4bdf-a6ad-f46bbeafd86e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ПенсионныйВозраст" category="Record">
+				<xr:TypeId>7d6b44f1-7268-4aa8-a4e7-9897fe6ec042</xr:TypeId>
+				<xr:ValueId>b3300b44-7793-48f2-b21c-2a6888a0baee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ПенсионныйВозраст" category="Manager">
+				<xr:TypeId>58da3c65-941e-47f8-bbbd-46a06cee5fcd</xr:TypeId>
+				<xr:ValueId>914c374a-1225-416a-87df-b1c597586fa1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ПенсионныйВозраст" category="Selection">
+				<xr:TypeId>8efee3a6-7c0a-40be-882b-684e2a0e1bdc</xr:TypeId>
+				<xr:ValueId>a3f3bbf3-b232-4dd6-875c-33c8ecaed7dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ПенсионныйВозраст" category="List">
+				<xr:TypeId>e383b129-a344-425e-9654-c375c56ea2be</xr:TypeId>
+				<xr:ValueId>30a6e583-f4c0-4a33-9221-2487f376e34d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ПенсионныйВозраст" category="RecordSet">
+				<xr:TypeId>83bc65d6-25a8-4aa1-9ae9-56d9d15380ea</xr:TypeId>
+				<xr:ValueId>cc9278c9-e56f-44b9-9db5-b9bf0241af23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ПенсионныйВозраст" category="RecordKey">
+				<xr:TypeId>5c62a61f-20a1-4301-abf6-a354bee5e1be</xr:TypeId>
+				<xr:ValueId>aeb97cd1-f0c8-41e3-b8a9-3a5bf87c10b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ПенсионныйВозраст" category="RecordManager">
+				<xr:TypeId>627a4c2b-214f-406b-a36e-c979b9548129</xr:TypeId>
+				<xr:ValueId>e7a0ab14-a984-474a-81cb-edb8908019aa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПенсионныйВозраст</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>87404c6c-9057-4a16-9108-7d84e902721c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="1db3b56a-4292-4955-b67c-092c88990718">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Возраст</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4599b6b1-ee15-4e54-86d4-f83c3b9c74b8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="b1d1667c-2d43-4fd1-8954-e981ef0ac5a5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пол</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f9e6831e-a7c9-4bbb-b714-74666bdfe5fc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПолФизическогоЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

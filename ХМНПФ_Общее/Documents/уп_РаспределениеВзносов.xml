@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0b285291-aaf7-4f2f-b0e5-f95494928e25">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РаспределениеВзносов" category="Object">
+				<xr:TypeId>5e9dacf2-447a-4dd4-a352-f66be01faa8e</xr:TypeId>
+				<xr:ValueId>c5665239-742f-4294-b82a-f3f99616cb5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РаспределениеВзносов" category="Ref">
+				<xr:TypeId>4517643a-70d4-4640-9f8a-fa7fdf53e854</xr:TypeId>
+				<xr:ValueId>db8e888a-7add-4261-bb83-fc548dbada73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РаспределениеВзносов" category="Selection">
+				<xr:TypeId>cc62a40e-ba80-4e07-b58b-727624b11b11</xr:TypeId>
+				<xr:ValueId>b97e4140-0581-41ee-8729-9e8497c175d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РаспределениеВзносов" category="List">
+				<xr:TypeId>7f32a9c6-350b-40ff-881f-1357b2b22d82</xr:TypeId>
+				<xr:ValueId>baf7421f-43af-494f-96cd-0e1bd7658ddc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РаспределениеВзносов" category="Manager">
+				<xr:TypeId>59c201f0-2a07-4bd1-850b-917447b2c98a</xr:TypeId>
+				<xr:ValueId>21e168e7-d2fb-4402-ad9f-4e6578e54529</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РаспределениеВзносов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>807f52e5-3ee0-438f-8994-fe955029b3de</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

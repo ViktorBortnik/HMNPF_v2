@@ -1,0 +1,2357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Сформировать" id="107">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.MoveRight</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="СформироватьРасширеннаяПодсказка" id="108"/>
+			</Button>
+			<Button name="Отменить" id="109">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Back</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ОтменитьРасширеннаяПодсказка" id="110"/>
+			</Button>
+			<Button name="Применить" id="111">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПрименитьРасширеннаяПодсказка" id="112"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="125">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="126"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen" callType="Before">ХМПриОткрытииПеред</Event>
+		<Event name="OnOpen" callType="After">ХМПриОткрытииПосле</Event>
+		<Event name="OnCreateAtServer" callType="Before">ХМПриСозданииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="After">ХМПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Организация" id="1">
+			<DataPath>Объект.Организация</DataPath>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="ГруппаМодуль" id="224">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа модуль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа модуль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаМодульРасширеннаяПодсказка" id="265"/>
+			<ChildItems>
+				<InputField name="Модуль" id="260">
+					<DataPath>Объект.Модуль</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>6</MaxWidth>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПР</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ОПС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ПДС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПДС</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<DropListWidth>3</DropListWidth>
+					<ContextMenu name="МодульКонтекстноеМеню" id="222"/>
+					<ExtendedTooltip name="МодульРасширеннаяПодсказка" id="266"/>
+					<Events>
+						<Event name="OnChange" callType="After">ХММодульПриИзмененииПосле</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТипВыплаты" id="4">
+					<DataPath>Объект.ТипВыплаты</DataPath>
+					<DropListButton>true</DropListButton>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплаты пенсий НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыПенсий</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Возврат взносов НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВзносов</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплаты наследникам по НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыНаследникам</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплаты расторженцам по НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыРасторженцам</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Перевод в другой НПФ средств НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ПереводВДругойНПФ_НПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Перевод в другой пенсионный фонд средств ОПС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ПереводВДругойПФ</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплаты правопреемникам ОПС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыНаследникамОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Единовременная выплата застрахованному лицу</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ЕдиновременнаяВыплатаОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Накопительная пенсия по старости</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыПенсийОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Срочная пенсионная выплата</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.СрочнаяПенсияОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Возврат материнского капитала</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратМатеринскогоКапитала</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов выплат правопреемникам</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВыплатПравопреемникамОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов единовременной выплаты</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратЕдиновременнойВыплатыОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов НП ОПС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратНакопительнойПенсииОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов СВ ОПС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратСрочнойПенсииОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов пенсий НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратПенсииНПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов выплат наследникам НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВыплатНаследникамНПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплата возвратов выплат расторженцам НПО</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВыплатРасторженцамНПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платёж (пенсия НПО)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежПенсияНПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платёж (расторжение НПО)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежРасторжениеНПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платёж (правопреемники НПО)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежПравопреемникиНПО</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платеж (накопительная пенсия ОПС)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежНПОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платеж (срочная пенсия ОПС)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежСВОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платеж (единовременная выплата ОПС)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежЕВОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отвергнутый платеж (правопреемники ОПС)</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежПравопреемникиОПС</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Разделение СНИЛС</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.РазделениеСНИЛС</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ТипВыплатыКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ТипВыплатыРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="OnChange" callType="After">ХМТипВыплатыПриИзмененииПосле</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="7">
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<CheckBoxField name="ОтражатьВБухгалтерскомУчете" id="9">
+					<DataPath>Объект.ОтражатьВБухгалтерскомУчете</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отражать в бух. учете</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОтражатьВБухгалтерскомУчетеКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ОтражатьВБухгалтерскомУчетеРасширеннаяПодсказка" id="11"/>
+				</CheckBoxField>
+				<InputField name="уп_ВидДеятельности" id="12">
+					<DataPath>Объект.уп_ВидДеятельности</DataPath>
+					<ContextMenu name="уп_ВидДеятельностиКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="уп_ВидДеятельностиРасширеннаяПодсказка" id="14"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа9" id="62">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="63"/>
+			<ChildItems>
+				<Page name="Группа10" id="64">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="65"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОбщиеРеестры" id="217">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа общие реестры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа общие реестры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОбщиеРеестрыРасширеннаяПодсказка" id="240"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаФормироватьОбщиеРеестры" id="221">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа формировать общие реестры</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа формировать общие реестры</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаФормироватьОбщиеРеестрыРасширеннаяПодсказка" id="241"/>
+									<ChildItems>
+										<CheckBoxField name="ФормироватьОбщиеРеестры" id="237">
+											<DataPath>Объект.ФормироватьОбщиеРеестры</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Формировать общий документ по получателям-физическим лицам, с банками, в которых открыты их расчетные счета, не заключен договор.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ФормироватьОбщиеРеестрыКонтекстноеМеню" id="242"/>
+											<ExtendedTooltip name="ФормироватьОбщиеРеестрыРасширеннаяПодсказка" id="243"/>
+										</CheckBoxField>
+										<UsualGroup name="ГруппаРеестрПолучательРасчетныйСчет" id="219">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа реестр получатель расчетный счет</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа реестр получатель расчетный счет</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаРеестрПолучательРасчетныйСчетРасширеннаяПодсказка" id="244"/>
+											<ChildItems>
+												<Button name="ОткрытьПолучателиПоРеестрам" id="235">
+													<Type>Hyperlink</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ОткрытьПолучателиПоРеестрамРасширеннаяПодсказка" id="245"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<Pages name="ГруппаСтраницыНастройки" id="116">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа страницы настройки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа страницы настройки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ГруппаСтраницыНастройкиРасширеннаяПодсказка" id="117"/>
+							<ChildItems>
+								<Page name="ГруппаСтраницаНастройкиПрочее" id="120">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа страница настройки прочее</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа страница настройки прочее</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСтраницаНастройкиПрочееРасширеннаяПодсказка" id="121"/>
+									<ChildItems>
+										<InputField name="Период" id="99">
+											<ContextMenu name="ПериодКонтекстноеМеню" id="100"/>
+											<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="101"/>
+										</InputField>
+										<InputField name="ДатаФормированияДокументовВМК" id="122">
+											<DataPath>Объект.ДатаФормированияДокументов</DataPath>
+											<ContextMenu name="ДатаФормированияДокументовВМККонтекстноеМеню" id="123"/>
+											<ExtendedTooltip name="ДатаФормированияДокументовВМКРасширеннаяПодсказка" id="124"/>
+										</InputField>
+										<CheckBoxField name="НеУчитыватьЗадолженность" id="102">
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="НеУчитыватьЗадолженностьКонтекстноеМеню" id="103"/>
+											<ExtendedTooltip name="НеУчитыватьЗадолженностьРасширеннаяПодсказка" id="104"/>
+										</CheckBoxField>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаСтраницаНастройкиПенсий" id="118">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа страница настройки пенсий</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа страница настройки пенсий</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСтраницаНастройкиПенсийРасширеннаяПодсказка" id="119"/>
+									<ChildItems>
+										<UsualGroup name="Группа2" id="15">
+											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="16"/>
+											<ChildItems>
+												<UsualGroup name="Группа3" id="20">
+													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>NormalSeparation</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="21"/>
+													<ChildItems>
+														<RadioButtonField name="Поле1" id="17">
+															<DataPath>Объект.ПереключательДатыФормированияДокументов</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Дата формирования документов</v8:content>
+																</v8:item>
+															</Title>
+															<RadioButtonType>RadioButtons</RadioButtonType>
+															<ColumnsCount>1</ColumnsCount>
+															<ChoiceList>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>текущая:</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:decimal">1</Value>
+																	</xr:Value>
+																</xr:Item>
+																<xr:Item>
+																	<xr:Presentation/>
+																	<xr:CheckState>0</xr:CheckState>
+																	<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																		<Presentation>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>по очередности выплаты</v8:content>
+																			</v8:item>
+																		</Presentation>
+																		<Value xsi:type="xs:decimal">0</Value>
+																	</xr:Value>
+																</xr:Item>
+															</ChoiceList>
+															<ContextMenu name="Поле1КонтекстноеМеню" id="18"/>
+															<ExtendedTooltip name="Поле1РасширеннаяПодсказка" id="19"/>
+														</RadioButtonField>
+														<UsualGroup name="Группа4" id="25">
+															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="26"/>
+															<ChildItems>
+																<InputField name="ДатаФормированияДокументов" id="22">
+																	<DataPath>Объект.ДатаФормированияДокументов</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>ДатаФормированияДокументов</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>None</TitleLocation>
+																	<ContextMenu name="ДатаФормированияДокументовКонтекстноеМеню" id="23"/>
+																	<ExtendedTooltip name="ДатаФормированияДокументовРасширеннаяПодсказка" id="24"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="Группа5" id="27">
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="28"/>
+													<ChildItems>
+														<PictureDecoration name="Декорация1" id="35">
+															<Height>1</Height>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="Декорация1КонтекстноеМеню" id="36"/>
+															<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="37"/>
+														</PictureDecoration>
+														<CheckBoxField name="Пожизненная" id="29">
+															<DataPath>Объект.Пожизненная</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ПожизненнаяКонтекстноеМеню" id="30"/>
+															<ExtendedTooltip name="ПожизненнаяРасширеннаяПодсказка" id="31"/>
+														</CheckBoxField>
+														<CheckBoxField name="Срочная" id="32">
+															<DataPath>Объект.Срочная</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СрочнаяКонтекстноеМеню" id="33"/>
+															<ExtendedTooltip name="СрочнаяРасширеннаяПодсказка" id="34"/>
+														</CheckBoxField>
+													</ChildItems>
+												</UsualGroup>
+												<LabelDecoration name="Декорация2" id="113">
+													<ContextMenu name="Декорация2КонтекстноеМеню" id="114"/>
+													<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="115"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="Группа6" id="38">
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ThroughAlign>Use</ThroughAlign>
+											<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="39"/>
+											<ChildItems>
+												<UsualGroup name="Группа7" id="40">
+													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
+													<ShowTitle>false</ShowTitle>
+													<ThroughAlign>Use</ThroughAlign>
+													<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="41"/>
+													<ChildItems>
+														<CheckBoxField name="ИспользоватьОтборОчередностьВыплаты" id="56">
+															<DataPath>Объект.ИспользоватьОтборОчередностьВыплаты</DataPath>
+															<SkipOnInput>true</SkipOnInput>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Использовать отбор</v8:content>
+																</v8:item>
+															</Title>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ИспользоватьОтборОчередностьВыплатыКонтекстноеМеню" id="57"/>
+															<ExtendedTooltip name="ИспользоватьОтборОчередностьВыплатыРасширеннаяПодсказка" id="58"/>
+														</CheckBoxField>
+														<InputField name="ОтборОчередностьВыплаты" id="42">
+															<DataPath>Объект.ОтборОчередностьВыплаты</DataPath>
+															<ContextMenu name="ОтборОчередностьВыплатыКонтекстноеМеню" id="43"/>
+															<ExtendedTooltip name="ОтборОчередностьВыплатыРасширеннаяПодсказка" id="44"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+						<UsualGroup name="ГруппаОтборыНПОиОПС" id="145">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа отборы НПОи ОПС</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа отборы НПОи ОПС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="ГруппаОтборыНПОиОПСРасширеннаяПодсказка" id="146"/>
+							<ChildItems>
+								<UsualGroup name="Группа8" id="51">
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="52"/>
+									<ChildItems>
+										<InputField name="ОтборДоговор" id="48">
+											<DataPath>Объект.ОтборДоговор</DataPath>
+											<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+											<ContextMenu name="ОтборДоговорКонтекстноеМеню" id="49"/>
+											<ExtendedTooltip name="ОтборДоговорРасширеннаяПодсказка" id="50"/>
+										</InputField>
+										<CheckBoxField name="ИспользоватьОтборДоговор" id="53">
+											<DataPath>Объект.ИспользоватьОтборДоговор</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отбор</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьОтборДоговорКонтекстноеМеню" id="54"/>
+											<ExtendedTooltip name="ИспользоватьОтборДоговорРасширеннаяПодсказка" id="55"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтборДоговорОПС" id="147">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отбор договор ОПС</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отбор договор ОПС</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтборДоговорОПСРасширеннаяПодсказка" id="148"/>
+									<ChildItems>
+										<InputField name="ОтборДоговорОПС" id="149">
+											<DataPath>Объект.ОтборДоговорОПС</DataPath>
+											<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+											<ContextMenu name="ОтборДоговорОПСКонтекстноеМеню" id="150"/>
+											<ExtendedTooltip name="ОтборДоговорОПСРасширеннаяПодсказка" id="151"/>
+										</InputField>
+										<CheckBoxField name="ИспользоватьОтборДоговорОПС" id="152">
+											<DataPath>Объект.ИспользоватьОтборДоговорОПС</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отбор</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьОтборДоговорОПСКонтекстноеМеню" id="153"/>
+											<ExtendedTooltip name="ИспользоватьОтборДоговорОПСРасширеннаяПодсказка" id="154"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтборДоговорПДС" id="255">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отбор договор ПДС</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отбор договор ПДС</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="ГруппаОтборДоговорПДСРасширеннаяПодсказка" id="267"/>
+									<ChildItems>
+										<InputField name="ОтборДоговорПДС" id="262">
+											<DataPath>Объект.ОтборДоговорПДС</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ОтборДоговорПДСКонтекстноеМеню" id="268"/>
+											<ExtendedTooltip name="ОтборДоговорПДСРасширеннаяПодсказка" id="269"/>
+										</InputField>
+										<CheckBoxField name="ИспользоватьОтборДоговорПДС" id="257">
+											<DataPath>Объект.ИспользоватьОтборДоговорПДС</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отбор</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьОтборДоговорПДСКонтекстноеМеню" id="270"/>
+											<ExtendedTooltip name="ИспользоватьОтборДоговорПДСРасширеннаяПодсказка" id="271"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа12" id="173">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа12</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа12</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="174"/>
+									<ChildItems>
+										<InputField name="ОтборПолучатель" id="45">
+											<DataPath>Объект.ОтборПолучатель</DataPath>
+											<ContextMenu name="ОтборПолучательКонтекстноеМеню" id="46"/>
+											<ExtendedTooltip name="ОтборПолучательРасширеннаяПодсказка" id="47"/>
+										</InputField>
+										<CheckBoxField name="ИспользоватьОтборПолучатель" id="59">
+											<DataPath>Объект.ИспользоватьОтборПолучатель</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отбор</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьОтборПолучательКонтекстноеМеню" id="60"/>
+											<ExtendedTooltip name="ИспользоватьОтборПолучательРасширеннаяПодсказка" id="61"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа13" id="175">
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="176"/>
+									<ChildItems>
+										<InputField name="ОтборПодразделение" id="161">
+											<DataPath>Объект.ОтборПодразделение</DataPath>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.Владелец</xr:Name>
+													<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="ОтборПодразделениеКонтекстноеМеню" id="162"/>
+											<ExtendedTooltip name="ОтборПодразделениеРасширеннаяПодсказка" id="163"/>
+										</InputField>
+										<CheckBoxField name="ИспользоватьОтборПодразделение" id="170">
+											<DataPath>Объект.ИспользоватьОтборПодразделение</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отбор</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьОтборПодразделениеКонтекстноеМеню" id="171"/>
+											<ExtendedTooltip name="ИспользоватьОтборПодразделениеРасширеннаяПодсказка" id="172"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа14" id="177">
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ThroughAlign>Use</ThroughAlign>
+									<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="144"/>
+									<ChildItems>
+										<InputField name="ОтборФилиал" id="164">
+											<DataPath>Объект.ОтборФилиал</DataPath>
+											<ContextMenu name="ОтборФилиалКонтекстноеМеню" id="165"/>
+											<ExtendedTooltip name="ОтборФилиалРасширеннаяПодсказка" id="166"/>
+										</InputField>
+										<CheckBoxField name="ИспользоватьОтборФилиал" id="167">
+											<DataPath>Объект.ИспользоватьОтборФилиал</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использовать отбор</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьОтборФилиалКонтекстноеМеню" id="168"/>
+											<ExtendedTooltip name="ИспользоватьОтборФилиалРасширеннаяПодсказка" id="169"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Группа11" id="66">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новые документы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="67"/>
+					<ChildItems>
+						<Table name="НовыеНачисления" id="68">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.НовыеНачисления</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НовыеНачисленияКонтекстноеМеню" id="69"/>
+							<AutoCommandBar name="НовыеНачисленияКоманднаяПанель" id="70">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="НовыеНачисленияРасширеннаяПодсказка" id="71"/>
+							<SearchStringAddition name="НовыеНачисленияСтрокаПоиска" id="72">
+								<AdditionSource>
+									<Item>НовыеНачисления</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НовыеНачисленияСтрокаПоискаКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="НовыеНачисленияСтрокаПоискаРасширеннаяПодсказка" id="74"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НовыеНачисленияСостояниеПросмотра" id="75">
+								<AdditionSource>
+									<Item>НовыеНачисления</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НовыеНачисленияСостояниеПросмотраКонтекстноеМеню" id="76"/>
+								<ExtendedTooltip name="НовыеНачисленияСостояниеПросмотраРасширеннаяПодсказка" id="77"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НовыеНачисленияУправлениеПоиском" id="78">
+								<AdditionSource>
+									<Item>НовыеНачисления</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НовыеНачисленияУправлениеПоискомКонтекстноеМеню" id="79"/>
+								<ExtendedTooltip name="НовыеНачисленияУправлениеПоискомРасширеннаяПодсказка" id="80"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НовыеНачисленияНомерСтроки" id="81">
+									<DataPath>Объект.НовыеНачисления.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеНачисленияНомерСтрокиКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="НовыеНачисленияНомерСтрокиРасширеннаяПодсказка" id="83"/>
+								</LabelField>
+								<InputField name="НовыеНачисленияТипВыплаты" id="90">
+									<DataPath>Объект.НовыеНачисления.ТипВыплаты</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеНачисленияТипВыплатыКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="НовыеНачисленияТипВыплатыРасширеннаяПодсказка" id="92"/>
+								</InputField>
+								<LabelField name="НовыеНачисленияДокумент" id="84">
+									<DataPath>Объект.НовыеНачисления.Документ</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CellHyperlink>true</CellHyperlink>
+									<ContextMenu name="НовыеНачисленияДокументКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="НовыеНачисленияДокументРасширеннаяПодсказка" id="86"/>
+								</LabelField>
+								<InputField name="НовыеНачисленияДокументФормаВыплаты" id="232">
+									<DataPath>Объект.НовыеНачисления.Документ.ФормаВыплаты</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеНачисленияДокументФормаВыплатыКонтекстноеМеню" id="246"/>
+									<ExtendedTooltip name="НовыеНачисленияДокументФормаВыплатыРасширеннаяПодсказка" id="247"/>
+								</InputField>
+								<CheckBoxField name="НовыеНачисленияДокументРеестр" id="226">
+									<DataPath>Объект.НовыеНачисления.Документ.Реестр</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НовыеНачисленияДокументРеестрКонтекстноеМеню" id="248"/>
+									<ExtendedTooltip name="НовыеНачисленияДокументРеестрРасширеннаяПодсказка" id="249"/>
+								</CheckBoxField>
+								<InputField name="НовыеНачисленияДокументПодразделениеОрганизации" id="223">
+									<DataPath>Объект.НовыеНачисления.Документ.ПодразделениеОрганизации</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеНачисленияДокументПодразделениеОрганизацииКонтекстноеМеню" id="250"/>
+									<ExtendedTooltip name="НовыеНачисленияДокументПодразделениеОрганизацииРасширеннаяПодсказка" id="251"/>
+								</InputField>
+								<CheckBoxField name="НовыеНачисленияДокументРКОВСумме" id="229">
+									<DataPath>Объект.НовыеНачисления.Документ.РКОВСумме</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НовыеНачисленияДокументРКОВСуммеКонтекстноеМеню" id="252"/>
+									<ExtendedTooltip name="НовыеНачисленияДокументРКОВСуммеРасширеннаяПодсказка" id="253"/>
+								</CheckBoxField>
+								<InputField name="НовыеНачисленияПолучатель" id="87">
+									<DataPath>Объект.НовыеНачисления.Получатель</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеНачисленияПолучательКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="НовыеНачисленияПолучательРасширеннаяПодсказка" id="89"/>
+								</InputField>
+								<InputField name="НовыеНачисленияСуммаДокумента" id="93">
+									<DataPath>Объект.НовыеНачисления.СуммаДокумента</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеНачисленияСуммаДокументаКонтекстноеМеню" id="94"/>
+									<ExtendedTooltip name="НовыеНачисленияСуммаДокументаРасширеннаяПодсказка" id="95"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Ответственный" id="96">
+			<DataPath>Объект.Ответственный</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="97"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="98"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000003">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.уп_ФормированиеВыплатныхРеестров</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Columns>
+				<AdditionalColumns table="Объект.НовыеНачисления"/>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.20">
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="Сформировать" id="107">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.MoveRight</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="СформироватьРасширеннаяПодсказка" id="108"/>
+				</Button>
+				<Button name="Отменить" id="109">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.Back</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ОтменитьРасширеннаяПодсказка" id="110"/>
+				</Button>
+				<Button name="Применить" id="111">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ПрименитьРасширеннаяПодсказка" id="112"/>
+				</Button>
+				<Button name="ФормаЗакрыть" id="125">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="126"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="Организация" id="1">
+				<DataPath>Объект.Организация</DataPath>
+				<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<UsualGroup name="ГруппаМодуль" id="201">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа модуль</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа модуль</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>AlwaysHorizontal</Group>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаМодульРасширеннаяПодсказка" id="202"/>
+				<ChildItems>
+					<InputField name="Модуль" id="198">
+						<DataPath>Объект.Модуль</DataPath>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>6</MaxWidth>
+						<ListChoiceMode>true</ListChoiceMode>
+						<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПР</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ОПС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ПДС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПДС</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<DropListWidth>3</DropListWidth>
+						<ContextMenu name="МодульКонтекстноеМеню" id="199"/>
+						<ExtendedTooltip name="МодульРасширеннаяПодсказка" id="200"/>
+					</InputField>
+					<InputField name="ТипВыплаты" id="4">
+						<DataPath>Объект.ТипВыплаты</DataPath>
+						<DropListButton>true</DropListButton>
+						<ListChoiceMode>true</ListChoiceMode>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплаты пенсий НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыПенсий</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Возврат взносов НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВзносов</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплаты наследникам по НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыНаследникам</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплаты расторженцам по НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыРасторженцам</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Перевод в другой НПФ средств НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ПереводВДругойНПФ_НПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Перевод в другой пенсионный фонд средств ОПС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ПереводВДругойПФ</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплаты правопреемникам ОПС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыНаследникамОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Единовременная выплата застрахованному лицу</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ЕдиновременнаяВыплатаОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Накопительная пенсия по старости</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВыплатыПенсийОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Срочная пенсионная выплата</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.СрочнаяПенсияОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Возврат материнского капитала</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратМатеринскогоКапитала</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов выплат правопреемникам</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВыплатПравопреемникамОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов единовременной выплаты</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратЕдиновременнойВыплатыОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов НП ОПС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратНакопительнойПенсииОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов СВ ОПС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратСрочнойПенсииОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов пенсий НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратПенсииНПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов выплат наследникам НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВыплатНаследникамНПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выплата возвратов выплат расторженцам НПО</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ВозвратВыплатРасторженцамНПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платёж (пенсия НПО)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежПенсияНПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платёж (расторжение НПО)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежРасторжениеНПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платёж (правопреемники НПО)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежПравопреемникиНПО</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платеж (накопительная пенсия ОПС)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежНПОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платеж (срочная пенсия ОПС)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежСВОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платеж (единовременная выплата ОПС)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежЕВОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отвергнутый платеж (правопреемники ОПС)</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.ОтвергнутыйПлатежПравопреемникиОПС</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разделение СНИЛС</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.уп_ТипыВыплат.EnumValue.РазделениеСНИЛС</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<ContextMenu name="ТипВыплатыКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="ТипВыплатыРасширеннаяПодсказка" id="6"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="Группа1" id="7">
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ThroughAlign>Use</ThroughAlign>
+				<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="8"/>
+				<ChildItems>
+					<CheckBoxField name="ОтражатьВБухгалтерскомУчете" id="9">
+						<DataPath>Объект.ОтражатьВБухгалтерскомУчете</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отражать в бух. учете</v8:content>
+							</v8:item>
+						</Title>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ОтражатьВБухгалтерскомУчетеКонтекстноеМеню" id="10"/>
+						<ExtendedTooltip name="ОтражатьВБухгалтерскомУчетеРасширеннаяПодсказка" id="11"/>
+					</CheckBoxField>
+					<InputField name="уп_ВидДеятельности" id="12">
+						<DataPath>Объект.уп_ВидДеятельности</DataPath>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>33</MaxWidth>
+						<ContextMenu name="уп_ВидДеятельностиКонтекстноеМеню" id="13"/>
+						<ExtendedTooltip name="уп_ВидДеятельностиРасширеннаяПодсказка" id="14"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Группа9" id="62">
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="63"/>
+				<ChildItems>
+					<Page name="Группа10" id="64">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="65"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаОбщиеРеестры" id="171">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа общие реестры</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа общие реестры</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаОбщиеРеестрыРасширеннаяПодсказка" id="172"/>
+								<ChildItems>
+									<UsualGroup name="ГруппаФормироватьОбщиеРеестры" id="155">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа формировать общие реестры</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа формировать общие реестры</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаФормироватьОбщиеРеестрыРасширеннаяПодсказка" id="156"/>
+										<ChildItems>
+											<CheckBoxField name="ФормироватьОбщиеРеестры" id="157">
+												<DataPath>Объект.ФормироватьОбщиеРеестры</DataPath>
+												<TitleLocation>Right</TitleLocation>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Формировать общий документ по получателям-физическим лицам, с банками, в которых открыты их расчетные счета, не заключен договор.</v8:content>
+													</v8:item>
+												</ToolTip>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ФормироватьОбщиеРеестрыКонтекстноеМеню" id="158"/>
+												<ExtendedTooltip name="ФормироватьОбщиеРеестрыРасширеннаяПодсказка" id="159"/>
+											</CheckBoxField>
+											<UsualGroup name="ГруппаРеестрПолучательРасчетныйСчет" id="163">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа реестр получатель расчетный счет</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа реестр получатель расчетный счет</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаРеестрПолучательРасчетныйСчетРасширеннаяПодсказка" id="164"/>
+												<ChildItems>
+													<Button name="ОткрытьПолучателиПоРеестрам" id="176">
+														<Type>Hyperlink</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ОткрытьПолучателиПоРеестрамРасширеннаяПодсказка" id="177"/>
+													</Button>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+							<Pages name="ГруппаСтраницыНастройки" id="116">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа страницы настройки</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа страницы настройки</v8:content>
+									</v8:item>
+								</ToolTip>
+								<PagesRepresentation>None</PagesRepresentation>
+								<ExtendedTooltip name="ГруппаСтраницыНастройкиРасширеннаяПодсказка" id="117"/>
+								<ChildItems>
+									<Page name="ГруппаСтраницаНастройкиПрочее" id="120">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа страница настройки прочее</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа страница настройки прочее</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаСтраницаНастройкиПрочееРасширеннаяПодсказка" id="121"/>
+										<ChildItems>
+											<InputField name="Период" id="99">
+												<ContextMenu name="ПериодКонтекстноеМеню" id="100"/>
+												<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="101"/>
+											</InputField>
+											<InputField name="ДатаФормированияДокументовВМК" id="122">
+												<DataPath>Объект.ДатаФормированияДокументов</DataPath>
+												<ContextMenu name="ДатаФормированияДокументовВМККонтекстноеМеню" id="123"/>
+												<ExtendedTooltip name="ДатаФормированияДокументовВМКРасширеннаяПодсказка" id="124"/>
+											</InputField>
+											<CheckBoxField name="НеУчитыватьЗадолженность" id="102">
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="НеУчитыватьЗадолженностьКонтекстноеМеню" id="103"/>
+												<ExtendedTooltip name="НеУчитыватьЗадолженностьРасширеннаяПодсказка" id="104"/>
+											</CheckBoxField>
+										</ChildItems>
+									</Page>
+									<Page name="ГруппаСтраницаНастройкиПенсий" id="118">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа страница настройки пенсий</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа страница настройки пенсий</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаСтраницаНастройкиПенсийРасширеннаяПодсказка" id="119"/>
+										<ChildItems>
+											<UsualGroup name="Группа2" id="15">
+												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="16"/>
+												<ChildItems>
+													<UsualGroup name="Группа3" id="20">
+														<Group>Horizontal</Group>
+														<Behavior>Usual</Behavior>
+														<Representation>NormalSeparation</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="21"/>
+														<ChildItems>
+															<RadioButtonField name="Поле1" id="17">
+																<DataPath>Объект.ПереключательДатыФормированияДокументов</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Дата формирования документов</v8:content>
+																	</v8:item>
+																</Title>
+																<RadioButtonType>RadioButtons</RadioButtonType>
+																<ColumnsCount>1</ColumnsCount>
+																<ChoiceList>
+																	<xr:Item>
+																		<xr:Presentation/>
+																		<xr:CheckState>0</xr:CheckState>
+																		<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																			<Presentation>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>текущая:</v8:content>
+																				</v8:item>
+																			</Presentation>
+																			<Value xsi:type="xs:decimal">1</Value>
+																		</xr:Value>
+																	</xr:Item>
+																	<xr:Item>
+																		<xr:Presentation/>
+																		<xr:CheckState>0</xr:CheckState>
+																		<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																			<Presentation>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>по очередности выплаты</v8:content>
+																				</v8:item>
+																			</Presentation>
+																			<Value xsi:type="xs:decimal">0</Value>
+																		</xr:Value>
+																	</xr:Item>
+																</ChoiceList>
+																<ContextMenu name="Поле1КонтекстноеМеню" id="18"/>
+																<ExtendedTooltip name="Поле1РасширеннаяПодсказка" id="19"/>
+															</RadioButtonField>
+															<UsualGroup name="Группа4" id="25">
+																<Group>Vertical</Group>
+																<Behavior>Usual</Behavior>
+																<Representation>None</Representation>
+																<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="26"/>
+																<ChildItems>
+																	<InputField name="ДатаФормированияДокументов" id="22">
+																		<DataPath>Объект.ДатаФормированияДокументов</DataPath>
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>ДатаФормированияДокументов</v8:content>
+																			</v8:item>
+																		</Title>
+																		<TitleLocation>None</TitleLocation>
+																		<ContextMenu name="ДатаФормированияДокументовКонтекстноеМеню" id="23"/>
+																		<ExtendedTooltip name="ДатаФормированияДокументовРасширеннаяПодсказка" id="24"/>
+																	</InputField>
+																</ChildItems>
+															</UsualGroup>
+														</ChildItems>
+													</UsualGroup>
+													<UsualGroup name="Группа5" id="27">
+														<Group>Vertical</Group>
+														<Behavior>Usual</Behavior>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="28"/>
+														<ChildItems>
+															<PictureDecoration name="Декорация1" id="35">
+																<Height>1</Height>
+																<FileDragMode>AsFile</FileDragMode>
+																<ContextMenu name="Декорация1КонтекстноеМеню" id="36"/>
+																<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="37"/>
+															</PictureDecoration>
+															<CheckBoxField name="Пожизненная" id="29">
+																<DataPath>Объект.Пожизненная</DataPath>
+																<TitleLocation>Right</TitleLocation>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ПожизненнаяКонтекстноеМеню" id="30"/>
+																<ExtendedTooltip name="ПожизненнаяРасширеннаяПодсказка" id="31"/>
+															</CheckBoxField>
+															<CheckBoxField name="Срочная" id="32">
+																<DataPath>Объект.Срочная</DataPath>
+																<TitleLocation>Right</TitleLocation>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="СрочнаяКонтекстноеМеню" id="33"/>
+																<ExtendedTooltip name="СрочнаяРасширеннаяПодсказка" id="34"/>
+															</CheckBoxField>
+														</ChildItems>
+													</UsualGroup>
+													<LabelDecoration name="Декорация2" id="113">
+														<ContextMenu name="Декорация2КонтекстноеМеню" id="114"/>
+														<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="115"/>
+													</LabelDecoration>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="Группа6" id="38">
+												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
+												<Representation>None</Representation>
+												<ThroughAlign>Use</ThroughAlign>
+												<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="39"/>
+												<ChildItems>
+													<UsualGroup name="Группа7" id="40">
+														<Group>Horizontal</Group>
+														<Behavior>Usual</Behavior>
+														<ShowTitle>false</ShowTitle>
+														<ThroughAlign>Use</ThroughAlign>
+														<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="41"/>
+														<ChildItems>
+															<InputField name="ОтборОчередностьВыплаты" id="42">
+																<DataPath>Объект.ОтборОчередностьВыплаты</DataPath>
+																<ContextMenu name="ОтборОчередностьВыплатыКонтекстноеМеню" id="43"/>
+																<ExtendedTooltip name="ОтборОчередностьВыплатыРасширеннаяПодсказка" id="44"/>
+															</InputField>
+															<CheckBoxField name="ИспользоватьОтборОчередностьВыплаты" id="56">
+																<DataPath>Объект.ИспользоватьОтборОчередностьВыплаты</DataPath>
+																<SkipOnInput>true</SkipOnInput>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Использовать отбор</v8:content>
+																	</v8:item>
+																</Title>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ИспользоватьОтборОчередностьВыплатыКонтекстноеМеню" id="57"/>
+																<ExtendedTooltip name="ИспользоватьОтборОчередностьВыплатыРасширеннаяПодсказка" id="58"/>
+															</CheckBoxField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</Page>
+								</ChildItems>
+							</Pages>
+							<UsualGroup name="ГруппаОтборыНПОиОПС" id="145">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа отборы НПОи ОПС</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа отборы НПОи ОПС</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<ShowTitle>false</ShowTitle>
+								<ThroughAlign>Use</ThroughAlign>
+								<ExtendedTooltip name="ГруппаОтборыНПОиОПСРасширеннаяПодсказка" id="146"/>
+								<ChildItems>
+									<UsualGroup name="Группа8" id="51">
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ThroughAlign>Use</ThroughAlign>
+										<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="52"/>
+										<ChildItems>
+											<InputField name="ОтборДоговор" id="48">
+												<DataPath>Объект.ОтборДоговор</DataPath>
+												<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+												<ContextMenu name="ОтборДоговорКонтекстноеМеню" id="49"/>
+												<ExtendedTooltip name="ОтборДоговорРасширеннаяПодсказка" id="50"/>
+											</InputField>
+											<CheckBoxField name="ИспользоватьОтборДоговор" id="53">
+												<DataPath>Объект.ИспользоватьОтборДоговор</DataPath>
+												<SkipOnInput>true</SkipOnInput>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Использовать отбор</v8:content>
+													</v8:item>
+												</Title>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьОтборДоговорКонтекстноеМеню" id="54"/>
+												<ExtendedTooltip name="ИспользоватьОтборДоговорРасширеннаяПодсказка" id="55"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаОтборДоговорОПС" id="147">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отбор договор ОПС</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отбор договор ОПС</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОтборДоговорОПСРасширеннаяПодсказка" id="148"/>
+										<ChildItems>
+											<InputField name="ОтборДоговорОПС" id="149">
+												<DataPath>Объект.ОтборДоговорОПС</DataPath>
+												<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+												<ContextMenu name="ОтборДоговорОПСКонтекстноеМеню" id="150"/>
+												<ExtendedTooltip name="ОтборДоговорОПСРасширеннаяПодсказка" id="151"/>
+											</InputField>
+											<CheckBoxField name="ИспользоватьОтборДоговорОПС" id="152">
+												<DataPath>Объект.ИспользоватьОтборДоговорОПС</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Использовать отбор</v8:content>
+													</v8:item>
+												</Title>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьОтборДоговорОПСКонтекстноеМеню" id="153"/>
+												<ExtendedTooltip name="ИспользоватьОтборДоговорОПСРасширеннаяПодсказка" id="154"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаОтборДоговорПДС" id="190">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отбор договор ПДС</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа отбор договор ПДС</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ShowTitle>false</ShowTitle>
+										<ThroughAlign>Use</ThroughAlign>
+										<ExtendedTooltip name="ГруппаОтборДоговорПДСРасширеннаяПодсказка" id="191"/>
+										<ChildItems>
+											<InputField name="ОтборДоговорПДС" id="192">
+												<DataPath>Объект.ОтборДоговорПДС</DataPath>
+												<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+												<ContextMenu name="ОтборДоговорПДСКонтекстноеМеню" id="193"/>
+												<ExtendedTooltip name="ОтборДоговорПДСРасширеннаяПодсказка" id="194"/>
+											</InputField>
+											<CheckBoxField name="ИспользоватьОтборДоговорПДС" id="195">
+												<DataPath>Объект.ИспользоватьОтборДоговорПДС</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Использовать отбор</v8:content>
+													</v8:item>
+												</Title>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьОтборДоговорПДСКонтекстноеМеню" id="196"/>
+												<ExtendedTooltip name="ИспользоватьОтборДоговорПДСРасширеннаяПодсказка" id="197"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="Группа12" id="139">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа12</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа12</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ThroughAlign>Use</ThroughAlign>
+										<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="140"/>
+										<ChildItems>
+											<InputField name="ОтборПолучатель" id="45">
+												<DataPath>Объект.ОтборПолучатель</DataPath>
+												<ContextMenu name="ОтборПолучательКонтекстноеМеню" id="46"/>
+												<ExtendedTooltip name="ОтборПолучательРасширеннаяПодсказка" id="47"/>
+											</InputField>
+											<CheckBoxField name="ИспользоватьОтборПолучатель" id="59">
+												<DataPath>Объект.ИспользоватьОтборПолучатель</DataPath>
+												<SkipOnInput>true</SkipOnInput>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Использовать отбор</v8:content>
+													</v8:item>
+												</Title>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьОтборПолучательКонтекстноеМеню" id="60"/>
+												<ExtendedTooltip name="ИспользоватьОтборПолучательРасширеннаяПодсказка" id="61"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="Группа13" id="141">
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ThroughAlign>Use</ThroughAlign>
+										<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="142"/>
+										<ChildItems>
+											<InputField name="ОтборПодразделение" id="127">
+												<DataPath>Объект.ОтборПодразделение</DataPath>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.Владелец</xr:Name>
+														<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<ContextMenu name="ОтборПодразделениеКонтекстноеМеню" id="128"/>
+												<ExtendedTooltip name="ОтборПодразделениеРасширеннаяПодсказка" id="129"/>
+											</InputField>
+											<CheckBoxField name="ИспользоватьОтборПодразделение" id="136">
+												<DataPath>Объект.ИспользоватьОтборПодразделение</DataPath>
+												<SkipOnInput>true</SkipOnInput>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Использовать отбор</v8:content>
+													</v8:item>
+												</Title>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьОтборПодразделениеКонтекстноеМеню" id="137"/>
+												<ExtendedTooltip name="ИспользоватьОтборПодразделениеРасширеннаяПодсказка" id="138"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="Группа14" id="143">
+										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
+										<ShowTitle>false</ShowTitle>
+										<ThroughAlign>Use</ThroughAlign>
+										<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="144"/>
+										<ChildItems>
+											<InputField name="ОтборФилиал" id="130">
+												<DataPath>Объект.ОтборФилиал</DataPath>
+												<ContextMenu name="ОтборФилиалКонтекстноеМеню" id="131"/>
+												<ExtendedTooltip name="ОтборФилиалРасширеннаяПодсказка" id="132"/>
+											</InputField>
+											<CheckBoxField name="ИспользоватьОтборФилиал" id="133">
+												<DataPath>Объект.ИспользоватьОтборФилиал</DataPath>
+												<SkipOnInput>true</SkipOnInput>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Использовать отбор</v8:content>
+													</v8:item>
+												</Title>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ИспользоватьОтборФилиалКонтекстноеМеню" id="134"/>
+												<ExtendedTooltip name="ИспользоватьОтборФилиалРасширеннаяПодсказка" id="135"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="Группа11" id="66">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Новые документы</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="67"/>
+						<ChildItems>
+							<Table name="НовыеНачисления" id="68">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.НовыеНачисления</DataPath>
+								<CommandSet>
+									<ExcludedCommand>Add</ExcludedCommand>
+									<ExcludedCommand>CancelSearch</ExcludedCommand>
+									<ExcludedCommand>Change</ExcludedCommand>
+									<ExcludedCommand>Copy</ExcludedCommand>
+									<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+									<ExcludedCommand>EndEdit</ExcludedCommand>
+									<ExcludedCommand>Find</ExcludedCommand>
+									<ExcludedCommand>MoveDown</ExcludedCommand>
+									<ExcludedCommand>MoveUp</ExcludedCommand>
+									<ExcludedCommand>OutputList</ExcludedCommand>
+									<ExcludedCommand>SelectAll</ExcludedCommand>
+									<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+									<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+									<ExcludedCommand>SortListAsc</ExcludedCommand>
+									<ExcludedCommand>SortListDesc</ExcludedCommand>
+								</CommandSet>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="НовыеНачисленияКонтекстноеМеню" id="69"/>
+								<AutoCommandBar name="НовыеНачисленияКоманднаяПанель" id="70">
+									<Autofill>false</Autofill>
+								</AutoCommandBar>
+								<ExtendedTooltip name="НовыеНачисленияРасширеннаяПодсказка" id="71"/>
+								<SearchStringAddition name="НовыеНачисленияСтрокаПоиска" id="72">
+									<AdditionSource>
+										<Item>НовыеНачисления</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НовыеНачисленияСтрокаПоискаКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="НовыеНачисленияСтрокаПоискаРасширеннаяПодсказка" id="74"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="НовыеНачисленияСостояниеПросмотра" id="75">
+									<AdditionSource>
+										<Item>НовыеНачисления</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НовыеНачисленияСостояниеПросмотраКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="НовыеНачисленияСостояниеПросмотраРасширеннаяПодсказка" id="77"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="НовыеНачисленияУправлениеПоиском" id="78">
+									<AdditionSource>
+										<Item>НовыеНачисления</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="НовыеНачисленияУправлениеПоискомКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="НовыеНачисленияУправлениеПоискомРасширеннаяПодсказка" id="80"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="НовыеНачисленияНомерСтроки" id="81">
+										<DataPath>Объект.НовыеНачисления.LineNumber</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеНачисленияНомерСтрокиКонтекстноеМеню" id="82"/>
+										<ExtendedTooltip name="НовыеНачисленияНомерСтрокиРасширеннаяПодсказка" id="83"/>
+									</LabelField>
+									<InputField name="НовыеНачисленияТипВыплаты" id="90">
+										<DataPath>Объект.НовыеНачисления.ТипВыплаты</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеНачисленияТипВыплатыКонтекстноеМеню" id="91"/>
+										<ExtendedTooltip name="НовыеНачисленияТипВыплатыРасширеннаяПодсказка" id="92"/>
+									</InputField>
+									<LabelField name="НовыеНачисленияДокумент" id="84">
+										<DataPath>Объект.НовыеНачисления.Документ</DataPath>
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<CellHyperlink>true</CellHyperlink>
+										<Hiperlink>true</Hiperlink>
+										<TextColor>style:ЦветГиперссылки</TextColor>
+										<ContextMenu name="НовыеНачисленияДокументКонтекстноеМеню" id="85"/>
+										<ExtendedTooltip name="НовыеНачисленияДокументРасширеннаяПодсказка" id="86"/>
+									</LabelField>
+									<InputField name="НовыеНачисленияДокументФормаВыплаты" id="187">
+										<DataPath>Объект.НовыеНачисления.Документ.ФормаВыплаты</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеНачисленияДокументФормаВыплатыКонтекстноеМеню" id="188"/>
+										<ExtendedTooltip name="НовыеНачисленияДокументФормаВыплатыРасширеннаяПодсказка" id="189"/>
+									</InputField>
+									<CheckBoxField name="НовыеНачисленияДокументРеестр" id="178">
+										<DataPath>Объект.НовыеНачисления.Документ.Реестр</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="НовыеНачисленияДокументРеестрКонтекстноеМеню" id="179"/>
+										<ExtendedTooltip name="НовыеНачисленияДокументРеестрРасширеннаяПодсказка" id="180"/>
+									</CheckBoxField>
+									<InputField name="НовыеНачисленияДокументПодразделениеОрганизации" id="181">
+										<DataPath>Объект.НовыеНачисления.Документ.ПодразделениеОрганизации</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеНачисленияДокументПодразделениеОрганизацииКонтекстноеМеню" id="182"/>
+										<ExtendedTooltip name="НовыеНачисленияДокументПодразделениеОрганизацииРасширеннаяПодсказка" id="183"/>
+									</InputField>
+									<CheckBoxField name="НовыеНачисленияДокументРКОВСумме" id="184">
+										<DataPath>Объект.НовыеНачисления.Документ.РКОВСумме</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="НовыеНачисленияДокументРКОВСуммеКонтекстноеМеню" id="185"/>
+										<ExtendedTooltip name="НовыеНачисленияДокументРКОВСуммеРасширеннаяПодсказка" id="186"/>
+									</CheckBoxField>
+									<InputField name="НовыеНачисленияПолучатель" id="87">
+										<DataPath>Объект.НовыеНачисления.Получатель</DataPath>
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеНачисленияПолучательКонтекстноеМеню" id="88"/>
+										<ExtendedTooltip name="НовыеНачисленияПолучательРасширеннаяПодсказка" id="89"/>
+									</InputField>
+									<InputField name="НовыеНачисленияСуммаДокумента" id="93">
+										<DataPath>Объект.НовыеНачисления.СуммаДокумента</DataPath>
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеНачисленияСуммаДокументаКонтекстноеМеню" id="94"/>
+										<ExtendedTooltip name="НовыеНачисленияСуммаДокументаРасширеннаяПодсказка" id="95"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<InputField name="Ответственный" id="96">
+				<DataPath>Объект.Ответственный</DataPath>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ContextMenu name="ОтветственныйКонтекстноеМеню" id="97"/>
+				<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="98"/>
+			</InputField>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000003">
+				<Type>
+					<v8:Type>cfg:DataProcessorObject.уп_ФормированиеВыплатныхРеестров</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

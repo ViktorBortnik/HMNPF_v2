@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаполнитьПустыеВидыДеятельности" id="90">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаполнитьПустыеВидыДеятельности</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьПустыеВидыДеятельностиРасширеннаяПодсказка" id="91"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4">
+				<ChildItems>
+					<Button name="СписокКонтекстноеМенюУточнитьВыделенные" id="79">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УточнитьВыделенные</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюУточнитьВыделенныеРасширеннаяПодсказка" id="80"/>
+					</Button>
+					<Button name="СписокКонтекстноеМенюУточнитьИсточникПотока" id="83">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УточнитьИсточникПотока</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюУточнитьИсточникПотокаРасширеннаяПодсказка" id="84"/>
+					</Button>
+					<Button name="СписокКонтекстноеМенюУточнитьЗнакСуммы" id="81">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УточнитьЗнакСуммы</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюУточнитьЗнакСуммыРасширеннаяПодсказка" id="82"/>
+					</Button>
+					<Button name="СписокКонтекстноеМенюУточнитьИсточникПриемникПлатежа" id="101">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УточнитьИсточникПриемникПлатежа</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюУточнитьИсточникПриемникПлатежаРасширеннаяПодсказка" id="102"/>
+					</Button>
+					<Button name="СписокКонтекстноеМенюУточнитьСтатус" id="85">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УточнитьСтатус</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюУточнитьСтатусРасширеннаяПодсказка" id="86"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокВыбор</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ВидДеятельности" id="92">
+					<DataPath>Список.ВидДеятельности</DataPath>
+					<ContextMenu name="ВидДеятельностиКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="ВидДеятельностиРасширеннаяПодсказка" id="94"/>
+				</LabelField>
+				<LabelField name="ТипДокумента" id="16">
+					<DataPath>Список.ТипДокумента</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ТипДокументаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ТипДокументаРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Документ" id="87">
+					<DataPath>Список.Документ</DataPath>
+					<ContextMenu name="ДокументКонтекстноеМеню" id="88"/>
+					<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="89"/>
+				</LabelField>
+				<LabelField name="ТипРезерва" id="22">
+					<DataPath>Список.ТипРезерва</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ТипРезерваКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ТипРезерваРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="ТипВыплаты" id="19">
+					<DataPath>Список.ТипВыплаты</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ТипВыплатыКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ТипВыплатыРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="ВидРучнойОперации" id="25">
+					<DataPath>Список.ВидРучнойОперации</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ВидРучнойОперацииКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ВидРучнойОперацииРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="ТипПлатежа" id="40">
+					<DataPath>Список.ТипПлатежа</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ТипПлатежаКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ТипПлатежаРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="payment_type_cd" id="31">
+					<DataPath>Список.payment_type_cd</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="payment_type_cdКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="payment_type_cdРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="flow_type_cd" id="37">
+					<DataPath>Список.flow_type_cd</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="flow_type_cdКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="flow_type_cdРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="Статус" id="55">
+					<DataPath>Список.Статус</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="57"/>
+				</LabelField>
+				<LabelField name="ИсточникПотока" id="43">
+					<DataPath>Список.ИсточникПотока</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ИсточникПотокаКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ИсточникПотокаРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<LabelField name="ИсточникПлатежа" id="98">
+					<DataPath>Список.ИсточникПлатежа</DataPath>
+					<ContextMenu name="ИсточникПлатежаКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ИсточникПлатежаРасширеннаяПодсказка" id="100"/>
+				</LabelField>
+				<LabelField name="ПриемникПлатежа" id="95">
+					<DataPath>Список.ПриемникПлатежа</DataPath>
+					<ContextMenu name="ПриемникПлатежаКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ПриемникПлатежаРасширеннаяПодсказка" id="97"/>
+				</LabelField>
+				<LabelField name="РезервыПриход" id="61">
+					<DataPath>Список.РезервыПриход</DataPath>
+					<ContextMenu name="РезервыПриходКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="РезервыПриходРасширеннаяПодсказка" id="63"/>
+				</LabelField>
+				<LabelField name="РезервыРасход" id="64">
+					<DataPath>Список.РезервыРасход</DataPath>
+					<ContextMenu name="РезервыРасходКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="РезервыРасходРасширеннаяПодсказка" id="66"/>
+				</LabelField>
+				<LabelField name="НачисленияПриход" id="67">
+					<DataPath>Список.НачисленияПриход</DataPath>
+					<ContextMenu name="НачисленияПриходКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="НачисленияПриходРасширеннаяПодсказка" id="69"/>
+				</LabelField>
+				<LabelField name="НачисленияРасход" id="70">
+					<DataPath>Список.НачисленияРасход</DataPath>
+					<ContextMenu name="НачисленияРасходКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="НачисленияРасходРасширеннаяПодсказка" id="72"/>
+				</LabelField>
+				<LabelField name="Выплаты" id="73">
+					<DataPath>Список.Выплаты</DataPath>
+					<ContextMenu name="ВыплатыКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="ВыплатыРасширеннаяПодсказка" id="75"/>
+				</LabelField>
+				<LabelField name="ЗнакСуммы" id="76">
+					<DataPath>Список.ЗнакСуммы</DataPath>
+					<ContextMenu name="ЗнакСуммыКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="ЗнакСуммыРасширеннаяПодсказка" id="78"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="58">
+					<DataPath>Список.Комментарий</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="60"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>Выбрать
+	0 КАК Знач,
+	"Не учитывать" КАК Представл
+Поместить Отображ
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	1 КАК Знач,
+	"Поток (+)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	-1 КАК Знач,
+	"Поток (-)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	2 КАК Знач,
+	"Поток и контроль (+)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	-2 КАК Знач,
+	"Поток и контроль (-)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	3 КАК Знач,
+	"Контроль (+)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	-3 КАК Знач,
+	"Контроль (-)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	4 КАК Знач,
+	"Контроль (+2)" КАК Представл
+ОБЪЕДИНИТЬ ВСЕ
+Выбрать
+	-4 КАК Знач,
+	"Контроль (-2)" КАК Представл
+;
+ВЫБРАТЬ
+	ТипЗначения(РегистрСведенийхм_МСФО_ОПС_МаппингДП.ТипДокумента) КАК ТипДокумента,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ТипДокумента КАК Документ,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ВидДеятельности,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ТипВыплаты,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ТипРезерва,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ВидРучнойОперации,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.payment_type_cd,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.flow_type_cd,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ТипПлатежа,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ИсточникПотока,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ИсточникПлатежа,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ПриемникПлатежа,
+	ОтображРП.Представл КАК РезервыПриход,
+	ОтображРР.Представл КАК РезервыРасход,
+	ОтображНП.Представл КАК НачисленияПриход,
+	ОтображНР.Представл КАК НачисленияРасход,
+	ОтображВ.Представл КАК Выплаты,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.ЗнакСуммы,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.Статус,
+	РегистрСведенийхм_МСФО_ОПС_МаппингДП.Комментарий
+ИЗ
+	РегистрСведений.хм_МСФО_ОПС_МаппингДП КАК РегистрСведенийхм_МСФО_ОПС_МаппингДП 
+	ЛЕВОЕ СОЕДИНЕНИЕ Отображ КАК ОтображРП ПО  РегистрСведенийхм_МСФО_ОПС_МаппингДП.КоэффициентРезервыПриход = ОтображРП.Знач            
+	ЛЕВОЕ СОЕДИНЕНИЕ Отображ КАК ОтображРР ПО  РегистрСведенийхм_МСФО_ОПС_МаппингДП.КоэффициентРезервыРасход = ОтображРР.Знач            
+	ЛЕВОЕ СОЕДИНЕНИЕ Отображ КАК ОтображНП ПО  РегистрСведенийхм_МСФО_ОПС_МаппингДП.КоэффициентНачисленияПриход = ОтображНП.Знач            
+	ЛЕВОЕ СОЕДИНЕНИЕ Отображ КАК ОтображНР ПО  РегистрСведенийхм_МСФО_ОПС_МаппингДП.КоэффициентНачисленияРасход = ОтображНР.Знач            
+	ЛЕВОЕ СОЕДИНЕНИЕ Отображ КАК ОтображВ ПО  РегистрСведенийхм_МСФО_ОПС_МаппингДП.КоэффициентВыплаты = ОтображВ.Знач            
+	
+	
+	</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидРучнойОперации</dcssch:dataPath>
+					<dcssch:field>ВидРучнойОперации</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипДокумента</dcssch:dataPath>
+					<dcssch:field>ТипДокумента</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипВыплаты</dcssch:dataPath>
+					<dcssch:field>ТипВыплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипПлатежа</dcssch:dataPath>
+					<dcssch:field>ТипПлатежа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоэффициентНачисленияРасход</dcssch:dataPath>
+					<dcssch:field>КоэффициентНачисленияРасход</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипРезерва</dcssch:dataPath>
+					<dcssch:field>ТипРезерва</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоэффициентРезервыПриход</dcssch:dataPath>
+					<dcssch:field>КоэффициентРезервыПриход</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>payment_type_cd</dcssch:dataPath>
+					<dcssch:field>payment_type_cd</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>flow_type_cd</dcssch:dataPath>
+					<dcssch:field>flow_type_cd</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсточникПотока</dcssch:dataPath>
+					<dcssch:field>ИсточникПотока</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоэффициентВыплаты</dcssch:dataPath>
+					<dcssch:field>КоэффициентВыплаты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоэффициентРезервыРасход</dcssch:dataPath>
+					<dcssch:field>КоэффициентРезервыРасход</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоэффициентНачисленияПриход</dcssch:dataPath>
+					<dcssch:field>КоэффициентНачисленияПриход</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Статус</dcssch:dataPath>
+					<dcssch:field>Статус</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Комментарий</dcssch:dataPath>
+					<dcssch:field>Комментарий</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РезервыПриход</dcssch:dataPath>
+					<dcssch:field>РезервыПриход</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Резервы приход</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Выплаты</dcssch:dataPath>
+					<dcssch:field>Выплаты</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выплаты</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РезервыРасход</dcssch:dataPath>
+					<dcssch:field>РезервыРасход</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Резервы расход</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НачисленияПриход</dcssch:dataPath>
+					<dcssch:field>НачисленияПриход</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начисления приход</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НачисленияРасход</dcssch:dataPath>
+					<dcssch:field>НачисленияРасход</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начисления расход</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЗнакСуммы</dcssch:dataPath>
+					<dcssch:field>ЗнакСуммы</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Документ</dcssch:dataPath>
+					<dcssch:field>Документ</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидДеятельности</dcssch:dataPath>
+					<dcssch:field>ВидДеятельности</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПриемникПлатежа</dcssch:dataPath>
+					<dcssch:field>ПриемникПлатежа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсточникПлатежа</dcssch:dataPath>
+					<dcssch:field>ИсточникПлатежа</dcssch:field>
+				</Field>
+				<MainTable>InformationRegister.хм_МСФО_ОПС_МаппингДП</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ВидДеятельности</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.уп_ВидыДеятельности.ОПС</dcsset:right>
+							<dcsset:userSettingID>1c734b2e-996a-4838-bb5a-9ce00dfa66d7</dcsset:userSettingID>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УточнитьЗнакСуммы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить знак суммы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить источник потока</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УточнитьЗнакСуммы</Action>
+		</Command>
+		<Command name="УточнитьИсточникПотока" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить источник потока</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить источник потока</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УточнитьИсточникПотока</Action>
+		</Command>
+		<Command name="УточнитьСтатус" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить статус</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить статус</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УточнитьСтатус</Action>
+		</Command>
+		<Command name="УточнитьВыделенные" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить (ИСПОЛЬЗОВАТЬ ОСТОРОЖНО)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить выделенные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УточнитьВыделенные</Action>
+		</Command>
+		<Command name="ЗаполнитьПустыеВидыДеятельности" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить пустые виды деятельности</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить пустые виды деятельности</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПустыеВидыДеятельности</Action>
+		</Command>
+		<Command name="УточнитьИсточникПриемникПлатежа" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить источник/приемник платежа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уточнить источник приемник платежа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УточнитьИсточникПриемникПлатежа</Action>
+		</Command>
+	</Commands>
+</Form>

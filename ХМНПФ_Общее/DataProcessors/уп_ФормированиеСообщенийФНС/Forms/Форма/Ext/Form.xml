@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКнопкаЗаполнить" id="86">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаЗаполнитьРасширеннаяПодсказка" id="87"/>
+			</Button>
+			<Button name="ФормаКнопкаСформировать" id="7">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаСформироватьРасширеннаяПодсказка" id="8"/>
+			</Button>
+			<Button name="ФормаКнопкаОтменить" id="80">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаОтменитьРасширеннаяПодсказка" id="81"/>
+			</Button>
+			<Button name="ФормаКнопкаПрименить" id="82">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаПрименитьРасширеннаяПодсказка" id="83"/>
+			</Button>
+			<Button name="ФормаКнопкаЗакрыть" id="84">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаЗакрытьРасширеннаяПодсказка" id="85"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Организация" id="1">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Период" id="4">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ДатаФормированияДокументов" id="74">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаФормированияДокументовКонтекстноеМеню" id="75"/>
+			<ExtendedTooltip name="ДатаФормированияДокументовРасширеннаяПодсказка" id="76"/>
+		</InputField>
+		<InputField name="Модуль" id="91">
+			<ListChoiceMode>true</ListChoiceMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПР</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПДС</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="МодульКонтекстноеМеню" id="92"/>
+			<ExtendedTooltip name="МодульРасширеннаяПодсказка" id="93"/>
+		</InputField>
+		<InputField name="ПричиныЗакрытия" id="149">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПричиныЗакрытияКонтекстноеМеню" id="150"/>
+			<ExtendedTooltip name="ПричиныЗакрытияРасширеннаяПодсказка" id="151"/>
+		</InputField>
+		<InputField name="ПериодДоговор" id="122">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбирать закрытые договоры, у которых Дата договора попадает в период.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ClearButton>true</ClearButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодДоговорКонтекстноеМеню" id="123"/>
+			<ExtendedTooltip name="ПериодДоговорРасширеннаяПодсказка" id="124"/>
+		</InputField>
+		<CheckBoxField name="ВключатьВыкупныеСуммы" id="155">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включать в тип "5" договоры, по которым назначена выплата выкупной суммы в части собственных средств. Состояние счета на конец периода - "Накопительный"</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВключатьВыкупныеСуммыКонтекстноеМеню" id="156"/>
+			<ExtendedTooltip name="ВключатьВыкупныеСуммыРасширеннаяПодсказка" id="157"/>
+		</CheckBoxField>
+		<RadioButtonField name="УказатьПодписанта" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписант</v8:content>
+				</v8:item>
+			</Title>
+			<RadioButtonType>Tumbler</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>определяется автоматически</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">0</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>указать вручную</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">1</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="УказатьПодписантаКонтекстноеМеню" id="102"/>
+			<ExtendedTooltip name="УказатьПодписантаРасширеннаяПодсказка" id="103"/>
+		</RadioButtonField>
+		<Pages name="ГруппаПодписанты" id="104">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подписанты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подписанты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаПодписантыРасширеннаяПодсказка" id="105"/>
+			<ChildItems>
+				<Page name="СтраницаПодписант" id="106">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница подписант</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница подписант</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПодписантРасширеннаяПодсказка" id="107"/>
+					<ChildItems>
+						<InputField name="Подписант" id="108">
+							<ListChoiceMode>true</ListChoiceMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПодписантКонтекстноеМеню" id="109"/>
+							<ExtendedTooltip name="ПодписантРасширеннаяПодсказка" id="110"/>
+						</InputField>
+						<InputField name="ДокументПредставителя" id="111">
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДокументПредставителяКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="ДокументПредставителяРасширеннаяПодсказка" id="113"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПустая" id="114">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница пустая</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница пустая</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПустаяРасширеннаяПодсказка" id="115"/>
+					<ChildItems>
+						<LabelDecoration name="Декорация1" id="116">
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="117"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="118"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<Pages name="ГруппаОсновнаяПанель" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаОсновнаяПанельРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<Page name="ГруппаПодборДоговоров" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подбор</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа подбор договоров</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПодборДоговоровРасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<Table name="ТаблицаДоговоров" id="15">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТаблицаДоговоровКонтекстноеМеню" id="16"/>
+							<AutoCommandBar name="ТаблицаДоговоровКоманднаяПанель" id="17">
+								<ChildItems>
+									<Button name="ТаблицаДоговоровСнятьПометки" id="97">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ТаблицаДоговоровСнятьПометкиРасширеннаяПодсказка" id="98"/>
+									</Button>
+									<Button name="ТаблицаДоговоровУстановитьПометки" id="99">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ТаблицаДоговоровУстановитьПометкиРасширеннаяПодсказка" id="100"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ТаблицаДоговоровРасширеннаяПодсказка" id="18"/>
+							<SearchStringAddition name="ТаблицаДоговоровСтрокаПоиска" id="19">
+								<AdditionSource>
+									<Item>ТаблицаДоговоров</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаДоговоровСтрокаПоискаКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="ТаблицаДоговоровСтрокаПоискаРасширеннаяПодсказка" id="21"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТаблицаДоговоровСостояниеПросмотра" id="22">
+								<AdditionSource>
+									<Item>ТаблицаДоговоров</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаДоговоровСостояниеПросмотраКонтекстноеМеню" id="23"/>
+								<ExtendedTooltip name="ТаблицаДоговоровСостояниеПросмотраРасширеннаяПодсказка" id="24"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТаблицаДоговоровУправлениеПоиском" id="25">
+								<AdditionSource>
+									<Item>ТаблицаДоговоров</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаДоговоровУправлениеПоискомКонтекстноеМеню" id="26"/>
+								<ExtendedTooltip name="ТаблицаДоговоровУправлениеПоискомРасширеннаяПодсказка" id="27"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТаблицаДоговоровНомерСтроки" id="28">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТаблицаДоговоровНомерСтрокиКонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="ТаблицаДоговоровНомерСтрокиРасширеннаяПодсказка" id="30"/>
+								</LabelField>
+								<CheckBoxField name="ТаблицаДоговоровФормировать" id="31">
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТаблицаДоговоровФормироватьКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ТаблицаДоговоровФормироватьРасширеннаяПодсказка" id="33"/>
+								</CheckBoxField>
+								<InputField name="ТаблицаДоговоровДоговор" id="34">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаДоговоровДоговорКонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="ТаблицаДоговоровДоговорРасширеннаяПодсказка" id="36"/>
+								</InputField>
+								<InputField name="ТаблицаДоговоровВкладчик" id="37">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаДоговоровВкладчикКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="ТаблицаДоговоровВкладчикРасширеннаяПодсказка" id="39"/>
+								</InputField>
+								<InputField name="ТаблицаДоговоровВыгодоприобретатель" id="40">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаДоговоровВыгодоприобретательКонтекстноеМеню" id="41"/>
+									<ExtendedTooltip name="ТаблицаДоговоровВыгодоприобретательРасширеннаяПодсказка" id="42"/>
+								</InputField>
+								<InputField name="ТаблицаДоговоровТипСведений" id="43">
+									<EditMode>EnterOnInput</EditMode>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:decimal">2</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:decimal">3</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:decimal">4</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:decimal">5</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ТаблицаДоговоровТипСведенийКонтекстноеМеню" id="44"/>
+									<ExtendedTooltip name="ТаблицаДоговоровТипСведенийРасширеннаяПодсказка" id="45"/>
+								</InputField>
+								<InputField name="ТаблицаДоговоровДатаСобытия" id="94">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаДоговоровДатаСобытияКонтекстноеМеню" id="95"/>
+									<ExtendedTooltip name="ТаблицаДоговоровДатаСобытияРасширеннаяПодсказка" id="96"/>
+								</InputField>
+								<InputField name="ТаблицаДоговоровПричинаЗакрытия" id="152">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаДоговоровПричинаЗакрытияКонтекстноеМеню" id="153"/>
+									<ExtendedTooltip name="ТаблицаДоговоровПричинаЗакрытияРасширеннаяПодсказка" id="154"/>
+								</InputField>
+								<CheckBoxField name="ТаблицаДоговоровУжеСформировано" id="77">
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТаблицаДоговоровУжеСформированоКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="ТаблицаДоговоровУжеСформированоРасширеннаяПодсказка" id="79"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаНовыеДокументы" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа новые документы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаНовыеДокументыРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<Table name="НовыеДокументы" id="46">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НовыеДокументыКонтекстноеМеню" id="47"/>
+							<AutoCommandBar name="НовыеДокументыКоманднаяПанель" id="48"/>
+							<ExtendedTooltip name="НовыеДокументыРасширеннаяПодсказка" id="49"/>
+							<SearchStringAddition name="НовыеДокументыСтрокаПоиска" id="50">
+								<AdditionSource>
+									<Item>НовыеДокументы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НовыеДокументыСтрокаПоискаКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="НовыеДокументыСтрокаПоискаРасширеннаяПодсказка" id="52"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НовыеДокументыСостояниеПросмотра" id="53">
+								<AdditionSource>
+									<Item>НовыеДокументы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НовыеДокументыСостояниеПросмотраКонтекстноеМеню" id="54"/>
+								<ExtendedTooltip name="НовыеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="55"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НовыеДокументыУправлениеПоиском" id="56">
+								<AdditionSource>
+									<Item>НовыеДокументы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НовыеДокументыУправлениеПоискомКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="НовыеДокументыУправлениеПоискомРасширеннаяПодсказка" id="58"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НовыеДокументыНомерСтроки" id="59">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НовыеДокументыНомерСтрокиКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="НовыеДокументыНомерСтрокиРасширеннаяПодсказка" id="61"/>
+								</LabelField>
+								<InputField name="НовыеДокументыДокумент" id="62">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НовыеДокументыДокументКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="НовыеДокументыДокументРасширеннаяПодсказка" id="64"/>
+								</InputField>
+								<InputField name="НовыеДокументыДоговор" id="65">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НовыеДокументыДоговорКонтекстноеМеню" id="66"/>
+									<ExtendedTooltip name="НовыеДокументыДоговорРасширеннаяПодсказка" id="67"/>
+								</InputField>
+								<InputField name="НовыеДокументыТипСведений" id="68">
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НовыеДокументыТипСведенийКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="НовыеДокументыТипСведенийРасширеннаяПодсказка" id="70"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Ответственный" id="88">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="89"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="90"/>
+		</InputField>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаКнопкаЗаполнить" id="86">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКнопкаЗаполнитьРасширеннаяПодсказка" id="87"/>
+				</Button>
+				<Button name="ФормаКнопкаСформировать" id="7">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКнопкаСформироватьРасширеннаяПодсказка" id="8"/>
+				</Button>
+				<Button name="ФормаКнопкаОтменить" id="80">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКнопкаОтменитьРасширеннаяПодсказка" id="81"/>
+				</Button>
+				<Button name="ФормаКнопкаПрименить" id="82">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКнопкаПрименитьРасширеннаяПодсказка" id="83"/>
+				</Button>
+				<Button name="ФормаКнопкаЗакрыть" id="84">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаКнопкаЗакрытьРасширеннаяПодсказка" id="85"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="Организация" id="1">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="Период" id="4">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ПериодКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<InputField name="ДатаФормированияДокументов" id="74">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ДатаФормированияДокументовКонтекстноеМеню" id="75"/>
+				<ExtendedTooltip name="ДатаФормированияДокументовРасширеннаяПодсказка" id="76"/>
+			</InputField>
+			<InputField name="Модуль" id="91">
+				<ListChoiceMode>true</ListChoiceMode>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ChoiceList>
+					<xr:Item>
+						<xr:Presentation/>
+						<xr:CheckState>0</xr:CheckState>
+						<xr:Value xsi:type="FormChoiceListDesTimeValue">
+							<Presentation/>
+							<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПР</Value>
+						</xr:Value>
+					</xr:Item>
+					<xr:Item>
+						<xr:Presentation/>
+						<xr:CheckState>0</xr:CheckState>
+						<xr:Value xsi:type="FormChoiceListDesTimeValue">
+							<Presentation/>
+							<Value xsi:type="xr:DesignTimeRef">Enum.уп_ВидыДеятельности.EnumValue.ПДС</Value>
+						</xr:Value>
+					</xr:Item>
+				</ChoiceList>
+				<ContextMenu name="МодульКонтекстноеМеню" id="92"/>
+				<ExtendedTooltip name="МодульРасширеннаяПодсказка" id="93"/>
+			</InputField>
+			<InputField name="ПричиныЗакрытия" id="149">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ПричиныЗакрытияКонтекстноеМеню" id="150"/>
+				<ExtendedTooltip name="ПричиныЗакрытияРасширеннаяПодсказка" id="151"/>
+			</InputField>
+			<InputField name="ПериодДоговор" id="122">
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отбирать закрытые договоры, у которых Дата договора попадает в период.</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ClearButton>true</ClearButton>
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ПериодДоговорКонтекстноеМеню" id="123"/>
+				<ExtendedTooltip name="ПериодДоговорРасширеннаяПодсказка" id="124"/>
+			</InputField>
+			<CheckBoxField name="ВключатьВыкупныеСуммы" id="155">
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Включать в тип "5" договоры, по которым назначена выплата выкупной суммы в части собственных средств. Состояние счета на конец периода - "Накопительный"</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ToolTipRepresentation>Button</ToolTipRepresentation>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ВключатьВыкупныеСуммыКонтекстноеМеню" id="156"/>
+				<ExtendedTooltip name="ВключатьВыкупныеСуммыРасширеннаяПодсказка" id="157"/>
+			</CheckBoxField>
+			<RadioButtonField name="УказатьПодписанта" id="101">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подписант</v8:content>
+					</v8:item>
+				</Title>
+				<RadioButtonType>Tumbler</RadioButtonType>
+				<ChoiceList>
+					<xr:Item>
+						<xr:Presentation/>
+						<xr:CheckState>0</xr:CheckState>
+						<xr:Value xsi:type="FormChoiceListDesTimeValue">
+							<Presentation>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>определяется автоматически</v8:content>
+								</v8:item>
+							</Presentation>
+							<Value xsi:type="xs:decimal">0</Value>
+						</xr:Value>
+					</xr:Item>
+					<xr:Item>
+						<xr:Presentation/>
+						<xr:CheckState>0</xr:CheckState>
+						<xr:Value xsi:type="FormChoiceListDesTimeValue">
+							<Presentation>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>указать вручную</v8:content>
+								</v8:item>
+							</Presentation>
+							<Value xsi:type="xs:decimal">1</Value>
+						</xr:Value>
+					</xr:Item>
+				</ChoiceList>
+				<ContextMenu name="УказатьПодписантаКонтекстноеМеню" id="102"/>
+				<ExtendedTooltip name="УказатьПодписантаРасширеннаяПодсказка" id="103"/>
+			</RadioButtonField>
+			<Pages name="ГруппаПодписанты" id="104">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа подписанты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа подписанты</v8:content>
+					</v8:item>
+				</ToolTip>
+				<PagesRepresentation>None</PagesRepresentation>
+				<ExtendedTooltip name="ГруппаПодписантыРасширеннаяПодсказка" id="105"/>
+				<ChildItems>
+					<Page name="СтраницаПодписант" id="106">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница подписант</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница подписант</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="СтраницаПодписантРасширеннаяПодсказка" id="107"/>
+						<ChildItems>
+							<InputField name="Подписант" id="108">
+								<ListChoiceMode>true</ListChoiceMode>
+								<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+								<ContextMenu name="ПодписантКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="ПодписантРасширеннаяПодсказка" id="110"/>
+							</InputField>
+							<InputField name="ДокументПредставителя" id="111">
+								<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+								<ContextMenu name="ДокументПредставителяКонтекстноеМеню" id="112"/>
+								<ExtendedTooltip name="ДокументПредставителяРасширеннаяПодсказка" id="113"/>
+							</InputField>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаПустая" id="114">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница пустая</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страница пустая</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="СтраницаПустаяРасширеннаяПодсказка" id="115"/>
+						<ChildItems>
+							<LabelDecoration name="Декорация1" id="116">
+								<ContextMenu name="Декорация1КонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="118"/>
+							</LabelDecoration>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<Pages name="ГруппаОсновнаяПанель" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа основная панель</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа основная панель</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ГруппаОсновнаяПанельРасширеннаяПодсказка" id="10"/>
+				<ChildItems>
+					<Page name="ГруппаПодборДоговоров" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подбор</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа подбор договоров</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаПодборДоговоровРасширеннаяПодсказка" id="12"/>
+						<ChildItems>
+							<Table name="ТаблицаДоговоров" id="15">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ТаблицаДоговоровКонтекстноеМеню" id="16"/>
+								<AutoCommandBar name="ТаблицаДоговоровКоманднаяПанель" id="17">
+									<ChildItems>
+										<Button name="ТаблицаДоговоровСнятьПометки" id="97">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ТаблицаДоговоровСнятьПометкиРасширеннаяПодсказка" id="98"/>
+										</Button>
+										<Button name="ТаблицаДоговоровУстановитьПометки" id="99">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ТаблицаДоговоровУстановитьПометкиРасширеннаяПодсказка" id="100"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ТаблицаДоговоровРасширеннаяПодсказка" id="18"/>
+								<SearchStringAddition name="ТаблицаДоговоровСтрокаПоиска" id="19">
+									<AdditionSource>
+										<Item>ТаблицаДоговоров</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ТаблицаДоговоровСтрокаПоискаКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ТаблицаДоговоровСтрокаПоискаРасширеннаяПодсказка" id="21"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ТаблицаДоговоровСостояниеПросмотра" id="22">
+									<AdditionSource>
+										<Item>ТаблицаДоговоров</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ТаблицаДоговоровСостояниеПросмотраКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ТаблицаДоговоровСостояниеПросмотраРасширеннаяПодсказка" id="24"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ТаблицаДоговоровУправлениеПоиском" id="25">
+									<AdditionSource>
+										<Item>ТаблицаДоговоров</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ТаблицаДоговоровУправлениеПоискомКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="ТаблицаДоговоровУправлениеПоискомРасширеннаяПодсказка" id="27"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="ТаблицаДоговоровНомерСтроки" id="28">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ТаблицаДоговоровНомерСтрокиКонтекстноеМеню" id="29"/>
+										<ExtendedTooltip name="ТаблицаДоговоровНомерСтрокиРасширеннаяПодсказка" id="30"/>
+									</LabelField>
+									<CheckBoxField name="ТаблицаДоговоровФормировать" id="31">
+										<TitleLocation>None</TitleLocation>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ТаблицаДоговоровФормироватьКонтекстноеМеню" id="32"/>
+										<ExtendedTooltip name="ТаблицаДоговоровФормироватьРасширеннаяПодсказка" id="33"/>
+									</CheckBoxField>
+									<InputField name="ТаблицаДоговоровДоговор" id="34">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ТаблицаДоговоровДоговорКонтекстноеМеню" id="35"/>
+										<ExtendedTooltip name="ТаблицаДоговоровДоговорРасширеннаяПодсказка" id="36"/>
+									</InputField>
+									<InputField name="ТаблицаДоговоровВкладчик" id="37">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ТаблицаДоговоровВкладчикКонтекстноеМеню" id="38"/>
+										<ExtendedTooltip name="ТаблицаДоговоровВкладчикРасширеннаяПодсказка" id="39"/>
+									</InputField>
+									<InputField name="ТаблицаДоговоровВыгодоприобретатель" id="40">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ТаблицаДоговоровВыгодоприобретательКонтекстноеМеню" id="41"/>
+										<ExtendedTooltip name="ТаблицаДоговоровВыгодоприобретательРасширеннаяПодсказка" id="42"/>
+									</InputField>
+									<InputField name="ТаблицаДоговоровТипСведений" id="43">
+										<EditMode>EnterOnInput</EditMode>
+										<ListChoiceMode>true</ListChoiceMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:decimal">1</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:decimal">2</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:decimal">3</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:decimal">4</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:decimal">5</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ContextMenu name="ТаблицаДоговоровТипСведенийКонтекстноеМеню" id="44"/>
+										<ExtendedTooltip name="ТаблицаДоговоровТипСведенийРасширеннаяПодсказка" id="45"/>
+									</InputField>
+									<InputField name="ТаблицаДоговоровДатаСобытия" id="94">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ТаблицаДоговоровДатаСобытияКонтекстноеМеню" id="95"/>
+										<ExtendedTooltip name="ТаблицаДоговоровДатаСобытияРасширеннаяПодсказка" id="96"/>
+									</InputField>
+									<InputField name="ТаблицаДоговоровПричинаЗакрытия" id="152">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="ТаблицаДоговоровПричинаЗакрытияКонтекстноеМеню" id="153"/>
+										<ExtendedTooltip name="ТаблицаДоговоровПричинаЗакрытияРасширеннаяПодсказка" id="154"/>
+									</InputField>
+									<CheckBoxField name="ТаблицаДоговоровУжеСформировано" id="77">
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ТаблицаДоговоровУжеСформированоКонтекстноеМеню" id="78"/>
+										<ExtendedTooltip name="ТаблицаДоговоровУжеСформированоРасширеннаяПодсказка" id="79"/>
+									</CheckBoxField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаНовыеДокументы" id="13">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сообщения</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа новые документы</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаНовыеДокументыРасширеннаяПодсказка" id="14"/>
+						<ChildItems>
+							<Table name="НовыеДокументы" id="46">
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="НовыеДокументыКонтекстноеМеню" id="47"/>
+								<AutoCommandBar name="НовыеДокументыКоманднаяПанель" id="48"/>
+								<ExtendedTooltip name="НовыеДокументыРасширеннаяПодсказка" id="49"/>
+								<SearchStringAddition name="НовыеДокументыСтрокаПоиска" id="50">
+									<AdditionSource>
+										<Item>НовыеДокументы</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НовыеДокументыСтрокаПоискаКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="НовыеДокументыСтрокаПоискаРасширеннаяПодсказка" id="52"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="НовыеДокументыСостояниеПросмотра" id="53">
+									<AdditionSource>
+										<Item>НовыеДокументы</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="НовыеДокументыСостояниеПросмотраКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="НовыеДокументыСостояниеПросмотраРасширеннаяПодсказка" id="55"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="НовыеДокументыУправлениеПоиском" id="56">
+									<AdditionSource>
+										<Item>НовыеДокументы</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="НовыеДокументыУправлениеПоискомКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="НовыеДокументыУправлениеПоискомРасширеннаяПодсказка" id="58"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="НовыеДокументыНомерСтроки" id="59">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НовыеДокументыНомерСтрокиКонтекстноеМеню" id="60"/>
+										<ExtendedTooltip name="НовыеДокументыНомерСтрокиРасширеннаяПодсказка" id="61"/>
+									</LabelField>
+									<InputField name="НовыеДокументыДокумент" id="62">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="НовыеДокументыДокументКонтекстноеМеню" id="63"/>
+										<ExtendedTooltip name="НовыеДокументыДокументРасширеннаяПодсказка" id="64"/>
+									</InputField>
+									<InputField name="НовыеДокументыДоговор" id="65">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="НовыеДокументыДоговорКонтекстноеМеню" id="66"/>
+										<ExtendedTooltip name="НовыеДокументыДоговорРасширеннаяПодсказка" id="67"/>
+									</InputField>
+									<InputField name="НовыеДокументыТипСведений" id="68">
+										<EditMode>EnterOnInput</EditMode>
+										<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+										<ContextMenu name="НовыеДокументыТипСведенийКонтекстноеМеню" id="69"/>
+										<ExtendedTooltip name="НовыеДокументыТипСведенийРасширеннаяПодсказка" id="70"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<InputField name="Ответственный" id="88">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ОтветственныйКонтекстноеМеню" id="89"/>
+				<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="90"/>
+			</InputField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

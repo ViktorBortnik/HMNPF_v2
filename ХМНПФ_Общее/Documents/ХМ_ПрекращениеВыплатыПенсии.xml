@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fd1cd5c1-6267-4ac6-a52c-b1e83c832e24">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ХМ_ПрекращениеВыплатыПенсии" category="Object">
+				<xr:TypeId>ebc2a64a-4e50-4b4e-8664-85cc6ee78075</xr:TypeId>
+				<xr:ValueId>3152186b-e431-4c22-9718-a50598a9ccea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ХМ_ПрекращениеВыплатыПенсии" category="Ref">
+				<xr:TypeId>9696feba-3e5e-4675-a773-f41fc2254e14</xr:TypeId>
+				<xr:ValueId>fbd0a279-e520-4a35-a438-637e90dc46c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ХМ_ПрекращениеВыплатыПенсии" category="Selection">
+				<xr:TypeId>993df5c2-16ed-4574-9827-39b928094b44</xr:TypeId>
+				<xr:ValueId>d85ff6cb-283c-4ecb-9ab8-f0f465d927e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ХМ_ПрекращениеВыплатыПенсии" category="List">
+				<xr:TypeId>06cb164d-fb4e-42cb-bbde-92c510e9ffa0</xr:TypeId>
+				<xr:ValueId>e498c8cf-d7df-4053-920b-205dff18f08f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ХМ_ПрекращениеВыплатыПенсии" category="Manager">
+				<xr:TypeId>d5008499-5640-4418-a2c5-f082ed2f646f</xr:TypeId>
+				<xr:ValueId>b549a62a-eab2-43e4-aa74-d99427b39907</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_ПрекращениеВыплатыПенсии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e200849-f466-41fa-948a-140a1f02ac4c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

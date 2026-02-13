@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="eca81f9e-389c-4798-b4d5-b2091f6c0d24">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_Агенты" category="Object">
+				<xr:TypeId>74a581ff-8c8b-43c3-9ba5-5aec72a0e81f</xr:TypeId>
+				<xr:ValueId>0f9f3ade-7cba-4909-be8a-be88d2a0c80d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_Агенты" category="Ref">
+				<xr:TypeId>cab9c807-b579-4f81-b10b-04670942968d</xr:TypeId>
+				<xr:ValueId>6f9b62af-a762-439e-9828-a4ff7a55e64f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_Агенты" category="Selection">
+				<xr:TypeId>91acf35c-1fe3-4b59-817d-5613adf52e73</xr:TypeId>
+				<xr:ValueId>0dde3e50-bb91-45eb-b8ac-281b17a70ccb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_Агенты" category="List">
+				<xr:TypeId>91b9a3cd-7fa1-4ad9-b3b7-cfd97da6ecac</xr:TypeId>
+				<xr:ValueId>5d58789c-c477-4b8d-ad28-adb6de527236</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_Агенты" category="Manager">
+				<xr:TypeId>222bbbcd-cd5f-4422-b329-873961fcdac4</xr:TypeId>
+				<xr:ValueId>87b11879-3d40-4cfa-893d-023ac278fe78</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_Агенты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b879e3af-ea67-450a-b634-bfaba233af7e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

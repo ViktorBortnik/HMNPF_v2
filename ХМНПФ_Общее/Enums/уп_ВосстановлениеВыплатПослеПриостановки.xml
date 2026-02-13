@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0bbf0709-c9ad-4fcb-83aa-046b4319a765">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ВосстановлениеВыплатПослеПриостановки" category="Ref">
+				<xr:TypeId>71c65956-2fb3-403a-ac3c-24cc7d92b9cf</xr:TypeId>
+				<xr:ValueId>3ea5d377-aec6-40a5-8418-7a03eaea4b94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ВосстановлениеВыплатПослеПриостановки" category="Manager">
+				<xr:TypeId>8b10ff40-9e83-4c64-814c-526b22c9755f</xr:TypeId>
+				<xr:ValueId>1af0d663-7a32-4f17-9177-699fa5a8d893</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ВосстановлениеВыплатПослеПриостановки" category="List">
+				<xr:TypeId>83dd9a9f-f7f1-42e2-8482-9f9b9f907e01</xr:TypeId>
+				<xr:ValueId>300519b3-989a-4cb6-b3b4-fac300c88f98</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВосстановлениеВыплатПослеПриостановки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5c3b812d-5996-482c-80a9-503e17425633</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0f724699-e293-452b-8d1d-ab61ebdfadc1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БезКомпенсации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c72ca33-a6e3-4cc3-8b3e-d37202dd9153</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af9667be-1975-4e54-ac63-87c21634a7db">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомпенсацией</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>62a91aab-386c-41bd-9b67-509842571ad3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

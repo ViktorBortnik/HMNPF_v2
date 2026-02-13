@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c87d1c16-acec-4111-89a2-9258d6b89dfd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ОперацияОПС" category="Object">
+				<xr:TypeId>d85d4ba1-5bc8-4a0b-8143-e005e285c84f</xr:TypeId>
+				<xr:ValueId>715c5cc3-6a3b-4c16-ae97-7b0fa2f6151b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ОперацияОПС" category="Ref">
+				<xr:TypeId>b58d4615-0fe0-471d-b08b-075c6c670df5</xr:TypeId>
+				<xr:ValueId>8345c4bd-effb-409a-8bb0-7d367aa21ee6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ОперацияОПС" category="Selection">
+				<xr:TypeId>c0d8f9e0-994b-48f9-b1ea-3b7380f49bbe</xr:TypeId>
+				<xr:ValueId>f6b073e1-173b-406b-8122-d8bdd8d7f18a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ОперацияОПС" category="List">
+				<xr:TypeId>edcf96d9-80c7-440a-85b9-8ebb6053b4e1</xr:TypeId>
+				<xr:ValueId>69fdd7c5-2465-46a9-863e-eef708dc8900</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ОперацияОПС" category="Manager">
+				<xr:TypeId>f3f116db-2fe1-4fdc-8995-0e993660070d</xr:TypeId>
+				<xr:ValueId>559bd80b-204d-4eb9-9330-185c5d3280ce</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ОперацияОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e22fb10d-aef9-4a37-9496-87f77141c3b4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

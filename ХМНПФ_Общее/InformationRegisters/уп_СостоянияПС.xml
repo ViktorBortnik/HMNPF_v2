@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="4f5fe588-e2d5-4fcb-b9d2-a95a9e87b54a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_СостоянияПС" category="Record">
+				<xr:TypeId>5a6236d3-a914-41df-8fe0-eecfba18cce7</xr:TypeId>
+				<xr:ValueId>c8ed417b-e4af-4bc0-ad9e-37dde4715e4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_СостоянияПС" category="Manager">
+				<xr:TypeId>4693face-c1fe-4152-89c4-42c23b019711</xr:TypeId>
+				<xr:ValueId>744e612f-ca4f-4683-bc0b-1d6476d53ab6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_СостоянияПС" category="Selection">
+				<xr:TypeId>63b1d811-24eb-4c80-9e13-53567e06ea30</xr:TypeId>
+				<xr:ValueId>b1815a7c-54f6-4ac1-99ea-50274a66b7f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_СостоянияПС" category="List">
+				<xr:TypeId>3e769794-cb6d-452d-b195-c7669eaf3496</xr:TypeId>
+				<xr:ValueId>0f86b9b6-6025-4365-ade4-b3dd6662df63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_СостоянияПС" category="RecordSet">
+				<xr:TypeId>5bb30cb3-21f8-4ec0-b152-53c078e47f39</xr:TypeId>
+				<xr:ValueId>bac23603-3271-4827-baea-3bdbf5ee02b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_СостоянияПС" category="RecordKey">
+				<xr:TypeId>d020f46f-b6c4-4407-b3c2-b649e31b3bdc</xr:TypeId>
+				<xr:ValueId>b52cc38f-55c4-4fe9-9065-4120ecd7cb34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_СостоянияПС" category="RecordManager">
+				<xr:TypeId>6a5a0bfb-524c-4d2c-a1ba-dbda0ac707a4</xr:TypeId>
+				<xr:ValueId>46131c55-5b09-40b4-9c33-f7ed7866558f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СостоянияПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ba06f938-1a23-45da-b4f7-940f332e3d53</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="07fa00bc-ab6b-4930-b1b2-e554304319c3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>67db299b-03c9-40e8-a581-01a8bfd968cc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_СостоянияПС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="fe08d24a-fb5a-4ce1-9e8a-847ded1372fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаУстановкиСостояния</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>68e67b7c-932b-4aac-b906-8283718b368a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="a5bf3593-cb31-4a9f-a9db-6a1d34087381">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>119af044-421d-4bb7-9882-8418ff024f81</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеОснованияНПО</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f8318f66-f249-41b9-90d4-b4be1b6a464b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расшифровка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ed75af02-8296-49e8-b925-166215b03bce</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_РасшифровкаСостоянийПС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bb760c02-07b6-4045-b481-5e02fb2783ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОкончанияОснований</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2067c8ec-4a48-4aee-af19-a4f652f1677c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="d08759dc-1a48-493e-bd6f-71f899577097">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5242b14e-2b93-4ba0-aca8-a841a1683939</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

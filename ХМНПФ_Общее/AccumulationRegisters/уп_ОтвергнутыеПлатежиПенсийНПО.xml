@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="bbebb4d6-7202-41f1-9be8-7f5b94363f52">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.уп_ОтвергнутыеПлатежиПенсийНПО" category="Record">
+				<xr:TypeId>1f2d1d2f-ccee-4058-8bb6-955476ab54fb</xr:TypeId>
+				<xr:ValueId>fec9261e-1287-46fc-b212-276c8a2687f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.уп_ОтвергнутыеПлатежиПенсийНПО" category="Manager">
+				<xr:TypeId>6a3930cd-08cf-4446-97fe-cf76066d017e</xr:TypeId>
+				<xr:ValueId>ce51e716-ffbb-401f-851d-194a1d11ee18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.уп_ОтвергнутыеПлатежиПенсийНПО" category="Selection">
+				<xr:TypeId>26fb7d30-9e34-4d78-a1b2-72c0ab370ae5</xr:TypeId>
+				<xr:ValueId>7087d894-1dac-4afe-b022-20f3ff25a586</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.уп_ОтвергнутыеПлатежиПенсийНПО" category="List">
+				<xr:TypeId>0ed19e50-35dd-4d62-862e-c1317f3e8f92</xr:TypeId>
+				<xr:ValueId>908bd2ce-07b7-402d-9ae9-36467f281b3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.уп_ОтвергнутыеПлатежиПенсийНПО" category="RecordSet">
+				<xr:TypeId>f6af7eba-311a-48c4-a9bd-3b7ec7069118</xr:TypeId>
+				<xr:ValueId>9f67f146-18d0-4ad2-988d-dd12e2d925b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.уп_ОтвергнутыеПлатежиПенсийНПО" category="RecordKey">
+				<xr:TypeId>10a4932a-1d7b-4dfd-b2f7-12c2e8a35b7c</xr:TypeId>
+				<xr:ValueId>9117e5fd-45ce-454d-9d7f-b6c3d809ea4d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ОтвергнутыеПлатежиПенсийНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b26745a5-8524-405f-9e4f-a91cd357c8db</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e06d71b6-6c55-462c-85bd-9a29d63548ae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>05cc3afb-d216-485f-9ef2-fade61e5202c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="09e598f6-2bc0-4431-84e9-ea53d9843ce7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НДФЛ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e95959eb-7e62-4288-af20-27794ddf76c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b28d4250-6fa2-4e02-9bdb-9cdaf0207f8d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НалоговаяБазаПоНДФЛ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f86f1d8-eb7f-459b-be1c-ff717841e118</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="4ce3bbb8-4d83-44ee-ad7b-563fd2ba2b11">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cb56f816-cf83-42d2-8c64-89f05d50f6d2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="fa56c9e2-213c-4cf6-9f4c-33e718421291">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>de2335d4-68da-4332-a3b9-4163cf9b37c1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7690e4de-7ab1-4685-9f55-bd18d12c3eab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НачПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>82ff39c8-37f8-4866-82e2-050ae53bc539</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2ce1d385-c317-4df5-88b2-45f10e48bbc6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>56229001-981d-401e-99bf-dc2445332aa0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cbaae6b2-e6f4-4a2d-880e-5781bb8fd756">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипРезерва</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>341ca733-bbb2-4a96-b1e7-1820d45da78c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыРезерва</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="75073822-26f9-475b-8f50-923b39aea21a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8a7b3491-a565-4fa2-80ba-f0d294d15fd9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ТипыСумм</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

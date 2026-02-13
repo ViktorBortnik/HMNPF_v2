@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="92c2bbe2-1027-4765-b915-8e3565229811">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_УведомленияПФР" category="Record">
+				<xr:TypeId>6c5467cf-9e1b-41d3-88a9-0a4cbc7fd4f6</xr:TypeId>
+				<xr:ValueId>c859ef81-2147-4954-9e5b-57ff81399f3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_УведомленияПФР" category="Manager">
+				<xr:TypeId>efacb27a-c2bc-41fb-b471-e48e06f61b55</xr:TypeId>
+				<xr:ValueId>7ada630e-213d-4d8b-ad2f-2db4aae32351</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_УведомленияПФР" category="Selection">
+				<xr:TypeId>c2fc490c-488f-43b8-a14a-0f388b369552</xr:TypeId>
+				<xr:ValueId>fe070b60-aa95-41b5-915d-f210a7d248aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_УведомленияПФР" category="List">
+				<xr:TypeId>7d655802-8e41-4189-87ab-60c96ad8cfb1</xr:TypeId>
+				<xr:ValueId>9836bb71-809a-415b-b775-777ac732b352</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_УведомленияПФР" category="RecordSet">
+				<xr:TypeId>7a2845cf-c9f3-48a0-accb-eb63777ea73a</xr:TypeId>
+				<xr:ValueId>fe416eab-884b-40a9-ac1b-5b4369586159</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_УведомленияПФР" category="RecordKey">
+				<xr:TypeId>c83ecabf-5af4-490b-abac-486076df6579</xr:TypeId>
+				<xr:ValueId>7f9be60b-6284-443c-bc0e-d4daabc722b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_УведомленияПФР" category="RecordManager">
+				<xr:TypeId>80d87bf3-fc93-4b5a-8570-81b6696c7195</xr:TypeId>
+				<xr:ValueId>6fde7345-b8eb-4f4c-afe8-36cdb6acf90d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_УведомленияПФР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>33826f9f-ef69-49f7-8067-eef4a97f145c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="1d81833c-c1b2-4ba3-b86b-624b6f6318a8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерУведомления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5ee85f8d-bbcd-496c-bb9f-569261e3e34a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="29dfb4b7-76c4-4178-ac98-b47654fa92b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаУведомления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>16153dee-61b9-4164-85e3-32fb7db172f3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="c4e492f9-e3d2-4535-88f6-05cf25acd53c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заявление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e6546a8b-b7fb-45ce-99f3-ccbabab54e4b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

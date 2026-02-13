@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2a81651e-7c4e-4ace-80be-bbcabf9579b8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПакетЭД" category="Object">
+				<xr:TypeId>36e46094-e83d-4119-ab96-63b14342bdd1</xr:TypeId>
+				<xr:ValueId>b08293af-50d8-4df3-aec9-d373579156bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПакетЭД" category="Ref">
+				<xr:TypeId>349b3b07-7c44-4dd3-978e-460a91c3a170</xr:TypeId>
+				<xr:ValueId>08506036-01bf-474a-b5bb-3e4e377b97d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПакетЭД" category="Selection">
+				<xr:TypeId>3ff95c5c-0805-4dac-8020-5d318b374f34</xr:TypeId>
+				<xr:ValueId>94929180-9560-4fa0-97f5-d41cfaede66f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПакетЭД" category="List">
+				<xr:TypeId>973513bd-f04d-4390-b59c-118a689b6172</xr:TypeId>
+				<xr:ValueId>b303126d-9ded-41a8-929d-1857b546ed0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПакетЭД" category="Manager">
+				<xr:TypeId>ac75a490-212f-4572-a309-c4830c1ee6b7</xr:TypeId>
+				<xr:ValueId>17f84ad0-84ae-40c6-b3bc-75e658c07a73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПакетЭД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8da5f16e-397c-4bd7-9e7b-4992bbf966be</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a7e55aa9-89cf-46f3-95da-c0cac870b122">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c0028653-eee9-4f86-a54c-040cb5e3084e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="de9c25ca-3b81-4831-95b9-d8ca72cd1915">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидЭД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>56a7bebd-0e8c-4002-a9d2-c0b2deccf628</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ВидыЭД</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8705d30-3e1b-4769-96e8-b880bb486eb6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХМ_ТипФайлов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d6fc6b47-4234-45b4-980d-be3208be9b58</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e69d7952-7095-4ca0-ae71-0c2189e57e7c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Опись</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3ff89a3c-f5eb-43e8-9c1e-e869febf2303</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ЭДПрисоединенныеФайлы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5c7c92f9-7015-429a-ae0d-2ee145334424">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИмяОписи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70f5a188-5fdb-46af-a6d2-10fb991a175c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0e308503-7433-4cfc-9740-bd9ee1518808">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПенсионныйФонд</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a2c0b6a-e7ca-48c0-9b03-dbe389f85642</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b9095f62-2636-4660-b0d5-45f5d1d14f42">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Получатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cc85eea3-16ee-486f-9ecb-3d14bb6ffaef</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e9e27b09-952d-4387-b364-c1ab080b09e5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дата1</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5a6f0cd-8c5b-4837-b28d-de8575eb08bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="149a0187-27fb-4ab1-a1d9-c47e2ce11dc9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дата2</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d33cf818-ec19-415f-afc2-615952856ad6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="489eeaad-bf5e-49fa-86b6-7e26dcd2b5fc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>уп_ДатаОкончанияСВ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>535d13a3-762b-4afa-80e9-4e069980da5d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a7ec859-ab94-4baa-8016-ae08afc34672">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИсключитьПереданные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7bbb144d-2b2f-4909-b42f-70b25a880ad9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="24e082da-91d0-453c-a73e-f61191bfb8c9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d2c2d1c0-e362-430e-94c4-bd9e4c391fed</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eaecf51c-28a5-489a-890b-d8789cf03502">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Уведомление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>770aa062-7019-492d-96a5-0dd6f65e8c33</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.уп_ПакетЭД</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>уф_ФормаДокумента</Form>
+			<TabularSection uuid="ae17b9d7-36c9-4edd-90ee-a70412baf5f9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.уп_ПакетЭД.ДокументыКВыгрузке" category="TabularSection">
+						<xr:TypeId>586cf0f8-48dc-4a37-8989-e0165e1da42f</xr:TypeId>
+						<xr:ValueId>1173b412-80b8-49e2-a791-f828e4c81cf6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.уп_ПакетЭД.ДокументыКВыгрузке" category="TabularSectionRow">
+						<xr:TypeId>fe6ce58c-1ecf-4984-84f0-fdcdc08a4b41</xr:TypeId>
+						<xr:ValueId>0265161b-2e16-4c6c-8ef3-b13f14197b84</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументыКВыгрузке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5cf69404-3000-488a-b1f7-27d12756db7a</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="44d38d18-9751-462c-b075-ff89cec17d48">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектВладелец</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ae9ac0fe-6a22-4baf-ac56-a4297427eaed</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="479cc19c-4186-4b27-a4e7-29129f0c32bd">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЭлектронныйДокумент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3816522c-b20c-4c41-a5fd-bf7b4560727b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.уп_ЭДПрисоединенныеФайлы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4610a72d-09d0-46ce-b678-7980e58c238b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9b94e45f-548d-42c8-9827-f6c7d39e0e51</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>17</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="53479eff-e34b-43ac-8a2f-f7e0ea342453">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ИмяДокумента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>726462ef-6c22-4da4-bb99-d4791948e773</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

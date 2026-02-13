@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b479dc9f-069a-4f1d-8a61-e2599551fdba">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_НачислениеНДФЛНаДоходыУчастников" category="Object">
+				<xr:TypeId>b0cf390f-7f6f-4b57-89e7-41b178f18136</xr:TypeId>
+				<xr:ValueId>7a875989-9591-45b6-ba86-320ff453e42c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_НачислениеНДФЛНаДоходыУчастников" category="Ref">
+				<xr:TypeId>b186aa93-d117-42b0-b0e8-917795bffbf6</xr:TypeId>
+				<xr:ValueId>f79224f0-3b46-414c-b015-ab22e71ba61a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_НачислениеНДФЛНаДоходыУчастников" category="Selection">
+				<xr:TypeId>500df92d-bac1-4a21-a309-aa7bb5f3f05c</xr:TypeId>
+				<xr:ValueId>3c7fc1f1-ee5e-42c7-a203-8e3a04b410e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_НачислениеНДФЛНаДоходыУчастников" category="List">
+				<xr:TypeId>b4618cce-f3cd-4912-b6f4-dfa10562027e</xr:TypeId>
+				<xr:ValueId>ed7350de-36d5-48cf-9d8e-5389fd9ecda3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_НачислениеНДФЛНаДоходыУчастников" category="Manager">
+				<xr:TypeId>73db321e-c2b7-4250-89a3-9ef683c1d2ca</xr:TypeId>
+				<xr:ValueId>52e3d978-2887-4d09-8baa-8634d0d1f052</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_НачислениеНДФЛНаДоходыУчастников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>494c58d1-978a-4b1a-b338-c61118d3e092</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

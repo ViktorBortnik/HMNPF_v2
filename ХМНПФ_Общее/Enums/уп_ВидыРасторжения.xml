@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="59bb0499-1c72-4744-a457-ddad2567a230">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ВидыРасторжения" category="Ref">
+				<xr:TypeId>ab7def4f-0794-4fc8-bec5-cd773a9caffc</xr:TypeId>
+				<xr:ValueId>b63ce54c-63da-429f-9c57-0f61e2d576f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ВидыРасторжения" category="Manager">
+				<xr:TypeId>c0ef6c8d-344d-47f3-bf2c-96d7fe03e2d9</xr:TypeId>
+				<xr:ValueId>25939010-2cd2-439c-9a06-cdd405e0e0e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ВидыРасторжения" category="List">
+				<xr:TypeId>e73ffe2c-06dd-43cb-9502-6a2634ae79ef</xr:TypeId>
+				<xr:ValueId>0e2191c0-f7e3-490c-b797-ea5a84e6beaa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ВидыРасторжения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b5a2d2dd-7b41-4485-a1fb-9ca57c732be1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="6b38b2c0-d11c-46f1-9e71-3cc0c801321b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоСмерти</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1f31f686-828e-448d-b9ce-0002319c6a95</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dc75989c-fcea-41c1-805f-3f0617ef64ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Досрочное</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>257c653c-127a-4e0b-9e1a-5f2c51b5690a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21cf3535-1a07-4d1f-b555-7863b4f118ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереходВДругойНПФ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b749f6d-3936-4408-9880-30b4e568e0f7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7316a6a7-78d8-4463-9fe7-4f2dbf031ee0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорВыполнен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e5db198c-ab72-442e-94f5-cdfcc25a18d4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

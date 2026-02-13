@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="6ab233c0-3a9a-415b-9ee2-67f1c01fbe42">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_КоличествоВыплатОПС" category="Record">
+				<xr:TypeId>d4773149-66c4-47db-986f-c65c0babc57b</xr:TypeId>
+				<xr:ValueId>0aa0ee8c-802c-4c00-97a9-1c2c84543613</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_КоличествоВыплатОПС" category="Manager">
+				<xr:TypeId>4a3c90f5-9c98-48c3-a625-ca2f1444a8c2</xr:TypeId>
+				<xr:ValueId>e5661c2e-21a9-40d8-a9fa-275f0e2802aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_КоличествоВыплатОПС" category="Selection">
+				<xr:TypeId>7013f314-f9fc-4490-b52a-4a23649dd4eb</xr:TypeId>
+				<xr:ValueId>ffcdb735-c87e-48f5-ba23-23f055285805</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_КоличествоВыплатОПС" category="List">
+				<xr:TypeId>ac966c78-18bc-4e35-ab27-2a81e0077a59</xr:TypeId>
+				<xr:ValueId>daa496ef-9f01-46c3-9de4-f59438c852fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_КоличествоВыплатОПС" category="RecordSet">
+				<xr:TypeId>997f401d-0ffe-4fc6-83f0-3ace4711d103</xr:TypeId>
+				<xr:ValueId>42a95a44-6693-43ea-ae5a-e725b9ee40d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_КоличествоВыплатОПС" category="RecordKey">
+				<xr:TypeId>42051243-2cad-4409-a760-23c90ee24838</xr:TypeId>
+				<xr:ValueId>d80aa4e7-eb43-4433-84ee-b40c9521933a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_КоличествоВыплатОПС" category="RecordManager">
+				<xr:TypeId>df8e76ee-92cc-473c-9be4-c77896b727c8</xr:TypeId>
+				<xr:ValueId>f2c6d5d7-c8e6-4371-8a5b-20bc32ff8eab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_КоличествоВыплатОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a6a31174-d2c9-465f-b528-ec7240ab8a83</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ca967b1e-8129-460c-b744-ad27e68aa474">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоВыплат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>16f24b14-ae2f-42ff-af04-de1b8518c360</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a8b8c83b-0cac-44ed-9373-ee8a580e5770">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da488990-fdd5-4b7d-8aad-04b6d0ec18ec</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ДоговорыОПС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

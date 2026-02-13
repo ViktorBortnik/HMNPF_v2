@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="259560c1-abfc-451d-9d2a-e96cae95db44">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.уп_ГрупповаяОбработкаПечатиРешенийЕВ" category="Object">
+				<xr:TypeId>aaf7491f-598f-434b-9691-97f614bec24c</xr:TypeId>
+				<xr:ValueId>4a557b00-7a60-412a-9cc2-9a195c9d0a79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.уп_ГрупповаяОбработкаПечатиРешенийЕВ" category="Manager">
+				<xr:TypeId>d7076327-5319-41f2-bb21-a6ea5dd8f991</xr:TypeId>
+				<xr:ValueId>4d88f83f-ae35-4347-a8e1-ac56fcf29b9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ГрупповаяОбработкаПечатиРешенийЕВ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>df87aec2-1e53-4446-a2c8-be40671a652a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

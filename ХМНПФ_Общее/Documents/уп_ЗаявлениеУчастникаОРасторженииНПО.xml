@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c5b8a5ef-136f-49aa-9467-5419b640a605">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ЗаявлениеУчастникаОРасторженииНПО" category="Object">
+				<xr:TypeId>d37f24c5-81b5-4bf2-9920-5e81ba397e5b</xr:TypeId>
+				<xr:ValueId>59dd922a-fe88-4aa7-bb46-5ed90252b01a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ЗаявлениеУчастникаОРасторженииНПО" category="Ref">
+				<xr:TypeId>4ac0e6cf-ba03-4349-ab5e-bbae3d1e7527</xr:TypeId>
+				<xr:ValueId>33e61687-43db-4045-8f59-e488319193b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ЗаявлениеУчастникаОРасторженииНПО" category="Selection">
+				<xr:TypeId>4731b8b0-9837-42bc-9087-3f31b20f37df</xr:TypeId>
+				<xr:ValueId>f51a39b9-1d01-4d96-a0d3-cb0338ba7f9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ЗаявлениеУчастникаОРасторженииНПО" category="List">
+				<xr:TypeId>69018b59-35e7-4822-afbf-a659ef78b579</xr:TypeId>
+				<xr:ValueId>9693511c-d7c1-43d3-b0ae-9c7349cc6a87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ЗаявлениеУчастникаОРасторженииНПО" category="Manager">
+				<xr:TypeId>b9854d20-c691-46ee-813c-89db4d83ca03</xr:TypeId>
+				<xr:ValueId>f209827a-2e71-4172-aff0-25f8cac0e681</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ЗаявлениеУчастникаОРасторженииНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>742faee6-5ce5-4250-b3e4-8fa6d63c593b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>уф_ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

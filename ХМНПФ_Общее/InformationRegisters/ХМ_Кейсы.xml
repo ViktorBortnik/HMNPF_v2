@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="52c1aaed-7488-4305-8808-e4353e5040b6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_Кейсы" category="Record">
+				<xr:TypeId>db187d98-eb03-43d8-a616-8ed68214579f</xr:TypeId>
+				<xr:ValueId>34b4ec16-2796-4a9c-b9b2-cdaef0b265fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_Кейсы" category="Manager">
+				<xr:TypeId>c376ffc7-8907-49eb-a462-9c280215ee37</xr:TypeId>
+				<xr:ValueId>62322de9-3c04-4d7d-86de-65416b794169</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_Кейсы" category="Selection">
+				<xr:TypeId>6beaef42-36b6-4032-994b-725a93a5af49</xr:TypeId>
+				<xr:ValueId>e63ffdfb-746f-4ef9-a725-4ce3807099c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_Кейсы" category="List">
+				<xr:TypeId>fd6fb8f0-19e4-4161-a46b-18ca6cf170a4</xr:TypeId>
+				<xr:ValueId>1d765828-1842-4ac5-be49-530932e7f33c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_Кейсы" category="RecordSet">
+				<xr:TypeId>a4e08ecb-d41c-48cc-b6f8-ae81a9bd5e97</xr:TypeId>
+				<xr:ValueId>3abf11a0-67fc-470f-97da-d2056c97e88d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_Кейсы" category="RecordKey">
+				<xr:TypeId>9a474507-b100-4500-9365-9f17d560c46a</xr:TypeId>
+				<xr:ValueId>c34f8db8-9403-4f4f-ae47-1bcf1d56a05b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_Кейсы" category="RecordManager">
+				<xr:TypeId>b1d1c90a-158d-494c-b022-ddc7f0dd999b</xr:TypeId>
+				<xr:ValueId>3f7c347c-063d-4578-ae7b-ea1df790eff8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_Кейсы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ddb850e0-1126-4941-8db5-f15bc916f254</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.ХМ_Кейсы.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5b98e1f8-c30b-4a33-90a3-727742d4de0a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>facf0d88-c8a8-414c-9700-f48850bd6bcb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>300</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d1a6b924-16d0-4f2e-a96b-f8c3df99179b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>faf74161-faa2-479c-a5f2-2b1c04364218</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="4e384202-ff67-4624-b5c2-f0b9796a4a0d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>491b12d7-0c50-4daf-9cd2-f756acbf50c3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="693c9e88-2a49-41e4-8cbd-103f88072989">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RM_Задача</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ad8dd354-8ad4-4517-b924-47f16c2f5d78</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаУстановкиКейсов</Form>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

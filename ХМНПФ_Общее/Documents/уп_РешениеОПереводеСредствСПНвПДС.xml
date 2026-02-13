@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fba0ac5a-9e49-44fa-a509-c3e977e64a3d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_РешениеОПереводеСредствСПНвПДС" category="Object">
+				<xr:TypeId>85bb8d96-5cb7-400d-a7ca-542169e30308</xr:TypeId>
+				<xr:ValueId>32713b2b-d13c-4307-b0ec-1c5bab6ba8f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_РешениеОПереводеСредствСПНвПДС" category="Ref">
+				<xr:TypeId>2f141eb4-5daa-4de7-b291-90dc17a04418</xr:TypeId>
+				<xr:ValueId>de517a7e-3d90-45eb-9ec4-b3c6abf51869</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_РешениеОПереводеСредствСПНвПДС" category="Selection">
+				<xr:TypeId>9c5ebab4-f4e2-433b-8f1d-85cc2cbb1507</xr:TypeId>
+				<xr:ValueId>5d3601b7-72e1-42ba-a7de-7216f4af2593</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_РешениеОПереводеСредствСПНвПДС" category="List">
+				<xr:TypeId>f99af2f9-5a55-4384-b010-0f6759f28549</xr:TypeId>
+				<xr:ValueId>c6f7e708-df7e-45d8-9ffb-2368014150a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_РешениеОПереводеСредствСПНвПДС" category="Manager">
+				<xr:TypeId>812022cb-e4c0-44fc-a30b-146c74b136d4</xr:TypeId>
+				<xr:ValueId>f378064e-9ea5-4b24-bfd2-5ac09910e4ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_РешениеОПереводеСредствСПНвПДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>97f4ceea-5b97-4940-8a03-7735b67198f4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="45444fe4-f1d6-4a35-a0a6-45ebdc202822">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаРОПС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c88f00ca-7554-40bf-a16e-f379e0b4e92f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="005ab5e6-f81b-4a57-bf19-35ae27d50eca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаСПН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>08b5d2d9-7e07-416c-acfb-8ed74a2444cc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>17</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

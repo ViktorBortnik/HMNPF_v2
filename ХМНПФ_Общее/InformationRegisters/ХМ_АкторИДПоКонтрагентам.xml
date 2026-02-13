@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c0f4923a-b6f7-4e09-b67f-549bb3a6d154">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_АкторИДПоКонтрагентам" category="Record">
+				<xr:TypeId>4518dd02-aa8f-4510-a00d-7e844bac16e6</xr:TypeId>
+				<xr:ValueId>ea7fea2c-5853-42af-8c8b-22608bf42a63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_АкторИДПоКонтрагентам" category="Manager">
+				<xr:TypeId>cff6147c-388f-4b91-8749-6c3191ebf53e</xr:TypeId>
+				<xr:ValueId>049824ec-f077-4b19-8bdb-430bd19f5be2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_АкторИДПоКонтрагентам" category="Selection">
+				<xr:TypeId>dd109f74-b6a9-4331-a33a-432f38d38725</xr:TypeId>
+				<xr:ValueId>a4cb4fe3-51bf-452a-b27c-e3ec83121a64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_АкторИДПоКонтрагентам" category="List">
+				<xr:TypeId>19146649-c34c-4325-a727-98d7907bf06a</xr:TypeId>
+				<xr:ValueId>2dfc8331-9c57-4e98-9f12-67d09b3ec8b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_АкторИДПоКонтрагентам" category="RecordSet">
+				<xr:TypeId>6270a8ce-620d-4d29-9994-5f6819960984</xr:TypeId>
+				<xr:ValueId>5c6b8c09-5ef5-4ece-a10d-89d697658191</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_АкторИДПоКонтрагентам" category="RecordKey">
+				<xr:TypeId>4bac52c4-4d2e-4c5c-b919-a100e824ea84</xr:TypeId>
+				<xr:ValueId>c0b0fcdf-29a7-4610-a920-1c80948785cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_АкторИДПоКонтрагентам" category="RecordManager">
+				<xr:TypeId>5b9deb69-f81a-4903-a258-aeabb0211c86</xr:TypeId>
+				<xr:ValueId>feeb6586-9260-4f85-b4ee-d8485f83e4cf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_АкторИДПоКонтрагентам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6edea04d-37f5-48c6-a2d6-bed4d17115fe</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="29438a64-13ab-4670-b150-fd43d537ce02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ac705640-9a5d-4b04-aec4-d6ecca55b95b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="265e4980-2a3e-457f-85bb-be6d59df1f5c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ACTOR_ID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9fe2f7e4-e5a2-4d4d-ab03-7b3ff6487bdc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

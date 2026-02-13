@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1cbe74cd-1621-4db8-87d9-0f4fe6e220b4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.уп_ПачкаСведений" category="Object">
+				<xr:TypeId>bf2521ca-2938-4d44-a8b4-40623679ba66</xr:TypeId>
+				<xr:ValueId>559b125e-b324-4a38-9325-f2bcf22422cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.уп_ПачкаСведений" category="Ref">
+				<xr:TypeId>f0ee6060-6054-41ab-b738-5c77dbc45d09</xr:TypeId>
+				<xr:ValueId>25360351-d984-47f6-b9fd-97fad410930c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.уп_ПачкаСведений" category="Selection">
+				<xr:TypeId>9e6bd7b4-8201-43df-b869-9ef91c078f07</xr:TypeId>
+				<xr:ValueId>0d4007c9-21af-44ca-98a6-efaf8fff7b41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.уп_ПачкаСведений" category="List">
+				<xr:TypeId>f6b7b6de-cb75-41e2-8f36-e9273cde119d</xr:TypeId>
+				<xr:ValueId>33e526dc-5e8a-43f3-908e-b9c1abedda86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.уп_ПачкаСведений" category="Manager">
+				<xr:TypeId>6a6be5d3-305b-4f71-a27e-3d380e308343</xr:TypeId>
+				<xr:ValueId>19688c18-08e1-476a-99f8-e2c14a6395d7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПачкаСведений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>773162d8-58cf-4831-9b20-519d2de20df0</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

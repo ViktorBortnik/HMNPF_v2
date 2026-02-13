@@ -1,0 +1,23 @@
+﻿SELECT vv.VED_ID, ac.ACTOR_ID, vv.acc_id, to_date(v.VED_PERIOD) as VED_PERIOD, VV.SUM_TAX as OPER_ndfl,  trunc(nvl(op.oper_date_p,op.oper_date),'month')  as oper_date_pp, 'Начисление пенсии' oper_name
+    from ved v
+    inner join ved_val vv on vv.ved_id = v.ved_id 
+    inner join oper op on OP.VED_VAL_ID=VV.VED_VAL_ID   
+    inner join acc ac on AC.ACC_ID=vv.ACC_ID
+    left join oper o on O.ACC_ID=AC.ACC_ID   and ((O.OPER_BEGIN=OP.OPER_BEGIN and O.OPER_END=OP.OPER_END ) or O.VED_VAL_ID=VV.VED_VAL_ID)
+    where  V.VED_ID= :VED_ID and V.VED_PERIOD= :МесяцНачисления and V.VED_TYPE in('vp_bank_acc','vp_post_rf') and ac.acc_type_sid in ('ИПС-У','ИПС-Л','ИПС-К','СПС') and
+    op.oper_dt_cr = 'cr' and  op.oper_type_sid in ('adi', 'adv') and op.group_sid in ('rante_set','rante_ret') and O.OPER_DT_CR='nn' and O.OPER_TYPE_SID='adn'
+     and OP.OPER_DATE>=O.OPER_DATE
+     group by vv.VED_ID, ac.ACTOR_ID, vv.acc_id, v.VED_PERIOD, VV.SUM_TAX, nvl(op.oper_date_p,op.oper_date)       
+UNION ALL
+SELECT vv.VED_ID, ac.ACTOR_ID, vv.acc_id, to_date(v.VED_PERIOD) as VED_PERIOD, VV.SUM_TAX as OPER_ndfl,  trunc(nvl(op.oper_date_p,op.oper_date),'month')  as oper_date_pp, 'Начисление ВС' oper_name
+    from ved v
+    inner join ved_val vv on vv.ved_id = v.ved_id 
+    inner join oper op on OP.VED_VAL_ID=VV.VED_VAL_ID   
+    inner join acc ac on AC.ACC_ID=vv.ACC_ID
+    left join oper o on O.ACC_ID=AC.ACC_ID   and ((O.OPER_BEGIN=OP.OPER_BEGIN and O.OPER_END=OP.OPER_END ) or O.VED_VAL_ID=VV.VED_VAL_ID)
+    where  V.VED_ID= :VED_ID and V.VED_PERIOD= :МесяцНачисления 
+    and V.VED_TYPE in('vs_bank_acc') and ac.acc_type_sid in ('ИПС-У','ИПС-Л','ИПС-К','СПС') 
+    and op.oper_dt_cr = 'cr' and  op.oper_type_sid in ('avv','avd','adn','rvvp','oid','ovz','rvd','rvdp') 
+    and op.group_sid in ('vs_set') and O.OPER_DT_CR='nn' and O.OPER_TYPE_SID='adn'
+     and OP.OPER_DATE>=O.OPER_DATE
+     group by vv.VED_ID, ac.ACTOR_ID, vv.acc_id, v.VED_PERIOD, VV.SUM_TAX, nvl(op.oper_date_p,op.oper_date)  

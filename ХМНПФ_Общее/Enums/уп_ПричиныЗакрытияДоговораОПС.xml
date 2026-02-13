@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0f13e9a4-2025-4b73-8bb1-57707ec6a8ff">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ПричиныЗакрытияДоговораОПС" category="Ref">
+				<xr:TypeId>3a8f1d27-68f9-46b6-8ac0-2416a22b5f2c</xr:TypeId>
+				<xr:ValueId>447e7cc4-f570-4d4c-ad08-2ca82c5eed06</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ПричиныЗакрытияДоговораОПС" category="Manager">
+				<xr:TypeId>b2c2579b-dbc9-409e-906c-e59334b6ec0c</xr:TypeId>
+				<xr:ValueId>30c4f254-3d35-4959-9b1c-ea4ac89557d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ПричиныЗакрытияДоговораОПС" category="List">
+				<xr:TypeId>3c305c6e-bd3f-4a05-8513-8dfca77344a7</xr:TypeId>
+				<xr:ValueId>a084d4fa-7980-476d-8751-8dd4052ad25b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПричиныЗакрытияДоговораОПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9a4d0739-bd95-45a2-9916-d594274b3da9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="22a3d9cb-d8d2-4baf-b72f-2a9481608562">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоСмерти</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a5105caa-2130-4b54-944b-764cd82138a7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="01387989-dd93-42a4-bb3d-aa03e2f42033">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Досрочное</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0f27fe6a-bd1e-4ca6-98f7-b94893d0de11</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c283af2d-7ade-4c90-93d0-249150256e50">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗакрытПоОтказуИзПФР</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>02289a51-b6b6-467d-a29b-7993d964b7f0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4051d7f1-2873-48a6-b8c6-a65ec5512d2c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АннулированиеЛицензии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d2aaf22a-c45c-4640-a4c2-a11879492c99</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="486d42c8-6530-48ff-82cf-cdf9006bb482">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиновременнаяВыплата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>973a7d30-e558-4c99-9d5f-b28d20b13bf0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d2e594fb-22e8-4883-8e05-ba635c3c5644">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеВступилВСилу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f31eabe-44bb-4134-a720-c6dc31642b8b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7941d322-3c9a-4255-9bff-3d8f9b38c931">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоРешениюСуда</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e0104604-d574-42de-8d45-8e150118e07a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2f74e9ed-f96c-496d-b4f6-8a6fbb2221ca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереходДосрочный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>01213355-1f77-4a16-bd15-57c524eeb3f9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0e8fe7b3-840a-4c73-85cb-94a12198c9d1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоИнымПричинам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5c18e40-31fc-49dc-a9c4-6823b8c9ddfd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b6bd3939-2f1c-404e-b1da-f40c38868a09">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъединениеСНИЛС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b7cf0781-70cd-407c-a6c1-f0027932995f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b2cf85b3-c608-4028-b585-80da81f8b9b8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХМ_ПереносСредствНаДругойДоговорФизЛица</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3468ff1a-f556-408a-a541-94c1bf0918af</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="32ab3f51-3a25-4ee1-be64-3644fee4da20">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХМ_НазначенаВыплатаПредыдущимСтраховщиком</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4485e3d9-747e-487f-8594-86da72c73ca5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

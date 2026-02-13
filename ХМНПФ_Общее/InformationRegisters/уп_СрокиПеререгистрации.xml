@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="285c9032-6853-4fae-86c9-b746c2390038">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_СрокиПеререгистрации" category="Record">
+				<xr:TypeId>3debbc26-24c4-4bd3-8cfd-3f1b69d5cf6f</xr:TypeId>
+				<xr:ValueId>2172fef4-4269-4812-baea-05c4b1d67402</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_СрокиПеререгистрации" category="Manager">
+				<xr:TypeId>009efb9c-bd25-4cba-a6f5-b663a3797b5a</xr:TypeId>
+				<xr:ValueId>3f3b05f4-6fe1-417b-a92d-d409e9d043d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_СрокиПеререгистрации" category="Selection">
+				<xr:TypeId>e82b0d8d-fadc-45d9-86b0-65340ba0c518</xr:TypeId>
+				<xr:ValueId>b9dfa32c-298c-4194-bee9-b9de5d76323d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_СрокиПеререгистрации" category="List">
+				<xr:TypeId>a3aa3844-522e-4f3e-91f2-12b5a2539c8a</xr:TypeId>
+				<xr:ValueId>262eda01-178e-4c5c-aaea-39727180ae63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_СрокиПеререгистрации" category="RecordSet">
+				<xr:TypeId>c6b87525-c8f2-4c8d-99ff-1a78ab459a53</xr:TypeId>
+				<xr:ValueId>a985d339-f260-40ec-943a-eb9fc79cf306</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_СрокиПеререгистрации" category="RecordKey">
+				<xr:TypeId>ac3f0e31-4f0b-403f-ac7f-fe3d8a735e5f</xr:TypeId>
+				<xr:ValueId>f861e3e7-0015-4c57-ac18-10dcfa1e4146</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_СрокиПеререгистрации" category="RecordManager">
+				<xr:TypeId>be0d876c-ac6d-4842-9771-f5c2618bac65</xr:TypeId>
+				<xr:ValueId>c86cbc8c-4a0a-489e-9621-06feef63a661</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_СрокиПеререгистрации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>61888651-5cf7-478a-a695-97690e1eb7d8</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.уп_СрокиПеререгистрации.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="75cf1aea-fc1e-468a-961f-0f58af58e7a9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСледующейПеререгистрации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7482b395-9e2e-4c7f-a310-5079ba1f19cd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="57f5fc6f-e58f-4b72-9411-19a65a9557e8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b51bed73-81d0-44ca-856b-5f856d65d81d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

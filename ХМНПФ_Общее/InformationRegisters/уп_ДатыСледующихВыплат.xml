@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="3d3f18ff-5513-4795-8a45-74e97d1298f1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ДатыСледующихВыплат" category="Record">
+				<xr:TypeId>9fe407ef-d478-4bcb-aeb5-f24ebd81ed06</xr:TypeId>
+				<xr:ValueId>75a26a34-86a8-473e-a2ad-8c1caa701427</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ДатыСледующихВыплат" category="Manager">
+				<xr:TypeId>865093c9-4655-4a4e-af7d-a1aae5d879de</xr:TypeId>
+				<xr:ValueId>a3e54539-be0c-4cce-98cf-85c2839ab4a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ДатыСледующихВыплат" category="Selection">
+				<xr:TypeId>d88d72ee-a9b4-433f-993b-7a2556ae5045</xr:TypeId>
+				<xr:ValueId>292dcfef-c5dc-4445-af5d-1f8be27be1ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ДатыСледующихВыплат" category="List">
+				<xr:TypeId>ad60f7d1-1800-49ba-a634-4cfaf2de1998</xr:TypeId>
+				<xr:ValueId>1a12fe0f-693e-4dc4-94e0-12d5c6a5c491</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ДатыСледующихВыплат" category="RecordSet">
+				<xr:TypeId>c58910af-984a-445f-998d-e59071240802</xr:TypeId>
+				<xr:ValueId>ee8d98b0-1949-4f95-8a8f-2741cad1cda4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ДатыСледующихВыплат" category="RecordKey">
+				<xr:TypeId>b3da348e-d363-44f6-825b-a02279e2d41b</xr:TypeId>
+				<xr:ValueId>b0cfd632-5649-4929-a06c-4db8598a3d31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ДатыСледующихВыплат" category="RecordManager">
+				<xr:TypeId>12562cce-780f-4880-8b3e-1edd4c43c018</xr:TypeId>
+				<xr:ValueId>cf337068-5348-4f9e-a4f7-5501483accee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДатыСледующихВыплат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>475df263-b1a6-44b4-abcc-22b54faf16de</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.уп_ДатыСледующихВыплат.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="557f8816-db72-487d-89ac-23dcfe61c532">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСледующейВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2fbc3ce7-7961-43ec-af0a-1557698f7052</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="eb6c44c9-5293-47e4-b772-cefda3f42a0d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0fe173ab-686d-49b8-9987-e443006d399c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

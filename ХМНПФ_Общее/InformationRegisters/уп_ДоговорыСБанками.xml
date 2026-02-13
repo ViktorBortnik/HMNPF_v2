@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="e5e4ce2a-eda0-4d60-88bf-4dd75b8d28b8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ДоговорыСБанками" category="Record">
+				<xr:TypeId>f9c4fab7-d8cc-4404-bdcb-ea5ec64a42d0</xr:TypeId>
+				<xr:ValueId>7901d4ed-f79a-4e6d-a43c-b9b762c1736b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ДоговорыСБанками" category="Manager">
+				<xr:TypeId>63927fdd-b077-4d1a-a9e1-79f61b7c3a49</xr:TypeId>
+				<xr:ValueId>82d9ff0f-7f52-4ce2-8660-2c00b6aa347f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ДоговорыСБанками" category="Selection">
+				<xr:TypeId>3ee9d5c9-04e9-4011-8b34-e243a55669e8</xr:TypeId>
+				<xr:ValueId>22a0cc86-73f8-4ae1-8dfa-2cd61e621569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ДоговорыСБанками" category="List">
+				<xr:TypeId>e00c91b9-3c08-47e8-a2ea-1ab947ebad7e</xr:TypeId>
+				<xr:ValueId>1ee43441-278e-4b2b-9e63-e025aadeaf57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ДоговорыСБанками" category="RecordSet">
+				<xr:TypeId>8af4b17b-4c08-4f53-89fa-4294b7d7e895</xr:TypeId>
+				<xr:ValueId>f5cb7883-6e79-4e5e-be05-933ea43f6e5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ДоговорыСБанками" category="RecordKey">
+				<xr:TypeId>3edb47a9-d861-42f1-b192-933d83333f3a</xr:TypeId>
+				<xr:ValueId>87e24750-5d99-4ec9-9c6c-1a789d7425e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ДоговорыСБанками" category="RecordManager">
+				<xr:TypeId>739ee5e2-d86f-4da2-9a91-37549a4f95b2</xr:TypeId>
+				<xr:ValueId>c918ed8e-901d-4dcf-88b3-8da8c685395f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДоговорыСБанками</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>def51db8-e8d5-4d71-8b84-38679e378772</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="3bc0cfc5-a623-435c-b90a-54889947df07">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорЗаключен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0f6c277f-fea1-4b91-a03f-b8765efa3e06</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5cfc7b99-6937-4527-a842-82bf106f7e6d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерДоговора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8c7c26ab-798e-4a21-a03a-675b18299760</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e56c1865-087c-455d-9dfa-4779b3412551">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаЗаключения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c1e4c70f-863f-47bd-a547-919cd7b38731</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2f136077-2848-49d4-a4e4-6a78a75246d2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>99a121d7-fcbb-44d5-bc84-737bc65e4bba</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="309a4781-cf8c-4ac8-9293-78732bb02863">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Банк</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>61b04606-5478-4fac-ba24-61813b11c199</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Банки</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

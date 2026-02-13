@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="6fd3e9fb-793e-4f9a-80aa-a67bd5ecee39">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.хм_ДополнительныйКонтроль" category="Record">
+				<xr:TypeId>ca618880-c7b4-4355-ad04-f88c0403cd5e</xr:TypeId>
+				<xr:ValueId>868b01f0-1c06-462d-a76d-59f9e6658c47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.хм_ДополнительныйКонтроль" category="Manager">
+				<xr:TypeId>c53caa51-04b1-4756-a255-45d58af623a3</xr:TypeId>
+				<xr:ValueId>833598e8-994b-4833-aed1-70ae99fe96a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.хм_ДополнительныйКонтроль" category="Selection">
+				<xr:TypeId>fc922598-60c2-4552-b654-3da29036181d</xr:TypeId>
+				<xr:ValueId>7d32ad7c-c67f-43f2-b67e-b27a8b0543cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.хм_ДополнительныйКонтроль" category="List">
+				<xr:TypeId>710a9cef-cb69-4416-a3db-d323bc3fc17b</xr:TypeId>
+				<xr:ValueId>db0f6252-c181-440f-9b44-7d1ea8e32c19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.хм_ДополнительныйКонтроль" category="RecordSet">
+				<xr:TypeId>1d849132-9833-40ea-8b3c-757ddd34852b</xr:TypeId>
+				<xr:ValueId>7a793ade-17a6-468c-a664-1894411c64be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.хм_ДополнительныйКонтроль" category="RecordKey">
+				<xr:TypeId>0dd5a2ef-9ec8-4b97-b2cd-ca61985617be</xr:TypeId>
+				<xr:ValueId>6f0ad36d-debc-4f3a-85cd-7b38e04cd099</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.хм_ДополнительныйКонтроль" category="RecordManager">
+				<xr:TypeId>34adfc14-4ac3-4e65-b05a-02cbd63494f6</xr:TypeId>
+				<xr:ValueId>4fe517c3-d5f1-40bd-8482-c8cae4a997bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_ДополнительныйКонтроль</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>69924e96-7063-43ee-b9ff-fffb2164a8fa</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="5b238e9a-b92c-4cc7-98c6-4c9615786fef">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ДоверенныеЛицаУчастников" category="Record">
+				<xr:TypeId>7431a684-8a35-450b-b222-bc36a3ff23f2</xr:TypeId>
+				<xr:ValueId>68efd6b5-a2c5-4a97-9ca8-7840c8cc92a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ДоверенныеЛицаУчастников" category="Manager">
+				<xr:TypeId>bc5ccb8b-4e39-42e4-b57a-acc62d996c63</xr:TypeId>
+				<xr:ValueId>f4720be8-0ad4-42ae-811e-febd42a6cfc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ДоверенныеЛицаУчастников" category="Selection">
+				<xr:TypeId>c4c994e8-cdba-4e74-a582-f839bc45a4d9</xr:TypeId>
+				<xr:ValueId>78e711e1-6450-44b3-ac09-4f19d36b51f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ДоверенныеЛицаУчастников" category="List">
+				<xr:TypeId>9157116e-0dd5-435a-9506-64076c0f038e</xr:TypeId>
+				<xr:ValueId>1e17c05f-0a9c-4a50-811e-d7ccc6ce0a71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ДоверенныеЛицаУчастников" category="RecordSet">
+				<xr:TypeId>358636b9-c694-4965-b3cd-ce663a09965c</xr:TypeId>
+				<xr:ValueId>77f7a5f2-45ef-4164-8fb3-dcbfde950567</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ДоверенныеЛицаУчастников" category="RecordKey">
+				<xr:TypeId>31a88f14-26b0-49ad-b4f9-89b5f74af02f</xr:TypeId>
+				<xr:ValueId>04fdb4ff-0e48-49df-9776-d3570c70c19c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ДоверенныеЛицаУчастников" category="RecordManager">
+				<xr:TypeId>32e0147f-999a-477a-8bd1-aa425be5b9dd</xr:TypeId>
+				<xr:ValueId>386ffe88-e8a1-42dc-b518-39408003b87a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДоверенныеЛицаУчастников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cac7c9f8-42d0-4cab-8cc4-e7e9301bdeda</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="7740a99b-75a9-43f3-83b2-2b46e5f075bf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоверенноеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>20d5affe-cfc6-4e51-b544-d770c89fc5c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="f69b7168-ce2e-4d9f-86e6-f94a044956a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Участник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>21451efb-7795-4a1a-9831-1b59b23ebef0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

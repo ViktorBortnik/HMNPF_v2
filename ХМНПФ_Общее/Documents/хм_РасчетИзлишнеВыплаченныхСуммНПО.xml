@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="10ed6c39-f231-4a36-bda0-23ca30031021">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.хм_РасчетИзлишнеВыплаченныхСуммНПО" category="Object">
+				<xr:TypeId>e1606896-345a-475b-bc0f-345e45cb4608</xr:TypeId>
+				<xr:ValueId>1670d16f-a420-4bc5-95a1-16240a1452da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.хм_РасчетИзлишнеВыплаченныхСуммНПО" category="Ref">
+				<xr:TypeId>9269cc4a-0e1c-4c18-a936-745736e11af6</xr:TypeId>
+				<xr:ValueId>357ecb29-58ad-44e2-a196-dd51ed291aec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.хм_РасчетИзлишнеВыплаченныхСуммНПО" category="Selection">
+				<xr:TypeId>b7dcfd1b-9d82-470a-95e3-b93574dda93e</xr:TypeId>
+				<xr:ValueId>30742ca8-d318-4b38-b8ce-801627d9f90d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.хм_РасчетИзлишнеВыплаченныхСуммНПО" category="List">
+				<xr:TypeId>d204df19-c844-4581-85b6-6525b1ea5844</xr:TypeId>
+				<xr:ValueId>dbc3e63b-421f-40a5-a143-4e25cd7c4985</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.хм_РасчетИзлишнеВыплаченныхСуммНПО" category="Manager">
+				<xr:TypeId>d9abf85b-c978-43bf-a159-bb86ea77d738</xr:TypeId>
+				<xr:ValueId>891eda31-26f6-4777-bccc-2dded8adc513</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>хм_РасчетИзлишнеВыплаченныхСуммНПО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4b830d05-c756-41f4-9862-0c723169c118</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

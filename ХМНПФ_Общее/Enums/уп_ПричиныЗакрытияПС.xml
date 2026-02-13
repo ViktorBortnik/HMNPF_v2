@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0b2a765b-e6bb-4920-9f49-d8e10053a016">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.уп_ПричиныЗакрытияПС" category="Ref">
+				<xr:TypeId>f587bed7-71af-4ee1-a101-3de8d3124338</xr:TypeId>
+				<xr:ValueId>530d2db4-95b0-40b9-9935-efc11f7c9cef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.уп_ПричиныЗакрытияПС" category="Manager">
+				<xr:TypeId>3eeadce8-4713-40ab-a011-3aaa0fc13068</xr:TypeId>
+				<xr:ValueId>f4c57fc5-6bfd-4fab-abcd-8723cd59e426</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.уп_ПричиныЗакрытияПС" category="List">
+				<xr:TypeId>60e20bf3-a495-4fab-9baf-3781018b9413</xr:TypeId>
+				<xr:ValueId>5378c580-fa1d-4e9d-9a79-1e7eecbadfcf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПричиныЗакрытияПС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dc3956ce-18d6-442b-be17-b96cb0fbfc2b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="21a7f7ee-239f-4849-a32e-4d096bc271ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоСмерти</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>46367dd1-34cf-4caf-ae18-f46ef1578346</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="02cd1c66-eb22-4021-8a50-c862bff4bf93">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Досрочное</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e8acf0de-a5b5-4267-a6bb-0afd91e522ed</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c2e9dfb3-0102-4733-8f4b-c782c71a4178">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорВыполнен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88d30549-f87e-4602-bcce-246576edf9bb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7960befd-c5d0-4cb4-82f5-d9169d26dd9c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереходВДругойНПФ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f816582-5f06-4228-9c03-6ea5346f505b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="999ca67f-5f3b-44cf-a7f2-e055f3c75b39">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереводНаДругойСчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9b8b51e4-448d-4f13-8ef4-8ead40c017bd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1f52b073-53d7-45c2-a44a-2ffe45917d0e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Иное</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5e41fcf1-4d02-49ce-a23c-ee2d8fa861c3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

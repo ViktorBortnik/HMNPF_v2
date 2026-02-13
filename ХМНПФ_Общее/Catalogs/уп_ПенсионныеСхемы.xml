@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="aad94444-c3ff-435e-ab21-301a6bb3b148">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.уп_ПенсионныеСхемы" category="Object">
+				<xr:TypeId>5851ceaa-6421-4572-afc7-4b3de781d331</xr:TypeId>
+				<xr:ValueId>020d6710-89ec-46fe-a1fe-daa240e0e23f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.уп_ПенсионныеСхемы" category="Ref">
+				<xr:TypeId>88863443-752c-4709-b7bf-cb7e54df98b5</xr:TypeId>
+				<xr:ValueId>4f36249d-3897-4041-b9b7-d655e7c813d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.уп_ПенсионныеСхемы" category="Selection">
+				<xr:TypeId>a0b8d47e-16d1-46fc-a3a8-10cf8fe208d2</xr:TypeId>
+				<xr:ValueId>10f7223f-7c5b-4e0d-9114-6c7ffb0c928e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.уп_ПенсионныеСхемы" category="List">
+				<xr:TypeId>5c6eed05-533d-4de0-ab43-b9418ab1bee0</xr:TypeId>
+				<xr:ValueId>1baa5fe9-bcd1-4531-8302-a1a699b04714</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.уп_ПенсионныеСхемы" category="Manager">
+				<xr:TypeId>f27b69b8-bff7-425e-8210-670a51c2fa02</xr:TypeId>
+				<xr:ValueId>7a9257a3-2de7-48a7-8bea-25c6cb09261b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ПенсионныеСхемы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>656486a1-73c1-486c-9c58-95b8116a2258</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1256e16b-8ff5-481b-bdc4-7aab90be9f53">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипПенсионнойСхемы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f2baade5-4479-4f98-bac6-b45979c0a415</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыПенсионныхСхем</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ead024a8-7169-41b7-b267-161faacaecec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АлгоритмРасчетаВыкупнойСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a765d286-de7d-432a-9e81-6f9dfea3c7ae</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_АлгоритмыРасчетаВыкупнойСуммы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

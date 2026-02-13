@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c39e355a-6d55-41cb-8a9b-3fd5eca610d5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.уп_ДатыОкончанияСрочнойВыплаты" category="Record">
+				<xr:TypeId>ae793e3e-f700-4937-a118-34f45e8a28b9</xr:TypeId>
+				<xr:ValueId>6ac72ef7-3050-408f-98e2-b0d6c06ddad6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.уп_ДатыОкончанияСрочнойВыплаты" category="Manager">
+				<xr:TypeId>0fcd38c0-1eb7-41f9-be13-ff8f0c14a2de</xr:TypeId>
+				<xr:ValueId>77032cda-d8fb-4814-a24c-dbad70b2d688</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.уп_ДатыОкончанияСрочнойВыплаты" category="Selection">
+				<xr:TypeId>3c78ecda-e31a-4693-a025-b2dc9354c270</xr:TypeId>
+				<xr:ValueId>0cd8a630-6906-4706-924b-110b2943adef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.уп_ДатыОкончанияСрочнойВыплаты" category="List">
+				<xr:TypeId>bfee9b73-b884-4706-9458-1ce43f12300f</xr:TypeId>
+				<xr:ValueId>3aba4811-5050-4f89-8f87-52ff088818dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.уп_ДатыОкончанияСрочнойВыплаты" category="RecordSet">
+				<xr:TypeId>4672518b-3ad0-461d-b235-819074ded603</xr:TypeId>
+				<xr:ValueId>43ec37ad-77aa-4b1c-82f2-3533d95264a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.уп_ДатыОкончанияСрочнойВыплаты" category="RecordKey">
+				<xr:TypeId>841c0a38-eb37-4efc-833e-6686112935cc</xr:TypeId>
+				<xr:ValueId>ae3f1aa7-e58c-46da-bc6d-ca47ffb57556</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.уп_ДатыОкончанияСрочнойВыплаты" category="RecordManager">
+				<xr:TypeId>e0c34e9c-9986-4706-89d0-894c21cd69dc</xr:TypeId>
+				<xr:ValueId>f89690cf-9aa9-4836-872e-c15f33842057</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>уп_ДатыОкончанияСрочнойВыплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3c4b5f21-1f17-4320-b74f-18809bf24da2</ExtendedConfigurationObject>
+			<DefaultListForm>InformationRegister.уп_ДатыОкончанияСрочнойВыплаты.Form.ХМФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ac4c00c7-8996-449c-9843-e78926d76c1e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОкончанияСрочнойВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ea7c22e4-5e70-4109-a3f4-9d985fe52a1a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a313eef4-35af-40f9-8523-e22f5c5b385e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6c7264d9-75a0-46e2-b67c-9e4639cc85c7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.уп_ПенсионныеСчета</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ХМФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

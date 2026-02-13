@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="86ace986-787a-4d93-bbd3-28eddb26f8e2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХМ_КБКпоТипуВыплаты" category="Record">
+				<xr:TypeId>70ed5637-542a-4e7f-a7ce-09a49f9920f2</xr:TypeId>
+				<xr:ValueId>37b5acc1-09ac-401f-9bcc-4c17137bf3b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХМ_КБКпоТипуВыплаты" category="Manager">
+				<xr:TypeId>fc6cf82f-f807-4bbc-bb89-c892bb7ec17b</xr:TypeId>
+				<xr:ValueId>28abb0cc-d30b-4824-9cb8-9916a1d6df34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХМ_КБКпоТипуВыплаты" category="Selection">
+				<xr:TypeId>5cc31ac9-bd01-47ad-ab0e-07e347c4804e</xr:TypeId>
+				<xr:ValueId>46f87186-6b2e-499e-9a94-89c67603cc67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХМ_КБКпоТипуВыплаты" category="List">
+				<xr:TypeId>dc25e486-3ae0-4c28-9ec7-597fe51030bc</xr:TypeId>
+				<xr:ValueId>371692a2-626d-4d41-a2df-4bcc534a16d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХМ_КБКпоТипуВыплаты" category="RecordSet">
+				<xr:TypeId>34a2ed80-03b3-4aee-8d23-8112720a76e7</xr:TypeId>
+				<xr:ValueId>ef448d67-7b9a-4c64-9903-2a333ce9be09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХМ_КБКпоТипуВыплаты" category="RecordKey">
+				<xr:TypeId>bb344748-2ea3-4e24-891d-fdc09d86eeda</xr:TypeId>
+				<xr:ValueId>5769cabb-44fc-4547-90df-a289afc34c3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХМ_КБКпоТипуВыплаты" category="RecordManager">
+				<xr:TypeId>02bb8317-17ea-416b-af0b-cbd0b08e1527</xr:TypeId>
+				<xr:ValueId>8f828bf1-8a4e-439f-8d66-b4613e7032e6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХМ_КБКпоТипуВыплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e0d6113b-dbaf-448b-95c8-170f5ab970d5</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="359996cf-ef6f-4d6d-88e6-924cf9c21a0f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КодВыплатыПоКБК</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b8f2d6a5-77a4-4ab7-991c-2e9348367fd1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>8</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6a332960-2804-4e9a-8f6e-1a2266fbdffc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаименованиеВыплатыПоКБК</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d7dc032c-69ff-426e-b139-c0020664cab2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="168be8fe-5735-44b6-86e9-4911cb40978b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипВыплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4039c5c8-48b6-4729-9218-59d3662d34ab</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.уп_ТипыВыплат</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
